@@ -1,0 +1,1697 @@
+Load 6134 2-gram new features from /home/ll5fy/TUIR/dataset/yelp/yelp_features.txt...
+1409 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/data/...
+Info File Path: /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/ETBIR_info.txt
+[Info]Start FIXED cross validation...
+260 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+244 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+266 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+264 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+256 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 0: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 12311, test size = 3532....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 12311, item size: 722, user size: 770
+ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4037616.07, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4054851.69, converge to 0.00018843
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4050853.51, converge to 0.00005561
+[Info]Finish E-Step: 21 iteration, likelihood: -4050853.5106
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -4050853.51, converges to 4050854.51057677...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4050298.60, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4048540.24, converge to 0.00003536
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4047372.20, converge to 0.00002514
+[Info]Finish E-Step: 21 iteration, likelihood: -4047372.2030
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -4047372.20, converges to 0.00085940...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4046019.73, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4039832.61, converge to 0.00011554
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4036541.28, converge to 0.00006034
+[Info]Finish E-Step: 21 iteration, likelihood: -4036541.2761
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -4036541.28, converges to 0.00267604...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4028272.71, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4001438.67, converge to 0.00032881
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3993890.39, converge to 0.00012829
+[Info]Finish E-Step: 21 iteration, likelihood: -3993890.3936
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -3993890.39, converges to 0.01056620...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3946469.30, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3895504.00, converge to 0.00031702
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3888861.88, converge to 0.00010933
+[Info]Finish E-Step: 21 iteration, likelihood: -3888861.8834
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -3888861.88, converges to 0.02629729...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3810733.13, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789806.37, converge to 0.00011443
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3787151.07, converge to 0.00004590
+[Info]Finish E-Step: 21 iteration, likelihood: -3787151.0657
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -3787151.07, converges to 0.02615439...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3748743.63, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3746767.69, converge to 0.00001400
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3746474.21, converge to 0.00000448
+[Info]Finish E-Step: 21 iteration, likelihood: -3746474.2062
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -3746474.21, converges to 0.01074075...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3732131.83, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3733346.89, converge to 0.00001342
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3733661.68, converge to 0.00000530
+[Info]Finish E-Step: 21 iteration, likelihood: -3733661.6757
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -3733661.68, converges to 0.00341989...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3726818.11, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3728422.98, converge to 0.00001792
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3728859.56, converge to 0.00001038
+[Info]Finish E-Step: 21 iteration, likelihood: -3728859.5565
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -3728859.56, converges to 0.00128617...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724823.99, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3726241.04, converge to 0.00001564
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3726551.41, converge to 0.00000470
+[Info]Finish E-Step: 21 iteration, likelihood: -3726551.4052
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -3726551.41, converges to 0.00061900...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3723869.29, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724983.44, converge to 0.00001253
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3725229.62, converge to 0.00000357
+[Info]Finish E-Step: 21 iteration, likelihood: -3725229.6192
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -3725229.62, converges to 0.00035469...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3723344.65, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724300.61, converge to 0.00001017
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3724488.89, converge to 0.00000254
+[Info]Finish E-Step: 21 iteration, likelihood: -3724488.8907
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -3724488.89, converges to 0.00019884...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3723030.91, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3723827.26, converge to 0.00000848
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3723980.19, converge to 0.00000201
+[Info]Finish E-Step: 21 iteration, likelihood: -3723980.1873
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -3723980.19, converges to 0.00013658...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3722735.47, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3723427.19, converge to 0.00000728
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3723556.45, converge to 0.00000177
+[Info]Finish E-Step: 21 iteration, likelihood: -3723556.4452
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -3723556.45, converges to 0.00011379...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3722426.82, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3723041.01, converge to 0.00000630
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3723150.91, converge to 0.00000144
+[Info]Finish E-Step: 21 iteration, likelihood: -3723150.9083
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -3723150.91, converges to 0.00010891...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3722191.48, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3722739.54, converge to 0.00000541
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3722829.38, converge to 0.00000106
+[Info]Finish E-Step: 21 iteration, likelihood: -3722829.3755
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -3722829.38, converges to 0.00008636...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3722020.21, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3722513.00, converge to 0.00000456
+[Info]Finish E-Step: 20 iteration, likelihood: -3722587.0365
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -3722587.04, converges to 0.00006510...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3721847.91, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3722272.97, converge to 0.00000400
+[Info]Finish E-Step: 19 iteration, likelihood: -3722344.7387
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -3722344.74, converges to 0.00006509...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3721665.54, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3722040.76, converge to 0.00000303
+[Info]Finish E-Step: 16 iteration, likelihood: -3722074.1717
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -3722074.17, converges to 0.00007269...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3721440.48, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3721768.66, converge to 0.00000268
+[Info]Finish E-Step: 15 iteration, likelihood: -3721794.5613
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -3721794.56, converges to 0.00007512...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3721223.40, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3721524.14, converge to 0.00000233
+[Info]Finish E-Step: 14 iteration, likelihood: -3721544.0507
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -3721544.05, converges to 0.00006731...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3721035.33, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3721319.23, converge to 0.00000204
+[Info]Finish E-Step: 13 iteration, likelihood: -3721333.7386
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -3721333.74, converges to 0.00005651...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3720871.91, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3721139.86, converge to 0.00000186
+[Info]Finish E-Step: 13 iteration, likelihood: -3721152.3009
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -3721152.30, converges to 0.00004876...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3720688.10, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3720918.37, converge to 0.00000153
+[Info]Finish E-Step: 12 iteration, likelihood: -3720925.8953
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -3720925.90, converges to 0.00006084...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3720441.40, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3720641.11, converge to 0.00000119
+[Info]Finish E-Step: 11 iteration, likelihood: -3720644.4181
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -3720644.42, converges to 0.00007565...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3720128.22, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -3720287.1341
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -3720287.13, converges to 0.00009603...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3719754.01, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -3719879.8816
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -3719879.88, converges to 0.00010947...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3719387.09, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -3719509.1120
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -3719509.11, converges to 0.00009967...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3719051.01, converge to 1.00000000
+[Info]Finish E-Step: 8 iteration, likelihood: -3719157.8997
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -3719157.90, converges to 0.00009442...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 3532, item size: 211, user size: 260
+[Info]Start evaluation in thread
+---likelihood: -1047403.0693215631
+---likelihood: -1047375.1147389857
+---likelihood: -1046656.182117424
+---likelihood: -1046081.7322415786
+---likelihood: -1045517.290162118
+---likelihood: -1045155.5076270375
+---likelihood: -1044723.9769254146
+---likelihood: -1044377.2092643119
+---likelihood: -1044054.2700841231
+---likelihood: -1043883.7509560769
+---likelihood: -1043508.5199803261
+---likelihood: -1043472.7810765454
+---likelihood: -1043209.856096612
+---likelihood: -1043019.3927479341
+---likelihood: -1042865.9066603507
+---likelihood: -1042773.2193443628
+---likelihood: -1042653.3696701054
+---likelihood: -1042454.5002470909
+---likelihood: -1042348.9452249258
+---likelihood: -1042254.924871547
+---likelihood: -1042253.222337592
+[Info]Inference finished: likelihood: -1042253.2223
+[Stat]Test evaluation finished: 3532 docs
+[Stat]0 part has 817.000000 docs: perplexity is 803.642 and log-likelihood is -306.629
+[Stat]1 part has 303.000000 docs: perplexity is 766.192 and log-likelihood is -308.312
+[Stat]2 part has 1696.000000 docs: perplexity is 732.697 and log-likelihood is -293.061
+[Stat]3 part has 716.000000 docs: perplexity is 668.539 and log-likelihood is -282.426
+[Stat]4 part has 3532.000000 docs: perplexity is 734.148 and log-likelihood is -295.089
+[Info]ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 440.09 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/0/ETBIR_topWords_10.txt
+Topic 0(0.08364):	taco(0.02215)	chicken(0.01591)	side(0.01503)	chip(0.01346)	time(0.01070)	lunch(0.01042)	locat(0.01041)	sauc(0.01018)	mexican(0.00983)	delici(0.00965)	breakfast(0.00947)	friend(0.00890)	bean(0.00846)	flavor(0.00804)	restaur(0.00687)	price(0.00686)	serv(0.00678)	definit(0.00660)	corn(0.00643)	healthi(0.00608)	best(0.00601)	pretti(0.00599)	spot(0.00592)	burrito(0.00590)	tast(0.00586)	pork(0.00582)	amaz(0.00573)	tortilla(0.00570)	nacho(0.00542)	favorit(0.00502)	
+Topic 1(0.08531):	buffet(0.02592)	cake(0.02144)	chocol(0.02140)	sweet(0.01517)	breakfast(0.01049)	french(0.00940)	select(0.00938)	toast(0.00908)	pancak(0.00881)	brunch(0.00841)	flavor(0.00825)	best(0.00825)	cream(0.00821)	tast(0.00739)	delici(0.00707)	pastri(0.00677)	donut(0.00636)	coffe(0.00635)	time(0.00597)	gelato(0.00584)	offer(0.00571)	appl(0.00559)	cooki(0.00553)	bread(0.00540)	vega(0.00539)	banana(0.00524)	waffl(0.00506)	lunch(0.00505)	favorit(0.00500)	strawberri(0.00497)	
+Topic 2(0.09134):	chicken(0.02246)	ramen(0.01948)	rice(0.01920)	soup(0.01777)	pork(0.01524)	thai(0.01457)	curri(0.01377)	dish(0.01357)	bowl(0.01356)	restaur(0.01355)	flavor(0.01280)	time(0.01208)	sauc(0.01093)	spici(0.01076)	beef(0.01003)	broth(0.00987)	tast(0.00882)	small(0.00814)	pretti(0.00697)	definit(0.00685)	cook(0.00678)	friend(0.00659)	best(0.00637)	chines(0.00614)	side(0.00581)	asian(0.00579)	spice(0.00560)	delici(0.00532)	lunch(0.00531)	perfect(0.00524)	
+Topic 3(0.09045):	drink(0.03706)	happi(0.02681)	cream(0.02518)	ice-cream(0.01830)	flavor(0.01828)	happi-hour(0.01812)	friend(0.01400)	coffe(0.01343)	time(0.01231)	tast(0.00928)	shop(0.00872)	sweet(0.00849)	definit(0.00754)	cool(0.00689)	favorit(0.00658)	small(0.00656)	delici(0.00624)	boba(0.00611)	pretti(0.00609)	locat(0.00572)	super(0.00556)	crepe(0.00556)	frozen(0.00550)	custard(0.00529)	cooki(0.00498)	perfect(0.00492)	price(0.00491)	chocol(0.00478)	offer(0.00451)	best(0.00450)	
+Topic 4(0.08627):	beer(0.02350)	pretti(0.01866)	price(0.01730)	crab(0.01343)	tast(0.01246)	sauc(0.01154)	friend(0.01121)	shrimp(0.01101)	strip(0.01038)	fast(0.01008)	shake(0.00923)	vega(0.00864)	time(0.00836)	juici(0.00825)	chicken(0.00806)	definit(0.00778)	locat(0.00761)	onion(0.00728)	best(0.00664)	peopl(0.00645)	delici(0.00621)	flavor(0.00609)	side(0.00607)	pretti-good(0.00581)	seafood(0.00573)	expect(0.00567)	star(0.00563)	oyster(0.00547)	restaur(0.00521)	blue(0.00492)	
+Topic 5(0.09538):	steak(0.02208)	dish(0.01517)	restaur(0.01487)	perfect(0.01141)	dinner(0.01137)	wine(0.01135)	bread(0.01036)	tast(0.01010)	serv(0.00920)	cours(0.00889)	flavor(0.00885)	dine(0.00836)	cook(0.00812)	side(0.00782)	lobster(0.00750)	delici(0.00719)	sauc(0.00661)	tabl(0.00651)	excel(0.00646)	experi(0.00643)	chef(0.00638)	plate(0.00633)	best(0.00619)	amaz(0.00599)	start(0.00587)	mushroom(0.00549)	appet(0.00512)	night(0.00497)	tender(0.00457)	special(0.00445)	
+Topic 6(0.11156):	time(0.03998)	wait(0.03732)	tabl(0.02903)	NUM-minut(0.01621)	seat(0.01579)	peopl(0.01519)	drink(0.01469)	friend(0.01364)	star(0.01360)	busi(0.01097)	restaur(0.00951)	told(0.00939)	experi(0.00939)	review(0.00860)	manag(0.00845)	waitress(0.00784)	night(0.00766)	call(0.00736)	custom(0.00731)	staff(0.00725)	arriv(0.00685)	parti(0.00667)	pretti(0.00629)	work(0.00624)	final(0.00621)	walk(0.00613)	waiter(0.00606)	water(0.00559)	brought(0.00543)	start(0.00536)	
+Topic 7(0.08760):	roll(0.03131)	sushi(0.03002)	fish(0.01617)	rice(0.01303)	time(0.01280)	korean(0.01173)	tuna(0.01107)	dish(0.01043)	spici(0.01036)	pork(0.01023)	salmon(0.01020)	favorit(0.00969)	price(0.00948)	pretti(0.00939)	definit(0.00913)	beef(0.00842)	restaur(0.00824)	lunch(0.00817)	special(0.00803)	friend(0.00784)	belli(0.00724)	sauc(0.00718)	dinner(0.00710)	tast(0.00681)	chicken(0.00616)	best(0.00576)	piec(0.00573)	side(0.00555)	pork-belli(0.00531)	cook(0.00524)	
+Topic 8(0.19340):	room(0.02237)	vega(0.01775)	casino(0.01333)	time(0.01310)	stay(0.01201)	hotel(0.01191)	park(0.01129)	strip(0.01061)	night(0.00960)	peopl(0.00921)	area(0.00897)	walk(0.00884)	play(0.00758)	music(0.00746)	shop(0.00745)	club(0.00732)	pretti(0.00720)	cool(0.00663)	seat(0.00633)	view(0.00625)	las-vega(0.00617)	pool(0.00606)	locat(0.00580)	year(0.00571)	store(0.00561)	crowd(0.00552)	drink(0.00532)	restaur(0.00499)	feel(0.00489)	watch(0.00480)	
+Topic 9(0.07505):	pizza(0.04488)	sauc(0.01785)	chicken(0.01436)	time(0.01277)	pasta(0.01206)	bread(0.01188)	slice(0.01031)	italian(0.01006)	garlic(0.00963)	crust(0.00874)	friend(0.00759)	lunch(0.00731)	wing(0.00720)	best(0.00706)	price(0.00643)	tast(0.00620)	sausag(0.00618)	delici(0.00615)	style(0.00613)	restaur(0.00608)	white(0.00600)	thin(0.00564)	meatbal(0.00534)	perfect(0.00528)	serv(0.00512)	side(0.00505)	definit(0.00503)	oliv(0.00494)	dish(0.00489)	small(0.00481)	
+244 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+260 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+266 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+264 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+256 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 1: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 13268, test size = 2575....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 13268, item size: 732, user size: 782
+ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4306919.83, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4324097.98, converge to 0.00017913
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4320050.33, converge to 0.00005273
+[Info]Finish E-Step: 21 iteration, likelihood: -4320050.3296
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -4320050.33, converges to 4320051.32957591...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4319447.00, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4317566.16, converge to 0.00003407
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4316401.15, converge to 0.00002356
+[Info]Finish E-Step: 21 iteration, likelihood: -4316401.1513
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -4316401.15, converges to 0.00084471...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4314895.04, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4309398.07, converge to 0.00008266
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4306661.68, converge to 0.00005280
+[Info]Finish E-Step: 21 iteration, likelihood: -4306661.6768
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -4306661.68, converges to 0.00225639...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4300015.68, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4275226.72, converge to 0.00030968
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4267589.58, converge to 0.00012473
+[Info]Finish E-Step: 21 iteration, likelihood: -4267589.5837
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -4267589.58, converges to 0.00907248...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4219424.76, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4160415.57, converge to 0.00030135
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4153422.28, converge to 0.00011126
+[Info]Finish E-Step: 21 iteration, likelihood: -4153422.2849
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -4153422.28, converges to 0.02675217...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4064634.44, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4044280.18, converge to 0.00012095
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4041377.75, converge to 0.00004750
+[Info]Finish E-Step: 21 iteration, likelihood: -4041377.7542
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -4041377.75, converges to 0.02697644...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4003036.59, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4001120.41, converge to 0.00001456
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4000814.30, converge to 0.00000457
+[Info]Finish E-Step: 21 iteration, likelihood: -4000814.2996
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -4000814.30, converges to 0.01003704...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3985433.29, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3986870.96, converge to 0.00001553
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3987254.11, converge to 0.00000610
+[Info]Finish E-Step: 21 iteration, likelihood: -3987254.1125
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -3987254.11, converges to 0.00338936...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3979678.14, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3981596.54, converge to 0.00002159
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3982082.73, converge to 0.00000744
+[Info]Finish E-Step: 21 iteration, likelihood: -3982082.7274
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -3982082.73, converges to 0.00129698...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3978001.38, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3979706.35, converge to 0.00001818
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3980111.19, converge to 0.00000566
+[Info]Finish E-Step: 21 iteration, likelihood: -3980111.1885
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -3980111.19, converges to 0.00049510...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3977617.04, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3979082.88, converge to 0.00001614
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3979430.67, converge to 0.00000508
+[Info]Finish E-Step: 21 iteration, likelihood: -3979430.6727
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -3979430.67, converges to 0.00017098...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3977803.83, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3979042.64, converge to 0.00001320
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3979329.12, converge to 0.00000380
+[Info]Finish E-Step: 21 iteration, likelihood: -3979329.1158
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -3979329.12, converges to 0.00002552...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3978115.95, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3979186.09, converge to 0.00001146
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3979427.02, converge to 0.00000285
+[Info]Finish E-Step: 21 iteration, likelihood: -3979427.0227
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -3979427.02, converges to 0.00002460...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3978463.54, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3979386.81, converge to 0.00000896
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3979564.68, converge to 0.00000223
+[Info]Finish E-Step: 21 iteration, likelihood: -3979564.6811
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -3979564.68, converges to 0.00003459...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3978768.82, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3979562.54, converge to 0.00000719
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3979694.95, converge to 0.00000154
+[Info]Finish E-Step: 21 iteration, likelihood: -3979694.9487
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -3979694.95, converges to 0.00003273...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3979002.32, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3979701.05, converge to 0.00000618
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3979809.63, converge to 0.00000118
+[Info]Finish E-Step: 21 iteration, likelihood: -3979809.6327
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -3979809.63, converges to 0.00002882...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3979285.43, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3979909.99, converge to 0.00000520
+[Info]Finish E-Step: 20 iteration, likelihood: -3980000.0941
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -3980000.09, converges to 0.00004786...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3979575.42, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3980128.98, converge to 0.00000443
+[Info]Finish E-Step: 19 iteration, likelihood: -3980199.7312
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -3980199.73, converges to 0.00005016...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3979851.57, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3980355.48, converge to 0.00000378
+[Info]Finish E-Step: 18 iteration, likelihood: -3980411.7687
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -3980411.77, converges to 0.00005327...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3980141.45, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3980599.86, converge to 0.00000324
+[Info]Finish E-Step: 17 iteration, likelihood: -3980646.9368
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -3980646.94, converges to 0.00005908...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3980423.24, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3980837.41, converge to 0.00000281
+[Info]Finish E-Step: 16 iteration, likelihood: -3980875.4709
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -3980875.47, converges to 0.00005741...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3980673.02, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3981054.79, converge to 0.00000271
+[Info]Finish E-Step: 16 iteration, likelihood: -3981091.1791
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -3981091.18, converges to 0.00005419...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3980903.93, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3981257.56, converge to 0.00000250
+[Info]Finish E-Step: 16 iteration, likelihood: -3981291.1046
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -3981291.10, converges to 0.00005022...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3981113.37, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3981428.25, converge to 0.00000185
+[Info]Finish E-Step: 14 iteration, likelihood: -3981447.5537
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -3981447.55, converges to 0.00003930...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3981268.35, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3981554.13, converge to 0.00000174
+[Info]Finish E-Step: 13 iteration, likelihood: -3981568.5876
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -3981568.59, converges to 0.00003040...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3981391.18, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3981653.25, converge to 0.00000153
+[Info]Finish E-Step: 13 iteration, likelihood: -3981665.8270
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -3981665.83, converges to 0.00002442...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3981488.25, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3981731.36, converge to 0.00000141
+[Info]Finish E-Step: 12 iteration, likelihood: -3981739.9061
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -3981739.91, converges to 0.00001861...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3981577.28, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3981802.83, converge to 0.00000126
+[Info]Finish E-Step: 12 iteration, likelihood: -3981810.5362
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -3981810.54, converges to 0.00001774...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3981647.89, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3981853.89, converge to 0.00000114
+[Info]Finish E-Step: 11 iteration, likelihood: -3981857.5547
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -3981857.55, converges to 0.00001181...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 2575, item size: 179, user size: 244
+[Info]Start evaluation in thread
+---likelihood: -794408.3597602586
+---likelihood: -794301.2133130091
+---likelihood: -793692.2822522342
+---likelihood: -793155.9403975705
+---likelihood: -792708.2551725102
+---likelihood: -792338.3014439372
+---likelihood: -792004.5156904636
+---likelihood: -791716.9749571513
+---likelihood: -791461.8698273204
+---likelihood: -791317.572790545
+---likelihood: -791077.2286267958
+---likelihood: -790773.725954439
+---likelihood: -790722.1549017144
+---likelihood: -790618.2873005264
+---likelihood: -790393.0411809409
+---likelihood: -790287.5138767203
+---likelihood: -790137.7006241925
+---likelihood: -790049.7742465014
+---likelihood: -790064.7950533491
+---likelihood: -789851.2704700213
+---likelihood: -789797.6268634265
+[Info]Inference finished: likelihood: -789797.6269
+[Stat]Test evaluation finished: 2575 docs
+[Stat]0 part has 746.000000 docs: perplexity is 692.684 and log-likelihood is -314.465
+[Stat]1 part has 193.000000 docs: perplexity is 770.567 and log-likelihood is -310.280
+[Stat]2 part has 1220.000000 docs: perplexity is 743.222 and log-likelihood is -304.848
+[Stat]3 part has 416.000000 docs: perplexity is 709.648 and log-likelihood is -298.744
+[Stat]4 part has 2575.000000 docs: perplexity is 719.199 and log-likelihood is -306.718
+[Info]ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 463.09 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/1/ETBIR_topWords_10.txt
+Topic 0(0.09339):	cream(0.03005)	chocol(0.02682)	cake(0.02310)	sweet(0.02091)	flavor(0.01804)	ice-cream(0.01758)	coffe(0.01600)	tast(0.01206)	time(0.01095)	cooki(0.00887)	strawberri(0.00834)	delici(0.00803)	friend(0.00712)	crepe(0.00675)	pastri(0.00672)	donut(0.00584)	sugar(0.00575)	favorit(0.00566)	definit(0.00559)	boba(0.00539)	vanilla(0.00538)	best(0.00531)	perfect(0.00507)	small(0.00491)	drink(0.00491)	shop(0.00473)	honey(0.00470)	cupcak(0.00465)	custard(0.00462)	appl(0.00462)	
+Topic 1(0.09758):	chicken(0.03667)	pork(0.02288)	rice(0.02235)	sauc(0.01822)	soup(0.01647)	beef(0.01640)	buffet(0.01426)	flavor(0.01326)	time(0.01072)	side(0.01033)	dish(0.01033)	spici(0.00995)	bowl(0.00974)	tast(0.00905)	plate(0.00900)	bean(0.00831)	pretti(0.00827)	delici(0.00772)	wing(0.00740)	veggi(0.00698)	friend(0.00636)	definit(0.00632)	serv(0.00626)	asian(0.00593)	restaur(0.00590)	tender(0.00555)	best(0.00554)	lunch(0.00550)	belli(0.00547)	station(0.00529)	
+Topic 2(0.08271):	roll(0.03198)	sushi(0.02803)	shrimp(0.02296)	fish(0.02189)	crab(0.02031)	time(0.01511)	tuna(0.01194)	seafood(0.01150)	salmon(0.01136)	dinner(0.01068)	buffet(0.01064)	sauc(0.00951)	special(0.00876)	spici(0.00876)	price(0.00854)	definit(0.00853)	favorit(0.00805)	oyster(0.00777)	delici(0.00771)	pretti(0.00750)	lobster(0.00716)	friend(0.00706)	restaur(0.00681)	chef(0.00678)	rice(0.00655)	tast(0.00653)	lunch(0.00625)	happi(0.00616)	best(0.00603)	wait(0.00594)	
+Topic 3(0.08896):	price(0.02051)	time(0.01905)	store(0.01885)	find(0.01773)	locat(0.01570)	shop(0.01522)	vega(0.01440)	select(0.01220)	friend(0.00843)	peopl(0.00807)	pretti(0.00784)	best(0.00774)	clean(0.00747)	definit(0.00717)	restaur(0.00699)	staff(0.00686)	reason(0.00681)	korean(0.00681)	busi(0.00654)	favorit(0.00622)	town(0.00618)	park(0.00597)	spring(0.00594)	stuff(0.00575)	spot(0.00566)	feel(0.00544)	walk(0.00541)	market(0.00539)	star(0.00532)	varieti(0.00510)	
+Topic 4(0.07272):	restaur(0.02156)	dish(0.02145)	ramen(0.01829)	cours(0.01503)	dine(0.01342)	tast(0.01319)	experi(0.01203)	flavor(0.01161)	perfect(0.00937)	best(0.00854)	serv(0.00807)	wine(0.00800)	chef(0.00773)	broth(0.00714)	vega(0.00657)	small(0.00639)	cook(0.00614)	plate(0.00595)	dinner(0.00589)	amaz(0.00587)	tabl(0.00548)	delici(0.00532)	excel(0.00529)	rich(0.00522)	definit(0.00520)	recommend(0.00509)	foie-gras(0.00469)	pair(0.00464)	bite(0.00442)	sauc(0.00437)	
+Topic 5(0.08506):	steak(0.02910)	bread(0.01847)	breakfast(0.01788)	side(0.01528)	perfect(0.01109)	serv(0.01079)	cook(0.00903)	pancak(0.00886)	delici(0.00836)	restaur(0.00833)	french(0.00830)	brunch(0.00815)	tabl(0.00812)	toast(0.00735)	sauc(0.00692)	dinner(0.00668)	friend(0.00612)	flavor(0.00604)	time(0.00602)	rare(0.00601)	tast(0.00583)	plate(0.00579)	season(0.00576)	excel(0.00571)	corn(0.00549)	medium(0.00534)	mushroom(0.00514)	start(0.00514)	truffl(0.00508)	best(0.00486)	
+Topic 6(0.12062):	drink(0.04945)	beer(0.02205)	tabl(0.02189)	happi(0.02184)	time(0.02115)	friend(0.02053)	night(0.01855)	wait(0.01815)	seat(0.01501)	pretti(0.01373)	happi-hour(0.01306)	peopl(0.01220)	price(0.01038)	wine(0.00845)	NUM-minut(0.00823)	cool(0.00780)	area(0.00765)	parti(0.00743)	star(0.00719)	busi(0.00652)	bartend(0.00648)	dinner(0.00590)	waitress(0.00586)	patio(0.00567)	experi(0.00560)	music(0.00504)	reserv(0.00498)	glass(0.00486)	bottl(0.00460)	staff(0.00459)	
+Topic 7(0.17947):	room(0.02543)	vega(0.01953)	casino(0.01518)	stay(0.01435)	hotel(0.01401)	time(0.01399)	strip(0.01232)	park(0.01053)	walk(0.00903)	peopl(0.00888)	club(0.00859)	night(0.00830)	area(0.00778)	pool(0.00698)	play(0.00688)	las-vega(0.00682)	year(0.00641)	pretti(0.00613)	seat(0.00603)	view(0.00580)	music(0.00555)	locat(0.00541)	cool(0.00493)	crowd(0.00475)	shop(0.00470)	feel(0.00460)	restaur(0.00445)	open(0.00445)	theater(0.00427)	watch(0.00422)	
+Topic 8(0.09648):	time(0.02128)	taco(0.01320)	wait(0.01286)	custom(0.01017)	locat(0.01008)	fast(0.00856)	friend(0.00837)	review(0.00817)	pretti(0.00785)	star(0.00776)	shake(0.00746)	peopl(0.00679)	tast(0.00672)	price(0.00628)	onion(0.00610)	year(0.00608)	work(0.00583)	manag(0.00557)	restaur(0.00548)	call(0.00544)	busi(0.00522)	card(0.00520)	side(0.00516)	NUM-minut(0.00514)	lunch(0.00483)	strip(0.00481)	nacho(0.00472)	sauc(0.00460)	experi(0.00453)	told(0.00451)	
+Topic 9(0.08302):	pizza(0.03626)	thai(0.02143)	lunch(0.01641)	chicken(0.01562)	dish(0.01534)	restaur(0.01500)	curri(0.01420)	sauc(0.01373)	time(0.01231)	pasta(0.01068)	flavor(0.00818)	best(0.00805)	italian(0.00792)	delici(0.00746)	friend(0.00727)	garlic(0.00704)	tast(0.00703)	definit(0.00685)	crust(0.00683)	favorit(0.00625)	spici(0.00615)	special(0.00609)	perfect(0.00582)	spice(0.00513)	pretti(0.00510)	style(0.00508)	bread(0.00478)	meatbal(0.00450)	vega(0.00443)	dinner(0.00442)	
+266 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+260 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+244 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+264 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+256 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 2: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 12778, test size = 3065....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 12778, item size: 702, user size: 773
+ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4096210.75, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4112074.40, converge to 0.00018241
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4108139.63, converge to 0.00005414
+[Info]Finish E-Step: 21 iteration, likelihood: -4108139.6337
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -4108139.63, converges to 4108140.63373802...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4107585.68, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4105506.64, converge to 0.00004236
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4104215.93, converge to 0.00002422
+[Info]Finish E-Step: 21 iteration, likelihood: -4104215.9250
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -4104215.93, converges to 0.00095511...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4102576.31, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4096537.30, converge to 0.00010521
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4093739.48, converge to 0.00005150
+[Info]Finish E-Step: 21 iteration, likelihood: -4093739.4778
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -4093739.48, converges to 0.00255261...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4085348.89, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4056506.57, converge to 0.00032254
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4049159.10, converge to 0.00012129
+[Info]Finish E-Step: 21 iteration, likelihood: -4049159.1039
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -4049159.10, converges to 0.01088989...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3992098.55, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3941521.34, converge to 0.00028339
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3935255.90, converge to 0.00010531
+[Info]Finish E-Step: 21 iteration, likelihood: -3935255.9029
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -3935255.90, converges to 0.02813009...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3858311.82, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3840215.60, converge to 0.00011447
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3837615.57, converge to 0.00004333
+[Info]Finish E-Step: 21 iteration, likelihood: -3837615.5728
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -3837615.57, converges to 0.02481169...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3802911.78, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3801639.94, converge to 0.00001193
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3801385.28, converge to 0.00000374
+[Info]Finish E-Step: 21 iteration, likelihood: -3801385.2828
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -3801385.28, converges to 0.00944083...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3787218.42, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3788929.47, converge to 0.00001524
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3789319.52, converge to 0.00000716
+[Info]Finish E-Step: 21 iteration, likelihood: -3789319.5241
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -3789319.52, converges to 0.00317404...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3782078.12, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3783861.98, converge to 0.00001733
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3784260.22, converge to 0.00000615
+[Info]Finish E-Step: 21 iteration, likelihood: -3784260.2200
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -3784260.22, converges to 0.00133515...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3779555.21, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3780989.37, converge to 0.00001590
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3781323.73, converge to 0.00000521
+[Info]Finish E-Step: 21 iteration, likelihood: -3781323.7314
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -3781323.73, converges to 0.00077597...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3777951.74, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3779199.93, converge to 0.00001357
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3779476.24, converge to 0.00000415
+[Info]Finish E-Step: 21 iteration, likelihood: -3779476.2393
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -3779476.24, converges to 0.00048858...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3777050.28, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3778066.11, converge to 0.00001100
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3778283.66, converge to 0.00000318
+[Info]Finish E-Step: 21 iteration, likelihood: -3778283.6615
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -3778283.66, converges to 0.00031554...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3776465.98, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3777322.81, converge to 0.00000905
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3777488.90, converge to 0.00000219
+[Info]Finish E-Step: 21 iteration, likelihood: -3777488.8997
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -3777488.90, converges to 0.00021035...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3775972.86, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3776680.90, converge to 0.00000672
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3776798.76, converge to 0.00000145
+[Info]Finish E-Step: 21 iteration, likelihood: -3776798.7552
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -3776798.76, converges to 0.00018270...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3775403.57, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3775990.81, converge to 0.00000512
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3776078.68, converge to 0.00000107
+[Info]Finish E-Step: 21 iteration, likelihood: -3776078.6750
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -3776078.68, converges to 0.00019066...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3774776.07, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3775301.03, converge to 0.00000494
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3775383.92, converge to 0.00000103
+[Info]Finish E-Step: 21 iteration, likelihood: -3775383.9224
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -3775383.92, converges to 0.00018399...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3774240.53, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3774698.75, converge to 0.00000386
+[Info]Finish E-Step: 18 iteration, likelihood: -3774754.9671
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -3774754.97, converges to 0.00016659...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3773753.23, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3774167.68, converge to 0.00000335
+[Info]Finish E-Step: 17 iteration, likelihood: -3774211.3039
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -3774211.30, converges to 0.00014403...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3773372.99, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3773731.47, converge to 0.00000286
+[Info]Finish E-Step: 16 iteration, likelihood: -3773765.0348
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -3773765.03, converges to 0.00011824...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3773054.62, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3773375.85, converge to 0.00000233
+[Info]Finish E-Step: 15 iteration, likelihood: -3773400.8348
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -3773400.83, converges to 0.00009651...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3772812.66, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3773106.81, converge to 0.00000197
+[Info]Finish E-Step: 13 iteration, likelihood: -3773120.3907
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -3773120.39, converges to 0.00007432...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3772639.66, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3772906.72, converge to 0.00000154
+[Info]Finish E-Step: 12 iteration, likelihood: -3772914.4152
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -3772914.42, converges to 0.00005459...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3772501.42, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3772738.01, converge to 0.00000121
+[Info]Finish E-Step: 11 iteration, likelihood: -3772741.5837
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -3772741.58, converges to 0.00004581...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3772325.96, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3772535.84, converge to 0.00000106
+[Info]Finish E-Step: 11 iteration, likelihood: -3772538.7783
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -3772538.78, converges to 0.00005376...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3772152.65, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -3772340.3637
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -3772340.36, converges to 0.00005259...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3772018.43, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -3772193.9618
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -3772193.96, converges to 0.00003881...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3771917.51, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -3772075.3511
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -3772075.35, converges to 0.00003144...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3771804.92, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -3771950.9613
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -3771950.96, converges to 0.00003298...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3771675.52, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -3771808.0204
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -3771808.02, converges to 0.00003790...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 3065, item size: 207, user size: 266
+[Info]Start evaluation in thread
+---likelihood: -994017.22721426
+---likelihood: -993640.4803686802
+---likelihood: -992806.4236734486
+---likelihood: -992198.4874853648
+---likelihood: -991527.9163443465
+---likelihood: -991054.0490607969
+---likelihood: -990733.6973623071
+---likelihood: -990382.0765566234
+---likelihood: -989976.3387319777
+---likelihood: -989821.1670019084
+---likelihood: -989487.9656463886
+---likelihood: -989240.7946611462
+---likelihood: -989110.9644594591
+---likelihood: -988913.4272724828
+---likelihood: -988719.1137972684
+---likelihood: -988722.9964836637
+---likelihood: -988500.8116737771
+---likelihood: -988322.0143677715
+---likelihood: -988205.7709362897
+---likelihood: -988010.7930698189
+---likelihood: -988062.6524410311
+[Info]Inference finished: likelihood: -988062.6524
+[Stat]Test evaluation finished: 3065 docs
+[Stat]0 part has 769.000000 docs: perplexity is 725.567 and log-likelihood is -309.176
+[Stat]1 part has 178.000000 docs: perplexity is 662.266 and log-likelihood is -321.207
+[Stat]2 part has 1718.000000 docs: perplexity is 754.475 and log-likelihood is -324.274
+[Stat]3 part has 400.000000 docs: perplexity is 691.763 and log-likelihood is -342.509
+[Stat]4 part has 3065.000000 docs: perplexity is 728.025 and log-likelihood is -322.370
+[Info]ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 437.45 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/2/ETBIR_topWords_10.txt
+Topic 0(0.09761):	chicken(0.04360)	pizza(0.03035)	sauc(0.02150)	thai(0.01760)	dish(0.01580)	restaur(0.01362)	curri(0.01347)	lunch(0.01109)	rice(0.01014)	time(0.00991)	flavor(0.00968)	wing(0.00840)	tast(0.00779)	delici(0.00766)	garlic(0.00726)	definit(0.00708)	spici(0.00671)	perfect(0.00653)	special(0.00641)	friend(0.00638)	pasta(0.00631)	slice(0.00594)	small(0.00586)	best(0.00579)	italian(0.00571)	side(0.00559)	serv(0.00542)	pretti(0.00525)	bread(0.00516)	white(0.00501)	
+Topic 1(0.14749):	room(0.03187)	vega(0.02285)	casino(0.01778)	stay(0.01717)	hotel(0.01695)	strip(0.01611)	park(0.01285)	time(0.01246)	walk(0.01113)	club(0.01090)	area(0.01018)	night(0.01009)	las-vega(0.00877)	pool(0.00825)	view(0.00792)	peopl(0.00792)	locat(0.00787)	restaur(0.00722)	pretti(0.00667)	play(0.00585)	year(0.00500)	feel(0.00487)	clean(0.00482)	friend(0.00464)	shop(0.00460)	open(0.00457)	cool(0.00441)	machin(0.00438)	tabl(0.00425)	crowd(0.00402)	
+Topic 2(0.08722):	cream(0.03166)	sweet(0.02558)	chocol(0.02441)	flavor(0.02367)	cake(0.02291)	ice-cream(0.01806)	tast(0.01390)	time(0.00997)	cooki(0.00946)	delici(0.00875)	strawberri(0.00759)	friend(0.00733)	best(0.00690)	favorit(0.00665)	sugar(0.00652)	drink(0.00647)	perfect(0.00645)	boba(0.00633)	pastri(0.00612)	crepe(0.00596)	definit(0.00577)	banana(0.00519)	vanilla(0.00513)	amaz(0.00489)	honey(0.00483)	cupcak(0.00481)	gelato(0.00461)	treat(0.00455)	french(0.00446)	coconut(0.00432)	
+Topic 3(0.09243):	taco(0.02407)	seat(0.02103)	time(0.01828)	music(0.01657)	watch(0.01499)	peopl(0.01318)	drink(0.01021)	vega(0.00964)	amaz(0.00935)	pretti(0.00886)	theater(0.00846)	night(0.00791)	play(0.00774)	ticket(0.00766)	best(0.00756)	mexican(0.00743)	crowd(0.00699)	cool(0.00682)	definit(0.00679)	friend(0.00631)	favorit(0.00609)	danc(0.00597)	recommend(0.00584)	cirqu(0.00548)	rock(0.00506)	feel(0.00500)	stage(0.00500)	sound(0.00469)	perform(0.00467)	experi(0.00458)	
+Topic 4(0.08135):	buffet(0.04031)	price(0.02225)	crab(0.01776)	lunch(0.01681)	pretti(0.01594)	select(0.01534)	time(0.01444)	seafood(0.01217)	best(0.01191)	station(0.01167)	dinner(0.01156)	vega(0.00996)	shrimp(0.00905)	offer(0.00848)	shake(0.00790)	wait(0.00773)	prime(0.00761)	brunch(0.00759)	varieti(0.00692)	fast(0.00655)	option(0.00634)	tast(0.00589)	expect(0.00588)	crab-leg(0.00576)	prime-rib(0.00569)	pretti-good(0.00555)	strip(0.00515)	plate(0.00503)	choic(0.00471)	soup(0.00450)	
+Topic 5(0.10282):	steak(0.02039)	bread(0.01501)	restaur(0.01468)	perfect(0.01174)	sauc(0.01173)	side(0.01149)	dish(0.01113)	tast(0.01036)	flavor(0.01004)	cook(0.00982)	serv(0.00964)	dinner(0.00875)	dine(0.00854)	delici(0.00835)	cours(0.00754)	lobster(0.00732)	tabl(0.00688)	plate(0.00681)	excel(0.00600)	onion(0.00595)	mushroom(0.00573)	experi(0.00541)	amaz(0.00541)	beef(0.00533)	start(0.00520)	tender(0.00512)	best(0.00509)	wine(0.00488)	season(0.00480)	sweet(0.00469)	
+Topic 6(0.08255):	roll(0.03532)	sushi(0.03302)	fish(0.02244)	time(0.01265)	sauc(0.01221)	tuna(0.01159)	salmon(0.01069)	special(0.00972)	definit(0.00955)	friend(0.00947)	lunch(0.00923)	rice(0.00921)	spici(0.00868)	favorit(0.00866)	price(0.00863)	restaur(0.00862)	tast(0.00830)	pretti(0.00748)	shrimp(0.00739)	delici(0.00728)	chef(0.00688)	wrap(0.00610)	burrito(0.00581)	healthi(0.00561)	dinner(0.00560)	sashimi(0.00550)	star(0.00547)	option(0.00543)	piec(0.00541)	chip(0.00526)	
+Topic 7(0.09845):	breakfast(0.02109)	store(0.01777)	coffe(0.01718)	shop(0.01657)	locat(0.01553)	time(0.01405)	friend(0.01327)	find(0.01194)	pancak(0.00954)	park(0.00843)	work(0.00809)	open(0.00808)	spot(0.00774)	waffl(0.00771)	area(0.00749)	peopl(0.00712)	toast(0.00697)	cafe(0.00685)	staff(0.00660)	vega(0.00604)	price(0.00600)	walk(0.00580)	feel(0.00550)	downtown(0.00549)	side(0.00543)	wait(0.00526)	local(0.00515)	drink(0.00513)	tabl(0.00508)	counter(0.00483)	
+Topic 8(0.11742):	drink(0.03332)	time(0.02877)	wait(0.02246)	tabl(0.02012)	happi(0.01994)	beer(0.01893)	friend(0.01680)	NUM-minut(0.01247)	star(0.01187)	happi-hour(0.01179)	night(0.01091)	peopl(0.00962)	price(0.00955)	seat(0.00896)	busi(0.00892)	told(0.00882)	experi(0.00868)	manag(0.00837)	pretti(0.00795)	review(0.00776)	waitress(0.00713)	call(0.00686)	restaur(0.00680)	wine(0.00672)	custom(0.00649)	bartend(0.00599)	reserv(0.00574)	parti(0.00567)	waiter(0.00522)	staff(0.00510)	
+Topic 9(0.09267):	pork(0.02552)	ramen(0.01898)	soup(0.01458)	rice(0.01432)	beef(0.01431)	time(0.01420)	bowl(0.01266)	restaur(0.01170)	flavor(0.01105)	dish(0.01074)	friend(0.00978)	spici(0.00969)	broth(0.00963)	tast(0.00939)	cook(0.00909)	korean(0.00893)	pretti(0.00870)	definit(0.00862)	chicken(0.00845)	belli(0.00780)	side(0.00761)	wait(0.00692)	best(0.00672)	sauc(0.00656)	pork-belli(0.00646)	delici(0.00626)	small(0.00575)	vega(0.00567)	favorit(0.00518)	style(0.00494)	
+264 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+260 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+244 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+266 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+256 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 3: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 12591, test size = 3252....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 12591, item size: 717, user size: 770
+ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4110033.93, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4127227.86, converge to 0.00018326
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4123277.02, converge to 0.00005386
+[Info]Finish E-Step: 21 iteration, likelihood: -4123277.0169
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -4123277.02, converges to 4123278.01694543...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4122720.02, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4121236.66, converge to 0.00002654
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4120266.98, converge to 0.00002099
+[Info]Finish E-Step: 21 iteration, likelihood: -4120266.9816
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -4120266.98, converges to 0.00073001...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4119256.50, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4114345.63, converge to 0.00009033
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4111719.65, converge to 0.00004774
+[Info]Finish E-Step: 21 iteration, likelihood: -4111719.6498
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -4111719.65, converges to 0.00207446...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4105698.61, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4085100.77, converge to 0.00028116
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4078443.21, converge to 0.00011283
+[Info]Finish E-Step: 21 iteration, likelihood: -4078443.2105
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -4078443.21, converges to 0.00809307...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4043124.92, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3993485.16, converge to 0.00033946
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3986344.15, converge to 0.00011722
+[Info]Finish E-Step: 21 iteration, likelihood: -3986344.1455
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -3986344.15, converges to 0.02258192...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3910018.64, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3882371.66, converge to 0.00014262
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3879081.34, converge to 0.00005537
+[Info]Finish E-Step: 21 iteration, likelihood: -3879081.3443
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -3879081.34, converges to 0.02690756...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3826960.80, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3822842.33, converge to 0.00003203
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3822219.20, converge to 0.00000998
+[Info]Finish E-Step: 21 iteration, likelihood: -3822219.1974
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -3822219.20, converges to 0.01465866...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3801094.55, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3802207.56, converge to 0.00001186
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3802485.03, converge to 0.00000507
+[Info]Finish E-Step: 21 iteration, likelihood: -3802485.0270
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -3802485.03, converges to 0.00516301...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3793176.03, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3794882.95, converge to 0.00002013
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3795322.47, converge to 0.00000661
+[Info]Finish E-Step: 21 iteration, likelihood: -3795322.4741
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -3795322.47, converges to 0.00188365...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3790400.57, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3791950.16, converge to 0.00001709
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3792304.27, converge to 0.00000496
+[Info]Finish E-Step: 21 iteration, likelihood: -3792304.2717
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -3792304.27, converges to 0.00079524...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789329.78, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3790596.90, converge to 0.00001422
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3790873.01, converge to 0.00000376
+[Info]Finish E-Step: 21 iteration, likelihood: -3790873.0096
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -3790873.01, converges to 0.00037741...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3788890.87, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789964.90, converge to 0.00001129
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3790175.21, converge to 0.00000280
+[Info]Finish E-Step: 21 iteration, likelihood: -3790175.2144
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -3790175.21, converges to 0.00018407...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3788799.08, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789709.10, converge to 0.00000907
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3789865.23, converge to 0.00000196
+[Info]Finish E-Step: 21 iteration, likelihood: -3789865.2338
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -3789865.23, converges to 0.00008179...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3788868.12, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789631.75, converge to 0.00000695
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3789749.43, converge to 0.00000143
+[Info]Finish E-Step: 21 iteration, likelihood: -3789749.4299
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -3789749.43, converges to 0.00003056...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789014.66, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789673.56, converge to 0.00000575
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3789768.44, converge to 0.00000119
+[Info]Finish E-Step: 21 iteration, likelihood: -3789768.4372
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -3789768.44, converges to 0.00000502...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789176.65, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789756.85, converge to 0.00000476
+[Info]Finish E-Step: 20 iteration, likelihood: -3789829.7145
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -3789829.71, converges to 0.00001617...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789306.16, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789813.25, converge to 0.00000407
+[Info]Finish E-Step: 18 iteration, likelihood: -3789869.5396
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -3789869.54, converges to 0.00001051...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789393.66, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789840.18, converge to 0.00000400
+[Info]Finish E-Step: 17 iteration, likelihood: -3789886.3493
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -3789886.35, converges to 0.00000444...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789444.06, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789835.71, converge to 0.00000287
+[Info]Finish E-Step: 17 iteration, likelihood: -3789875.0902
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -3789875.09, converges to 0.00000297...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789480.97, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789841.98, converge to 0.00000274
+[Info]Finish E-Step: 17 iteration, likelihood: -3789879.4010
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -3789879.40, converges to 0.00000114...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789535.60, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789867.04, converge to 0.00000221
+[Info]Finish E-Step: 14 iteration, likelihood: -3789887.2165
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -3789887.22, converges to 0.00000206...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789567.46, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789868.87, converge to 0.00000180
+[Info]Finish E-Step: 13 iteration, likelihood: -3789881.3820
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -3789881.38, converges to 0.00000154...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789563.41, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789834.25, converge to 0.00000160
+[Info]Finish E-Step: 12 iteration, likelihood: -3789841.7644
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -3789841.76, converges to 0.00001045...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789530.77, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789770.61, converge to 0.00000146
+[Info]Finish E-Step: 12 iteration, likelihood: -3789778.2985
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -3789778.30, converges to 0.00001675...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789471.98, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789705.38, converge to 0.00000139
+[Info]Finish E-Step: 12 iteration, likelihood: -3789712.7502
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -3789712.75, converges to 0.00001730...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789396.63, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789607.69, converge to 0.00000133
+[Info]Finish E-Step: 12 iteration, likelihood: -3789614.6665
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -3789614.67, converges to 0.00002588...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789281.89, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3789476.20, converge to 0.00000114
+[Info]Finish E-Step: 11 iteration, likelihood: -3789479.5688
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -3789479.57, converges to 0.00003565...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789169.14, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -3789341.9890
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -3789341.99, converges to 0.00003631...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3789079.86, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -3789247.3109
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -3789247.31, converges to 0.00002499...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 3252, item size: 206, user size: 264
+[Info]Start evaluation in thread
+---likelihood: -978778.5048614753
+---likelihood: -978810.0062442035
+---likelihood: -978038.9206600629
+---likelihood: -977364.4782361102
+---likelihood: -976942.2598288057
+---likelihood: -976409.9087089982
+---likelihood: -976016.7452816343
+---likelihood: -975689.0011575854
+---likelihood: -975303.3262778015
+---likelihood: -975097.9703234496
+---likelihood: -974920.015690819
+---likelihood: -974681.8306534836
+---likelihood: -974437.2583465858
+---likelihood: -974311.7861733264
+---likelihood: -974168.5356921366
+---likelihood: -973982.7335959458
+---likelihood: -973800.2105250198
+---likelihood: -973771.6154943106
+---likelihood: -973605.6156007042
+---likelihood: -973492.7419802989
+---likelihood: -973422.9441142582
+[Info]Inference finished: likelihood: -973422.9441
+[Stat]Test evaluation finished: 3252 docs
+[Stat]0 part has 912.000000 docs: perplexity is 765.999 and log-likelihood is -304.985
+[Stat]1 part has 285.000000 docs: perplexity is 707.023 and log-likelihood is -290.552
+[Stat]2 part has 1562.000000 docs: perplexity is 745.583 and log-likelihood is -299.789
+[Stat]3 part has 493.000000 docs: perplexity is 650.838 and log-likelihood is -294.347
+[Stat]4 part has 3252.000000 docs: perplexity is 728.142 and log-likelihood is -299.331
+[Info]ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 441.74 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/3/ETBIR_topWords_10.txt
+Topic 0(0.09948):	cream(0.02745)	chocol(0.02161)	cake(0.01894)	coffe(0.01661)	sweet(0.01650)	flavor(0.01621)	ice-cream(0.01527)	breakfast(0.01527)	tast(0.01048)	waffl(0.00837)	cooki(0.00819)	time(0.00812)	toast(0.00793)	strawberri(0.00791)	delici(0.00783)	french(0.00729)	pastri(0.00662)	crepe(0.00645)	friend(0.00639)	best(0.00634)	brunch(0.00608)	pancak(0.00592)	banana(0.00586)	donut(0.00529)	sugar(0.00522)	perfect(0.00519)	vanilla(0.00485)	favorit(0.00478)	cupcak(0.00461)	small(0.00457)	
+Topic 1(0.09218):	chicken(0.03701)	rice(0.02631)	dish(0.02437)	thai(0.01841)	restaur(0.01679)	soup(0.01676)	sauc(0.01581)	flavor(0.01494)	curri(0.01420)	spici(0.01396)	time(0.01098)	beef(0.01079)	lunch(0.00936)	wing(0.00842)	tast(0.00834)	definit(0.00771)	sweet(0.00712)	delici(0.00679)	friend(0.00672)	special(0.00655)	best(0.00644)	spice(0.00641)	pork(0.00640)	serv(0.00613)	shrimp(0.00581)	crispi(0.00573)	chines(0.00556)	small(0.00547)	cook(0.00537)	plate(0.00528)	
+Topic 2(0.08825):	buffet(0.03434)	sushi(0.03075)	roll(0.03021)	time(0.01811)	dinner(0.01545)	lunch(0.01516)	fish(0.01450)	price(0.01322)	pretti(0.01162)	crab(0.01044)	tuna(0.01033)	salmon(0.01021)	select(0.00958)	station(0.00916)	wait(0.00911)	best(0.00880)	favorit(0.00803)	shrimp(0.00793)	seafood(0.00785)	definit(0.00688)	plate(0.00670)	vega(0.00652)	varieti(0.00616)	offer(0.00594)	friend(0.00590)	tast(0.00577)	special(0.00545)	chef(0.00536)	star(0.00492)	prime(0.00474)	
+Topic 3(0.10073):	steak(0.02310)	restaur(0.01724)	dish(0.01199)	dinner(0.01084)	perfect(0.01066)	tast(0.01030)	cook(0.00926)	cours(0.00925)	tabl(0.00911)	bread(0.00909)	dine(0.00886)	wine(0.00861)	side(0.00856)	serv(0.00820)	lobster(0.00799)	delici(0.00772)	flavor(0.00768)	experi(0.00759)	sauc(0.00695)	excel(0.00681)	best(0.00653)	chef(0.00642)	start(0.00632)	amaz(0.00629)	plate(0.00607)	reserv(0.00570)	appet(0.00559)	truffl(0.00553)	waiter(0.00545)	shrimp(0.00513)	
+Topic 4(0.10713):	drink(0.05055)	happi(0.03133)	beer(0.02582)	friend(0.02358)	time(0.01899)	happi-hour(0.01696)	price(0.01693)	pretti(0.01641)	night(0.01549)	bartend(0.00723)	cool(0.00722)	tabl(0.00704)	select(0.00691)	amaz(0.00679)	spot(0.00677)	special(0.00677)	definit(0.00610)	peopl(0.00583)	patio(0.00582)	super(0.00555)	staff(0.00529)	star(0.00524)	area(0.00523)	music(0.00507)	busi(0.00503)	downtown(0.00501)	waitress(0.00481)	town(0.00464)	total(0.00451)	wine(0.00447)	
+Topic 5(0.12915):	time(0.02636)	wait(0.02011)	peopl(0.01623)	store(0.01283)	park(0.01175)	walk(0.01117)	NUM-minut(0.01088)	shop(0.01052)	seat(0.00967)	custom(0.00938)	drink(0.00895)	star(0.00892)	find(0.00820)	tabl(0.00804)	friend(0.00785)	work(0.00740)	year(0.00712)	locat(0.00690)	busi(0.00680)	manag(0.00648)	area(0.00647)	told(0.00637)	open(0.00598)	review(0.00579)	call(0.00560)	vega(0.00547)	experi(0.00546)	staff(0.00539)	bring(0.00533)	price(0.00529)	
+Topic 6(0.08012):	pizza(0.03643)	chicken(0.01983)	sauc(0.01883)	bread(0.01635)	time(0.01077)	slice(0.01000)	pasta(0.00928)	garlic(0.00844)	tast(0.00749)	crust(0.00734)	italian(0.00733)	sausag(0.00733)	perfect(0.00724)	restaur(0.00720)	delici(0.00695)	friend(0.00691)	side(0.00653)	best(0.00651)	serv(0.00650)	small(0.00646)	flavor(0.00603)	dish(0.00568)	style(0.00562)	white(0.00551)	lunch(0.00543)	mushroom(0.00541)	oliv(0.00530)	thin(0.00524)	tabl(0.00511)	definit(0.00492)	
+Topic 7(0.14602):	room(0.03140)	vega(0.02279)	casino(0.01815)	stay(0.01735)	hotel(0.01586)	strip(0.01581)	time(0.01275)	night(0.01058)	club(0.00945)	walk(0.00902)	view(0.00879)	las-vega(0.00839)	pool(0.00757)	peopl(0.00729)	pretti(0.00700)	park(0.00681)	area(0.00679)	play(0.00668)	music(0.00661)	locat(0.00609)	restaur(0.00560)	danc(0.00518)	seat(0.00508)	friend(0.00495)	crowd(0.00492)	feel(0.00491)	year(0.00487)	machin(0.00442)	best(0.00440)	clean(0.00425)	
+Topic 8(0.08520):	taco(0.02072)	pork(0.02072)	ramen(0.02046)	time(0.01508)	side(0.01501)	flavor(0.01087)	korean(0.01030)	bowl(0.01002)	tast(0.00952)	beef(0.00940)	pretti(0.00911)	friend(0.00888)	corn(0.00865)	cook(0.00861)	restaur(0.00843)	broth(0.00839)	best(0.00804)	sauc(0.00751)	wait(0.00751)	definit(0.00743)	belli(0.00739)	mexican(0.00724)	chicken(0.00723)	spici(0.00715)	delici(0.00705)	favorit(0.00661)	pork-belli(0.00607)	bean(0.00587)	tabl(0.00512)	price(0.00512)	
+Topic 9(0.07174):	locat(0.01061)	time(0.00953)	fast(0.00882)	flavor(0.00854)	price(0.00842)	pretti(0.00827)	chicken(0.00825)	sauc(0.00823)	side(0.00785)	restaur(0.00766)	lunch(0.00707)	bean(0.00687)	vega(0.00653)	tast(0.00630)	serv(0.00629)	chip(0.00613)	burrito(0.00610)	option(0.00591)	tabl(0.00584)	dine(0.00583)	open(0.00566)	definit(0.00566)	onion(0.00549)	find(0.00544)	pick(0.00536)	small(0.00506)	busi(0.00470)	shrimp(0.00465)	plate(0.00430)	ball(0.00430)	
+256 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+260 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+244 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+266 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+264 users are loaded from /home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+====================
+[Info]Fold No. 4: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 12424, test size = 3419....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 12424, item size: 726, user size: 778
+ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4050404.61, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4067705.37, converge to 0.00018950
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4063666.22, converge to 0.00005607
+[Info]Finish E-Step: 21 iteration, likelihood: -4063666.2152
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -4063666.22, converges to 4063667.21524317...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4063103.99, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4061315.42, converge to 0.00003392
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4060226.32, converge to 0.00002298
+[Info]Finish E-Step: 21 iteration, likelihood: -4060226.3175
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -4060226.32, converges to 0.00084650...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4058973.22, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4053656.64, converge to 0.00010430
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4050707.09, converge to 0.00005612
+[Info]Finish E-Step: 21 iteration, likelihood: -4050707.0866
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -4050707.09, converges to 0.00234451...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-4043407.03, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-4020510.57, converge to 0.00028858
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-4013719.80, converge to 0.00011434
+[Info]Finish E-Step: 21 iteration, likelihood: -4013719.7986
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -4013719.80, converges to 0.00913107...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3975480.63, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3924572.44, converge to 0.00034411
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3917417.26, converge to 0.00011916
+[Info]Finish E-Step: 21 iteration, likelihood: -3917417.2647
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -3917417.26, converges to 0.02399334...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3839958.92, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3815558.37, converge to 0.00013721
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3812446.47, converge to 0.00005335
+[Info]Finish E-Step: 21 iteration, likelihood: -3812446.4678
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -3812446.47, converges to 0.02679592...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3765404.31, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3761994.53, converge to 0.00002510
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3761475.64, converge to 0.00000838
+[Info]Finish E-Step: 21 iteration, likelihood: -3761475.6427
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -3761475.64, converges to 0.01336958...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3740359.12, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3741392.28, converge to 0.00001051
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3741671.38, converge to 0.00000637
+[Info]Finish E-Step: 21 iteration, likelihood: -3741671.3763
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -3741671.38, converges to 0.00526503...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3731535.35, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3733092.51, converge to 0.00001786
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3733484.19, converge to 0.00000639
+[Info]Finish E-Step: 21 iteration, likelihood: -3733484.1904
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -3733484.19, converges to 0.00218811...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3727864.58, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3729223.35, converge to 0.00001653
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3729569.24, converge to 0.00000515
+[Info]Finish E-Step: 21 iteration, likelihood: -3729569.2372
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -3729569.24, converges to 0.00104861...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3725841.89, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3727057.67, converge to 0.00001484
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3727353.75, converge to 0.00000444
+[Info]Finish E-Step: 21 iteration, likelihood: -3727353.7466
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -3727353.75, converges to 0.00059403...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724828.98, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3725884.65, converge to 0.00001169
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3726105.62, converge to 0.00000306
+[Info]Finish E-Step: 21 iteration, likelihood: -3726105.6171
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -3726105.62, converges to 0.00033486...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724342.18, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3725269.80, converge to 0.00000932
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3725438.25, converge to 0.00000217
+[Info]Finish E-Step: 21 iteration, likelihood: -3725438.2488
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -3725438.25, converges to 0.00017911...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724096.17, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724871.69, converge to 0.00000778
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3724995.17, converge to 0.00000165
+[Info]Finish E-Step: 21 iteration, likelihood: -3724995.1694
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -3724995.17, converges to 0.00011893...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3723959.94, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724630.04, converge to 0.00000588
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-3724722.81, converge to 0.00000107
+[Info]Finish E-Step: 21 iteration, likelihood: -3724722.8063
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -3724722.81, converges to 0.00007312...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3723951.14, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724536.32, converge to 0.00000485
+[Info]Finish E-Step: 19 iteration, likelihood: -3724610.1746
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -3724610.17, converges to 0.00003024...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724025.74, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724538.73, converge to 0.00000404
+[Info]Finish E-Step: 17 iteration, likelihood: -3724590.4442
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -3724590.44, converges to 0.00000530...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724121.48, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724580.57, converge to 0.00000353
+[Info]Finish E-Step: 17 iteration, likelihood: -3724624.3090
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -3724624.31, converges to 0.00000909...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724237.49, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724652.80, converge to 0.00000288
+[Info]Finish E-Step: 15 iteration, likelihood: -3724682.0144
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -3724682.01, converges to 0.00001549...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724352.55, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724711.86, converge to 0.00000238
+[Info]Finish E-Step: 14 iteration, likelihood: -3724731.5432
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -3724731.54, converges to 0.00001330...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724466.23, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724789.83, converge to 0.00000198
+[Info]Finish E-Step: 13 iteration, likelihood: -3724803.0218
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -3724803.02, converges to 0.00001919...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724587.61, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724874.26, converge to 0.00000164
+[Info]Finish E-Step: 12 iteration, likelihood: -3724882.2856
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -3724882.29, converges to 0.00002128...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724687.90, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3724944.77, converge to 0.00000136
+[Info]Finish E-Step: 11 iteration, likelihood: -3724948.3548
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -3724948.35, converges to 0.00001774...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724775.81, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-3725004.27, converge to 0.00000102
+[Info]Finish E-Step: 11 iteration, likelihood: -3725007.1129
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -3725007.11, converges to 0.00001577...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724864.90, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -3725071.6572
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -3725071.66, converges to 0.00001733...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3724942.08, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -3725132.4901
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -3725132.49, converges to 0.00001633...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3725010.07, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -3725179.6290
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -3725179.63, converges to 0.00001265...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3725062.62, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -3725216.3471
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -3725216.35, converges to 0.00000986...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-3725100.53, converge to 1.00000000
+[Info]Finish E-Step: 8 iteration, likelihood: -3725238.9322
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -3725238.93, converges to 0.00000606...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 3419, item size: 213, user size: 256
+[Info]Start evaluation in thread
+---likelihood: -1033127.092648437
+---likelihood: -1033174.3499991943
+---likelihood: -1032410.7143677698
+---likelihood: -1031820.4506670084
+---likelihood: -1031304.5120427845
+---likelihood: -1030939.6301555942
+---likelihood: -1030582.5308411533
+---likelihood: -1030237.7887936491
+---likelihood: -1029964.1309727015
+---likelihood: -1029785.6411122731
+---likelihood: -1029497.4708841285
+---likelihood: -1029295.9477481089
+---likelihood: -1029161.4055891448
+---likelihood: -1029001.7653523015
+---likelihood: -1028851.525011698
+---likelihood: -1028647.621073058
+---likelihood: -1028602.1530027898
+---likelihood: -1028533.8130720186
+---likelihood: -1028333.7107938193
+---likelihood: -1028207.2210410673
+---likelihood: -1028138.4782704583
+[Info]Inference finished: likelihood: -1028138.4783
+[Stat]Test evaluation finished: 3419 docs
+[Stat]0 part has 701.000000 docs: perplexity is 872.845 and log-likelihood is -297.503
+[Stat]1 part has 339.000000 docs: perplexity is 763.121 and log-likelihood is -306.124
+[Stat]2 part has 1635.000000 docs: perplexity is 752.471 and log-likelihood is -300.044
+[Stat]3 part has 744.000000 docs: perplexity is 657.842 and log-likelihood is -304.013
+[Stat]4 part has 3419.000000 docs: perplexity is 748.410 and log-likelihood is -300.713
+[Info]ETBIR_Normal[k:10, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 425.34 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/4/ETBIR_topWords_10.txt
+Topic 0(0.11171):	room(0.04277)	casino(0.02297)	hotel(0.02266)	stay(0.02237)	vega(0.02222)	strip(0.02095)	walk(0.01111)	time(0.01084)	pool(0.01039)	area(0.01016)	park(0.00977)	restaur(0.00962)	locat(0.00856)	view(0.00803)	las-vega(0.00726)	night(0.00664)	pretti(0.00655)	clean(0.00566)	peopl(0.00565)	rock(0.00520)	suit(0.00481)	price(0.00479)	year(0.00458)	star(0.00445)	friend(0.00436)	street(0.00429)	machin(0.00418)	feel(0.00409)	play(0.00406)	properti(0.00397)	
+Topic 1(0.09852):	steak(0.02204)	restaur(0.01693)	dish(0.01490)	bread(0.01215)	perfect(0.01122)	tast(0.01088)	dinner(0.01048)	wine(0.01027)	cours(0.00992)	dine(0.00948)	serv(0.00883)	side(0.00859)	lobster(0.00858)	tabl(0.00842)	flavor(0.00826)	cook(0.00818)	experi(0.00779)	delici(0.00746)	best(0.00717)	sauc(0.00717)	plate(0.00677)	amaz(0.00651)	start(0.00620)	excel(0.00597)	chef(0.00584)	reserv(0.00561)	appet(0.00546)	mushroom(0.00519)	truffl(0.00511)	beef(0.00490)	
+Topic 2(0.09497):	happi(0.03576)	drink(0.02946)	beer(0.02822)	taco(0.02390)	happi-hour(0.01963)	price(0.01630)	friend(0.01601)	chip(0.01259)	pretti(0.01133)	time(0.01099)	restaur(0.01071)	mexican(0.00896)	delici(0.00866)	locat(0.00798)	definit(0.00747)	amaz(0.00706)	tast(0.00689)	star(0.00663)	super(0.00658)	best(0.00655)	special(0.00621)	favorit(0.00612)	burrito(0.00592)	spot(0.00584)	select(0.00578)	bean(0.00573)	nacho(0.00559)	recommend(0.00558)	town(0.00526)	tortilla(0.00519)	
+Topic 3(0.09152):	chicken(0.02768)	dish(0.02280)	rice(0.02127)	thai(0.02108)	restaur(0.01728)	soup(0.01456)	curri(0.01435)	lunch(0.01396)	spici(0.01320)	flavor(0.01317)	beef(0.01223)	time(0.01183)	sauc(0.01122)	pork(0.01072)	tast(0.00801)	chines(0.00754)	delici(0.00749)	definit(0.00742)	friend(0.00737)	pretti(0.00734)	spice(0.00721)	best(0.00683)	sweet(0.00658)	shrimp(0.00651)	veget(0.00559)	serv(0.00558)	price(0.00546)	asian(0.00541)	small(0.00521)	special(0.00516)	
+Topic 4(0.10868):	shop(0.01814)	time(0.01735)	park(0.01470)	store(0.01461)	locat(0.01225)	find(0.01198)	coffe(0.01101)	friend(0.00975)	vega(0.00934)	custom(0.00916)	walk(0.00910)	work(0.00879)	staff(0.00815)	area(0.00787)	peopl(0.00769)	price(0.00753)	open(0.00707)	feel(0.00700)	drink(0.00678)	review(0.00676)	town(0.00674)	cool(0.00663)	busi(0.00655)	local(0.00622)	star(0.00576)	seat(0.00557)	spot(0.00538)	las-vega(0.00536)	experi(0.00514)	reason(0.00494)	
+Topic 5(0.10841):	time(0.02303)	drink(0.02202)	night(0.02127)	peopl(0.02018)	seat(0.01913)	music(0.01486)	vega(0.01198)	pretti(0.01186)	tabl(0.01132)	club(0.01131)	watch(0.00998)	crowd(0.00925)	friend(0.00900)	play(0.00856)	wait(0.00778)	danc(0.00742)	parti(0.00681)	cool(0.00675)	shake(0.00642)	amaz(0.00630)	definit(0.00624)	best(0.00553)	experi(0.00530)	event(0.00525)	ticket(0.00519)	open(0.00495)	year(0.00481)	cirqu(0.00474)	insid(0.00458)	expect(0.00453)	
+Topic 6(0.09344):	wait(0.03833)	buffet(0.03402)	time(0.02820)	crab(0.01642)	tabl(0.01591)	NUM-minut(0.01499)	dinner(0.01181)	pretti(0.01180)	lunch(0.01100)	shrimp(0.01059)	seafood(0.00945)	price(0.00937)	station(0.00933)	peopl(0.00765)	seat(0.00719)	star(0.00705)	plate(0.00703)	select(0.00701)	waitress(0.00665)	friend(0.00664)	brunch(0.00645)	best(0.00644)	busi(0.00611)	drink(0.00603)	prime(0.00567)	offer(0.00540)	expect(0.00538)	oyster(0.00537)	serv(0.00531)	vega(0.00512)	
+Topic 7(0.09778):	chicken(0.03458)	pizza(0.02991)	sauc(0.02371)	bread(0.01230)	side(0.01204)	time(0.01072)	onion(0.00899)	friend(0.00822)	tast(0.00818)	slice(0.00815)	garlic(0.00802)	delici(0.00778)	lunch(0.00777)	flavor(0.00699)	pasta(0.00697)	perfect(0.00661)	serv(0.00590)	definit(0.00584)	wing(0.00573)	pretti(0.00565)	best(0.00540)	italian(0.00530)	crust(0.00520)	restaur(0.00512)	white(0.00510)	healthi(0.00460)	price(0.00447)	tabl(0.00433)	crispi(0.00427)	small(0.00427)	
+Topic 8(0.09944):	cream(0.02841)	chocol(0.02399)	flavor(0.01943)	sweet(0.01862)	cake(0.01738)	breakfast(0.01563)	ice-cream(0.01547)	tast(0.01052)	pancak(0.00981)	cooki(0.00872)	strawberri(0.00797)	waffl(0.00789)	time(0.00764)	toast(0.00758)	coffe(0.00732)	delici(0.00701)	crepe(0.00632)	french(0.00606)	banana(0.00603)	best(0.00602)	friend(0.00591)	pastri(0.00570)	sugar(0.00550)	favorit(0.00504)	small(0.00485)	appl(0.00477)	cupcak(0.00475)	fill(0.00452)	vanilla(0.00452)	perfect(0.00451)	
+Topic 9(0.09552):	roll(0.02743)	sushi(0.02478)	pork(0.01463)	rice(0.01201)	time(0.01185)	fish(0.01148)	spici(0.01047)	sauc(0.00942)	korean(0.00898)	tast(0.00892)	dish(0.00866)	beef(0.00865)	tuna(0.00860)	flavor(0.00844)	restaur(0.00832)	belli(0.00805)	salmon(0.00780)	ramen(0.00778)	definit(0.00742)	favorit(0.00742)	bowl(0.00732)	soup(0.00727)	pretti(0.00719)	friend(0.00699)	side(0.00655)	special(0.00653)	price(0.00639)	piec(0.00591)	pork-belli(0.00568)	cook(0.00540)	
+
+Part 0 -----------------Valid folds: 5
+[Stat]Loglikelihood -306.551+/-5.547
+[Stat]Perplexity 772.147+/-62.696
+Part 1 -----------------Valid folds: 5
+[Stat]Loglikelihood -307.295+/-9.851
+[Stat]Perplexity 733.834+/-42.649
+Part 2 -----------------Valid folds: 5
+[Stat]Loglikelihood -304.403+/-10.621
+[Stat]Perplexity 745.689+/-7.721
+Part 3 -----------------Valid folds: 5
+[Stat]Loglikelihood -304.408+/-20.339
+[Stat]Perplexity 675.726+/-21.903
+Part 4 -----------------Valid folds: 5
+[Stat]Loglikelihood -304.844+/-9.521
+[Stat]Perplexity 731.585+/-9.671

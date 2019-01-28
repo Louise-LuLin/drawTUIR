@@ -1,0 +1,1803 @@
+Load 7680 1-gram new features from /home/ll5fy/TUIR/dataset/amazon_movie/amazon_movie_features.txt...
+841 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/data/...
+Info File Path: /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/output/5foldsCVColdstart/ETBIR_info.txt
+[Info]Start FIXED cross validation...
+235 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/0/...
+237 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/1/...
+248 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/2/...
+251 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/3/...
+240 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 0: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 7680, review size: 26309, item size: 838, user size: 835
+train size = 20962, test size = 5347....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 20962, item size: 753, user size: 744
+ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8359549.73, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7932710.99, converge to 0.00097043
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7892846.29, converge to 0.00029103
+[Info]Finish E-Step: 21 iteration, likelihood: -7892846.2923
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -7892846.29, converges to 7892847.29228190...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7889523.73, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7876753.13, converge to 0.00012158
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7869406.80, converge to 0.00007023
+[Info]Finish E-Step: 21 iteration, likelihood: -7869406.8025
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -7869406.80, converges to 0.00296971...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7868254.66, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7861147.34, converge to 0.00005641
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7857951.93, converge to 0.00003129
+[Info]Finish E-Step: 21 iteration, likelihood: -7857951.9314
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -7857951.93, converges to 0.00145562...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7855188.40, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7834574.88, converge to 0.00015109
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7829031.15, converge to 0.00004460
+[Info]Finish E-Step: 21 iteration, likelihood: -7829031.1491
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -7829031.15, converges to 0.00368045...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7808706.27, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7774535.21, converge to 0.00013847
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7769042.15, converge to 0.00005259
+[Info]Finish E-Step: 21 iteration, likelihood: -7769042.1514
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -7769042.15, converges to 0.00766238...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7738110.43, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7691141.22, converge to 0.00022807
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7683507.98, converge to 0.00005535
+[Info]Finish E-Step: 21 iteration, likelihood: -7683507.9840
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -7683507.98, converges to 0.01100962...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7631598.77, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7573525.01, converge to 0.00028920
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7563678.39, converge to 0.00007775
+[Info]Finish E-Step: 21 iteration, likelihood: -7563678.3934
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -7563678.39, converges to 0.01559569...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7497805.83, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7427312.90, converge to 0.00027664
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7418530.06, converge to 0.00006237
+[Info]Finish E-Step: 21 iteration, likelihood: -7418530.0632
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -7418530.06, converges to 0.01919018...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7327062.43, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7277352.15, converge to 0.00018915
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7271509.97, converge to 0.00004687
+[Info]Finish E-Step: 21 iteration, likelihood: -7271509.9677
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -7271509.97, converges to 0.01981796...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7196562.86, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7174934.51, converge to 0.00007609
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7172174.28, converge to 0.00002180
+[Info]Finish E-Step: 21 iteration, likelihood: -7172174.2783
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -7172174.28, converges to 0.01366094...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7126307.22, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7119948.61, converge to 0.00002795
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7119021.63, converge to 0.00000529
+[Info]Finish E-Step: 21 iteration, likelihood: -7119021.6303
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -7119021.63, converges to 0.00741095...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7093266.99, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7091139.28, converge to 0.00000614
+[Info]Finish E-Step: 12 iteration, likelihood: -7091113.5946
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -7091113.59, converges to 0.00392021...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7074653.77, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7073555.51, converge to 0.00000467
+[Info]Finish E-Step: 11 iteration, likelihood: -7073548.5486
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -7073548.55, converges to 0.00247705...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7061197.83, converge to 1.00000000
+[Info]Finish E-Step: 1 iteration, likelihood: -7061193.6638
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -7061193.66, converges to 0.00174663...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7053834.75, converge to 1.00000000
+[Info]Finish E-Step: 7 iteration, likelihood: -7053383.5583
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -7053383.56, converges to 0.00110606...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7046162.16, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7046492.24, converge to 0.00000389
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7046806.33, converge to 0.00000350
+[Info]Finish E-Step: 21 iteration, likelihood: -7046806.3259
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -7046806.33, converges to 0.00093249...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7040355.59, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7040987.73, converge to 0.00000457
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7041224.92, converge to 0.00000293
+[Info]Finish E-Step: 21 iteration, likelihood: -7041224.9160
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -7041224.92, converges to 0.00079205...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7035913.41, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7036894.21, converge to 0.00000618
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7037095.45, converge to 0.00000221
+[Info]Finish E-Step: 21 iteration, likelihood: -7037095.4474
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -7037095.45, converges to 0.00058647...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7033097.59, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7034023.09, converge to 0.00000579
+[Info]Finish E-Step: 18 iteration, likelihood: -7034206.2605
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -7034206.26, converges to 0.00041057...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7030867.54, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7031603.12, converge to 0.00000533
+[Info]Finish E-Step: 20 iteration, likelihood: -7031742.3153
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -7031742.32, converges to 0.00035028...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7028546.65, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7029359.01, converge to 0.00000458
+[Info]Finish E-Step: 14 iteration, likelihood: -7029437.6824
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -7029437.68, converges to 0.00032775...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7026806.62, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7027632.30, converge to 0.00000355
+[Info]Finish E-Step: 16 iteration, likelihood: -7027725.9141
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -7027725.91, converges to 0.00024351...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7025615.23, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7026385.68, converge to 0.00000397
+[Info]Finish E-Step: 20 iteration, likelihood: -7026519.5970
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -7026519.60, converges to 0.00017165...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7024760.08, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7025501.46, converge to 0.00000323
+[Info]Finish E-Step: 19 iteration, likelihood: -7025610.6031
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -7025610.60, converges to 0.00012937...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7023989.54, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7024547.14, converge to 0.00000241
+[Info]Finish E-Step: 15 iteration, likelihood: -7024597.3977
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -7024597.40, converges to 0.00014422...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7023035.36, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7023601.79, converge to 0.00000245
+[Info]Finish E-Step: 14 iteration, likelihood: -7023637.5921
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -7023637.59, converges to 0.00013663...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7022274.46, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7022824.14, converge to 0.00000174
+[Info]Finish E-Step: 12 iteration, likelihood: -7022838.7713
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -7022838.77, converges to 0.00011373...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7021664.40, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7022134.07, converge to 0.00000123
+[Info]Finish E-Step: 11 iteration, likelihood: -7022141.0090
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -7022141.01, converges to 0.00009936...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7021124.58, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7021598.72, converge to 0.00000167
+[Info]Finish E-Step: 14 iteration, likelihood: -7021629.7204
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -7021629.72, converges to 0.00007281...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 5347, item size: 258, user size: 235
+[Info]Start evaluation in thread
+---likelihood: -2026311.541534581
+---likelihood: -2019148.0773805906
+---likelihood: -2013802.0311056382
+---likelihood: -2009820.7670924014
+---likelihood: -2006695.4047066146
+---likelihood: -2004678.0447402496
+---likelihood: -2002806.8892140095
+---likelihood: -2001287.7764486875
+---likelihood: -1999956.0630649007
+---likelihood: -1999178.1890759773
+---likelihood: -1998320.5693434137
+---likelihood: -1997460.4765248706
+---likelihood: -1996835.938075639
+---likelihood: -1996238.272839699
+---likelihood: -1995946.5414134986
+---likelihood: -1995104.6903518804
+---likelihood: -1995085.7397659754
+---likelihood: -1994575.7408149075
+---likelihood: -1994238.3530785958
+---likelihood: -1994174.0093833434
+---likelihood: -1993683.1604847268
+[Info]Inference finished: likelihood: -1993683.1605
+[Stat]Test evaluation finished: 5347 docs
+[Stat]0 part has 703.000000 docs: perplexity is 1571.679 and log-likelihood is -376.705
+[Stat]1 part has 1467.000000 docs: perplexity is 1264.745 and log-likelihood is -391.082
+[Stat]2 part has 1059.000000 docs: perplexity is 1198.907 and log-likelihood is -354.760
+[Stat]3 part has 2118.000000 docs: perplexity is 890.850 and log-likelihood is -368.993
+[Stat]4 part has 5347.000000 docs: perplexity is 1108.818 and log-likelihood is -372.860
+[Info]ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 3375.76 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/output/5foldsCVColdstart/0/ETBIR_topWords_35.txt
+Topic 0(0.02484):	peter(0.04203)	spiderman(0.03530)	superhero(0.02807)	mari(0.02250)	hero(0.01936)	jane(0.01208)	villain(0.01154)	raimi(0.00851)	amaz(0.00793)	daredevil(0.00694)	dunst(0.00646)	save(0.00611)	garner(0.00574)	tobey(0.00517)	spider(0.00507)	goblin(0.00472)	tobi(0.00425)	evil(0.00419)	visual(0.00417)	abil(0.00362)	decid(0.00362)	franc(0.00357)	brilliant(0.00348)	genr(0.00346)	struggl(0.00346)	citi(0.00331)	mark(0.00328)	loui(0.00325)	half(0.00324)	uncl(0.00317)	
+Topic 1(0.02517):	villag(0.02353)	brother(0.01453)	shyamalan(0.01439)	night(0.01400)	coen(0.01061)	jeff(0.00978)	dude(0.00939)	promis(0.00805)	twist(0.00786)	russian(0.00785)	ladi(0.00704)	sign(0.00692)	wood(0.00624)	tale(0.00579)	violenc(0.00577)	town(0.00565)	bridg(0.00565)	suspens(0.00539)	water(0.00537)	creatur(0.00505)	blind(0.00449)	thriller(0.00430)	strang(0.00425)	mother(0.00421)	david(0.00399)	watt(0.00394)	deliv(0.00388)	decid(0.00371)	forest(0.00368)	anna(0.00349)	
+Topic 2(0.02890):	kidman(0.02363)	nicol(0.01524)	mountain(0.01208)	husband(0.01112)	sean(0.00986)	lost(0.00937)	penn(0.00843)	cold(0.00823)	translat(0.00779)	daughter(0.00566)	interpret(0.00543)	oscar(0.00539)	river(0.00483)	anna(0.00479)	mystic(0.00474)	wive(0.00464)	invas(0.00452)	support(0.00440)	zellweg(0.00440)	bill(0.00434)	charlott(0.00434)	tokyo(0.00419)	jude(0.00389)	jigsaw(0.00382)	scarlett(0.00378)	robbin(0.00376)	stepford(0.00366)	ladi(0.00363)	coppola(0.00360)	epic(0.00357)	
+Topic 3(0.02478):	kevin(0.01702)	return(0.01430)	spacey(0.01126)	gibson(0.01058)	lane(0.01035)	singer(0.00975)	christ(0.00953)	affleck(0.00773)	richard(0.00597)	reev(0.00578)	costner(0.00565)	xmen(0.00556)	salt(0.00550)	bryan(0.00550)	brandon(0.00528)	christoph(0.00526)	robert(0.00517)	luthor(0.00494)	earth(0.00446)	bibl(0.00439)	routh(0.00432)	rang(0.00413)	argo(0.00403)	save(0.00398)	jame(0.00395)	whale(0.00394)	kate(0.00384)	hollywood(0.00379)	produc(0.00368)	father(0.00361)	
+Topic 4(0.02249):	bill(0.04091)	fiction(0.02871)	half(0.01566)	violenc(0.01214)	brown(0.01170)	pulp(0.01077)	bride(0.00763)	leon(0.00748)	volum(0.00739)	reveng(0.00688)	robert(0.00667)	thurman(0.00645)	proof(0.00636)	cool(0.00580)	hollywood(0.00570)	favorit(0.00565)	violent(0.00533)	money(0.00527)	genr(0.00519)	soundtrack(0.00490)	dozen(0.00462)	dialog(0.00440)	wait(0.00426)	dead(0.00424)	hear(0.00396)	flick(0.00388)	butcher(0.00387)	homag(0.00379)	paycheck(0.00357)	number(0.00342)	
+Topic 5(0.02461):	kinsey(0.00987)	societi(0.00955)	moral(0.00886)	michael(0.00823)	neeson(0.00659)	behavior(0.00635)	natur(0.00624)	issu(0.00623)	femal(0.00603)	liam(0.00575)	kate(0.00525)	truth(0.00486)	student(0.00464)	theme(0.00447)	affair(0.00419)	list(0.00417)	fienn(0.00417)	hudson(0.00382)	matter(0.00379)	understand(0.00368)	secret(0.00367)	author(0.00366)	case(0.00362)	desir(0.00360)	skeleton(0.00357)	male(0.00355)	deal(0.00354)	holocaust(0.00353)	oscar(0.00342)	express(0.00341)	
+Topic 6(0.02601):	episod(0.02933)	luca(0.01639)	queen(0.01185)	luke(0.01060)	georg(0.00944)	phantom(0.00886)	jedi(0.00880)	battl(0.00876)	evil(0.00691)	wayn(0.00688)	bruce(0.00683)	attack(0.00647)	darth(0.00624)	return(0.00608)	menac(0.00598)	princess(0.00557)	yoda(0.00537)	side(0.00534)	citi(0.00513)	whedon(0.00511)	firefli(0.00475)	master(0.00471)	strike(0.00470)	saga(0.00432)	televis(0.00422)	opera(0.00408)	train(0.00404)	voic(0.00399)	diana(0.00398)	blair(0.00383)	
+Topic 7(0.02206):	island(0.02951)	park(0.02948)	lost(0.02176)	food(0.01096)	william(0.00920)	visual(0.00793)	season(0.00784)	suspens(0.00755)	futur(0.00620)	fast(0.00616)	sequenc(0.00535)	thriller(0.00499)	twist(0.00471)	evan(0.00466)	steven(0.00462)	pearc(0.00438)	kutcher(0.00431)	memento(0.00429)	teddi(0.00427)	dream(0.00424)	develop(0.00398)	tiger(0.00395)	knew(0.00382)	shot(0.00380)	matter(0.00376)	huge(0.00374)	theme(0.00363)	figur(0.00351)	intellig(0.00344)	impress(0.00336)	
+Topic 8(0.02475):	race(0.02453)	plane(0.01780)	frank(0.01725)	flight(0.01366)	bobbi(0.01193)	ferrel(0.01116)	hors(0.00935)	drive(0.00798)	night(0.00784)	driver(0.00643)	pilot(0.00622)	ricki(0.00604)	fast(0.00603)	voic(0.00549)	unit(0.00526)	footbal(0.00518)	kyle(0.00495)	washington(0.00491)	ride(0.00489)	daughter(0.00483)	addict(0.00466)	team(0.00459)	brian(0.00457)	brother(0.00410)	control(0.00410)	dumb(0.00398)	whip(0.00393)	hero(0.00392)	hear(0.00387)	paul(0.00382)	
+Topic 9(0.02526):	crow(0.01349)	russel(0.01151)	adam(0.01074)	sandler(0.01056)	luci(0.00948)	witch(0.00824)	drew(0.00809)	daughter(0.00722)	barrymor(0.00642)	connelli(0.00631)	golden(0.00624)	lewi(0.00612)	dream(0.00576)	mother(0.00544)	chronicl(0.00544)	battl(0.00527)	nash(0.00508)	bear(0.00480)	lion(0.00477)	princ(0.00467)	oscar(0.00437)	hollywood(0.00431)	romant(0.00405)	anim(0.00398)	caspian(0.00395)	ring(0.00395)	code(0.00392)	vega(0.00389)	barbara(0.00382)	comedi(0.00371)	
+Topic 10(0.02568):	potter(0.02824)	magic(0.01932)	ring(0.01607)	lord(0.01401)	anim(0.01280)	prison(0.00890)	wizard(0.00864)	tale(0.00798)	fiona(0.00757)	hogwart(0.00736)	black(0.00670)	fire(0.00655)	king(0.00634)	secret(0.00602)	evil(0.00594)	emma(0.00593)	princess(0.00592)	voic(0.00555)	favorit(0.00529)	professor(0.00527)	azkaban(0.00526)	return(0.00491)	daniel(0.00481)	princ(0.00455)	instal(0.00453)	watson(0.00453)	hermion(0.00441)	goblet(0.00441)	donkey(0.00431)	game(0.00423)	
+Topic 11(0.04941):	dead(0.02315)	hous(0.02000)	remak(0.01975)	halloween(0.01719)	michael(0.01660)	night(0.01189)	evil(0.01136)	gore(0.01118)	ghost(0.01042)	myer(0.00864)	town(0.00744)	blood(0.00688)	hill(0.00688)	game(0.00619)	genr(0.00586)	flick(0.00577)	lauri(0.00558)	killer(0.00543)	chainsaw(0.00527)	terror(0.00518)	romero(0.00514)	13th(0.00474)	dawn(0.00461)	suspens(0.00457)	atmospher(0.00455)	texa(0.00445)	tension(0.00434)	mask(0.00430)	witch(0.00403)	wood(0.00396)	
+Topic 12(0.02216):	quot(0.08526)	trek(0.03496)	quotth(0.02039)	kirk(0.01263)	crew(0.01123)	team(0.01084)	jess(0.01011)	khan(0.00876)	motion(0.00837)	jame(0.00740)	mission(0.00721)	contact(0.00691)	borg(0.00690)	quest(0.00583)	ship(0.00498)	episod(0.00489)	villain(0.00446)	earth(0.00445)	captain(0.00443)	futur(0.00443)	generat(0.00404)	televis(0.00388)	starship(0.00379)	robert(0.00370)	rest(0.00358)	save(0.00330)	pegg(0.00317)	side(0.00315)	sequenc(0.00313)	simpli(0.00310)	
+Topic 13(0.02056):	michael(0.02012)	godfath(0.01441)	brilliant(0.01291)	robert(0.01259)	collect(0.01241)	vietnam(0.00960)	busi(0.00886)	road(0.00814)	quiet(0.00686)	apocalyps(0.00681)	coppola(0.00624)	theme(0.00622)	niro(0.00586)	oscar(0.00581)	cinematographi(0.00577)	memor(0.00575)	surreal(0.00511)	support(0.00497)	brando(0.00479)	mafia(0.00479)	cult(0.00470)	father(0.00469)	cain(0.00459)	weird(0.00458)	amaz(0.00438)	hollywood(0.00425)	histori(0.00401)	full(0.00393)	deer(0.00381)	mend(0.00373)	
+Topic 14(0.02812):	drug(0.01812)	polit(0.01479)	citi(0.01358)	milk(0.01253)	black(0.01240)	white(0.01201)	district(0.00954)	violenc(0.00794)	countri(0.00769)	money(0.00535)	gang(0.00504)	polic(0.00471)	deal(0.00469)	shot(0.00438)	corrupt(0.00437)	toni(0.00420)	slum(0.00416)	violent(0.00392)	africa(0.00385)	camera(0.00383)	side(0.00375)	oscar(0.00375)	josh(0.00372)	garden(0.00367)	brother(0.00358)	brolin(0.00357)	support(0.00345)	penn(0.00330)	york(0.00329)	understand(0.00317)	
+Topic 15(0.03029):	jack(0.02324)	nicholson(0.01865)	robin(0.01361)	keaton(0.01001)	hitchcock(0.00898)	simpson(0.00673)	knight(0.00661)	hall(0.00623)	warren(0.00604)	citi(0.00581)	king(0.00575)	hood(0.00558)	return(0.00536)	bruce(0.00526)	gotham(0.00491)	wayn(0.00485)	bate(0.00477)	daughter(0.00469)	berri(0.00465)	michael(0.00415)	mother(0.00414)	anni(0.00403)	danni(0.00388)	oscar(0.00383)	decid(0.00369)	match(0.00368)	hank(0.00366)	kubrick(0.00357)	villain(0.00354)	marri(0.00352)	
+Topic 16(0.04262):	commentari(0.03085)	audio(0.02876)	edit(0.02867)	disc(0.02400)	digit(0.02050)	video(0.01938)	qualiti(0.01592)	featurett(0.01549)	delet(0.01338)	transfer(0.01307)	documentari(0.01274)	theatric(0.01197)	kbps(0.01175)	interview(0.01132)	scorses(0.00963)	track(0.00916)	spanish(0.00877)	rate(0.00762)	product(0.00754)	dolbi(0.00750)	rocki(0.00738)	size(0.00709)	bonus(0.00697)	subtitl(0.00639)	dicaprio(0.00628)	braddock(0.00576)	footag(0.00552)	kane(0.00530)	donni(0.00527)	master(0.00498)	
+Topic 17(0.02657):	moor(0.02258)	hank(0.01487)	hotel(0.01221)	case(0.00943)	charli(0.00884)	bush(0.00870)	countri(0.00828)	rose(0.00806)	polit(0.00770)	georg(0.00750)	nick(0.00699)	lawyer(0.00691)	michael(0.00591)	documentari(0.00581)	father(0.00579)	presid(0.00574)	robert(0.00545)	erin(0.00537)	cheadl(0.00516)	drama(0.00502)	paul(0.00494)	manag(0.00473)	support(0.00454)	industri(0.00450)	issu(0.00433)	tobacco(0.00421)	histori(0.00414)	side(0.00400)	columbin(0.00391)	heston(0.00379)	
+Topic 18(0.02094):	father(0.01334)	bone(0.00933)	rachel(0.00650)	daughter(0.00628)	mother(0.00587)	hous(0.00567)	heaven(0.00538)	rise(0.00536)	christoph(0.00488)	invis(0.00482)	walken(0.00453)	lisa(0.00443)	trick(0.00427)	theme(0.00424)	pool(0.00411)	futur(0.00405)	night(0.00397)	planet(0.00388)	cain(0.00377)	anim(0.00376)	scientist(0.00362)	save(0.00355)	thriller(0.00330)	basic(0.00320)	order(0.00312)	juli(0.00308)	caesar(0.00306)	swim(0.00299)	magician(0.00295)	dead(0.00295)	
+Topic 19(0.02737):	washington(0.01397)	citi(0.01343)	fire(0.00995)	virus(0.00972)	warm(0.00902)	york(0.00771)	train(0.00757)	jake(0.00722)	survivor(0.00682)	save(0.00680)	dragon(0.00647)	gore(0.00572)	hawk(0.00532)	street(0.00524)	tomorrow(0.00522)	london(0.00518)	denni(0.00483)	dead(0.00475)	quaid(0.00466)	militari(0.00460)	rage(0.00442)	week(0.00418)	walk(0.00414)	firefight(0.00401)	jack(0.00390)	scientist(0.00389)	tornado(0.00388)	cure(0.00388)	attack(0.00381)	spread(0.00369)	
+Topic 20(0.02286):	king(0.01445)	daniel(0.01423)	joel(0.01101)	carrey(0.00969)	paul(0.00867)	mist(0.00841)	monster(0.00810)	sunshin(0.00716)	knock(0.00688)	winslet(0.00668)	plainview(0.00638)	eras(0.00630)	monro(0.00619)	kate(0.00597)	clementin(0.00579)	daylewi(0.00540)	thoma(0.00510)	brilliant(0.00484)	william(0.00479)	oscar(0.00460)	decid(0.00446)	town(0.00440)	blood(0.00440)	forget(0.00430)	redempt(0.00387)	mark(0.00378)	darabont(0.00362)	theron(0.00361)	seth(0.00355)	frank(0.00351)	
+Topic 21(0.02315):	edward(0.01833)	transform(0.01542)	violenc(0.01319)	father(0.00919)	maria(0.00889)	twilight(0.00737)	tale(0.00669)	blood(0.00649)	illusionist(0.00624)	town(0.00616)	histori(0.00610)	paul(0.00600)	visual(0.00575)	princ(0.00531)	bulli(0.00472)	lang(0.00427)	prime(0.00423)	romanc(0.00420)	hugo(0.00415)	william(0.00413)	magic(0.00409)	inspector(0.00403)	teen(0.00389)	jessica(0.00384)	romant(0.00380)	truth(0.00372)	fish(0.00367)	giamatti(0.00358)	natur(0.00339)	bella(0.00337)	
+Topic 22(0.02456):	flick(0.02380)	hollywood(0.02182)	amazon(0.01484)	felt(0.01399)	product(0.01326)	piec(0.01079)	impress(0.00837)	half(0.00836)	understand(0.00828)	rate(0.00787)	hype(0.00786)	genr(0.00781)	simpli(0.00763)	list(0.00756)	rare(0.00681)	visual(0.00644)	today(0.00602)	serious(0.00597)	consid(0.00589)	shot(0.00567)	touch(0.00560)	clever(0.00557)	twist(0.00518)	appreci(0.00500)	agre(0.00489)	basic(0.00465)	lack(0.00464)	budget(0.00462)	graphic(0.00461)	money(0.00445)	
+Topic 23(0.02777):	thriller(0.01931)	killer(0.01857)	camera(0.01633)	bourn(0.01631)	matt(0.01425)	damon(0.01390)	room(0.01162)	silenc(0.01107)	jodi(0.01067)	suspens(0.01032)	lamb(0.00830)	ident(0.00769)	panic(0.00735)	victim(0.00722)	twist(0.00654)	robert(0.00613)	cell(0.00553)	dragon(0.00471)	eleven(0.00467)	polic(0.00442)	danni(0.00432)	case(0.00426)	daughter(0.00422)	money(0.00419)	graham(0.00408)	twelv(0.00403)	georg(0.00400)	manag(0.00388)	claric(0.00376)	plan(0.00348)	
+Topic 24(0.02058):	pitt(0.02171)	brad(0.02059)	christian(0.01895)	bale(0.01579)	player(0.00933)	club(0.00761)	manag(0.00723)	team(0.00664)	elliot(0.00609)	patrick(0.00608)	bean(0.00591)	wind(0.00515)	lose(0.00475)	bodi(0.00467)	lost(0.00466)	serious(0.00438)	night(0.00431)	talent(0.00429)	game(0.00419)	amaz(0.00415)	suspens(0.00411)	brilliant(0.00395)	fine(0.00382)	thriller(0.00378)	societi(0.00378)	money(0.00373)	visual(0.00367)	major(0.00363)	premis(0.00356)	consid(0.00351)	
+Topic 25(0.03458):	anim(0.02284)	pixar(0.01059)	voic(0.01043)	streep(0.01005)	andi(0.00960)	brook(0.00734)	nemo(0.00682)	night(0.00670)	meryl(0.00631)	rock(0.00600)	bird(0.00544)	marti(0.00524)	father(0.00489)	mother(0.00479)	oscar(0.00463)	william(0.00463)	fish(0.00421)	carl(0.00415)	sister(0.00414)	news(0.00400)	hoffman(0.00396)	killer(0.00385)	black(0.00385)	band(0.00375)	hous(0.00341)	shaw(0.00335)	doubt(0.00331)	larri(0.00326)	histori(0.00325)	talk(0.00325)	
+Topic 26(0.03245):	comedi(0.07959)	laugh(0.06130)	humor(0.03779)	hilari(0.03313)	joke(0.02527)	stiller(0.01390)	romant(0.01085)	black(0.01007)	stupid(0.00873)	owen(0.00775)	jack(0.00708)	model(0.00650)	male(0.00649)	amus(0.00622)	serious(0.00579)	derek(0.00490)	father(0.00488)	greg(0.00481)	loud(0.00473)	boss(0.00467)	hyster(0.00452)	favorit(0.00450)	quirki(0.00427)	zooland(0.00412)	robert(0.00407)	witti(0.00387)	marri(0.00385)	talent(0.00349)	white(0.00346)	hollywood(0.00341)	
+Topic 27(0.03858):	matrix(0.01751)	blade(0.01505)	termin(0.01396)	xmen(0.01103)	dracula(0.01078)	kong(0.00961)	cameron(0.00846)	monster(0.00706)	visual(0.00703)	sequenc(0.00659)	king(0.00604)	return(0.00560)	reev(0.00534)	battl(0.00515)	jame(0.00505)	mummi(0.00483)	creatur(0.00479)	avatar(0.00465)	hels(0.00461)	kate(0.00446)	keanu(0.00440)	titan(0.00420)	futur(0.00420)	wolverin(0.00409)	jackman(0.00408)	werewolv(0.00405)	werewolf(0.00405)	beast(0.00405)	hugh(0.00386)	revolut(0.00369)	
+Topic 28(0.03725):	battl(0.02283)	soldier(0.01419)	king(0.01411)	alexand(0.01242)	histor(0.00962)	armi(0.00812)	histori(0.00786)	epic(0.00772)	hitler(0.00667)	miller(0.00591)	mile(0.00568)	oliv(0.00543)	general(0.00537)	japanes(0.00477)	spartan(0.00441)	troy(0.00432)	wine(0.00422)	privat(0.00414)	gladiat(0.00409)	millionair(0.00391)	roman(0.00387)	countri(0.00385)	militari(0.00362)	gibson(0.00362)	hero(0.00357)	save(0.00343)	father(0.00341)	combat(0.00336)	jack(0.00336)	graphic(0.00333)	
+Topic 29(0.02172):	michael(0.01301)	bank(0.01252)	foxx(0.01231)	mann(0.01204)	brother(0.01066)	public(0.01021)	heat(0.00967)	cage(0.00838)	jami(0.00823)	dream(0.00783)	depp(0.00738)	billi(0.00672)	chicago(0.00587)	tale(0.00564)	vice(0.00533)	collater(0.00511)	miami(0.00494)	robber(0.00459)	gilliam(0.00455)	terri(0.00435)	rabbit(0.00424)	thriller(0.00410)	money(0.00386)	johnni(0.00371)	cinematographi(0.00370)	night(0.00367)	town(0.00365)	shot(0.00348)	edit(0.00346)	frank(0.00342)	
+Topic 30(0.03220):	bruce(0.01942)	willi(0.01544)	terrorist(0.01219)	govern(0.00989)	team(0.00753)	phone(0.00629)	polic(0.00610)	farrel(0.00610)	recal(0.00567)	attack(0.00564)	mcclane(0.00562)	dream(0.00556)	unit(0.00555)	total(0.00528)	bomb(0.00521)	presid(0.00519)	secret(0.00490)	polit(0.00487)	carrey(0.00466)	system(0.00454)	countri(0.00451)	mission(0.00430)	hero(0.00415)	borat(0.00403)	plan(0.00403)	free(0.00393)	build(0.00391)	hurt(0.00384)	terror(0.00379)	thriller(0.00360)	
+Topic 31(0.03790):	earth(0.02647)	ship(0.02010)	robot(0.01844)	planet(0.01687)	predat(0.01264)	crew(0.01213)	pirat(0.01088)	captain(0.00941)	mission(0.00687)	jack(0.00686)	destroy(0.00582)	moon(0.00565)	fiction(0.00521)	creatur(0.00521)	david(0.00510)	black(0.00485)	wall(0.00474)	technolog(0.00444)	save(0.00436)	visual(0.00426)	klaatu(0.00423)	land(0.00395)	scientist(0.00393)	militari(0.00387)	dead(0.00387)	water(0.00361)	team(0.00360)	depp(0.00344)	spaceship(0.00338)	giant(0.00327)	
+Topic 32(0.03947):	bond(0.05399)	song(0.01667)	jame(0.01431)	johnni(0.01425)	depp(0.01398)	hulk(0.01203)	sing(0.01113)	iron(0.00852)	penguin(0.00731)	casino(0.00708)	royal(0.00664)	danc(0.00608)	chocol(0.00597)	todd(0.00555)	aveng(0.00553)	cash(0.00539)	villain(0.00506)	brosnan(0.00474)	wood(0.00468)	captain(0.00459)	carter(0.00459)	charli(0.00447)	conneri(0.00418)	sweeney(0.00416)	roger(0.00413)	willi(0.00411)	secret(0.00382)	sequenc(0.00380)	barri(0.00369)	thor(0.00365)	
+Topic 33(0.03955):	bore(0.04373)	rent(0.02420)	wast(0.02213)	hate(0.01574)	total(0.01564)	slow(0.01501)	stupid(0.01362)	money(0.01343)	talk(0.01291)	cool(0.01181)	suck(0.01178)	wait(0.01113)	horribl(0.00912)	dull(0.00872)	serious(0.00829)	pace(0.00795)	type(0.00738)	averag(0.00737)	wors(0.00732)	drag(0.00713)	confus(0.00695)	glad(0.00690)	flat(0.00687)	lame(0.00640)	kinda(0.00637)	flick(0.00635)	half(0.00634)	alot(0.00628)	bunch(0.00620)	fail(0.00599)	
+Topic 34(0.02481):	jone(0.03732)	indiana(0.01801)	treasur(0.01707)	ford(0.01671)	indi(0.01246)	harrison(0.01059)	cage(0.00987)	raider(0.00982)	clue(0.00927)	lost(0.00805)	ryan(0.00758)	nazi(0.00736)	gate(0.00583)	father(0.00566)	secret(0.00559)	hero(0.00556)	jack(0.00546)	hunt(0.00542)	sequenc(0.00539)	sean(0.00525)	tommi(0.00509)	conneri(0.00505)	game(0.00498)	doom(0.00487)	templ(0.00474)	russian(0.00449)	polanski(0.00445)	lara(0.00445)	soviet(0.00438)	crystal(0.00432)	
+237 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/1/...
+235 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/0/...
+248 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/2/...
+251 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/3/...
+240 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 1: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 7680, review size: 26309, item size: 838, user size: 835
+train size = 21478, test size = 4831....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 21478, item size: 750, user size: 743
+ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8691053.69, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-8266963.78, converge to 0.00093241
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-8227071.76, converge to 0.00027910
+[Info]Finish E-Step: 21 iteration, likelihood: -8227071.7596
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -8227071.76, converges to 8227072.75963642...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8223751.76, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-8210599.14, converge to 0.00012668
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-8202713.21, converge to 0.00008101
+[Info]Finish E-Step: 21 iteration, likelihood: -8202713.2124
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -8202713.21, converges to 0.00296078...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8200528.79, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-8188484.64, converge to 0.00008027
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-8184191.31, converge to 0.00003800
+[Info]Finish E-Step: 21 iteration, likelihood: -8184191.3079
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -8184191.31, converges to 0.00225802...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8177501.72, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-8140764.63, converge to 0.00020824
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-8132582.61, converge to 0.00006116
+[Info]Finish E-Step: 21 iteration, likelihood: -8132582.6123
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -8132582.61, converges to 0.00630590...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8102342.35, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-8049579.90, converge to 0.00019469
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-8041990.59, converge to 0.00005961
+[Info]Finish E-Step: 21 iteration, likelihood: -8041990.5880
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -8041990.59, converges to 0.01113939...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7996060.66, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7949667.86, converge to 0.00020662
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7942685.00, converge to 0.00005660
+[Info]Finish E-Step: 21 iteration, likelihood: -7942684.9960
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -7942685.00, converges to 0.01234838...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7890888.08, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7833913.93, converge to 0.00024808
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7825882.42, converge to 0.00005787
+[Info]Finish E-Step: 21 iteration, likelihood: -7825882.4166
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -7825882.42, converges to 0.01470568...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7757105.05, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7692025.32, converge to 0.00024595
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7683655.36, converge to 0.00006156
+[Info]Finish E-Step: 21 iteration, likelihood: -7683655.3610
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -7683655.36, converges to 0.01817393...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7598301.29, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7552093.26, converge to 0.00014061
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7547385.46, converge to 0.00003569
+[Info]Finish E-Step: 21 iteration, likelihood: -7547385.4605
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -7547385.46, converges to 0.01773504...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7475344.61, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7458084.03, converge to 0.00005776
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7456208.95, converge to 0.00001418
+[Info]Finish E-Step: 21 iteration, likelihood: -7456208.9547
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -7456208.95, converges to 0.01208054...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7415527.68, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7409517.07, converge to 0.00002246
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7409099.87, converge to 0.00000205
+[Info]Finish E-Step: 21 iteration, likelihood: -7409099.8679
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -7409099.87, converges to 0.00631810...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7383863.16, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7381170.00, converge to 0.00000565
+[Info]Finish E-Step: 13 iteration, likelihood: -7381095.2685
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -7381095.27, converges to 0.00377976...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7362955.94, converge to 1.00000000
+[Info]Finish E-Step: 8 iteration, likelihood: -7361778.3498
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -7361778.35, converges to 0.00261708...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7348442.97, converge to 1.00000000
+[Info]Finish E-Step: 7 iteration, likelihood: -7347891.4228
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -7347891.42, converges to 0.00188635...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7337712.09, converge to 1.00000000
+[Info]Finish E-Step: 7 iteration, likelihood: -7337553.6305
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -7337553.63, converges to 0.00140691...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7329219.22, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -7329565.1259
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -7329565.13, converges to 0.00108871...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7322491.67, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7323078.31, converge to 0.00000470
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7323299.43, converge to 0.00000209
+[Info]Finish E-Step: 21 iteration, likelihood: -7323299.4347
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -7323299.43, converges to 0.00085485...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7317598.96, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7318322.31, converge to 0.00000347
+[Info]Finish E-Step: 17 iteration, likelihood: -7318408.1887
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -7318408.19, converges to 0.00066790...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7314120.14, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7314759.89, converge to 0.00000283
+[Info]Finish E-Step: 17 iteration, likelihood: -7314846.3772
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -7314846.38, converges to 0.00048669...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7311461.09, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7312197.77, converge to 0.00000272
+[Info]Finish E-Step: 18 iteration, likelihood: -7312282.4306
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -7312282.43, converges to 0.00035051...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7309709.70, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7310326.42, converge to 0.00000248
+[Info]Finish E-Step: 18 iteration, likelihood: -7310411.1413
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -7310411.14, converges to 0.00025591...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7308206.62, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7308821.30, converge to 0.00000242
+[Info]Finish E-Step: 14 iteration, likelihood: -7308860.8849
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -7308860.88, converges to 0.00021206...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7306909.71, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7307483.70, converge to 0.00000209
+[Info]Finish E-Step: 14 iteration, likelihood: -7307517.0591
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -7307517.06, converges to 0.00018386...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7305515.63, converge to 1.00000000
+[Info]Finish E-Step: 8 iteration, likelihood: -7305845.7357
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -7305845.74, converges to 0.00022871...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7303628.04, converge to 1.00000000
+[Info]Finish E-Step: 2 iteration, likelihood: -7303690.3059
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -7303690.31, converges to 0.00029503...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7301810.27, converge to 1.00000000
+[Info]Finish E-Step: 2 iteration, likelihood: -7301765.3951
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -7301765.40, converges to 0.00026355...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7299916.84, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -7300337.3278
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -7300337.33, converges to 0.00019558...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7298615.52, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7299039.65, converge to 0.00000188
+[Info]Finish E-Step: 15 iteration, likelihood: -7299083.2359
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -7299083.24, converges to 0.00017179...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7297719.37, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7298127.84, converge to 0.00000169
+[Info]Finish E-Step: 13 iteration, likelihood: -7298164.4564
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -7298164.46, converges to 0.00012588...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 4831, item size: 245, user size: 237
+[Info]Start evaluation in thread
+---likelihood: -1733663.7896827247
+---likelihood: -1725901.8573096222
+---likelihood: -1720258.9919773384
+---likelihood: -1716282.5008402236
+---likelihood: -1713110.7520644933
+---likelihood: -1710804.12120743
+---likelihood: -1708851.602623485
+---likelihood: -1707241.0377196632
+---likelihood: -1706026.9692477414
+---likelihood: -1705191.5583280455
+---likelihood: -1703847.0326031917
+---likelihood: -1703231.28870531
+---likelihood: -1702510.5214528698
+---likelihood: -1701822.5951164046
+---likelihood: -1701358.3908982417
+---likelihood: -1700984.287365825
+---likelihood: -1700569.7865369378
+---likelihood: -1700034.1833055988
+---likelihood: -1699739.964131229
+---likelihood: -1699429.4636368176
+---likelihood: -1699175.2361956937
+[Info]Inference finished: likelihood: -1699175.2362
+[Stat]Test evaluation finished: 4831 docs
+[Stat]0 part has 752.000000 docs: perplexity is 1422.194 and log-likelihood is -356.645
+[Stat]1 part has 1116.000000 docs: perplexity is 1262.429 and log-likelihood is -358.806
+[Stat]2 part has 1144.000000 docs: perplexity is 1579.966 and log-likelihood is -342.950
+[Stat]3 part has 1819.000000 docs: perplexity is 1268.350 and log-likelihood is -352.033
+[Stat]4 part has 4831.000000 docs: perplexity is 1343.261 and log-likelihood is -351.723
+[Info]ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 3379.06 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/output/5foldsCVColdstart/1/ETBIR_topWords_35.txt
+Topic 0(0.02589):	drug(0.02572)	hank(0.01947)	affleck(0.01754)	washington(0.01543)	addict(0.00876)	flight(0.00788)	countri(0.00657)	plane(0.00652)	termin(0.00649)	unit(0.00623)	situat(0.00606)	hollywood(0.00558)	toni(0.00516)	understand(0.00509)	alcohol(0.00487)	pilot(0.00439)	case(0.00431)	save(0.00428)	doug(0.00400)	polic(0.00392)	gump(0.00391)	argo(0.00390)	deal(0.00370)	whip(0.00359)	oscar(0.00358)	lose(0.00351)	drama(0.00344)	hitchcock(0.00337)	money(0.00329)	lawyer(0.00322)	
+Topic 1(0.02346):	doctor(0.01141)	edward(0.01137)	amin(0.01071)	toro(0.01041)	forest(0.00937)	father(0.00897)	nichola(0.00787)	tale(0.00751)	blood(0.00744)	werewolv(0.00679)	twilight(0.00676)	werewolf(0.00660)	brother(0.00651)	wolf(0.00607)	whitak(0.00534)	king(0.00485)	mother(0.00484)	bulli(0.00472)	night(0.00441)	strang(0.00435)	imagin(0.00418)	oscar(0.00418)	wolfman(0.00397)	scotland(0.00383)	oskar(0.00367)	full(0.00367)	natur(0.00367)	brutal(0.00357)	dictat(0.00342)	develop(0.00338)	
+Topic 2(0.02689):	spiderman(0.02663)	peter(0.02137)	superhero(0.01907)	hero(0.01771)	return(0.01296)	reev(0.01109)	villain(0.01025)	lane(0.00838)	spacey(0.00737)	christoph(0.00732)	kevin(0.00715)	save(0.00689)	mari(0.00627)	violenc(0.00618)	raimi(0.00586)	amaz(0.00566)	singer(0.00545)	jane(0.00537)	luthor(0.00514)	kent(0.00451)	richard(0.00427)	father(0.00423)	sequenc(0.00423)	planet(0.00421)	graphic(0.00411)	earth(0.00405)	routh(0.00375)	jame(0.00364)	histori(0.00350)	evil(0.00344)	
+Topic 3(0.02876):	moor(0.01596)	cage(0.01390)	treasur(0.01203)	countri(0.00634)	histori(0.00633)	clue(0.00624)	code(0.00574)	violenc(0.00534)	black(0.00528)	michael(0.00526)	govern(0.00497)	documentari(0.00485)	gate(0.00474)	hunter(0.00460)	polit(0.00450)	side(0.00439)	secret(0.00410)	brother(0.00397)	weapon(0.00394)	west(0.00391)	hous(0.00391)	leon(0.00385)	africa(0.00384)	issu(0.00379)	white(0.00378)	shot(0.00363)	sell(0.00352)	societi(0.00347)	bush(0.00337)	deal(0.00335)	
+Topic 4(0.02421):	king(0.02724)	kidman(0.02153)	nicol(0.01423)	georg(0.01078)	secret(0.01069)	speech(0.00862)	interpret(0.00752)	golden(0.00647)	invas(0.00636)	sean(0.00556)	thriller(0.00517)	penn(0.00514)	husband(0.00501)	carter(0.00436)	shooter(0.00433)	redempt(0.00426)	strang(0.00410)	depp(0.00401)	suspens(0.00391)	polit(0.00391)	simpli(0.00380)	east(0.00376)	bear(0.00376)	intellig(0.00371)	tale(0.00363)	pearc(0.00353)	rush(0.00344)	twist(0.00332)	duke(0.00328)	pace(0.00326)	
+Topic 5(0.02157):	potter(0.03756)	magic(0.02566)	prison(0.01652)	professor(0.01071)	emma(0.01051)	lord(0.00991)	hogwart(0.00991)	black(0.00887)	wizard(0.00882)	order(0.00879)	student(0.00833)	daniel(0.00812)	fire(0.00765)	fienn(0.00701)	ralph(0.00685)	secret(0.00673)	watson(0.00642)	azkaban(0.00622)	hermion(0.00614)	voldemort(0.00587)	darker(0.00577)	goblet(0.00539)	michael(0.00537)	instal(0.00532)	david(0.00496)	richard(0.00491)	rupert(0.00477)	matur(0.00475)	favorit(0.00473)	grow(0.00469)	
+Topic 6(0.02118):	depp(0.01910)	robert(0.01349)	todd(0.01312)	johnni(0.01308)	judg(0.01228)	sweeney(0.00895)	sing(0.00700)	reveng(0.00642)	altman(0.00635)	carter(0.00627)	rich(0.00536)	blood(0.00512)	song(0.00469)	london(0.00463)	brilliant(0.00442)	sleepi(0.00424)	imagin(0.00420)	amaz(0.00418)	secret(0.00416)	opera(0.00415)	daughter(0.00415)	michell(0.00396)	oscar(0.00392)	drama(0.00384)	doubt(0.00377)	eric(0.00377)	soap(0.00376)	favorit(0.00376)	product(0.00372)	comedi(0.00371)	
+Topic 7(0.02383):	island(0.02787)	park(0.02594)	laugh(0.02247)	joke(0.01957)	episod(0.01877)	favorit(0.01347)	simpson(0.01270)	humor(0.01206)	lost(0.01151)	season(0.01039)	peter(0.00928)	wait(0.00760)	anim(0.00736)	third(0.00690)	hilari(0.00599)	televis(0.00578)	collect(0.00564)	rest(0.00554)	twist(0.00514)	pick(0.00496)	voic(0.00475)	bought(0.00474)	town(0.00445)	kutcher(0.00436)	talk(0.00422)	ride(0.00409)	comedi(0.00409)	loud(0.00408)	creator(0.00404)	weak(0.00399)	
+Topic 8(0.02902):	texa(0.01285)	food(0.01187)	father(0.01002)	chainsaw(0.00914)	hotel(0.00852)	road(0.00814)	massacr(0.00807)	remak(0.00769)	footbal(0.00678)	mill(0.00646)	paul(0.00578)	fast(0.00572)	creeper(0.00553)	demon(0.00509)	erin(0.00494)	illusionist(0.00480)	leatherfac(0.00479)	neeson(0.00476)	case(0.00474)	daughter(0.00454)	manag(0.00444)	mcdonald(0.00425)	hous(0.00412)	cheadl(0.00406)	biel(0.00401)	drive(0.00398)	possess(0.00390)	jessica(0.00388)	night(0.00385)	player(0.00381)	
+Topic 9(0.02389):	jone(0.03046)	ford(0.02054)	presid(0.01360)	indiana(0.01223)	harrison(0.01086)	milk(0.01085)	district(0.01083)	polit(0.00953)	indi(0.00884)	black(0.00687)	georg(0.00675)	tommi(0.00639)	theron(0.00569)	white(0.00545)	bush(0.00535)	crystal(0.00447)	support(0.00435)	shot(0.00425)	night(0.00402)	sean(0.00393)	histori(0.00390)	penn(0.00378)	oscar(0.00359)	focus(0.00346)	steven(0.00342)	charliz(0.00335)	hero(0.00330)	sant(0.00315)	david(0.00305)	luck(0.00304)	
+Topic 10(0.02451):	bond(0.08278)	jame(0.03554)	royal(0.01568)	casino(0.00995)	queen(0.00987)	conneri(0.00850)	jess(0.00771)	daniel(0.00770)	villain(0.00654)	joli(0.00648)	secret(0.00648)	brosnan(0.00610)	sequenc(0.00595)	sean(0.00566)	quantum(0.00535)	ryan(0.00530)	diana(0.00522)	pierc(0.00520)	russian(0.00485)	hunt(0.00468)	soviet(0.00453)	plan(0.00450)	nuclear(0.00447)	game(0.00444)	blair(0.00429)	ghost(0.00406)	gold(0.00405)	jack(0.00401)	edit(0.00380)	cold(0.00377)	
+Topic 11(0.03982):	crow(0.01165)	hugh(0.01045)	oscar(0.01038)	dicaprio(0.00934)	rocki(0.00864)	damon(0.00787)	scorses(0.00777)	gang(0.00734)	matt(0.00734)	maggi(0.00646)	support(0.00632)	russel(0.00587)	train(0.00568)	daniel(0.00553)	nash(0.00553)	braddock(0.00535)	frank(0.00516)	leonardo(0.00507)	babi(0.00482)	aviat(0.00456)	award(0.00448)	dollar(0.00446)	york(0.00446)	hollywood(0.00440)	polic(0.00439)	niro(0.00436)	brilliant(0.00424)	father(0.00410)	nicholson(0.00385)	academi(0.00353)	
+Topic 12(0.02166):	kate(0.02084)	carrey(0.01832)	sunshin(0.01571)	danni(0.01466)	winslet(0.01295)	joel(0.01216)	boyl(0.01083)	brilliant(0.00925)	michael(0.00805)	eras(0.00699)	truman(0.00686)	william(0.00678)	clementin(0.00670)	mark(0.00662)	comedi(0.00616)	affair(0.00583)	wood(0.00555)	cinematographi(0.00546)	decid(0.00532)	creativ(0.00525)	drama(0.00513)	oscar(0.00492)	pain(0.00490)	process(0.00483)	edit(0.00470)	peter(0.00447)	talent(0.00438)	photo(0.00424)	develop(0.00422)	forget(0.00420)	
+Topic 13(0.03061):	predat(0.02004)	killer(0.01829)	game(0.01298)	blade(0.01070)	room(0.00988)	rock(0.00962)	silent(0.00650)	brook(0.00644)	david(0.00621)	hous(0.00620)	hill(0.00595)	marti(0.00574)	mother(0.00533)	hoffman(0.00509)	phone(0.00491)	victim(0.00475)	daughter(0.00455)	rose(0.00453)	band(0.00431)	black(0.00429)	town(0.00428)	costner(0.00413)	father(0.00408)	neighbor(0.00402)	jigsaw(0.00380)	sister(0.00375)	video(0.00363)	stab(0.00363)	william(0.00359)	rosemari(0.00342)	
+Topic 14(0.02747):	race(0.01961)	comedi(0.01695)	ferrel(0.01286)	laugh(0.01281)	drive(0.00829)	bobbi(0.00820)	voic(0.00765)	driver(0.00737)	michael(0.00721)	hilari(0.00686)	klaatu(0.00669)	humor(0.00584)	night(0.00580)	fast(0.00564)	ricki(0.00552)	nick(0.00538)	ride(0.00529)	borat(0.00518)	wive(0.00453)	tobacco(0.00436)	figur(0.00436)	fiction(0.00426)	joke(0.00405)	brother(0.00394)	paul(0.00388)	hear(0.00376)	team(0.00371)	stepford(0.00370)	town(0.00365)	dumb(0.00361)	
+Topic 15(0.02231):	quot(0.09106)	quotth(0.02170)	cultur(0.01159)	father(0.00961)	femal(0.00820)	male(0.00798)	today(0.00699)	mother(0.00616)	theme(0.00613)	whale(0.00593)	generat(0.00547)	grandfath(0.00542)	understand(0.00533)	touch(0.00486)	matter(0.00484)	simpli(0.00473)	rider(0.00452)	soundtrack(0.00452)	overcom(0.00436)	babi(0.00415)	tale(0.00407)	hollywood(0.00405)	robinson(0.00403)	serious(0.00402)	born(0.00402)	consid(0.00398)	natur(0.00397)	deal(0.00383)	impress(0.00371)	lost(0.00369)	
+Topic 16(0.02689):	bruce(0.02217)	transform(0.02164)	wayn(0.01764)	bale(0.01752)	robot(0.01728)	christian(0.01580)	citi(0.01567)	michael(0.01533)	knight(0.00989)	gotham(0.00930)	christoph(0.00868)	cain(0.00761)	villain(0.00733)	alfr(0.00699)	fear(0.00544)	morgan(0.00534)	return(0.00530)	robin(0.00523)	holm(0.00513)	neeson(0.00475)	liam(0.00457)	evil(0.00438)	train(0.00432)	sequenc(0.00426)	gari(0.00418)	rachel(0.00408)	kati(0.00386)	serious(0.00385)	gordon(0.00384)	insomnia(0.00371)	
+Topic 17(0.02275):	thriller(0.03778)	suspens(0.01826)	polit(0.01749)	frank(0.01659)	dragon(0.01647)	silenc(0.01424)	killer(0.01155)	streep(0.01104)	shaw(0.01068)	lamb(0.00985)	remak(0.00956)	candid(0.00775)	meryl(0.00764)	case(0.00742)	deliv(0.00632)	cold(0.00631)	major(0.00592)	tattoo(0.00570)	washington(0.00551)	mother(0.00542)	pace(0.00482)	brilliant(0.00475)	twist(0.00474)	terrif(0.00459)	claric(0.00456)	marco(0.00436)	intens(0.00430)	oscar(0.00425)	thoma(0.00421)	compar(0.00420)	
+Topic 18(0.02467):	brother(0.01912)	coen(0.01142)	donni(0.01024)	dude(0.00992)	promis(0.00884)	watt(0.00835)	naomi(0.00646)	russian(0.00638)	violenc(0.00614)	anna(0.00579)	countri(0.00538)	rabbit(0.00538)	dream(0.00530)	money(0.00522)	walter(0.00512)	jeff(0.00506)	diari(0.00500)	strang(0.00457)	david(0.00455)	darko(0.00450)	ladi(0.00418)	hall(0.00412)	jackman(0.00409)	understand(0.00396)	brilliant(0.00383)	frank(0.00382)	twist(0.00367)	weird(0.00362)	comedi(0.00357)	viggo(0.00352)	
+Topic 19(0.03874):	comedi(0.03105)	jack(0.02743)	andi(0.01269)	laugh(0.01214)	romant(0.01003)	stiller(0.00985)	foxx(0.00795)	nicholson(0.00778)	hilari(0.00761)	mile(0.00759)	mountain(0.00728)	night(0.00726)	humor(0.00719)	paul(0.00560)	wine(0.00474)	marri(0.00451)	cold(0.00441)	romanc(0.00395)	trip(0.00389)	william(0.00380)	jami(0.00379)	larri(0.00363)	father(0.00351)	joke(0.00349)	anni(0.00348)	boss(0.00343)	daughter(0.00335)	model(0.00325)	wear(0.00318)	support(0.00317)	
+Topic 20(0.03974):	bore(0.04107)	wast(0.02174)	rent(0.02108)	hate(0.02058)	stupid(0.01970)	money(0.01633)	total(0.01576)	flick(0.01334)	hollywood(0.01169)	serious(0.01124)	felt(0.01093)	suck(0.01043)	slow(0.00954)	horribl(0.00829)	mess(0.00800)	lame(0.00789)	alot(0.00787)	bunch(0.00776)	wait(0.00763)	half(0.00760)	dull(0.00703)	save(0.00695)	type(0.00640)	talk(0.00636)	basic(0.00602)	fail(0.00587)	rate(0.00585)	crap(0.00574)	theatr(0.00571)	amazon(0.00570)	
+Topic 21(0.03779):	battl(0.02557)	soldier(0.01683)	king(0.01319)	histor(0.01129)	alexand(0.01071)	histori(0.01013)	armi(0.00866)	epic(0.00853)	hitler(0.00738)	japanes(0.00659)	troy(0.00616)	general(0.00599)	robin(0.00588)	hero(0.00521)	militari(0.00488)	miller(0.00463)	save(0.00440)	side(0.00433)	spartan(0.00427)	hood(0.00397)	flag(0.00383)	father(0.00366)	gibson(0.00358)	privat(0.00342)	combat(0.00339)	graphic(0.00332)	vietnam(0.00331)	order(0.00316)	roman(0.00308)	persian(0.00308)	
+Topic 22(0.02404):	monster(0.05191)	creatur(0.03392)	camera(0.01561)	virus(0.01051)	attack(0.00955)	citi(0.00944)	host(0.00713)	bird(0.00606)	militari(0.00591)	survivor(0.00585)	shot(0.00568)	week(0.00521)	fear(0.00501)	night(0.00477)	cave(0.00435)	build(0.00419)	beast(0.00418)	suspens(0.00399)	robert(0.00391)	fast(0.00386)	strang(0.00385)	rage(0.00377)	armi(0.00376)	cloverfield(0.00370)	govern(0.00368)	anim(0.00361)	giant(0.00356)	elliot(0.00353)	york(0.00342)	flick(0.00335)	
+Topic 23(0.02842):	pirat(0.02066)	xmen(0.01722)	hulk(0.01470)	captain(0.01242)	jack(0.01108)	depp(0.01043)	johnni(0.01013)	sparrow(0.00739)	dead(0.00706)	jone(0.00645)	aveng(0.00641)	caribbean(0.00620)	doom(0.00609)	hero(0.00577)	daredevil(0.00577)	davi(0.00566)	wolverin(0.00561)	black(0.00529)	thor(0.00508)	villain(0.00506)	return(0.00488)	sequenc(0.00463)	victor(0.00461)	invis(0.00458)	bloom(0.00447)	curs(0.00446)	cure(0.00444)	crew(0.00435)	richard(0.00424)	rick(0.00410)	
+Topic 24(0.02524):	futur(0.03117)	kubrick(0.01750)	david(0.01537)	visual(0.01339)	alex(0.01013)	societi(0.00913)	robot(0.00813)	vision(0.00602)	imagin(0.00586)	blue(0.00582)	fiction(0.00580)	technolog(0.00547)	theme(0.00490)	simpli(0.00461)	intellig(0.00456)	piec(0.00456)	dream(0.00439)	minor(0.00431)	orang(0.00426)	stun(0.00426)	citi(0.00404)	sequenc(0.00397)	imag(0.00388)	shot(0.00370)	free(0.00361)	system(0.00360)	clockwork(0.00360)	odyssey(0.00349)	project(0.00342)	impress(0.00335)	
+Topic 25(0.02418):	daughter(0.02559)	pitt(0.01918)	brad(0.01875)	thriller(0.01446)	plane(0.01344)	team(0.01118)	jodi(0.01082)	kyle(0.00957)	manag(0.00906)	bank(0.00882)	bean(0.00815)	player(0.00803)	billi(0.00777)	room(0.00757)	hous(0.00732)	husband(0.00705)	mother(0.00585)	black(0.00583)	flight(0.00563)	panic(0.00560)	suspens(0.00525)	build(0.00503)	game(0.00496)	peter(0.00490)	skeleton(0.00473)	water(0.00463)	money(0.00456)	search(0.00454)	hudson(0.00445)	dahlia(0.00443)	
+Topic 26(0.02750):	willi(0.02657)	matrix(0.02235)	charli(0.01295)	bruce(0.01282)	recal(0.00857)	chocol(0.00814)	total(0.00728)	mcclane(0.00701)	comput(0.00683)	team(0.00647)	terrorist(0.00619)	sequenc(0.00600)	revolut(0.00581)	reev(0.00579)	visual(0.00541)	keanu(0.00522)	free(0.00504)	citi(0.00489)	farrel(0.00474)	dream(0.00469)	schwarzenegg(0.00467)	plan(0.00427)	amaz(0.00420)	cool(0.00379)	hacker(0.00356)	morpheus(0.00344)	polic(0.00343)	weav(0.00342)	swat(0.00331)	villain(0.00329)	
+Topic 27(0.04243):	dead(0.02842)	hous(0.02375)	michael(0.02072)	remak(0.01789)	halloween(0.01609)	evil(0.01311)	night(0.01294)	ghost(0.01013)	gore(0.00935)	myer(0.00890)	flick(0.00743)	dawn(0.00660)	town(0.00650)	lauri(0.00615)	genr(0.00597)	romero(0.00566)	georg(0.00558)	blood(0.00529)	suspens(0.00477)	hell(0.00430)	return(0.00428)	jami(0.00424)	mask(0.00423)	13th(0.00403)	killer(0.00396)	atmospher(0.00372)	resid(0.00368)	fear(0.00366)	jump(0.00360)	amityvill(0.00360)	
+Topic 28(0.04922):	anim(0.02993)	audio(0.02288)	commentari(0.01923)	disc(0.01741)	digit(0.01636)	edit(0.01472)	video(0.01436)	featurett(0.01018)	kbps(0.00911)	qualiti(0.00903)	voic(0.00888)	king(0.00870)	delet(0.00840)	theatric(0.00822)	documentari(0.00716)	spanish(0.00713)	kong(0.00668)	pixar(0.00661)	product(0.00630)	track(0.00630)	white(0.00620)	transfer(0.00599)	visual(0.00590)	witch(0.00570)	dolbi(0.00569)	talk(0.00567)	interview(0.00560)	rate(0.00557)	amaz(0.00513)	size(0.00504)	
+Topic 29(0.03798):	song(0.01609)	danc(0.01138)	cameron(0.01083)	sing(0.00963)	mari(0.00845)	dracula(0.00828)	avatar(0.00760)	edit(0.00653)	jame(0.00556)	maria(0.00551)	godfath(0.00517)	barri(0.00487)	product(0.00457)	number(0.00444)	coppola(0.00443)	holli(0.00440)	termin(0.00433)	richard(0.00426)	hels(0.00415)	traci(0.00390)	interview(0.00390)	juli(0.00388)	luci(0.00386)	barrymor(0.00378)	michael(0.00366)	award(0.00361)	talent(0.00357)	mother(0.00357)	alex(0.00347)	robert(0.00338)	
+Topic 30(0.02655):	earth(0.02242)	scientist(0.01304)	warm(0.01145)	save(0.01063)	planet(0.01054)	york(0.00838)	water(0.00756)	citi(0.00702)	independ(0.00690)	ship(0.00686)	tomorrow(0.00607)	presid(0.00600)	visual(0.00589)	wave(0.00576)	gore(0.00567)	rise(0.00554)	giant(0.00551)	scientif(0.00539)	quaid(0.00499)	destroy(0.00496)	core(0.00483)	deep(0.00468)	militari(0.00441)	poseidon(0.00433)	denni(0.00432)	popcorn(0.00431)	jake(0.00415)	roland(0.00405)	captain(0.00403)	sequenc(0.00373)	
+Topic 31(0.02436):	bill(0.04767)	fiction(0.02373)	violenc(0.02190)	pulp(0.01164)	violent(0.00951)	blood(0.00915)	volum(0.00910)	bride(0.00902)	reveng(0.00888)	brown(0.00835)	translat(0.00792)	soundtrack(0.00763)	half(0.00666)	lost(0.00664)	thurman(0.00654)	genr(0.00610)	white(0.00606)	flick(0.00581)	shot(0.00581)	robert(0.00547)	sequenc(0.00529)	edit(0.00528)	list(0.00527)	black(0.00494)	dialog(0.00489)	dead(0.00455)	graphic(0.00448)	cool(0.00430)	visual(0.00428)	humor(0.00416)	
+Topic 32(0.02046):	fire(0.02353)	half(0.01191)	mike(0.01122)	cool(0.01053)	dirti(0.00926)	pitch(0.00901)	black(0.00883)	proof(0.00846)	ryan(0.00798)	situat(0.00722)	firefight(0.00617)	jack(0.00553)	develop(0.00539)	humor(0.00529)	tough(0.00521)	sequenc(0.00507)	flick(0.00495)	rebecca(0.00479)	trap(0.00444)	burn(0.00440)	shot(0.00421)	build(0.00420)	hero(0.00418)	rest(0.00414)	ladder(0.00397)	danger(0.00394)	risk(0.00392)	impress(0.00390)	understand(0.00390)	imagin(0.00369)	
+Topic 33(0.02953):	iron(0.02011)	villag(0.01689)	shyamalan(0.01104)	night(0.00966)	toni(0.00871)	hitchcock(0.00765)	daughter(0.00754)	mother(0.00627)	jane(0.00548)	town(0.00547)	downey(0.00540)	wood(0.00521)	ladi(0.00509)	black(0.00502)	sign(0.00502)	husband(0.00491)	prejudic(0.00460)	pride(0.00457)	robert(0.00445)	darci(0.00412)	suicid(0.00411)	oscar(0.00391)	brother(0.00385)	suit(0.00385)	hurt(0.00373)	father(0.00361)	twist(0.00351)	vertigo(0.00342)	blind(0.00341)	shakespear(0.00339)	
+Topic 34(0.03444):	ship(0.02060)	trek(0.01806)	crew(0.01610)	earth(0.01572)	episod(0.01551)	planet(0.01331)	bourn(0.01329)	luca(0.01204)	battl(0.00826)	mission(0.00738)	jedi(0.00711)	luke(0.00675)	attack(0.00628)	captain(0.00591)	georg(0.00582)	moon(0.00569)	darth(0.00557)	side(0.00538)	kirk(0.00532)	return(0.00513)	destroy(0.00503)	damon(0.00423)	yoda(0.00416)	sith(0.00400)	menac(0.00393)	robot(0.00389)	evil(0.00386)	fiction(0.00372)	borg(0.00369)	visual(0.00368)	
+248 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/2/...
+235 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/0/...
+237 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/1/...
+251 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/3/...
+240 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 2: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 7680, review size: 26309, item size: 838, user size: 835
+train size = 21326, test size = 4983....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 21326, item size: 768, user size: 741
+ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8546342.23, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-8115623.85, converge to 0.00096350
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-8075185.99, converge to 0.00028802
+[Info]Finish E-Step: 21 iteration, likelihood: -8075185.9947
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -8075185.99, converges to 8075186.99465784...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8071742.27, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-8056934.99, converge to 0.00012645
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-8049618.89, converge to 0.00006973
+[Info]Finish E-Step: 21 iteration, likelihood: -8049618.8866
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -8049618.89, converges to 0.00316613...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8047677.33, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-8035450.91, converge to 0.00010800
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-8029745.90, converge to 0.00004949
+[Info]Finish E-Step: 21 iteration, likelihood: -8029745.9002
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -8029745.90, converges to 0.00246881...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8021061.37, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7967551.92, converge to 0.00024831
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7958155.25, converge to 0.00006485
+[Info]Finish E-Step: 21 iteration, likelihood: -7958155.2549
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -7958155.25, converges to 0.00891568...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7911806.83, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7855801.34, converge to 0.00021202
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7847821.53, converge to 0.00006293
+[Info]Finish E-Step: 21 iteration, likelihood: -7847821.5315
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -7847821.53, converges to 0.01386423...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7794802.11, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7744638.49, converge to 0.00026184
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7735136.86, converge to 0.00007181
+[Info]Finish E-Step: 21 iteration, likelihood: -7735136.8598
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -7735136.86, converges to 0.01435872...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7676517.49, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7605519.67, converge to 0.00026893
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7596163.27, converge to 0.00007071
+[Info]Finish E-Step: 21 iteration, likelihood: -7596163.2708
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -7596163.27, converges to 0.01796653...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7514882.55, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7462768.76, converge to 0.00018477
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7456786.35, converge to 0.00004715
+[Info]Finish E-Step: 21 iteration, likelihood: -7456786.3509
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -7456786.35, converges to 0.01834833...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7387015.85, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7358484.85, converge to 0.00010497
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7355188.74, converge to 0.00002315
+[Info]Finish E-Step: 21 iteration, likelihood: -7355188.7429
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -7355188.74, converges to 0.01362485...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7303377.15, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7291231.01, converge to 0.00003984
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7289989.43, converge to 0.00000870
+[Info]Finish E-Step: 21 iteration, likelihood: -7289989.4344
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -7289989.43, converges to 0.00886440...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7256043.03, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7251190.80, converge to 0.00001153
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7250893.21, converge to 0.00000266
+[Info]Finish E-Step: 21 iteration, likelihood: -7250893.2058
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -7250893.21, converges to 0.00536300...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7227870.07, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7226197.97, converge to 0.00000289
+[Info]Finish E-Step: 11 iteration, likelihood: -7226203.3226
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -7226203.32, converges to 0.00340508...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7210297.46, converge to 1.00000000
+[Info]Finish E-Step: 8 iteration, likelihood: -7210352.8866
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -7210352.89, converges to 0.00219347...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7199566.72, converge to 1.00000000
+[Info]Finish E-Step: 8 iteration, likelihood: -7199904.4893
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -7199904.49, converges to 0.00144908...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7191893.76, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7192586.25, converge to 0.00000481
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7192841.39, converge to 0.00000269
+[Info]Finish E-Step: 21 iteration, likelihood: -7192841.3924
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -7192841.39, converges to 0.00098100...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7186291.11, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7187233.17, converge to 0.00000439
+[Info]Finish E-Step: 15 iteration, likelihood: -7187301.0753
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -7187301.08, converges to 0.00077025...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7182197.18, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7183073.12, converge to 0.00000576
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7183284.66, converge to 0.00000223
+[Info]Finish E-Step: 21 iteration, likelihood: -7183284.6575
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -7183284.66, converges to 0.00055882...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7179527.48, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7180447.84, converge to 0.00000368
+[Info]Finish E-Step: 20 iteration, likelihood: -7180584.7462
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -7180584.75, converges to 0.00037586...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7177438.26, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7178333.99, converge to 0.00000335
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7178469.06, converge to 0.00000148
+[Info]Finish E-Step: 21 iteration, likelihood: -7178469.0575
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -7178469.06, converges to 0.00029464...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7175828.36, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7176572.85, converge to 0.00000415
+[Info]Finish E-Step: 19 iteration, likelihood: -7176695.3806
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -7176695.38, converges to 0.00024708...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7174248.74, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7175110.42, converge to 0.00000330
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7175229.62, converge to 0.00000114
+[Info]Finish E-Step: 21 iteration, likelihood: -7175229.6166
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -7175229.62, converges to 0.00020424...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7173155.28, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7173871.90, converge to 0.00000294
+[Info]Finish E-Step: 17 iteration, likelihood: -7173949.0042
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -7173949.00, converges to 0.00017848...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7172041.38, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7172629.84, converge to 0.00000232
+[Info]Finish E-Step: 13 iteration, likelihood: -7172658.7296
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -7172658.73, converges to 0.00017986...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7170736.21, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7171248.22, converge to 0.00000210
+[Info]Finish E-Step: 15 iteration, likelihood: -7171292.3538
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -7171292.35, converges to 0.00019050...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7169002.66, converge to 1.00000000
+[Info]Finish E-Step: 3 iteration, likelihood: -7169189.7294
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -7169189.73, converges to 0.00029320...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7166655.41, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7167056.98, converge to 0.00000267
+[Info]Finish E-Step: 14 iteration, likelihood: -7167088.5760
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -7167088.58, converges to 0.00029308...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7164721.14, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7165227.50, converge to 0.00000202
+[Info]Finish E-Step: 14 iteration, likelihood: -7165265.3180
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -7165265.32, converges to 0.00025439...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7163086.24, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7163505.63, converge to 0.00000144
+[Info]Finish E-Step: 13 iteration, likelihood: -7163528.5359
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -7163528.54, converges to 0.00024239...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7161864.91, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7162261.99, converge to 0.00000104
+[Info]Finish E-Step: 11 iteration, likelihood: -7162255.7419
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -7162255.74, converges to 0.00017768...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 4983, item size: 226, user size: 248
+[Info]Start evaluation in thread
+---likelihood: -1862268.6838367342
+---likelihood: -1856193.2105177725
+---likelihood: -1851575.781263327
+---likelihood: -1848175.4363317164
+---likelihood: -1845578.179903496
+---likelihood: -1843507.2352324394
+---likelihood: -1842116.2470926167
+---likelihood: -1840947.0365733947
+---likelihood: -1839770.1779428825
+---likelihood: -1838993.9742840782
+---likelihood: -1838107.3204286483
+---likelihood: -1837587.0114026824
+---likelihood: -1837070.2257943833
+---likelihood: -1836317.6298182518
+---likelihood: -1836066.7134576137
+---likelihood: -1835579.1352569542
+---likelihood: -1835270.376283147
+---likelihood: -1834958.6127367313
+---likelihood: -1834603.2112731605
+---likelihood: -1834502.935519699
+---likelihood: -1834166.851037556
+[Info]Inference finished: likelihood: -1834166.8510
+[Stat]Test evaluation finished: 4983 docs
+[Stat]0 part has 659.000000 docs: perplexity is 1460.067 and log-likelihood is -380.875
+[Stat]1 part has 1295.000000 docs: perplexity is 1095.832 and log-likelihood is -393.305
+[Stat]2 part has 1008.000000 docs: perplexity is 1595.890 and log-likelihood is -352.846
+[Stat]3 part has 2021.000000 docs: perplexity is 1156.626 and log-likelihood is -356.251
+[Stat]4 part has 4983.000000 docs: perplexity is 1239.452 and log-likelihood is -368.085
+[Info]ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 3463.35 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/output/5foldsCVColdstart/2/ETBIR_topWords_35.txt
+Topic 0(0.02720):	potter(0.02718)	magic(0.01149)	richard(0.00815)	return(0.00753)	reev(0.00750)	professor(0.00742)	emma(0.00736)	prison(0.00710)	hogwart(0.00693)	robert(0.00681)	fire(0.00645)	order(0.00592)	wizard(0.00585)	costner(0.00564)	lane(0.00540)	secret(0.00521)	phoenix(0.00478)	black(0.00472)	student(0.00470)	lord(0.00466)	azkaban(0.00465)	daniel(0.00443)	hermion(0.00441)	watson(0.00438)	rang(0.00433)	voldemort(0.00429)	david(0.00424)	michael(0.00422)	kevin(0.00403)	donner(0.00368)	
+Topic 1(0.02624):	transform(0.02848)	robot(0.02012)	race(0.01764)	ferrel(0.01450)	michael(0.01174)	comedi(0.01126)	bobbi(0.00870)	humor(0.00830)	voic(0.00787)	driver(0.00700)	fast(0.00672)	drive(0.00647)	laugh(0.00641)	prime(0.00625)	male(0.00615)	ricki(0.00585)	shia(0.00516)	news(0.00509)	sequenc(0.00505)	anim(0.00491)	figur(0.00490)	night(0.00467)	fallen(0.00458)	decepticon(0.00450)	team(0.00438)	labeouf(0.00429)	pixar(0.00404)	autobot(0.00397)	twilight(0.00380)	farrel(0.00376)	
+Topic 2(0.02755):	twist(0.03440)	thriller(0.01762)	drag(0.01674)	violenc(0.01562)	hell(0.01534)	camera(0.01447)	rate(0.01034)	pace(0.01029)	genr(0.00896)	clever(0.00857)	evil(0.00812)	slow(0.00800)	tension(0.00772)	killer(0.00754)	fair(0.00717)	flick(0.00701)	sick(0.00637)	intens(0.00586)	simpli(0.00578)	averag(0.00560)	spoiler(0.00558)	shot(0.00508)	foxx(0.00504)	reveng(0.00493)	humor(0.00481)	suspens(0.00453)	understand(0.00445)	cool(0.00434)	lack(0.00408)	violent(0.00407)	
+Topic 3(0.02525):	dead(0.07334)	evil(0.01720)	remak(0.01715)	georg(0.01506)	romero(0.01493)	dawn(0.01422)	night(0.01113)	gore(0.00998)	resid(0.00852)	flick(0.00772)	survivor(0.00745)	genr(0.00716)	virus(0.00669)	citi(0.00629)	land(0.00616)	mall(0.00610)	blood(0.00547)	shot(0.00505)	budget(0.00492)	edit(0.00432)	gori(0.00389)	week(0.00384)	walk(0.00383)	alic(0.00378)	commentari(0.00377)	video(0.00368)	london(0.00332)	humor(0.00330)	attack(0.00327)	flesh(0.00324)	
+Topic 4(0.01931):	iron(0.04722)	robert(0.03521)	toni(0.02460)	suit(0.01597)	downey(0.01351)	dumb(0.01124)	black(0.00898)	weapon(0.00883)	moon(0.00768)	citi(0.00694)	cool(0.00694)	mickey(0.00603)	terrorist(0.00586)	villain(0.00571)	miller(0.00558)	industri(0.00553)	rourk(0.00536)	hero(0.00519)	hollywood(0.00457)	nick(0.00454)	develop(0.00447)	sequenc(0.00442)	humor(0.00432)	build(0.00427)	technolog(0.00407)	edit(0.00407)	thunder(0.00402)	busi(0.00386)	visual(0.00379)	impress(0.00361)	
+Topic 5(0.03217):	bond(0.05877)	jame(0.02178)	bourn(0.01947)	royal(0.01234)	damon(0.00872)	matt(0.00840)	casino(0.00815)	barri(0.00776)	sequenc(0.00627)	queen(0.00567)	conneri(0.00533)	mcclane(0.00532)	villain(0.00530)	mission(0.00503)	hitchcock(0.00473)	secret(0.00455)	terrorist(0.00455)	daniel(0.00454)	judi(0.00400)	quantum(0.00399)	brosnan(0.00398)	flag(0.00391)	pierc(0.00371)	ident(0.00362)	plan(0.00359)	sean(0.00343)	govern(0.00340)	hero(0.00334)	shot(0.00325)	robert(0.00316)	
+Topic 6(0.02854):	husband(0.00951)	william(0.00900)	charli(0.00739)	robin(0.00691)	dude(0.00651)	watt(0.00578)	walter(0.00566)	jeff(0.00544)	donni(0.00505)	coen(0.00494)	brother(0.00487)	wive(0.00439)	affair(0.00429)	naomi(0.00420)	richard(0.00403)	trip(0.00393)	moor(0.00388)	strang(0.00386)	brilliant(0.00380)	oscar(0.00362)	stepford(0.00350)	lane(0.00341)	kidman(0.00338)	dian(0.00336)	drive(0.00333)	insomnia(0.00329)	remak(0.00329)	laura(0.00321)	support(0.00313)	kitti(0.00312)	
+Topic 7(0.02393):	jack(0.04800)	depp(0.03165)	pirat(0.02763)	black(0.02397)	jone(0.02141)	johnni(0.02098)	captain(0.01471)	ship(0.01453)	island(0.01250)	crew(0.01222)	davi(0.01116)	sparrow(0.00996)	dead(0.00921)	park(0.00889)	king(0.00834)	caribbean(0.00811)	pearl(0.00806)	bloom(0.00768)	curs(0.00742)	lord(0.00646)	lost(0.00637)	ride(0.00636)	rush(0.00631)	turner(0.00628)	third(0.00560)	fish(0.00560)	tommi(0.00531)	secret(0.00519)	sequenc(0.00461)	orlando(0.00458)	
+Topic 8(0.04246):	hous(0.02555)	michael(0.01947)	halloween(0.01928)	myer(0.01067)	remak(0.01033)	ghost(0.00882)	killer(0.00841)	victim(0.00722)	night(0.00721)	lauri(0.00708)	town(0.00701)	hill(0.00690)	flick(0.00607)	13th(0.00573)	jami(0.00542)	evil(0.00523)	mask(0.00518)	blood(0.00511)	gore(0.00508)	game(0.00495)	mother(0.00489)	jigsaw(0.00467)	room(0.00454)	anni(0.00449)	genr(0.00432)	chainsaw(0.00430)	teen(0.00407)	silent(0.00405)	texa(0.00402)	terror(0.00400)	
+Topic 9(0.02224):	bill(0.04029)	fiction(0.01704)	wood(0.01368)	half(0.01120)	pulp(0.01057)	michael(0.00947)	bride(0.00926)	volum(0.00885)	godfath(0.00870)	blood(0.00767)	coppola(0.00736)	mari(0.00722)	thurman(0.00695)	violenc(0.00590)	favorit(0.00569)	slither(0.00554)	town(0.00553)	vietnam(0.00550)	sequenc(0.00519)	violent(0.00497)	gotta(0.00479)	hunt(0.00463)	list(0.00460)	shot(0.00456)	apocalyps(0.00450)	hunter(0.00439)	reveng(0.00435)	brilliant(0.00395)	soundtrack(0.00385)	genr(0.00384)	
+Topic 10(0.02076):	cage(0.02426)	king(0.02390)	doctor(0.02180)	nichola(0.01394)	amin(0.01372)	treasur(0.01339)	oscar(0.01212)	forest(0.01195)	clue(0.01174)	number(0.00918)	fiction(0.00787)	jame(0.00701)	whitak(0.00673)	gate(0.00663)	histori(0.00528)	dictat(0.00524)	secret(0.00489)	hollywood(0.00441)	scotland(0.00427)	fine(0.00398)	father(0.00395)	piec(0.00381)	figur(0.00367)	moral(0.00365)	kevin(0.00365)	aeon(0.00347)	medic(0.00343)	futur(0.00338)	sell(0.00330)	mcvay(0.00329)	
+Topic 11(0.04586):	audio(0.02816)	anim(0.02497)	commentari(0.02440)	edit(0.02407)	disc(0.02190)	digit(0.01799)	video(0.01782)	qualiti(0.01312)	featurett(0.01242)	transfer(0.01068)	theatric(0.01061)	delet(0.01011)	kbps(0.01001)	documentari(0.00896)	track(0.00849)	interview(0.00846)	spanish(0.00771)	ring(0.00758)	voic(0.00731)	product(0.00719)	dolbi(0.00707)	rate(0.00670)	talk(0.00655)	white(0.00637)	bonus(0.00625)	pixar(0.00580)	size(0.00578)	subtitl(0.00553)	amaz(0.00532)	footag(0.00523)	
+Topic 12(0.02292):	kidman(0.01750)	sandler(0.01423)	nicol(0.01146)	daughter(0.01115)	adam(0.01056)	sean(0.01031)	interpret(0.00953)	penn(0.00929)	cold(0.00865)	mountain(0.00787)	husband(0.00763)	thriller(0.00728)	luci(0.00708)	mother(0.00704)	milk(0.00691)	invas(0.00665)	anna(0.00641)	bodi(0.00492)	strang(0.00484)	polit(0.00464)	comedi(0.00436)	hous(0.00426)	skeleton(0.00416)	suspens(0.00398)	birth(0.00383)	bright(0.00380)	hudson(0.00379)	hurt(0.00379)	vega(0.00371)	support(0.00361)	
+Topic 13(0.03684):	monster(0.02542)	creatur(0.01264)	jone(0.01071)	indiana(0.00975)	dracula(0.00919)	xmen(0.00912)	indi(0.00719)	hels(0.00695)	blade(0.00652)	toro(0.00608)	jackman(0.00602)	magician(0.00493)	cave(0.00487)	hugh(0.00474)	beast(0.00463)	werewolf(0.00460)	raider(0.00460)	frankenstein(0.00454)	magic(0.00452)	trick(0.00435)	illusionist(0.00426)	return(0.00425)	sequenc(0.00409)	princ(0.00403)	cure(0.00398)	werewolv(0.00370)	attack(0.00367)	lost(0.00365)	ford(0.00358)	wolverin(0.00357)	
+Topic 14(0.03373):	comedi(0.04362)	laugh(0.04126)	hilari(0.02023)	humor(0.01797)	joke(0.01669)	alex(0.01348)	kubrick(0.01285)	night(0.00999)	stiller(0.00997)	simpson(0.00789)	larri(0.00609)	owen(0.00591)	andi(0.00544)	episod(0.00514)	william(0.00503)	anim(0.00482)	rock(0.00465)	natur(0.00464)	borat(0.00463)	hotel(0.00447)	favorit(0.00433)	peter(0.00426)	virgin(0.00406)	dick(0.00383)	boss(0.00381)	amus(0.00372)	orang(0.00343)	clockwork(0.00302)	knock(0.00296)	judg(0.00294)	
+Topic 15(0.03966):	battl(0.01852)	king(0.01300)	histor(0.01006)	histori(0.00922)	gibson(0.00871)	soldier(0.00820)	hitler(0.00732)	epic(0.00699)	alexand(0.00630)	troy(0.00596)	armi(0.00565)	general(0.00564)	bush(0.00546)	christ(0.00531)	polit(0.00526)	georg(0.00493)	tale(0.00484)	japanes(0.00417)	presid(0.00414)	kane(0.00412)	spartan(0.00411)	violenc(0.00385)	militari(0.00383)	side(0.00381)	father(0.00378)	mother(0.00364)	ofelia(0.00356)	christian(0.00348)	graphic(0.00343)	roman(0.00325)	
+Topic 16(0.02554):	plane(0.01948)	daughter(0.01734)	daniel(0.01597)	washington(0.01217)	room(0.01098)	flight(0.01080)	plainview(0.00862)	paul(0.00838)	trek(0.00830)	jodi(0.00807)	thriller(0.00755)	panic(0.00732)	lewi(0.00691)	bean(0.00681)	kyle(0.00635)	manag(0.00610)	unit(0.00549)	suspens(0.00538)	daylewi(0.00511)	pilot(0.00503)	money(0.00471)	team(0.00470)	khan(0.00458)	land(0.00447)	lost(0.00433)	blood(0.00430)	ride(0.00412)	control(0.00392)	save(0.00392)	board(0.00392)	
+Topic 17(0.03972):	bore(0.04604)	wast(0.02566)	rent(0.02309)	hate(0.01713)	money(0.01711)	stupid(0.01396)	half(0.01354)	wait(0.01273)	horribl(0.01247)	felt(0.01243)	total(0.01061)	fail(0.00878)	slow(0.00853)	hollywood(0.00800)	save(0.00793)	theatr(0.00785)	talk(0.00745)	suck(0.00727)	lame(0.00725)	bought(0.00720)	type(0.00710)	bother(0.00686)	dull(0.00665)	mess(0.00655)	amazon(0.00647)	glad(0.00642)	mediocr(0.00636)	hype(0.00632)	serious(0.00628)	alot(0.00613)	
+Topic 18(0.02330):	bruce(0.04887)	willi(0.02524)	wayn(0.02270)	bale(0.01981)	citi(0.01788)	christian(0.01700)	neeson(0.01607)	michael(0.01443)	liam(0.01261)	keaton(0.01172)	gotham(0.01035)	alfr(0.01018)	villain(0.00949)	christoph(0.00925)	fear(0.00880)	morgan(0.00828)	holm(0.00824)	gari(0.00799)	return(0.00766)	train(0.00754)	cain(0.00735)	knight(0.00683)	kati(0.00619)	nicholson(0.00538)	penguin(0.00534)	gordon(0.00502)	hero(0.00465)	superhero(0.00456)	rachel(0.00449)	serious(0.00441)	
+Topic 19(0.02353):	hero(0.01491)	hous(0.01085)	dragon(0.01031)	hidden(0.01009)	visual(0.01002)	road(0.00890)	theron(0.00884)	tiger(0.00852)	anim(0.00740)	chines(0.00726)	cinematographi(0.00618)	monster(0.00607)	charliz(0.00560)	tale(0.00553)	amaz(0.00506)	father(0.00486)	oscar(0.00465)	simpli(0.00447)	tree(0.00446)	stun(0.00444)	shot(0.00444)	natur(0.00432)	king(0.00412)	japanes(0.00409)	drama(0.00391)	theme(0.00388)	spirit(0.00385)	master(0.00382)	impress(0.00380)	nameless(0.00369)	
+Topic 20(0.03647):	rocki(0.01196)	scorses(0.01193)	dicaprio(0.01178)	hugh(0.01173)	frank(0.00917)	nicholson(0.00896)	maggi(0.00874)	oscar(0.00850)	maria(0.00679)	gang(0.00679)	leonardo(0.00639)	york(0.00627)	niro(0.00616)	jack(0.00594)	train(0.00558)	damon(0.00526)	aviat(0.00521)	dollar(0.00499)	robert(0.00496)	babi(0.00481)	support(0.00478)	hepburn(0.00476)	father(0.00449)	hollywood(0.00440)	brilliant(0.00433)	career(0.00429)	island(0.00402)	award(0.00390)	scorces(0.00378)	holli(0.00360)	
+Topic 21(0.02170):	hank(0.03370)	countri(0.01255)	steven(0.01175)	pari(0.01095)	termin(0.01002)	sentiment(0.00877)	situat(0.00859)	express(0.00830)	victor(0.00749)	touch(0.00738)	stay(0.00654)	frank(0.00618)	father(0.00605)	ryan(0.00582)	imagin(0.00578)	ball(0.00573)	understand(0.00535)	oscar(0.00534)	hall(0.00513)	drama(0.00474)	tale(0.00473)	manag(0.00460)	berri(0.00448)	prison(0.00447)	gump(0.00435)	foreign(0.00424)	consid(0.00412)	award(0.00408)	comedi(0.00398)	brilliant(0.00385)	
+Topic 22(0.03975):	earth(0.01930)	planet(0.01718)	predat(0.01322)	cameron(0.01162)	termin(0.01140)	ship(0.01069)	episod(0.00967)	luca(0.00956)	avatar(0.00776)	jame(0.00665)	crew(0.00658)	battl(0.00652)	futur(0.00629)	visual(0.00610)	creatur(0.00578)	jedi(0.00545)	luke(0.00543)	mission(0.00534)	robot(0.00507)	destroy(0.00505)	return(0.00483)	technolog(0.00476)	georg(0.00443)	darth(0.00440)	side(0.00397)	save(0.00387)	klaatu(0.00381)	fiction(0.00368)	wall(0.00366)	weaver(0.00350)	
+Topic 23(0.03649):	drug(0.01161)	moor(0.01069)	black(0.00700)	district(0.00658)	violenc(0.00657)	countri(0.00625)	polit(0.00557)	soldier(0.00542)	brother(0.00514)	white(0.00501)	govern(0.00498)	africa(0.00444)	save(0.00424)	michael(0.00421)	side(0.00413)	documentari(0.00402)	shot(0.00401)	camp(0.00396)	issu(0.00393)	nazi(0.00386)	histori(0.00384)	citi(0.00383)	unit(0.00373)	blood(0.00351)	polic(0.00347)	violent(0.00339)	situat(0.00325)	fear(0.00318)	edward(0.00309)	societi(0.00305)	
+Topic 24(0.02691):	russel(0.02286)	crow(0.02242)	affleck(0.01453)	bank(0.01278)	ford(0.01019)	nash(0.00932)	brilliant(0.00924)	insid(0.00762)	oscar(0.00632)	william(0.00631)	harrison(0.00601)	hollywood(0.00571)	award(0.00552)	support(0.00551)	mann(0.00537)	thriller(0.00519)	proof(0.00477)	paul(0.00441)	case(0.00425)	heat(0.00394)	polic(0.00389)	mike(0.00385)	michael(0.00384)	drama(0.00377)	matt(0.00370)	jack(0.00367)	robber(0.00363)	fine(0.00359)	cole(0.00354)	situat(0.00342)	
+Topic 25(0.02346):	total(0.01831)	recal(0.01734)	york(0.01153)	david(0.01053)	visual(0.00913)	quaid(0.00911)	citi(0.00873)	independ(0.00855)	water(0.00842)	futur(0.00841)	save(0.00831)	wave(0.00690)	tomorrow(0.00665)	denni(0.00650)	flick(0.00635)	popcorn(0.00615)	sequenc(0.00558)	presid(0.00556)	gyllenha(0.00529)	poseidon(0.00500)	jake(0.00483)	roland(0.00452)	warm(0.00442)	flood(0.00432)	earth(0.00421)	remak(0.00421)	impress(0.00421)	ship(0.00412)	freez(0.00406)	adjust(0.00390)	
+Topic 26(0.03366):	song(0.02181)	sing(0.01345)	hulk(0.01323)	danc(0.01010)	johnni(0.00893)	carter(0.00716)	cash(0.00679)	phantom(0.00677)	opera(0.00617)	voic(0.00479)	product(0.00459)	mother(0.00454)	traci(0.00446)	number(0.00423)	black(0.00404)	doom(0.00393)	darci(0.00390)	collin(0.00386)	daughter(0.00384)	oscar(0.00379)	june(0.00372)	edward(0.00368)	singer(0.00362)	romant(0.00350)	walk(0.00344)	roug(0.00341)	reed(0.00341)	talent(0.00341)	moulin(0.00332)	full(0.00329)	
+Topic 27(0.02574):	quot(0.05509)	villag(0.01272)	quotth(0.01251)	night(0.01182)	lost(0.01162)	shyamalan(0.01156)	paint(0.00850)	translat(0.00831)	ladi(0.00810)	sign(0.00783)	strang(0.00694)	comedi(0.00646)	adam(0.00623)	water(0.00540)	guid(0.00529)	romant(0.00525)	vermeer(0.00489)	humor(0.00487)	maid(0.00484)	scarlett(0.00429)	dougla(0.00425)	bill(0.00416)	hous(0.00395)	talk(0.00374)	humour(0.00374)	brother(0.00372)	sort(0.00355)	daughter(0.00347)	drew(0.00345)	charlott(0.00339)	
+Topic 28(0.03443):	killer(0.01110)	hoffman(0.00878)	food(0.00678)	case(0.00667)	brook(0.00636)	phone(0.00636)	night(0.00570)	interview(0.00553)	rosemari(0.00501)	rock(0.00497)	william(0.00473)	luck(0.00455)	nixon(0.00451)	silenc(0.00431)	mile(0.00426)	room(0.00422)	mill(0.00419)	fast(0.00409)	news(0.00408)	talk(0.00406)	ryan(0.00397)	lamb(0.00389)	band(0.00385)	david(0.00378)	televis(0.00369)	histori(0.00368)	thriller(0.00358)	dragon(0.00353)	lawyer(0.00352)	black(0.00350)	
+Topic 29(0.02255):	dream(0.04508)	matrix(0.02491)	reev(0.01114)	brother(0.00978)	keanu(0.00831)	visual(0.00645)	sequenc(0.00575)	money(0.00565)	concept(0.00553)	countri(0.00527)	robot(0.00517)	revolut(0.00510)	amaz(0.00507)	deal(0.00493)	moss(0.00475)	imagin(0.00457)	understand(0.00449)	comput(0.00448)	lake(0.00389)	case(0.00369)	simpli(0.00358)	coen(0.00354)	morpheus(0.00348)	brilliant(0.00348)	explain(0.00343)	christoph(0.00337)	josh(0.00336)	confus(0.00318)	brolin(0.00312)	dicaprio(0.00307)	
+Topic 30(0.02089):	game(0.04615)	father(0.03979)	kevin(0.01432)	player(0.01268)	team(0.01199)	footbal(0.01132)	sister(0.01124)	bridg(0.01107)	hors(0.00993)	video(0.00952)	night(0.00869)	doubt(0.00815)	tale(0.00756)	billi(0.00734)	flynn(0.00732)	town(0.00719)	tron(0.00698)	visual(0.00627)	wild(0.00622)	jeff(0.00585)	race(0.00535)	radio(0.00522)	streep(0.00483)	mother(0.00478)	truth(0.00455)	drama(0.00400)	talk(0.00375)	cool(0.00372)	soundtrack(0.00367)	hunger(0.00367)	
+Topic 31(0.02348):	brad(0.01963)	pitt(0.01955)	david(0.01651)	kate(0.01485)	carrey(0.01283)	winslet(0.01016)	michael(0.00911)	case(0.00896)	cate(0.00753)	club(0.00739)	older(0.00704)	joel(0.00670)	mother(0.00661)	sunshin(0.00570)	born(0.00502)	babi(0.00496)	affair(0.00490)	talent(0.00471)	touch(0.00467)	daisi(0.00427)	tale(0.00408)	truman(0.00404)	eras(0.00399)	grow(0.00381)	lose(0.00366)	manag(0.00362)	drama(0.00360)	blog(0.00351)	visual(0.00349)	process(0.00345)	
+Topic 32(0.02027):	bird(0.01551)	gore(0.01455)	warm(0.01343)	hollywood(0.00937)	hall(0.00795)	lack(0.00770)	scientist(0.00740)	theme(0.00712)	intellig(0.00708)	wors(0.00695)	truth(0.00691)	cain(0.00682)	polit(0.00657)	invis(0.00653)	simpli(0.00645)	hitchcock(0.00630)	documentari(0.00584)	scientif(0.00574)	develop(0.00534)	issu(0.00526)	berri(0.00522)	attack(0.00513)	quiet(0.00476)	basic(0.00469)	imagin(0.00467)	patienc(0.00431)	ignor(0.00424)	atmospher(0.00422)	serious(0.00401)	suspens(0.00400)	
+Topic 33(0.02087):	captain(0.01482)	nick(0.01155)	futur(0.00873)	aveng(0.00863)	trek(0.00816)	thor(0.00738)	episod(0.00704)	hero(0.00671)	crew(0.00635)	whedon(0.00617)	genr(0.00584)	team(0.00562)	train(0.00560)	firefli(0.00553)	televis(0.00548)	river(0.00525)	lost(0.00489)	villain(0.00457)	humor(0.00425)	minor(0.00414)	kirk(0.00409)	roger(0.00406)	develop(0.00378)	sort(0.00377)	amaz(0.00361)	polic(0.00359)	plan(0.00356)	joss(0.00356)	pegg(0.00351)	serious(0.00348)	
+Topic 34(0.02659):	spiderman(0.04444)	peter(0.03484)	superhero(0.02361)	hero(0.02058)	villain(0.01467)	frank(0.01203)	amaz(0.01035)	jane(0.00994)	raimi(0.00863)	mari(0.00768)	garner(0.00686)	daredevil(0.00674)	tobey(0.00623)	spider(0.00571)	save(0.00545)	graphic(0.00510)	goblin(0.00504)	uncl(0.00479)	spidey(0.00443)	kick(0.00439)	dunst(0.00433)	decid(0.00413)	citi(0.00396)	father(0.00390)	evil(0.00379)	abil(0.00375)	xmen(0.00374)	mask(0.00346)	mark(0.00343)	jame(0.00338)	
+251 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/3/...
+235 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/0/...
+237 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/1/...
+248 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/2/...
+240 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 3: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 7680, review size: 26309, item size: 838, user size: 835
+train size = 20753, test size = 5556....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 20753, item size: 750, user size: 741
+ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8452285.66, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-8033291.27, converge to 0.00095003
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7993838.43, converge to 0.00028378
+[Info]Finish E-Step: 21 iteration, likelihood: -7993838.4318
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -7993838.43, converges to 7993839.43184948...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7990533.40, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7976799.37, converge to 0.00012370
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7969319.09, converge to 0.00007583
+[Info]Finish E-Step: 21 iteration, likelihood: -7969319.0912
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -7969319.09, converges to 0.00306728...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7967056.34, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7953017.84, converge to 0.00010565
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7948052.31, converge to 0.00003939
+[Info]Finish E-Step: 21 iteration, likelihood: -7948052.3093
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -7948052.31, converges to 0.00266858...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7937399.56, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7897240.96, converge to 0.00019779
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7888857.31, converge to 0.00006413
+[Info]Finish E-Step: 21 iteration, likelihood: -7888857.3142
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -7888857.31, converges to 0.00744774...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7861801.61, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7821646.42, converge to 0.00016330
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7815446.63, converge to 0.00004962
+[Info]Finish E-Step: 21 iteration, likelihood: -7815446.6333
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -7815446.63, converges to 0.00930562...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7780239.44, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7737973.94, converge to 0.00020178
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7730956.59, converge to 0.00005759
+[Info]Finish E-Step: 21 iteration, likelihood: -7730956.5852
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -7730956.59, converges to 0.01081065...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7682974.95, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7623650.32, converge to 0.00022169
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7616279.07, converge to 0.00005800
+[Info]Finish E-Step: 21 iteration, likelihood: -7616279.0660
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -7616279.07, converges to 0.01483355...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7542232.33, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7488064.90, converge to 0.00020882
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7480545.23, converge to 0.00005439
+[Info]Finish E-Step: 21 iteration, likelihood: -7480545.2301
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -7480545.23, converges to 0.01782154...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7405470.21, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7368666.23, converge to 0.00013435
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7364476.06, converge to 0.00003620
+[Info]Finish E-Step: 21 iteration, likelihood: -7364476.0572
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -7364476.06, converges to 0.01551614...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7304528.58, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7286312.45, converge to 0.00006927
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7284139.60, converge to 0.00002256
+[Info]Finish E-Step: 21 iteration, likelihood: -7284139.6020
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -7284139.60, converges to 0.01090865...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7243968.05, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7234306.16, converge to 0.00003414
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7233321.13, converge to 0.00000631
+[Info]Finish E-Step: 21 iteration, likelihood: -7233321.1306
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -7233321.13, converges to 0.00697659...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7203653.74, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7198997.79, converge to 0.00001594
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7198447.19, converge to 0.00000378
+[Info]Finish E-Step: 21 iteration, likelihood: -7198447.1949
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -7198447.19, converges to 0.00482129...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7176841.52, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7174984.45, converge to 0.00000759
+[Info]Finish E-Step: 14 iteration, likelihood: -7174904.4848
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -7174904.48, converges to 0.00327053...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7159988.65, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7159086.23, converge to 0.00000362
+[Info]Finish E-Step: 12 iteration, likelihood: -7159078.5736
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -7159078.57, converges to 0.00220573...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7147921.96, converge to 1.00000000
+[Info]Finish E-Step: 1 iteration, likelihood: -7147929.0691
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -7147929.07, converges to 0.00155739...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7141431.32, converge to 1.00000000
+[Info]Finish E-Step: 6 iteration, likelihood: -7140925.7939
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -7140925.79, converges to 0.00097976...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7134945.38, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7135496.64, converge to 0.00000629
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7135792.90, converge to 0.00000271
+[Info]Finish E-Step: 21 iteration, likelihood: -7135792.8952
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -7135792.90, converges to 0.00071880...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7130824.52, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7131587.80, converge to 0.00000431
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7131769.29, converge to 0.00000161
+[Info]Finish E-Step: 21 iteration, likelihood: -7131769.2852
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -7131769.29, converges to 0.00056386...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7127545.86, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7128344.37, converge to 0.00000358
+[Info]Finish E-Step: 12 iteration, likelihood: -7128359.8143
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -7128359.81, converges to 0.00047807...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7125017.20, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7125714.06, converge to 0.00000231
+[Info]Finish E-Step: 16 iteration, likelihood: -7125769.5494
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -7125769.55, converges to 0.00036337...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7122985.80, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7123529.69, converge to 0.00000208
+[Info]Finish E-Step: 16 iteration, likelihood: -7123591.7044
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -7123591.70, converges to 0.00030563...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7121195.84, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7121787.60, converge to 0.00000317
+[Info]Finish E-Step: 16 iteration, likelihood: -7121860.9413
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -7121860.94, converges to 0.00024296...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7119845.78, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7120478.49, converge to 0.00000256
+[Info]Finish E-Step: 16 iteration, likelihood: -7120537.2418
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -7120537.24, converges to 0.00018586...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7118854.26, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7119493.91, converge to 0.00000244
+[Info]Finish E-Step: 14 iteration, likelihood: -7119545.7663
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -7119545.77, converges to 0.00013924...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7118189.14, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7118737.04, converge to 0.00000203
+[Info]Finish E-Step: 12 iteration, likelihood: -7118747.9355
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -7118747.94, converges to 0.00011206...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7117574.93, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7118086.39, converge to 0.00000146
+[Info]Finish E-Step: 13 iteration, likelihood: -7118109.5730
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -7118109.57, converges to 0.00008967...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7117098.38, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7117523.53, converge to 0.00000106
+[Info]Finish E-Step: 11 iteration, likelihood: -7117528.2895
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -7117528.29, converges to 0.00008166...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7116648.24, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -7116945.1610
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -7116945.16, converges to 0.00008193...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7116112.19, converge to 1.00000000
+[Info]Finish E-Step: 7 iteration, likelihood: -7116366.2804
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -7116366.28, converges to 0.00008134...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 5556, item size: 264, user size: 251
+[Info]Start evaluation in thread
+---likelihood: -1939621.6318484
+---likelihood: -1932011.740290457
+---likelihood: -1926358.682096341
+---likelihood: -1922140.4296081073
+---likelihood: -1919158.4885970314
+---likelihood: -1916856.710797525
+---likelihood: -1914882.350271487
+---likelihood: -1913479.0418119451
+---likelihood: -1912089.9575987728
+---likelihood: -1911125.940207194
+---likelihood: -1910274.9633706482
+---likelihood: -1909505.7457392106
+---likelihood: -1908802.9366856664
+---likelihood: -1908068.4795853859
+---likelihood: -1907671.4959934375
+---likelihood: -1907249.9418257487
+---likelihood: -1906720.508992746
+---likelihood: -1906377.284713539
+---likelihood: -1905994.3582915545
+---likelihood: -1905638.1444622232
+---likelihood: -1905372.094706791
+[Info]Inference finished: likelihood: -1905372.0947
+[Stat]Test evaluation finished: 5556 docs
+[Stat]0 part has 690.000000 docs: perplexity is 1448.694 and log-likelihood is -348.974
+[Stat]1 part has 1416.000000 docs: perplexity is 1200.569 and log-likelihood is -356.976
+[Stat]2 part has 1155.000000 docs: perplexity is 1305.531 and log-likelihood is -345.009
+[Stat]3 part has 2295.000000 docs: perplexity is 1012.929 and log-likelihood is -332.358
+[Stat]4 part has 5556.000000 docs: perplexity is 1156.914 and log-likelihood is -342.940
+[Info]ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 3336.81 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/output/5foldsCVColdstart/3/ETBIR_topWords_35.txt
+Topic 0(0.03747):	killer(0.01002)	michael(0.00936)	hoffman(0.00784)	room(0.00783)	hous(0.00712)	jami(0.00682)	foxx(0.00642)	halloween(0.00622)	phone(0.00603)	streep(0.00538)	jigsaw(0.00510)	ghost(0.00502)	rosemari(0.00487)	lauri(0.00481)	rock(0.00475)	andi(0.00472)	interview(0.00457)	victim(0.00453)	mother(0.00421)	night(0.00414)	nixon(0.00402)	case(0.00393)	blood(0.00386)	sister(0.00385)	polanski(0.00382)	black(0.00372)	trap(0.00355)	meryl(0.00348)	talk(0.00347)	cusack(0.00341)	
+Topic 1(0.02299):	affleck(0.01630)	pitt(0.01252)	terrorist(0.01085)	brad(0.01083)	brother(0.00985)	hurt(0.00960)	bomb(0.00866)	coen(0.00826)	team(0.00824)	jame(0.00720)	attack(0.00716)	hollywood(0.00712)	intellig(0.00680)	polit(0.00671)	govern(0.00666)	thriller(0.00662)	thirti(0.00575)	terror(0.00575)	laden(0.00476)	oscar(0.00379)	moral(0.00375)	focus(0.00370)	case(0.00354)	locker(0.00354)	polic(0.00341)	camera(0.00340)	garner(0.00339)	situat(0.00338)	countri(0.00335)	tens(0.00328)	
+Topic 2(0.02359):	ryan(0.01878)	teen(0.01748)	gore(0.00889)	roth(0.00886)	sick(0.00781)	hous(0.00723)	flick(0.00685)	fire(0.00624)	fever(0.00608)	situat(0.00606)	killer(0.00604)	suspens(0.00566)	tension(0.00514)	theatr(0.00514)	road(0.00498)	colleg(0.00483)	camp(0.00479)	town(0.00477)	drive(0.00458)	fear(0.00456)	shot(0.00443)	victim(0.00427)	total(0.00424)	genr(0.00421)	pari(0.00421)	manag(0.00409)	twist(0.00404)	wolf(0.00399)	wors(0.00395)	dirti(0.00394)	
+Topic 3(0.02641):	neeson(0.00998)	kinsey(0.00870)	black(0.00806)	liam(0.00749)	white(0.00685)	issu(0.00671)	daughter(0.00651)	mill(0.00577)	countri(0.00567)	africa(0.00557)	save(0.00545)	district(0.00536)	hotel(0.00499)	leon(0.00496)	polit(0.00459)	racist(0.00454)	father(0.00449)	situat(0.00432)	side(0.00425)	rebel(0.00412)	west(0.00402)	blood(0.00392)	cheadl(0.00382)	moral(0.00375)	govern(0.00374)	understand(0.00370)	tear(0.00362)	conflict(0.00348)	societi(0.00333)	violenc(0.00332)	
+Topic 4(0.02349):	kubrick(0.01938)	fiction(0.01892)	alex(0.01410)	david(0.01104)	visual(0.01093)	jack(0.00897)	violenc(0.00778)	pulp(0.00742)	futur(0.00732)	nicholson(0.00690)	number(0.00684)	orang(0.00562)	vision(0.00551)	citi(0.00533)	violent(0.00511)	piec(0.00499)	shot(0.00487)	theme(0.00463)	danni(0.00458)	imag(0.00437)	rape(0.00429)	natur(0.00414)	imageri(0.00409)	full(0.00402)	list(0.00383)	simpli(0.00383)	fascin(0.00376)	brilliant(0.00376)	clockwork(0.00373)	sequenc(0.00366)	
+Topic 5(0.02629):	king(0.03657)	edward(0.01613)	forest(0.00995)	amin(0.00949)	tale(0.00874)	father(0.00871)	carter(0.00833)	speech(0.00823)	oscar(0.00798)	night(0.00762)	histori(0.00744)	georg(0.00739)	luck(0.00702)	polit(0.00671)	frank(0.00660)	nichola(0.00652)	whitak(0.00586)	fish(0.00573)	robert(0.00566)	simpson(0.00533)	support(0.00503)	doctor(0.00497)	david(0.00463)	televis(0.00456)	white(0.00449)	news(0.00444)	truth(0.00441)	queen(0.00422)	black(0.00398)	brother(0.00395)	
+Topic 6(0.02777):	bourn(0.02405)	damon(0.01590)	matt(0.01292)	unit(0.00936)	ident(0.00689)	maria(0.00685)	plane(0.00627)	flight(0.00613)	joli(0.00606)	countri(0.00586)	mission(0.00561)	camera(0.00550)	drug(0.00543)	brother(0.00539)	money(0.00510)	thriller(0.00474)	salt(0.00472)	hunt(0.00450)	train(0.00413)	washington(0.00406)	control(0.00401)	coen(0.00398)	shot(0.00392)	sequenc(0.00376)	full(0.00369)	oper(0.00339)	filmmak(0.00330)	hijack(0.00329)	ultimatum(0.00329)	deal(0.00315)	
+Topic 7(0.02574):	episod(0.02856)	luca(0.01601)	ford(0.01586)	phantom(0.01213)	jone(0.01123)	battl(0.01055)	georg(0.00886)	opera(0.00844)	harrison(0.00835)	jedi(0.00820)	indiana(0.00780)	luke(0.00686)	season(0.00669)	lost(0.00665)	reveng(0.00656)	darth(0.00635)	raider(0.00618)	side(0.00617)	attack(0.00602)	sith(0.00582)	saga(0.00576)	menac(0.00574)	return(0.00565)	indi(0.00551)	emperor(0.00531)	evil(0.00504)	yoda(0.00477)	strike(0.00414)	voic(0.00403)	firefli(0.00393)	
+Topic 8(0.03016):	ship(0.02589)	crew(0.02190)	planet(0.02093)	jack(0.01974)	trek(0.01922)	captain(0.01743)	pirat(0.01453)	earth(0.01324)	jone(0.00973)	black(0.00886)	mission(0.00768)	kirk(0.00622)	moon(0.00570)	sparrow(0.00539)	water(0.00536)	davi(0.00518)	dead(0.00501)	fiction(0.00471)	khan(0.00462)	pitch(0.00457)	depp(0.00451)	visual(0.00446)	caribbean(0.00433)	destroy(0.00419)	boyl(0.00414)	save(0.00403)	pearl(0.00397)	attack(0.00388)	spaceship(0.00379)	return(0.00366)	
+Topic 9(0.02812):	bond(0.07685)	jame(0.02862)	remak(0.01992)	halloween(0.01628)	michael(0.01165)	hitchcock(0.01164)	royal(0.01023)	myer(0.00927)	texa(0.00888)	chainsaw(0.00791)	casino(0.00767)	conneri(0.00754)	massacr(0.00699)	villain(0.00685)	brosnan(0.00611)	sequenc(0.00596)	sean(0.00554)	secret(0.00533)	pierc(0.00486)	judi(0.00481)	daniel(0.00475)	produc(0.00447)	shot(0.00414)	return(0.00396)	vertigo(0.00388)	hill(0.00374)	roger(0.00361)	berri(0.00348)	leatherfac(0.00346)	quantum(0.00330)	
+Topic 10(0.02519):	dream(0.03117)	hero(0.01407)	visual(0.01211)	hous(0.00863)	hidden(0.00808)	tiger(0.00748)	father(0.00714)	chines(0.00645)	bone(0.00632)	hawk(0.00538)	free(0.00488)	cinematographi(0.00481)	impress(0.00481)	anim(0.00459)	simpli(0.00451)	stun(0.00448)	tale(0.00421)	understand(0.00420)	sequenc(0.00419)	profil(0.00412)	lack(0.00410)	deep(0.00400)	blog(0.00389)	master(0.00370)	amaz(0.00368)	kung(0.00365)	natur(0.00354)	mother(0.00345)	brother(0.00344)	nameless(0.00340)	
+Topic 11(0.02860):	kong(0.01514)	charli(0.01402)	drug(0.00838)	penn(0.00833)	watt(0.00756)	sean(0.00748)	chocol(0.00733)	river(0.00654)	daughter(0.00612)	naomi(0.00567)	husband(0.00516)	remak(0.00477)	silent(0.00468)	mystic(0.00461)	oscar(0.00454)	william(0.00450)	town(0.00438)	walter(0.00423)	willi(0.00403)	amaz(0.00374)	diari(0.00372)	game(0.00369)	mother(0.00348)	king(0.00344)	kitti(0.00342)	fine(0.00341)	hill(0.00340)	robbin(0.00338)	case(0.00331)	russian(0.00325)	
+Topic 12(0.03149):	half(0.02645)	stupid(0.02354)	bore(0.01938)	flick(0.01156)	witch(0.01123)	hype(0.01051)	hate(0.00957)	suck(0.00938)	cool(0.00924)	alot(0.00848)	dumb(0.00843)	jump(0.00832)	kinda(0.00770)	felt(0.00751)	wait(0.00743)	basic(0.00732)	hollywood(0.00724)	blair(0.00720)	camera(0.00708)	project(0.00671)	talk(0.00642)	type(0.00637)	crap(0.00627)	weak(0.00614)	yeah(0.00577)	walk(0.00562)	glad(0.00558)	fail(0.00556)	hear(0.00551)	theatr(0.00537)	
+Topic 13(0.02116):	monster(0.01901)	road(0.01137)	theron(0.00983)	ugli(0.00802)	father(0.00783)	killer(0.00759)	oscar(0.00753)	trip(0.00670)	prostitut(0.00653)	tobi(0.00616)	charliz(0.00615)	fine(0.00603)	award(0.00599)	brilliant(0.00583)	tale(0.00544)	mother(0.00471)	abus(0.00469)	sleepi(0.00465)	black(0.00458)	ricci(0.00458)	support(0.00457)	devil(0.00446)	theme(0.00434)	imagin(0.00433)	twist(0.00426)	flow(0.00422)	touch(0.00417)	femal(0.00399)	commit(0.00397)	gray(0.00384)	
+Topic 14(0.02810):	violenc(0.01770)	gibson(0.01490)	race(0.01361)	histori(0.01037)	battl(0.00961)	father(0.00818)	christ(0.00805)	epic(0.00787)	hors(0.00754)	histor(0.00597)	violent(0.00592)	hero(0.00586)	flag(0.00580)	graphic(0.00545)	christian(0.00543)	roman(0.00509)	cultur(0.00485)	brutal(0.00467)	rais(0.00465)	frank(0.00453)	imag(0.00438)	save(0.00437)	mayan(0.00395)	bibl(0.00394)	moor(0.00393)	tribe(0.00390)	nativ(0.00385)	natur(0.00385)	villag(0.00354)	soldier(0.00333)	
+Topic 15(0.02146):	park(0.02084)	hank(0.01890)	johnni(0.01595)	doom(0.01575)	evan(0.01087)	richard(0.01041)	victor(0.00961)	third(0.00880)	invis(0.00856)	depp(0.00795)	reed(0.00777)	jessica(0.00586)	michael(0.00579)	roger(0.00553)	creeper(0.00482)	orson(0.00463)	bodi(0.00448)	holli(0.00426)	theme(0.00391)	island(0.00383)	torch(0.00370)	full(0.00369)	humor(0.00366)	wait(0.00360)	villain(0.00356)	black(0.00351)	return(0.00348)	lost(0.00339)	hero(0.00334)	alba(0.00333)	
+Topic 16(0.02458):	daughter(0.03107)	thriller(0.01931)	dragon(0.01617)	silenc(0.01198)	killer(0.01178)	kyle(0.01127)	plane(0.01058)	suspens(0.01040)	costner(0.01034)	jodi(0.01025)	lamb(0.00898)	rang(0.00848)	brook(0.00841)	panic(0.00693)	mother(0.00668)	tooth(0.00661)	room(0.00626)	husband(0.00621)	town(0.00565)	kevin(0.00532)	michael(0.00519)	fire(0.00475)	moor(0.00471)	duval(0.00460)	graham(0.00455)	flight(0.00455)	ghost(0.00430)	boss(0.00426)	search(0.00407)	wait(0.00355)	
+Topic 17(0.02114):	fast(0.03706)	food(0.02729)	island(0.01500)	anim(0.01351)	morgan(0.01165)	documentari(0.00852)	mcdonald(0.00758)	societi(0.00724)	size(0.00701)	futur(0.00698)	water(0.00688)	industri(0.00637)	health(0.00598)	rich(0.00514)	order(0.00511)	natur(0.00466)	basic(0.00463)	chicken(0.00462)	month(0.00448)	earth(0.00448)	meal(0.00434)	blue(0.00433)	week(0.00428)	furious(0.00418)	march(0.00415)	bodi(0.00406)	drink(0.00389)	physic(0.00374)	pound(0.00373)	road(0.00372)	
+Topic 18(0.04378):	monster(0.01870)	predat(0.01434)	creatur(0.01359)	matrix(0.01146)	blade(0.00989)	dracula(0.00805)	xmen(0.00749)	king(0.00581)	hels(0.00580)	return(0.00546)	battl(0.00525)	jackman(0.00510)	magic(0.00483)	toro(0.00472)	tale(0.00416)	visual(0.00416)	hunt(0.00414)	beast(0.00399)	sequenc(0.00394)	mummi(0.00392)	cave(0.00390)	frankenstein(0.00377)	magician(0.00374)	werewolf(0.00352)	mist(0.00351)	citi(0.00348)	ofelia(0.00343)	brother(0.00341)	hugh(0.00335)	cure(0.00330)	
+Topic 19(0.02713):	crow(0.02060)	russel(0.01972)	player(0.01051)	team(0.00962)	nash(0.00899)	robin(0.00857)	oscar(0.00766)	billi(0.00733)	game(0.00701)	william(0.00653)	support(0.00646)	footbal(0.00623)	paul(0.00592)	manag(0.00568)	gladiat(0.00512)	bean(0.00511)	award(0.00504)	drama(0.00484)	hood(0.00476)	rick(0.00475)	brilliant(0.00472)	hollywood(0.00469)	tobacco(0.00428)	night(0.00412)	connelli(0.00405)	braddock(0.00398)	hous(0.00394)	code(0.00393)	kurt(0.00390)	peter(0.00362)	
+Topic 20(0.05162):	audio(0.02022)	commentari(0.01915)	edit(0.01874)	disc(0.01647)	anim(0.01618)	video(0.01346)	digit(0.01238)	potter(0.01158)	featurett(0.01071)	qualiti(0.00922)	transfer(0.00866)	theatric(0.00813)	delet(0.00813)	documentari(0.00765)	interview(0.00684)	ring(0.00659)	magic(0.00632)	avatar(0.00620)	voic(0.00615)	track(0.00614)	product(0.00590)	talk(0.00587)	dolbi(0.00559)	spanish(0.00557)	visual(0.00556)	white(0.00554)	cameron(0.00552)	lord(0.00528)	amaz(0.00523)	wizard(0.00491)	
+Topic 21(0.02277):	strang(0.01217)	blood(0.01106)	thriller(0.01000)	suspens(0.00938)	remak(0.00903)	pace(0.00899)	atmospher(0.00885)	mood(0.00875)	felt(0.00786)	bulli(0.00714)	twist(0.00704)	twilight(0.00692)	swedish(0.00688)	night(0.00643)	slow(0.00642)	tattoo(0.00595)	door(0.00584)	ghost(0.00551)	violenc(0.00536)	case(0.00531)	simpli(0.00514)	dragon(0.00510)	owen(0.00506)	genr(0.00494)	friendship(0.00490)	foreign(0.00472)	understand(0.00465)	weird(0.00440)	build(0.00423)	shot(0.00422)	
+Topic 22(0.02428):	bill(0.04027)	lost(0.01956)	translat(0.01492)	recal(0.01331)	total(0.01302)	coppola(0.01099)	quaid(0.00719)	japanes(0.00661)	scarlett(0.00660)	gyllenha(0.00644)	charlott(0.00624)	tokyo(0.00623)	cultur(0.00595)	volum(0.00592)	bride(0.00570)	encount(0.00554)	comedi(0.00472)	dougla(0.00464)	jake(0.00464)	simpli(0.00451)	husband(0.00430)	understand(0.00425)	donni(0.00423)	tomorrow(0.00419)	quirki(0.00405)	natur(0.00394)	talk(0.00382)	humor(0.00380)	independ(0.00380)	connect(0.00366)	
+Topic 23(0.03789):	soldier(0.01490)	termin(0.01343)	battl(0.01154)	hitler(0.00840)	alexand(0.00833)	bush(0.00738)	presid(0.00688)	vietnam(0.00669)	oliv(0.00626)	polit(0.00608)	general(0.00605)	troy(0.00571)	japanes(0.00568)	histori(0.00553)	countri(0.00534)	georg(0.00523)	militari(0.00517)	side(0.00452)	warren(0.00451)	histor(0.00440)	armi(0.00390)	father(0.00363)	epic(0.00356)	connor(0.00351)	moor(0.00350)	major(0.00331)	order(0.00326)	matt(0.00324)	millionair(0.00313)	king(0.00307)	
+Topic 24(0.02930):	dead(0.06789)	evil(0.01704)	gore(0.01659)	night(0.01550)	georg(0.01422)	remak(0.01302)	romero(0.01295)	dawn(0.01232)	hous(0.01122)	flick(0.01051)	genr(0.00955)	blood(0.00777)	town(0.00769)	survivor(0.00652)	terror(0.00575)	resid(0.00481)	gori(0.00463)	land(0.00457)	citi(0.00454)	budget(0.00454)	mall(0.00419)	shot(0.00414)	commentari(0.00381)	violenc(0.00380)	walk(0.00379)	attack(0.00374)	amityvill(0.00371)	comedi(0.00327)	edit(0.00323)	humor(0.00319)	
+Topic 25(0.02184):	kate(0.01563)	hous(0.01529)	carrey(0.00990)	sunshin(0.00943)	case(0.00810)	premis(0.00801)	type(0.00774)	joel(0.00751)	twist(0.00739)	wood(0.00646)	winslet(0.00644)	mark(0.00633)	david(0.00573)	decid(0.00571)	thriller(0.00543)	michael(0.00531)	eras(0.00519)	lake(0.00517)	cate(0.00516)	truman(0.00512)	hide(0.00505)	brain(0.00502)	born(0.00496)	affair(0.00482)	strang(0.00451)	seek(0.00428)	daisi(0.00427)	secret(0.00426)	pain(0.00417)	babi(0.00411)	
+Topic 26(0.02454):	transform(0.02997)	robot(0.02394)	earth(0.02026)	cage(0.01390)	treasur(0.01306)	giant(0.01124)	michael(0.00900)	militari(0.00842)	sequenc(0.00735)	destroy(0.00632)	independ(0.00596)	prime(0.00519)	scientist(0.00501)	battl(0.00497)	fallen(0.00480)	secret(0.00479)	save(0.00478)	clue(0.00473)	gate(0.00472)	humor(0.00450)	pilot(0.00436)	decepticon(0.00432)	planet(0.00420)	shia(0.00416)	huge(0.00405)	pacif(0.00389)	voic(0.00387)	autobot(0.00377)	citi(0.00375)	presid(0.00349)	
+Topic 27(0.05028):	comedi(0.03174)	laugh(0.01619)	hilari(0.00957)	humor(0.00897)	romant(0.00785)	joke(0.00722)	ferrel(0.00700)	song(0.00640)	stiller(0.00638)	reev(0.00530)	spacey(0.00522)	jack(0.00483)	night(0.00483)	bobbi(0.00471)	cash(0.00469)	mother(0.00459)	kevin(0.00456)	lane(0.00437)	talent(0.00415)	william(0.00406)	sing(0.00406)	sister(0.00387)	father(0.00372)	singer(0.00360)	paul(0.00344)	marri(0.00343)	anni(0.00341)	career(0.00336)	sandler(0.00330)	support(0.00325)	
+Topic 28(0.03725):	frank(0.01080)	daniel(0.01069)	hugh(0.01064)	dicaprio(0.01060)	scorses(0.00979)	rocki(0.00927)	milk(0.00893)	robert(0.00795)	gang(0.00769)	niro(0.00661)	godfath(0.00634)	oscar(0.00598)	maggi(0.00570)	leonardo(0.00566)	york(0.00552)	plainview(0.00546)	citi(0.00533)	father(0.00484)	aviat(0.00465)	daylewi(0.00410)	support(0.00403)	money(0.00389)	paul(0.00379)	hollywood(0.00375)	brilliant(0.00363)	histori(0.00360)	polit(0.00355)	jack(0.00348)	hepburn(0.00337)	career(0.00332)	
+Topic 29(0.02584):	peter(0.04275)	spiderman(0.03676)	mari(0.02400)	superhero(0.01506)	barri(0.01219)	raimi(0.01105)	amaz(0.01068)	hero(0.00901)	jane(0.00851)	villain(0.00766)	spider(0.00584)	dunst(0.00572)	tobey(0.00571)	uncl(0.00560)	drag(0.00516)	goblin(0.00492)	daredevil(0.00490)	hell(0.00449)	humor(0.00419)	jame(0.00401)	save(0.00398)	aunt(0.00381)	imagin(0.00364)	evil(0.00361)	develop(0.00359)	spidey(0.00354)	father(0.00345)	visual(0.00337)	neverland(0.00332)	decid(0.00306)	
+Topic 30(0.02871):	song(0.01454)	danc(0.01285)	hulk(0.00983)	sing(0.00958)	wood(0.00782)	shyamalan(0.00699)	david(0.00617)	depp(0.00585)	traci(0.00572)	villag(0.00527)	daughter(0.00509)	mother(0.00499)	shakespear(0.00489)	todd(0.00473)	night(0.00457)	number(0.00453)	rent(0.00432)	paint(0.00430)	mark(0.00417)	jess(0.00417)	collin(0.00416)	case(0.00396)	product(0.00388)	sweeney(0.00381)	vermeer(0.00355)	gosl(0.00350)	betti(0.00348)	drive(0.00348)	roug(0.00323)	moulin(0.00321)	
+Topic 31(0.02214):	bank(0.01700)	public(0.00958)	mann(0.00853)	jeff(0.00845)	washington(0.00780)	insid(0.00697)	diaz(0.00647)	patrick(0.00633)	depp(0.00632)	heat(0.00624)	michael(0.00619)	billi(0.00588)	graphic(0.00547)	hero(0.00500)	robber(0.00487)	violenc(0.00415)	polic(0.00407)	bale(0.00390)	watchmen(0.00373)	talk(0.00366)	shot(0.00349)	christoph(0.00341)	talent(0.00338)	owen(0.00336)	night(0.00335)	vice(0.00333)	situat(0.00326)	understand(0.00322)	money(0.00315)	miami(0.00310)	
+Topic 32(0.03185):	quot(0.07843)	bore(0.02246)	rent(0.02065)	wast(0.01946)	quotth(0.01758)	cool(0.01441)	money(0.01207)	laugh(0.01132)	bought(0.01069)	collect(0.00938)	wait(0.00895)	humor(0.00880)	flick(0.00864)	total(0.00788)	serious(0.00754)	cheesi(0.00651)	glad(0.00637)	hilari(0.00583)	talk(0.00580)	favorit(0.00556)	sort(0.00522)	plain(0.00518)	save(0.00490)	slow(0.00486)	hate(0.00481)	shot(0.00469)	wors(0.00457)	mess(0.00451)	loud(0.00445)	lame(0.00441)	
+Topic 33(0.02044):	iron(0.04455)	toni(0.02489)	robert(0.02395)	nick(0.01844)	suit(0.01310)	downey(0.01063)	bridg(0.00992)	weapon(0.00929)	hero(0.00844)	aveng(0.00816)	villain(0.00734)	sequenc(0.00718)	humor(0.00618)	mickey(0.00553)	black(0.00550)	develop(0.00502)	futur(0.00489)	serious(0.00486)	cool(0.00469)	jeff(0.00457)	gwyneth(0.00454)	reveng(0.00425)	build(0.00425)	rourk(0.00397)	kick(0.00380)	superhero(0.00368)	industri(0.00352)	busi(0.00349)	battl(0.00348)	train(0.00338)	
+Topic 34(0.02656):	bruce(0.04267)	wayn(0.02169)	bale(0.01948)	citi(0.01903)	christian(0.01662)	knight(0.01529)	michael(0.01429)	gotham(0.01173)	kidman(0.01151)	villain(0.01044)	christoph(0.01033)	cain(0.01025)	willi(0.00997)	holm(0.00813)	morgan(0.00778)	nicol(0.00763)	alfr(0.00749)	return(0.00716)	carrey(0.00685)	keaton(0.00661)	fear(0.00648)	gari(0.00594)	superhero(0.00570)	kati(0.00537)	serious(0.00522)	train(0.00511)	gordon(0.00490)	evil(0.00461)	hero(0.00458)	robin(0.00456)	
+240 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/4/...
+235 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/0/...
+237 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/1/...
+248 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/2/...
+251 users are loaded from /home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/5foldsCVColdstart/3/...
+====================
+[Info]Fold No. 4: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 7680, review size: 26309, item size: 838, user size: 835
+train size = 20717, test size = 5592....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 20717, item size: 749, user size: 747
+ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+
+[Info]Initializing documents...
+[Info]Initializing users...
+[Info]Initializing items...
+[Info]Initializing ETBIR model...
+====================
+[Info]Start EM iteration 1....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-8239041.93, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7815735.99, converge to 0.00098343
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7775372.73, converge to 0.00030508
+[Info]Finish E-Step: 21 iteration, likelihood: -7775372.7270
+[Info]M-step 1....
+--------------------------
+[Info]EM iteration 1: likelihood is -7775372.73, converges to 7775373.72698213...
+
+====================
+[Info]Start EM iteration 2....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7771084.66, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7754831.84, converge to 0.00013256
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7746921.67, converge to 0.00007888
+[Info]Finish E-Step: 21 iteration, likelihood: -7746921.6733
+[Info]M-step 2....
+--------------------------
+[Info]EM iteration 2: likelihood is -7746921.67, converges to 0.00365912...
+
+====================
+[Info]Start EM iteration 3....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7742897.71, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7719541.38, converge to 0.00017090
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7712654.40, converge to 0.00005605
+[Info]Finish E-Step: 21 iteration, likelihood: -7712654.3961
+[Info]M-step 3....
+--------------------------
+[Info]EM iteration 3: likelihood is -7712654.40, converges to 0.00442334...
+
+====================
+[Info]Start EM iteration 4....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7695919.19, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7670495.46, converge to 0.00009492
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7666378.25, converge to 0.00003472
+[Info]Finish E-Step: 21 iteration, likelihood: -7666378.2530
+[Info]M-step 4....
+--------------------------
+[Info]EM iteration 4: likelihood is -7666378.25, converges to 0.00600003...
+
+====================
+[Info]Start EM iteration 5....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7648872.72, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7628127.83, converge to 0.00008902
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7624692.16, converge to 0.00002807
+[Info]Finish E-Step: 21 iteration, likelihood: -7624692.1591
+[Info]M-step 5....
+--------------------------
+[Info]EM iteration 5: likelihood is -7624692.16, converges to 0.00543752...
+
+====================
+[Info]Start EM iteration 6....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7602069.20, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7571323.77, converge to 0.00016350
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7565518.15, converge to 0.00004741
+[Info]Finish E-Step: 21 iteration, likelihood: -7565518.1495
+[Info]M-step 6....
+--------------------------
+[Info]EM iteration 6: likelihood is -7565518.15, converges to 0.00776084...
+
+====================
+[Info]Start EM iteration 7....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7528586.27, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7473869.56, converge to 0.00021478
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7466582.37, converge to 0.00005699
+[Info]Finish E-Step: 21 iteration, likelihood: -7466582.3725
+[Info]M-step 7....
+--------------------------
+[Info]EM iteration 7: likelihood is -7466582.37, converges to 0.01307720...
+
+====================
+[Info]Start EM iteration 8....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7399060.39, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7338490.55, converge to 0.00026201
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7329864.45, converge to 0.00007125
+[Info]Finish E-Step: 21 iteration, likelihood: -7329864.4467
+[Info]M-step 8....
+--------------------------
+[Info]EM iteration 8: likelihood is -7329864.45, converges to 0.01831064...
+
+====================
+[Info]Start EM iteration 9....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7254657.78, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7209108.48, converge to 0.00016242
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7203578.02, converge to 0.00004453
+[Info]Finish E-Step: 21 iteration, likelihood: -7203578.0153
+[Info]M-step 9....
+--------------------------
+[Info]EM iteration 9: likelihood is -7203578.02, converges to 0.01722903...
+
+====================
+[Info]Start EM iteration 10....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7136358.46, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7112835.55, converge to 0.00008301
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7110038.69, converge to 0.00002277
+[Info]Finish E-Step: 21 iteration, likelihood: -7110038.6887
+[Info]M-step 10....
+--------------------------
+[Info]EM iteration 10: likelihood is -7110038.69, converges to 0.01298512...
+
+====================
+[Info]Start EM iteration 11....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7062978.04, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7051471.11, converge to 0.00004571
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7050105.02, converge to 0.00000998
+[Info]Finish E-Step: 21 iteration, likelihood: -7050105.0213
+[Info]M-step 11....
+--------------------------
+[Info]EM iteration 11: likelihood is -7050105.02, converges to 0.00842944...
+
+====================
+[Info]Start EM iteration 12....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-7016473.55, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-7010949.26, converge to 0.00001844
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-7010500.02, converge to 0.00000319
+[Info]Finish E-Step: 21 iteration, likelihood: -7010500.0220
+[Info]M-step 12....
+--------------------------
+[Info]EM iteration 12: likelihood is -7010500.02, converges to 0.00561765...
+
+====================
+[Info]Start EM iteration 13....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6987545.93, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-6985385.67, converge to 0.00001141
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-6985065.03, converge to 0.00000175
+[Info]Finish E-Step: 21 iteration, likelihood: -6985065.0293
+[Info]M-step 13....
+--------------------------
+[Info]EM iteration 13: likelihood is -6985065.03, converges to 0.00362813...
+
+====================
+[Info]Start EM iteration 14....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6969421.12, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-6968650.94, converge to 0.00000415
+[Info]Finish E-Step: 18 iteration, likelihood: -6968514.3046
+[Info]M-step 14....
+--------------------------
+[Info]EM iteration 14: likelihood is -6968514.30, converges to 0.00236944...
+
+====================
+[Info]Start EM iteration 15....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6957161.61, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -6956924.7550
+[Info]M-step 15....
+--------------------------
+[Info]EM iteration 15: likelihood is -6956924.76, converges to 0.00166313...
+
+====================
+[Info]Start EM iteration 16....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6948294.49, converge to 1.00000000
+[Info]Finish E-Step: 2 iteration, likelihood: -6948368.4504
+[Info]M-step 16....
+--------------------------
+[Info]EM iteration 16: likelihood is -6948368.45, converges to 0.00122990...
+
+====================
+[Info]Start EM iteration 17....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6942369.28, converge to 1.00000000
+[Info]Finish E-Step: 2 iteration, likelihood: -6942333.0111
+[Info]M-step 17....
+--------------------------
+[Info]EM iteration 17: likelihood is -6942333.01, converges to 0.00086861...
+
+====================
+[Info]Start EM iteration 18....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6937668.72, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-6938021.86, converge to 0.00000347
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-6938257.12, converge to 0.00000116
+[Info]Finish E-Step: 21 iteration, likelihood: -6938257.1159
+[Info]M-step 18....
+--------------------------
+[Info]EM iteration 18: likelihood is -6938257.12, converges to 0.00058711...
+
+====================
+[Info]Start EM iteration 19....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6933518.99, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-6933941.62, converge to 0.00000236
+[Info]Multi-thread E-Step: 20 iteration, likelihood=-6934074.02, converge to 0.00000127
+[Info]Finish E-Step: 21 iteration, likelihood: -6934074.0202
+[Info]M-step 19....
+--------------------------
+[Info]EM iteration 19: likelihood is -6934074.02, converges to 0.00060290...
+
+====================
+[Info]Start EM iteration 20....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6929996.80, converge to 1.00000000
+[Info]Finish E-Step: 2 iteration, likelihood: -6930093.5658
+[Info]M-step 20....
+--------------------------
+[Info]EM iteration 20: likelihood is -6930093.57, converges to 0.00057404...
+
+====================
+[Info]Start EM iteration 21....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6926742.30, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-6927026.24, converge to 0.00000270
+[Info]Finish E-Step: 19 iteration, likelihood: -6927132.7410
+[Info]M-step 21....
+--------------------------
+[Info]EM iteration 21: likelihood is -6927132.74, converges to 0.00042724...
+
+====================
+[Info]Start EM iteration 22....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6923425.57, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-6923728.94, converge to 0.00000212
+[Info]Finish E-Step: 12 iteration, likelihood: -6923746.5775
+[Info]M-step 22....
+--------------------------
+[Info]EM iteration 22: likelihood is -6923746.58, converges to 0.00048883...
+
+====================
+[Info]Start EM iteration 23....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6920945.29, converge to 1.00000000
+[Info]Multi-thread E-Step: 10 iteration, likelihood=-6921273.70, converge to 0.00000144
+[Info]Finish E-Step: 12 iteration, likelihood: -6921286.7868
+[Info]M-step 23....
+--------------------------
+[Info]EM iteration 23: likelihood is -6921286.79, converges to 0.00035527...
+
+====================
+[Info]Start EM iteration 24....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6918899.54, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -6919238.8752
+[Info]M-step 24....
+--------------------------
+[Info]EM iteration 24: likelihood is -6919238.88, converges to 0.00029589...
+
+====================
+[Info]Start EM iteration 25....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6917101.28, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -6917436.4589
+[Info]M-step 25....
+--------------------------
+[Info]EM iteration 25: likelihood is -6917436.46, converges to 0.00026049...
+
+====================
+[Info]Start EM iteration 26....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6915571.58, converge to 1.00000000
+[Info]Finish E-Step: 10 iteration, likelihood: -6915841.0254
+[Info]M-step 26....
+--------------------------
+[Info]EM iteration 26: likelihood is -6915841.03, converges to 0.00023064...
+
+====================
+[Info]Start EM iteration 27....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6914259.45, converge to 1.00000000
+[Info]Finish E-Step: 9 iteration, likelihood: -6914500.5856
+[Info]M-step 27....
+--------------------------
+[Info]EM iteration 27: likelihood is -6914500.59, converges to 0.00019382...
+
+====================
+[Info]Start EM iteration 28....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6913091.95, converge to 1.00000000
+[Info]Finish E-Step: 8 iteration, likelihood: -6913267.8126
+[Info]M-step 28....
+--------------------------
+[Info]EM iteration 28: likelihood is -6913267.81, converges to 0.00017829...
+
+====================
+[Info]Start EM iteration 29....
+[Info]Multi-thread E-Step: 0 iteration, likelihood=-6911919.13, converge to 1.00000000
+[Info]Finish E-Step: 7 iteration, likelihood: -6912027.3904
+[Info]M-step 29....
+--------------------------
+[Info]EM iteration 29: likelihood is -6912027.39, converges to 0.00017943...
+
+[Info]Analying bipartie graph: 
+-- test graph: review size: 5592, item size: 263, user size: 240
+[Info]Start evaluation in thread
+---likelihood: -2139084.4867801694
+---likelihood: -2131723.0393515495
+---likelihood: -2125804.6942719207
+---likelihood: -2121511.1036262135
+---likelihood: -2118497.470076823
+---likelihood: -2115958.329461607
+---likelihood: -2114056.82098032
+---likelihood: -2112703.1518174633
+---likelihood: -2111373.423882801
+---likelihood: -2110366.6293307017
+---likelihood: -2109408.406552652
+---likelihood: -2108677.3805564702
+---likelihood: -2107757.0815692004
+---likelihood: -2107260.233126056
+---likelihood: -2106656.6402332657
+---likelihood: -2106319.727981713
+---likelihood: -2105741.235243825
+---likelihood: -2105395.6288523464
+---likelihood: -2105024.5434568487
+---likelihood: -2104985.633199401
+---likelihood: -2104314.746846481
+[Info]Inference finished: likelihood: -2104314.7468
+[Stat]Test evaluation finished: 5592 docs
+[Stat]0 part has 726.000000 docs: perplexity is 1630.749 and log-likelihood is -408.128
+[Stat]1 part has 1348.000000 docs: perplexity is 1358.305 and log-likelihood is -389.914
+[Stat]2 part has 1203.000000 docs: perplexity is 1117.852 and log-likelihood is -386.252
+[Stat]3 part has 2315.000000 docs: perplexity is 876.080 and log-likelihood is -354.197
+[Stat]4 part has 5592.000000 docs: perplexity is 1108.989 and log-likelihood is -376.308
+[Info]ETBIR_Normal[k:35, alpha:1.01000, beta:1.00100, simga:1.01000, rho:1.01000, item~N(1.00000, 1.00000), user~N(1.00000, 1.00000)]
+ Train/Test SUCCEED in 3217.47 seconds...
+TopWord FilePath:/home/ll5fy/TUIR/dataset/amazon_movie/byUser_70k_review/output/5foldsCVColdstart/4/ETBIR_topWords_35.txt
+Topic 0(0.03250):	rent(0.01965)	hate(0.01665)	bore(0.01567)	wast(0.01426)	total(0.01197)	flick(0.01168)	type(0.01100)	glad(0.00914)	wait(0.00862)	basic(0.00813)	half(0.00765)	twist(0.00729)	genr(0.00724)	kinda(0.00711)	lame(0.00684)	joli(0.00674)	hype(0.00671)	amazon(0.00666)	suck(0.00666)	standard(0.00662)	money(0.00635)	jane(0.00625)	felt(0.00624)	lack(0.00618)	game(0.00599)	fair(0.00597)	horribl(0.00587)	wors(0.00571)	understand(0.00566)	fine(0.00562)	
+Topic 1(0.02466):	villag(0.02615)	night(0.01716)	cage(0.01587)	shyamalan(0.01480)	twist(0.01001)	forest(0.00962)	water(0.00956)	sign(0.00912)	nichola(0.00774)	blind(0.00733)	daughter(0.00707)	doctor(0.00683)	amin(0.00668)	thriller(0.00617)	wood(0.00610)	suspens(0.00599)	whitak(0.00574)	denni(0.00536)	ladi(0.00518)	quaid(0.00517)	david(0.00508)	town(0.00482)	hurt(0.00459)	secret(0.00452)	shot(0.00428)	presid(0.00417)	creatur(0.00413)	number(0.00409)	reveal(0.00394)	frank(0.00374)	
+Topic 2(0.03176):	matt(0.01849)	damon(0.01802)	frank(0.01597)	bourn(0.01569)	dicaprio(0.01185)	dream(0.01184)	hotel(0.00793)	robert(0.00710)	leonardo(0.00580)	oscar(0.00557)	georg(0.00506)	leon(0.00498)	danni(0.00476)	manag(0.00475)	paul(0.00432)	ident(0.00432)	brilliant(0.00411)	connelli(0.00392)	nash(0.00391)	support(0.00381)	cheadl(0.00381)	africa(0.00375)	money(0.00373)	christoph(0.00369)	blood(0.00357)	hollywood(0.00354)	brother(0.00353)	twelv(0.00347)	scorses(0.00347)	edward(0.00344)	
+Topic 3(0.02387):	futur(0.03118)	fiction(0.01200)	earth(0.01151)	kinsey(0.01062)	scientist(0.01035)	societi(0.01012)	pari(0.00653)	robot(0.00622)	neeson(0.00616)	minor(0.00569)	vision(0.00553)	scientif(0.00543)	moral(0.00539)	save(0.00519)	klaatu(0.00517)	destroy(0.00488)	issu(0.00487)	liam(0.00478)	natur(0.00474)	technolog(0.00474)	today(0.00460)	behavior(0.00456)	citi(0.00428)	father(0.00398)	intellig(0.00388)	rule(0.00368)	truth(0.00361)	peac(0.00353)	basic(0.00351)	consid(0.00345)	
+Topic 4(0.05319):	dead(0.02374)	hous(0.01906)	remak(0.01858)	halloween(0.01458)	michael(0.01234)	gore(0.01030)	night(0.00970)	evil(0.00945)	ghost(0.00797)	killer(0.00752)	flick(0.00682)	myer(0.00642)	romero(0.00609)	blood(0.00605)	chainsaw(0.00582)	texa(0.00570)	town(0.00553)	genr(0.00544)	dawn(0.00538)	hell(0.00500)	victim(0.00486)	13th(0.00483)	lauri(0.00465)	game(0.00452)	hill(0.00420)	massacr(0.00418)	terror(0.00413)	mask(0.00402)	room(0.00397)	tension(0.00386)	
+Topic 5(0.02186):	pitt(0.02048)	brad(0.02031)	night(0.00948)	jess(0.00904)	twilight(0.00793)	rate(0.00665)	mark(0.00648)	develop(0.00634)	jame(0.00599)	talent(0.00580)	visual(0.00567)	talk(0.00512)	plant(0.00506)	shot(0.00506)	teen(0.00503)	elliot(0.00491)	fail(0.00482)	volum(0.00449)	sign(0.00446)	premis(0.00443)	serious(0.00436)	walk(0.00429)	pace(0.00408)	major(0.00397)	general(0.00388)	case(0.00382)	edward(0.00368)	blood(0.00366)	bella(0.00365)	club(0.00360)	
+Topic 6(0.03064):	violenc(0.02148)	citi(0.01431)	godfath(0.01044)	driver(0.00937)	michael(0.00815)	violent(0.00752)	drug(0.00701)	robert(0.00658)	pulp(0.00610)	histori(0.00578)	maria(0.00545)	drive(0.00529)	foxx(0.00526)	fiction(0.00524)	brilliant(0.00490)	thriller(0.00484)	york(0.00457)	boss(0.00440)	david(0.00437)	half(0.00420)	daughter(0.00418)	travi(0.00418)	busi(0.00414)	niro(0.00414)	brutal(0.00412)	taxi(0.00411)	mafia(0.00411)	promis(0.00411)	mike(0.00409)	viggo(0.00391)	
+Topic 7(0.02932):	drug(0.01306)	milk(0.01212)	white(0.01198)	polit(0.01176)	sean(0.01076)	penn(0.01037)	kubrick(0.00977)	black(0.00970)	alex(0.00715)	night(0.00624)	luck(0.00569)	river(0.00522)	televis(0.00489)	violenc(0.00482)	support(0.00478)	toni(0.00476)	histori(0.00463)	news(0.00455)	georg(0.00432)	polic(0.00428)	daughter(0.00416)	oscar(0.00412)	mystic(0.00384)	racist(0.00378)	orang(0.00372)	public(0.00349)	robbin(0.00341)	robert(0.00334)	issu(0.00321)	today(0.00320)	
+Topic 8(0.02292):	pirat(0.02461)	kong(0.01893)	captain(0.01353)	king(0.01351)	jack(0.01343)	ship(0.01329)	fish(0.01245)	black(0.01226)	crew(0.01127)	father(0.01038)	curs(0.00850)	bloom(0.00826)	depp(0.00805)	island(0.00770)	water(0.00731)	dead(0.00714)	sparrow(0.00712)	rush(0.00672)	boat(0.00671)	caribbean(0.00647)	davi(0.00639)	ride(0.00571)	johnni(0.00545)	amaz(0.00540)	edward(0.00535)	sequenc(0.00496)	lord(0.00496)	pearl(0.00481)	turner(0.00478)	tale(0.00465)	
+Topic 9(0.02295):	race(0.02396)	hank(0.02308)	rocki(0.02158)	hors(0.01250)	frank(0.00639)	road(0.00614)	rambo(0.00530)	tobi(0.00526)	termin(0.00502)	countri(0.00495)	ring(0.00483)	peter(0.00475)	oscar(0.00430)	newman(0.00409)	street(0.00402)	swat(0.00402)	train(0.00399)	team(0.00397)	father(0.00385)	gump(0.00375)	brian(0.00370)	fast(0.00367)	town(0.00363)	hero(0.00334)	mother(0.00329)	adrian(0.00324)	shot(0.00323)	mickey(0.00323)	drama(0.00322)	deal(0.00322)	
+Topic 10(0.02195):	hero(0.03263)	superhero(0.02914)	save(0.01185)	royal(0.00878)	bill(0.00780)	mari(0.00712)	theron(0.00711)	villain(0.00707)	charliz(0.00539)	rate(0.00537)	half(0.00534)	gene(0.00533)	humor(0.00436)	theme(0.00435)	genr(0.00416)	watchmen(0.00415)	hackman(0.00415)	peter(0.00392)	comedi(0.00374)	decid(0.00371)	hate(0.00358)	thurman(0.00353)	cool(0.00352)	tenenbaum(0.00344)	violenc(0.00338)	mark(0.00332)	hous(0.00331)	physic(0.00330)	continu(0.00329)	graphic(0.00329)	
+Topic 11(0.02345):	tale(0.04327)	magic(0.01705)	imagin(0.01637)	evil(0.01504)	creatur(0.01272)	visual(0.01254)	brother(0.01033)	mother(0.00985)	toro(0.00920)	anim(0.00858)	ofelia(0.00773)	princess(0.00706)	spirit(0.00642)	task(0.00635)	monster(0.00583)	captain(0.00567)	full(0.00565)	strang(0.00545)	witch(0.00482)	gilliam(0.00452)	mytholog(0.00440)	armi(0.00432)	brutal(0.00431)	myth(0.00427)	genr(0.00422)	king(0.00404)	stun(0.00401)	golden(0.00398)	violenc(0.00396)	father(0.00384)	
+Topic 12(0.02356):	depp(0.03169)	johnni(0.02110)	charli(0.01909)	song(0.01429)	chocol(0.01326)	todd(0.01322)	willi(0.01278)	wood(0.01076)	judg(0.01047)	visual(0.00931)	bride(0.00924)	sweeney(0.00918)	carter(0.00657)	amaz(0.00639)	sing(0.00625)	brilliant(0.00579)	favorit(0.00578)	town(0.00578)	imagin(0.00575)	blood(0.00523)	edward(0.00494)	sleepi(0.00492)	strang(0.00486)	london(0.00476)	deep(0.00467)	danni(0.00458)	voic(0.00454)	product(0.00451)	helena(0.00446)	daughter(0.00422)	
+Topic 13(0.02371):	danc(0.02046)	song(0.01418)	mother(0.01265)	sing(0.01254)	rose(0.01003)	spacey(0.00989)	kevin(0.00968)	daughter(0.00951)	bobbi(0.00903)	maggi(0.00808)	sister(0.00715)	black(0.00710)	father(0.00674)	number(0.00606)	dream(0.00585)	talent(0.00488)	barbara(0.00481)	product(0.00470)	nick(0.00450)	white(0.00444)	singer(0.00439)	industri(0.00438)	older(0.00434)	dancer(0.00431)	brilliant(0.00423)	swan(0.00409)	support(0.00407)	nina(0.00403)	talk(0.00401)	tobacco(0.00390)	
+Topic 14(0.02824):	moor(0.01173)	gibson(0.00973)	violenc(0.00867)	christ(0.00866)	rosemari(0.00657)	polanski(0.00627)	roman(0.00623)	case(0.00579)	demon(0.00551)	possess(0.00541)	priest(0.00494)	babi(0.00463)	christian(0.00453)	rose(0.00440)	mayan(0.00438)	violent(0.00416)	controversi(0.00383)	bibl(0.00378)	father(0.00378)	histori(0.00375)	graphic(0.00370)	cathol(0.00361)	fear(0.00356)	suffer(0.00352)	golden(0.00344)	game(0.00335)	religion(0.00332)	code(0.00330)	bear(0.00312)	drama(0.00302)	
+Topic 15(0.04330):	battl(0.01659)	soldier(0.01461)	king(0.01349)	alexand(0.00953)	hitler(0.00846)	histori(0.00763)	histor(0.00719)	japanes(0.00704)	daniel(0.00646)	epic(0.00620)	armi(0.00615)	oliv(0.00556)	general(0.00506)	robin(0.00487)	plainview(0.00458)	vietnam(0.00443)	bush(0.00423)	polit(0.00421)	militari(0.00407)	troy(0.00398)	countri(0.00389)	father(0.00389)	side(0.00386)	privat(0.00386)	presid(0.00371)	georg(0.00344)	gladiat(0.00339)	save(0.00329)	order(0.00327)	hero(0.00321)	
+Topic 16(0.02946):	comedi(0.05157)	laugh(0.04954)	humor(0.02357)	joke(0.02201)	hilari(0.01842)	stupid(0.01481)	stiller(0.01449)	ferrel(0.01144)	male(0.00809)	greg(0.00686)	owen(0.00666)	plane(0.00658)	model(0.00653)	news(0.00636)	dumb(0.00602)	kyle(0.00552)	serious(0.00549)	father(0.00542)	peter(0.00536)	pink(0.00528)	night(0.00505)	robert(0.00501)	daughter(0.00493)	zooland(0.00440)	team(0.00421)	seller(0.00417)	focker(0.00415)	figur(0.00389)	amus(0.00382)	michael(0.00360)	
+Topic 17(0.03786):	monster(0.02138)	blade(0.01416)	dracula(0.01317)	matrix(0.01283)	hulk(0.00921)	creatur(0.00860)	hugh(0.00801)	hels(0.00800)	jackman(0.00612)	david(0.00588)	anna(0.00558)	mummi(0.00558)	king(0.00557)	citi(0.00520)	cave(0.00485)	werewolv(0.00480)	frankenstein(0.00479)	virus(0.00468)	mist(0.00450)	werewolf(0.00443)	return(0.00436)	sequenc(0.00427)	rick(0.00422)	magician(0.00399)	trick(0.00360)	cure(0.00358)	london(0.00356)	nevill(0.00353)	blood(0.00347)	battl(0.00335)	
+Topic 18(0.03248):	bond(0.04381)	bruce(0.03090)	iron(0.02121)	willi(0.01171)	jame(0.01129)	wayn(0.01128)	toni(0.00961)	villain(0.00923)	knight(0.00865)	citi(0.00820)	downey(0.00637)	gotham(0.00603)	suit(0.00545)	hero(0.00508)	morgan(0.00486)	weapon(0.00474)	carrey(0.00467)	michael(0.00456)	superhero(0.00452)	robert(0.00433)	conneri(0.00428)	aveng(0.00421)	sequenc(0.00402)	bale(0.00400)	cain(0.00377)	return(0.00362)	plan(0.00361)	secret(0.00338)	christian(0.00333)	gari(0.00332)	
+Topic 19(0.02082):	author(0.01823)	kane(0.01464)	hoffman(0.01342)	blood(0.01246)	third(0.01207)	truman(0.01181)	cold(0.01166)	holli(0.00726)	brilliant(0.00709)	orson(0.00649)	drama(0.00644)	killer(0.00575)	paul(0.00550)	hepburn(0.00539)	joseph(0.00516)	hollywood(0.00485)	famous(0.00458)	perri(0.00455)	career(0.00431)	kansa(0.00427)	develop(0.00422)	touch(0.00413)	georg(0.00409)	manipul(0.00408)	black(0.00397)	vienna(0.00381)	talk(0.00376)	game(0.00362)	product(0.00361)	mcvay(0.00358)	
+Topic 20(0.05189):	anim(0.01945)	edit(0.01868)	disc(0.01809)	spiderman(0.01748)	audio(0.01740)	commentari(0.01653)	peter(0.01327)	digit(0.01182)	video(0.01124)	transfer(0.00974)	termin(0.00932)	featurett(0.00892)	amaz(0.00832)	qualiti(0.00823)	documentari(0.00799)	theatric(0.00772)	delet(0.00716)	mari(0.00688)	product(0.00634)	track(0.00617)	voic(0.00592)	penguin(0.00561)	ring(0.00544)	visual(0.00513)	cameron(0.00509)	queen(0.00499)	interview(0.00497)	white(0.00488)	bonus(0.00476)	talk(0.00466)	
+Topic 21(0.02992):	camera(0.02594)	hitchcock(0.02016)	suspens(0.01998)	bore(0.01936)	shot(0.01237)	bird(0.01130)	cool(0.00895)	slow(0.00839)	confus(0.00632)	thriller(0.00629)	money(0.00607)	total(0.00578)	vertigo(0.00538)	alfr(0.00526)	mediocr(0.00482)	soundtrack(0.00479)	half(0.00449)	wast(0.00441)	twist(0.00440)	serious(0.00439)	blah(0.00434)	felt(0.00433)	jump(0.00427)	pace(0.00426)	bought(0.00425)	alot(0.00413)	flick(0.00413)	consid(0.00407)	wait(0.00400)	impress(0.00393)	
+Topic 22(0.02217):	quot(0.09228)	rock(0.03188)	quotth(0.02301)	band(0.01761)	bill(0.00713)	ride(0.00680)	dead(0.00616)	commentari(0.00606)	slither(0.00583)	comedi(0.00576)	roll(0.00549)	genr(0.00546)	gonna(0.00481)	song(0.00471)	town(0.00467)	serious(0.00455)	sequenc(0.00454)	jame(0.00445)	favorit(0.00440)	michael(0.00432)	documentari(0.00430)	spinal(0.00427)	tornado(0.00427)	half(0.00417)	hollywood(0.00411)	hilari(0.00406)	hunt(0.00379)	impress(0.00378)	william(0.00377)	flick(0.00370)	
+Topic 23(0.02255):	robert(0.01263)	brown(0.00955)	michael(0.00888)	marti(0.00826)	student(0.00817)	rang(0.00785)	potter(0.00728)	costner(0.00714)	fiction(0.00705)	black(0.00646)	voic(0.00635)	professor(0.00632)	magic(0.00613)	futur(0.00573)	emma(0.00569)	barri(0.00565)	prison(0.00552)	simpson(0.00552)	thompson(0.00544)	lisa(0.00540)	town(0.00465)	hear(0.00456)	park(0.00455)	georg(0.00432)	altman(0.00398)	duval(0.00395)	gyllenha(0.00385)	boss(0.00377)	maggi(0.00373)	talk(0.00362)	
+Topic 24(0.02166):	washington(0.02082)	bank(0.01320)	warm(0.01258)	train(0.01043)	gore(0.00887)	polic(0.00877)	reveng(0.00868)	kirk(0.00791)	trek(0.00769)	insid(0.00708)	nick(0.00686)	dead(0.00674)	thriller(0.00586)	case(0.00573)	system(0.00544)	deal(0.00515)	town(0.00493)	killer(0.00466)	twist(0.00464)	pegg(0.00454)	khan(0.00443)	plan(0.00435)	spoiler(0.00432)	situat(0.00402)	order(0.00382)	manag(0.00379)	foxx(0.00376)	villain(0.00373)	save(0.00353)	sort(0.00350)	
+Topic 25(0.02287):	bale(0.01303)	unit(0.01202)	terrorist(0.01186)	affleck(0.01149)	hollywood(0.01018)	thriller(0.00958)	polit(0.00845)	christian(0.00755)	attack(0.00696)	plane(0.00657)	garner(0.00651)	team(0.00639)	govern(0.00623)	thirti(0.00608)	suspens(0.00607)	terror(0.00579)	bomb(0.00556)	seal(0.00542)	argo(0.00534)	oper(0.00510)	situat(0.00501)	tension(0.00492)	laden(0.00485)	intens(0.00479)	flight(0.00446)	mission(0.00446)	tens(0.00441)	piec(0.00439)	control(0.00426)	produc(0.00423)	
+Topic 26(0.02914):	crow(0.01381)	kidman(0.01145)	billi(0.00993)	russel(0.00891)	oscar(0.00852)	braddock(0.00813)	nicol(0.00787)	mountain(0.00773)	father(0.00674)	jude(0.00670)	cold(0.00657)	shakespear(0.00609)	babi(0.00605)	support(0.00584)	public(0.00527)	zellweg(0.00476)	jame(0.00463)	train(0.00457)	romant(0.00451)	mann(0.00449)	chicago(0.00448)	michael(0.00446)	dollar(0.00429)	manag(0.00413)	cinderella(0.00384)	song(0.00380)	rene(0.00378)	bale(0.00370)	award(0.00348)	talent(0.00339)	
+Topic 27(0.02641):	xmen(0.01968)	dragon(0.01588)	potter(0.01417)	fire(0.00983)	cash(0.00921)	carter(0.00906)	michael(0.00856)	phoenix(0.00834)	johnni(0.00711)	order(0.00633)	june(0.00540)	fienn(0.00529)	wolverin(0.00498)	ralph(0.00486)	salt(0.00479)	singer(0.00476)	graham(0.00460)	professor(0.00442)	return(0.00431)	xavier(0.00407)	walk(0.00381)	jame(0.00364)	magic(0.00361)	goblet(0.00360)	patrick(0.00359)	evil(0.00357)	cure(0.00354)	doom(0.00350)	berri(0.00349)	voldemort(0.00348)	
+Topic 28(0.02483):	island(0.01803)	killer(0.01408)	brook(0.01304)	william(0.01263)	kate(0.01218)	joel(0.01116)	carrey(0.01087)	thriller(0.00974)	winslet(0.00883)	sunshin(0.00853)	park(0.00789)	ferri(0.00712)	twist(0.00706)	robin(0.00691)	lost(0.00657)	clementin(0.00607)	eras(0.00606)	cell(0.00598)	mark(0.00569)	brilliant(0.00547)	patient(0.00516)	dick(0.00513)	teddi(0.00506)	victim(0.00492)	night(0.00490)	silenc(0.00467)	decid(0.00454)	hurt(0.00439)	insan(0.00428)	season(0.00394)	
+Topic 29(0.02518):	jack(0.05500)	nicholson(0.02203)	mile(0.01577)	comedi(0.01184)	daughter(0.01070)	keaton(0.01044)	adam(0.00928)	romant(0.00918)	sandler(0.00872)	hous(0.00841)	warren(0.00811)	wine(0.00805)	retir(0.00636)	paul(0.00598)	marri(0.00580)	trip(0.00554)	kathi(0.00545)	manag(0.00537)	gotta(0.00522)	barrymor(0.00515)	drew(0.00488)	bate(0.00484)	payn(0.00446)	week(0.00440)	barri(0.00440)	letter(0.00421)	fine(0.00413)	thoma(0.00409)	season(0.00406)	oscar(0.00406)	
+Topic 30(0.02695):	jone(0.02864)	transform(0.02259)	ford(0.01662)	indiana(0.01543)	treasur(0.01524)	indi(0.01119)	harrison(0.00937)	captain(0.00898)	robot(0.00768)	raider(0.00730)	lost(0.00669)	clue(0.00658)	ryan(0.00646)	hero(0.00638)	sequenc(0.00604)	thor(0.00537)	cage(0.00537)	michael(0.00524)	secret(0.00505)	sean(0.00504)	tommi(0.00488)	gate(0.00476)	shia(0.00460)	earth(0.00460)	steven(0.00457)	aveng(0.00436)	nazi(0.00422)	templ(0.00414)	doom(0.00404)	luca(0.00402)	
+Topic 31(0.04295):	earth(0.01742)	planet(0.01572)	episod(0.01432)	ship(0.01368)	trek(0.01356)	crew(0.01166)	predat(0.01120)	robot(0.00756)	luca(0.00749)	battl(0.00649)	mission(0.00597)	moon(0.00558)	fiction(0.00554)	visual(0.00530)	attack(0.00525)	jedi(0.00498)	destroy(0.00477)	return(0.00456)	save(0.00409)	wall(0.00406)	georg(0.00397)	technolog(0.00385)	side(0.00384)	darth(0.00367)	black(0.00360)	team(0.00353)	creatur(0.00351)	luke(0.00349)	borg(0.00321)	futur(0.00317)	
+Topic 32(0.02400):	andi(0.02303)	comedi(0.01712)	streep(0.01456)	humor(0.01036)	meryl(0.00945)	wear(0.00928)	laugh(0.00859)	hilari(0.00855)	knock(0.00817)	devil(0.00643)	ladi(0.00598)	virgin(0.00592)	assist(0.00587)	blunt(0.00523)	colleg(0.00495)	seth(0.00476)	voic(0.00443)	pixar(0.00426)	romant(0.00414)	anni(0.00411)	parti(0.00401)	hathaway(0.00378)	anim(0.00375)	boss(0.00366)	tucci(0.00362)	serious(0.00354)	priest(0.00345)	situat(0.00338)	buzz(0.00337)	joke(0.00324)	
+Topic 33(0.02599):	return(0.01306)	reev(0.01234)	lane(0.01148)	jeff(0.01028)	coen(0.01027)	donni(0.00916)	brother(0.00861)	dude(0.00748)	richard(0.00723)	christoph(0.00691)	kevin(0.00641)	brandon(0.00606)	luthor(0.00572)	walter(0.00560)	bridg(0.00504)	singer(0.00479)	kent(0.00458)	paint(0.00421)	rabbit(0.00416)	routh(0.00415)	kitti(0.00409)	husband(0.00397)	darko(0.00395)	spacey(0.00393)	frank(0.00393)	donner(0.00383)	earth(0.00368)	money(0.00351)	planet(0.00350)	decid(0.00331)	
+Topic 34(0.02499):	lost(0.01344)	bill(0.01291)	translat(0.01228)	scarlett(0.00898)	coppola(0.00893)	match(0.00777)	cultur(0.00658)	husband(0.00648)	daughter(0.00613)	hall(0.00607)	charlott(0.00602)	marri(0.00557)	tokyo(0.00545)	mother(0.00502)	franc(0.00500)	understand(0.00458)	whale(0.00455)	vicki(0.00430)	comedi(0.00429)	father(0.00418)	rebecca(0.00408)	oscar(0.00383)	simpli(0.00377)	graduat(0.00377)	grandfath(0.00375)	flower(0.00368)	japanes(0.00359)	natur(0.00355)	dougla(0.00348)	humor(0.00335)	
+
+Part 0 -----------------Valid folds: 5
+[Stat]Loglikelihood -374.265+/-20.719
+[Stat]Perplexity 1506.676+/-80.363
+Part 1 -----------------Valid folds: 5
+[Stat]Loglikelihood -378.017+/-16.479
+[Stat]Perplexity 1236.376+/-86.470
+Part 2 -----------------Valid folds: 5
+[Stat]Loglikelihood -356.363+/-15.602
+[Stat]Perplexity 1359.629+/-195.746
+Part 3 -----------------Valid folds: 5
+[Stat]Loglikelihood -352.766+/-11.786
+[Stat]Perplexity 1040.967+/-152.045
+Part 4 -----------------Valid folds: 5
+[Stat]Loglikelihood -362.383+/-12.868
+[Stat]Perplexity 1191.487+/-89.634

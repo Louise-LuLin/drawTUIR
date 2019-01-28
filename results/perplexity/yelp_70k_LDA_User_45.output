@@ -1,0 +1,670 @@
+Load 6134 2-gram new features from /zf18/ll5fy/lab/dataset/yelp/yelp_features.txt...
+1409 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/data/...
+Info File Path: /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/LDA_User_info.txt
+[Info]Start FIXED cross validation...
+260 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+244 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+266 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+264 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+256 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 0: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 12311, test size = 3532....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 12311, item size: 722, user size: 770
+[Info]EM Starting multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational]...
+==============
+[Info]Likelihood -2251100.65712 at step 0 converge to 1.0000000000...
+==============
+[Info]Likelihood -2249876.58460 at step 1 converge to 0.0005437662...
+==============
+[Info]Likelihood -2248663.49161 at step 2 converge to 0.0005391820...
+==============
+[Info]Likelihood -2247455.33335 at step 3 converge to 0.0005372784...
+==============
+[Info]Likelihood -2246214.57843 at step 4 converge to 0.0005520710...
+==============
+[Info]Likelihood -2244936.99940 at step 5 converge to 0.0005687698...
+==============
+[Info]Likelihood -2243645.51280 at step 6 converge to 0.0005752886...
+==============
+[Info]Likelihood -2242250.86610 at step 7 converge to 0.0006215985...
+==============
+[Info]Likelihood -2240489.81230 at step 8 converge to 0.0007853955...
+==============
+[Info]Likelihood -2237191.42298 at step 9 converge to 0.0014721733...
+==============
+[Info]Likelihood -2229364.57097 at step 10 converge to 0.0034985169...
+==============
+[Info]Likelihood -2216095.02231 at step 11 converge to 0.0059521663...
+==============
+[Info]Likelihood -2190799.98709 at step 12 converge to 0.0114142376...
+==============
+[Info]Likelihood -2147073.93766 at step 13 converge to 0.0199589418...
+==============
+[Info]Likelihood -2100772.50191 at step 14 converge to 0.0215649005...
+==============
+[Info]Likelihood -2059780.53323 at step 15 converge to 0.0195128071...
+==============
+[Info]Likelihood -2025104.55429 at step 16 converge to 0.0168347930...
+==============
+[Info]Likelihood -1995650.66315 at step 17 converge to 0.0145443805...
+==============
+[Info]Likelihood -1969666.19744 at step 18 converge to 0.0130205482...
+==============
+[Info]Likelihood -1946869.19822 at step 19 converge to 0.0115740420...
+==============
+[Info]Likelihood -1927486.54218 at step 20 converge to 0.0099558080...
+==============
+[Info]Likelihood -1911024.59730 at step 21 converge to 0.0085406277...
+==============
+[Info]Likelihood -1896722.96258 at step 22 converge to 0.0074837523...
+==============
+[Info]Likelihood -1883969.86927 at step 23 converge to 0.0067237512...
+==============
+[Info]Likelihood -1872316.56045 at step 24 converge to 0.0061855070...
+==============
+[Info]Likelihood -1861493.24283 at step 25 converge to 0.0057807092...
+==============
+[Info]Likelihood -1851379.91285 at step 26 converge to 0.0054329125...
+==============
+[Info]Likelihood -1841842.12020 at step 27 converge to 0.0051517209...
+==============
+[Info]Likelihood -1832737.68941 at step 28 converge to 0.0049431114...
+==============
+[Info]Likelihood -1823896.19467 at step 29 converge to 0.0048242009...
+[Info]Likelihood -1823896.195 after step 30 converge to 0.004824 after 193 seconds...
+[Info]Analying bipartie graph: 
+-- test graph: review size: 3532, item size: 211, user size: 260
+[Info]Start evaluation in thread
+[Stat]Test evaluation finished: 3532 docs
+[Stat]0 part has 817.000000 docs: perplexity is 1122.895 and log-likelihood is -321.962
+[Stat]1 part has 303.000000 docs: perplexity is 1140.164 and log-likelihood is -326.764
+[Stat]2 part has 1696.000000 docs: perplexity is 1047.514 and log-likelihood is -308.940
+[Stat]3 part has 716.000000 docs: perplexity is 1027.425 and log-likelihood is -301.083
+[Stat]4 part has 3532.000000 docs: perplexity is 1068.903 and log-likelihood is -311.889
+[Info]multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational] Train/Test finished in 195.55 seconds...
+TopWord FilePath:/zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/0/LDA_User_topWords_45.txt
+Topic 0(0.02560):	pork(0.09178)	beef(0.06730)	korean(0.03411)	rice(0.03188)	belli(0.02880)	pork-belli(0.02218)	chines(0.01930)	dish(0.01914)	cook(0.01676)	spici(0.01616)	steam(0.01474)	soup(0.01452)	tofu(0.01417)	short-rib(0.01362)	asian(0.01319)	short(0.01305)	marin(0.01159)	side-dish(0.00964)	bulgogi(0.00841)	dumpl(0.00807)	bean(0.00780)	tender(0.00762)	veggi(0.00729)	tongu(0.00709)	noodl-soup(0.00684)	vietnames(0.00647)	fri-rice(0.00640)	crispi(0.00623)	sauc(0.00617)	combo(0.00590)	
+Topic 1(0.02169):	thai(0.06988)	rice(0.06176)	dish(0.05800)	curri(0.05775)	spici(0.04045)	spice(0.03225)	restaur(0.02526)	flavor(0.01900)	chicken(0.01608)	sauc(0.01402)	fri-rice(0.01386)	pad-thai(0.01267)	lunch-special(0.01209)	sweet(0.01005)	yellow(0.01005)	crispi(0.00846)	duck(0.00824)	thai-restaur(0.00766)	ginger(0.00737)	egg-roll(0.00710)	asian(0.00710)	authent(0.00699)	favorit-dish(0.00566)	beef(0.00531)	penn(0.00522)	special(0.00515)	panang(0.00508)	tast(0.00477)	white(0.00470)	coconut(0.00454)	
+Topic 2(0.01971):	time(0.06077)	pretti(0.04920)	friend(0.03267)	price(0.02436)	definit(0.02040)	wait(0.01890)	best(0.01577)	star(0.01458)	favorit(0.01337)	peopl(0.01330)	pretti-good(0.01315)	restaur(0.01236)	staff(0.01196)	vega(0.01122)	amaz(0.01087)	close(0.01072)	tabl(0.01044)	recommend(0.00998)	super(0.00988)	coupl(0.00954)	busi(0.00938)	feel(0.00926)	locat(0.00921)	expect(0.00911)	town(0.00909)	reason(0.00863)	seat(0.00828)	review(0.00792)	spot(0.00766)	experi(0.00745)	
+Topic 3(0.01777):	juici(0.05101)	time(0.02438)	pound(0.02121)	friend(0.01892)	season(0.01781)	delici(0.01506)	crawfish(0.01482)	sauc(0.01369)	pretti(0.01322)	serv(0.01233)	best(0.01231)	tast(0.01217)	order-NUM(0.01171)	smell(0.01153)	definit(0.01017)	wear(0.00963)	wait(0.00942)	restaur(0.00928)	tabl(0.00894)	price(0.00886)	locat(0.00867)	messi(0.00853)	spici(0.00848)	garlic(0.00791)	seat(0.00700)	perfect(0.00669)	vega(0.00626)	medium(0.00618)	expect(0.00609)	suck(0.00596)	
+Topic 4(0.03123):	park(0.08481)	shop(0.05450)	store(0.04661)	play(0.03290)	rock(0.03136)	machin(0.02046)	walk(0.01859)	area(0.01454)	month(0.01352)	year(0.01267)	sign(0.01030)	class(0.00962)	red-rock(0.00927)	local(0.00830)	work(0.00801)	find(0.00780)	build(0.00776)	squar(0.00771)	spent(0.00719)	town(0.00663)	cool(0.00660)	clean(0.00648)	space(0.00639)	peopl(0.00603)	garag(0.00550)	card(0.00535)	sale(0.00534)	court(0.00533)	spend(0.00514)	easi(0.00504)	
+Topic 5(0.01983):	tabl(0.06439)	dinner(0.03963)	restaur(0.02343)	dress(0.02147)	time(0.02132)	birthday(0.01376)	hostess(0.01322)	star(0.01205)	side(0.01205)	dine(0.01191)	amaz(0.01177)	seat(0.01132)	experi(0.01121)	brought(0.01069)	boyfriend(0.01060)	wait(0.00971)	serv(0.00963)	bill(0.00876)	price(0.00840)	pretzel(0.00831)	wife(0.00787)	friend(0.00785)	night(0.00761)	water(0.00723)	return(0.00719)	rememb(0.00716)	waiter(0.00716)	wast(0.00679)	start(0.00646)	best(0.00640)	
+Topic 6(0.01999):	taco(0.08717)	chip(0.06153)	mexican(0.03864)	bean(0.03735)	nacho(0.02242)	tortilla(0.02242)	burrito(0.02211)	margarita(0.01798)	sour(0.01715)	fusion(0.01470)	asada(0.01338)	fish(0.01299)	carn(0.01269)	guacamol(0.01269)	cilantro(0.01153)	authent(0.01117)	mexican-food(0.01112)	carn-asada(0.01052)	flavor(0.01033)	sauc(0.00883)	corn(0.00867)	delici(0.00822)	enchilada(0.00807)	fajita(0.00782)	fish-taco(0.00756)	pineappl(0.00728)	sour-cream(0.00695)	bang(0.00678)	carnita(0.00591)	quesadilla(0.00565)	
+Topic 7(0.01987):	soup(0.09546)	bread(0.03555)	today(0.01976)	turkey(0.01896)	ball(0.01804)	deli(0.01781)	soda(0.01641)	beef(0.01374)	factori(0.01152)	coke(0.01082)	split(0.01081)	time(0.01050)	earl(0.00967)	tast(0.00864)	cafe(0.00852)	grill-chees(0.00789)	pastrami(0.00762)	diet(0.00745)	pickl(0.00715)	yelp(0.00677)	dine(0.00648)	small(0.00643)	cheesecak-factori(0.00633)	bookmark(0.00611)	delici(0.00610)	mustard(0.00569)	restaur(0.00549)	stuf(0.00535)	roast(0.00519)	everytim(0.00507)	
+Topic 8(0.04216):	room(0.10208)	casino(0.05493)	stay(0.05263)	hotel(0.05075)	strip(0.03687)	pool(0.02560)	view(0.01911)	vega(0.01382)	suit(0.01163)	gambl(0.00962)	resort(0.00872)	elev(0.00869)	valet(0.00834)	properti(0.00826)	walk(0.00826)	tower(0.00824)	airport(0.00801)	slot(0.00741)	aria(0.00710)	modern(0.00653)	clean(0.00649)	book(0.00637)	area(0.00633)	shower(0.00632)	venetian(0.00623)	desk(0.00566)	cosmopolitan(0.00552)	access(0.00543)	caesar(0.00540)	spacious(0.00530)	
+Topic 9(0.02468):	pizza(0.12428)	pasta(0.03797)	slice(0.03479)	crust(0.02776)	sauc(0.02726)	italian(0.02673)	garlic(0.02276)	oliv(0.01758)	thin(0.01702)	sausag(0.01578)	meatbal(0.01478)	valley(0.01235)	white(0.01187)	mozzarella(0.01144)	style(0.01123)	mushroom(0.01010)	ranch(0.00998)	chicago(0.00821)	pepperoni(0.00784)	oven(0.00771)	secret(0.00754)	deep(0.00747)	spaghetti(0.00730)	ricotta(0.00714)	eggplant(0.00700)	oliv-oil(0.00684)	bread(0.00677)	pesto(0.00577)	parmesan(0.00575)	green-valley(0.00527)	
+Topic 10(0.02228):	dish(0.03619)	chef(0.02393)	cours(0.02259)	serv(0.01317)	tast(0.01199)	foie-gras(0.01179)	rich(0.01161)	flavor(0.01100)	mushroom(0.01080)	creami(0.00995)	pair(0.00985)	dine(0.00966)	textur(0.00958)	plate(0.00917)	crispi(0.00880)	perfect(0.00789)	sweet(0.00771)	pure(0.00693)	bite(0.00684)	warm(0.00677)	bread(0.00637)	arepa(0.00608)	tartar(0.00588)	savori(0.00547)	signatur(0.00546)	experi(0.00544)	wagyu(0.00528)	sauc(0.00519)	prove(0.00516)	palat(0.00516)	
+Topic 11(0.01989):	onion(0.05842)	wrap(0.03675)	choic(0.03577)	option(0.03572)	ingredi(0.03282)	healthi(0.02732)	veggi(0.02234)	sauc(0.02143)	choos(0.01879)	side(0.01763)	cucumb(0.01593)	protein(0.01181)	concept(0.01124)	flavor(0.01057)	crunch(0.01014)	combin(0.00985)	delici(0.00960)	calori(0.00933)	definit(0.00900)	creat(0.00883)	tast(0.00797)	locat(0.00794)	friend(0.00782)	chipotl(0.00724)	jalapeo(0.00650)	winner(0.00613)	serv(0.00595)	time(0.00574)	health(0.00557)	wheat(0.00542)	
+Topic 12(0.02247):	chicken(0.23292)	sauc(0.06534)	bread(0.02451)	strip(0.02195)	side(0.01657)	combo(0.01617)	finger(0.01560)	tender(0.01347)	wing(0.01233)	perfect(0.01149)	crispi(0.01121)	piec(0.01080)	delici(0.00934)	pita(0.00917)	hummus(0.00877)	feta(0.00817)	plate(0.00811)	rais(0.00795)	bake(0.00773)	definit(0.00770)	time(0.00658)	mediterranean(0.00641)	cane(0.00609)	flavor(0.00571)	grill-chicken(0.00565)	chicken-strip(0.00562)	chicken-breast(0.00552)	friend(0.00550)	white(0.00537)	size(0.00514)	
+Topic 13(0.01930):	ramen(0.09322)	bowl(0.07485)	broth(0.04725)	extra(0.04415)	monta(0.01929)	spici(0.01595)	small(0.01511)	flavor(0.01450)	cook(0.01066)	piec(0.01010)	base(0.00998)	tast(0.00881)	perfect(0.00809)	anim(0.00768)	sora(0.00756)	waitress(0.00745)	miso-ramen(0.00738)	thin(0.00736)	gyoza(0.00734)	soup(0.00722)	wait(0.00702)	tonkotsu(0.00634)	shoyu(0.00612)	time(0.00574)	seat(0.00554)	restaur(0.00548)	pork(0.00544)	garlic(0.00534)	slice(0.00526)	size(0.00512)	
+Topic 14(0.02492):	steak(0.09741)	wine(0.04641)	lobster(0.03148)	perfect(0.02130)	cook(0.02057)	bread(0.01976)	dinner(0.01903)	filet(0.01500)	mash-potato(0.01333)	restaur(0.01257)	glass(0.01190)	steakhous(0.01154)	cours(0.01147)	dine(0.01101)	mushroom(0.01095)	excel(0.01059)	ribey(0.01047)	side(0.00965)	appet(0.00776)	scallop(0.00715)	spinach(0.00698)	reserv(0.00693)	tender(0.00683)	season(0.00669)	rare(0.00669)	chop(0.00655)	week(0.00647)	start(0.00644)	rib-eye(0.00644)	mignon(0.00621)	
+Topic 15(0.02102):	fast(0.06355)	shake(0.03634)	joint(0.03453)	locat(0.02249)	doubl(0.02089)	strip(0.01863)	patti(0.01642)	west(0.01607)	vega(0.01582)	shack(0.01418)	fast-food(0.01408)	price(0.01388)	white(0.01336)	sport(0.01272)	east(0.01238)	york(0.01041)	pretti(0.01018)	coast(0.01004)	insid(0.00993)	hot-dog(0.00948)	pickl(0.00911)	super(0.00867)	size(0.00866)	hamburg(0.00825)	compar(0.00710)	las-vega(0.00707)	cheeseburg(0.00660)	futur(0.00629)	innout(0.00628)	frozen(0.00628)	
+Topic 16(0.02666):	custom(0.04610)	NUM-minut(0.03861)	manag(0.03662)	told(0.03324)	call(0.02176)	card(0.01882)	custom-servic(0.01805)	wait(0.01695)	peopl(0.01651)	time(0.01458)	phone(0.01299)	rude(0.01100)	walk(0.01040)	final(0.00965)	offic(0.00884)	work(0.00879)	money(0.00847)	paid(0.00823)	credit(0.00795)	number(0.00791)	apolog(0.00773)	situat(0.00759)	cashier(0.00748)	stand(0.00713)	horribl(0.00708)	cash(0.00664)	receiv(0.00611)	accept(0.00611)	arriv(0.00592)	year(0.00572)	
+Topic 17(0.01787):	shrimp(0.11635)	crab(0.08317)	seafood(0.05257)	season(0.01220)	oyster(0.01114)	price(0.01111)	boil(0.01046)	blue(0.01023)	crab-leg(0.00970)	time(0.00950)	restaur(0.00911)	cold(0.00872)	salad-bar(0.00809)	crab-cake(0.00798)	posit(0.00776)	start(0.00763)	tast(0.00762)	NUM-year(0.00731)	negat(0.00691)	clam(0.00662)	year(0.00633)	eastern(0.00627)	side(0.00598)	yummi(0.00589)	pan-roast(0.00583)	picki(0.00556)	boil-crab(0.00556)	serv(0.00529)	shrimp-cocktail(0.00527)	sauc(0.00513)	
+Topic 18(0.02317):	breakfast(0.07200)	toast(0.04544)	pancak(0.04429)	french(0.04213)	waffl(0.03493)	brunch(0.02790)	syrup(0.01655)	banana(0.01493)	sausag(0.01423)	french-toast(0.01397)	coffe(0.01242)	cafe(0.01236)	benedict(0.01208)	serv(0.01109)	omelet(0.00970)	velvet(0.00927)	brown(0.00900)	bouchon(0.00800)	stack(0.00775)	mimosa(0.00753)	omelett(0.00752)	fluffi(0.00741)	countri(0.00705)	whip(0.00673)	wait(0.00632)	earli(0.00603)	crispi(0.00595)	bread(0.00594)	arriv(0.00593)	savori(0.00577)	
+Topic 19(0.01892):	local(0.03844)	style(0.03844)	plate(0.03622)	hawaiian(0.02565)	poke(0.02259)	yelper(0.01814)	rice(0.01709)	time(0.01513)	teriyaki(0.01249)	side(0.01244)	hawaii(0.01103)	aloha(0.01054)	amount(0.00839)	favorit(0.00806)	oxtail(0.00764)	friend(0.00761)	express(0.00754)	counter(0.00704)	crave(0.00704)	busi(0.00692)	chicken(0.00671)	tast(0.00625)	town(0.00603)	macaroni(0.00603)	spot(0.00575)	yelp(0.00566)	gonna(0.00566)	furikak(0.00561)	locat(0.00550)	fellow-yelper(0.00548)	
+Topic 20(0.01873):	restaur(0.03092)	time(0.02784)	friend(0.02638)	definit(0.02559)	best(0.02371)	delici(0.02067)	amaz(0.01872)	recommend(0.01677)	small(0.01670)	special(0.01594)	serv(0.01478)	tabl(0.01311)	favorit(0.01282)	tast(0.01246)	pretti(0.01246)	experi(0.01139)	price(0.01115)	dish(0.01108)	feel(0.01089)	excel(0.01025)	expect(0.01007)	side(0.00958)	dine(0.00944)	star(0.00909)	perfect(0.00843)	seat(0.00798)	thought(0.00785)	wait(0.00779)	vega(0.00777)	attent(0.00654)	
+Topic 21(0.02070):	time(0.07093)	pretti(0.03073)	vega(0.02475)	wait(0.02371)	locat(0.02308)	peopl(0.02139)	walk(0.01860)	friend(0.01752)	area(0.01635)	garden(0.01580)	price(0.01579)	busi(0.01353)	spot(0.01227)	holiday(0.01181)	find(0.01109)	review(0.01017)	feel(0.00981)	favorit(0.00887)	expens(0.00875)	cool(0.00840)	definit(0.00827)	best(0.00809)	close(0.00787)	town(0.00762)	photo(0.00719)	reason(0.00714)	las-vega(0.00712)	small(0.00687)	staff(0.00687)	super(0.00684)	
+Topic 22(0.02989):	cream(0.09809)	chocol(0.07914)	cake(0.06841)	ice-cream(0.05131)	cooki(0.02677)	sweet(0.02291)	flavor(0.02132)	pastri(0.01807)	strawberri(0.01792)	vanilla(0.01769)	custard(0.01368)	gelato(0.01186)	peanut(0.01106)	frozen(0.01084)	banana(0.01078)	bakeri(0.01022)	cupcak(0.00906)	macaron(0.00852)	sugar(0.00829)	raspberri(0.00821)	white(0.00799)	peanut-butter(0.00788)	popcorn(0.00775)	tast(0.00752)	croissant(0.00721)	chocol-cake(0.00648)	whip(0.00642)	creami(0.00625)	white-chocol(0.00583)	whip-cream(0.00576)	
+Topic 23(0.01914):	friend(0.04639)	time(0.03641)	delici(0.03481)	definit(0.03380)	amaz(0.02014)	pretti(0.01932)	best(0.01542)	tast(0.01459)	recommend(0.01446)	favorit(0.01439)	super(0.01299)	star(0.01231)	tabl(0.01215)	price(0.01157)	side(0.01073)	serv(0.01049)	appear(0.00942)	impress(0.00941)	restaur(0.00897)	staff(0.00879)	thought(0.00873)	flavor(0.00862)	small(0.00803)	busi(0.00802)	smile(0.00785)	felt(0.00782)	wait(0.00762)	surpris(0.00752)	perfect(0.00716)	feel(0.00715)	
+Topic 24(0.02039):	delici(0.05703)	tast(0.03881)	friend(0.03161)	definit(0.02949)	recommend(0.02365)	time(0.02260)	amaz(0.01998)	favorit(0.01931)	best(0.01462)	flavor(0.01337)	pretti(0.01260)	thought(0.01245)	side(0.01189)	serv(0.01177)	generous(0.01149)	super(0.01023)	appet(0.01009)	perfect(0.00990)	restaur(0.00966)	star(0.00947)	tabl(0.00925)	price(0.00923)	fill(0.00919)	share(0.00917)	expect(0.00860)	special(0.00832)	dish(0.00830)	yummi(0.00803)	excel(0.00735)	heaven(0.00695)	
+Topic 25(0.02901):	night(0.11425)	drink(0.05533)	club(0.04986)	crowd(0.04623)	music(0.03679)	peopl(0.02600)	bottl(0.02354)	danc(0.02304)	loung(0.02082)	bartend(0.01973)	saturday(0.01596)	tabl(0.01397)	play(0.01203)	pack(0.01191)	cover(0.01114)	cool(0.01112)	drunk(0.01109)	vega(0.01108)	saturday-night(0.01062)	area(0.01029)	friday(0.00948)	nightclub(0.00786)	parti(0.00749)	walk(0.00703)	space(0.00673)	open(0.00659)	marque(0.00654)	friday-night(0.00645)	small(0.00513)	vibe(0.00476)	
+Topic 26(0.01910):	time(0.03206)	buck(0.03052)	feel(0.02652)	vega(0.02490)	NUM-buck(0.02015)	pretti(0.01905)	price(0.01765)	friend(0.01678)	wait(0.01509)	best(0.01474)	restaur(0.01373)	peopl(0.01296)	definit(0.01273)	locat(0.01256)	recommend(0.01243)	point(0.00976)	bill(0.00933)	staff(0.00892)	individu(0.00826)	touch(0.00799)	walk(0.00767)	favorit(0.00763)	call(0.00761)	blah(0.00723)	find(0.00711)	star(0.00707)	tabl(0.00703)	experi(0.00699)	high-recommend(0.00679)	real(0.00656)	
+Topic 27(0.01842):	side(0.05631)	smoke(0.03395)	sauc(0.03240)	pull(0.02723)	corn(0.02370)	brisket(0.01497)	bread(0.01430)	famous(0.01343)	babi(0.01247)	flavor(0.01127)	sweet(0.01071)	tender(0.01015)	watermelon(0.00972)	moist(0.00953)	best(0.00951)	bbq-sauc(0.00947)	southern(0.00942)	pull-pork(0.00885)	fall(0.00868)	peach(0.00855)	bake(0.00820)	tast(0.00804)	burnt(0.00764)	lucill(0.00663)	perfect(0.00656)	combo(0.00627)	delici(0.00612)	cornbread(0.00575)	time(0.00573)	chicken(0.00562)	
+Topic 28(0.01961):	waiter(0.04586)	star(0.03648)	reserv(0.03637)	start(0.02923)	bite(0.02885)	tast(0.02813)	brought(0.01734)	review(0.01656)	time(0.01522)	giant(0.01458)	explain(0.01426)	experi(0.01187)	tabl(0.01177)	friend(0.01144)	vegetarian(0.01076)	restaur(0.00972)	water(0.00954)	dish(0.00944)	thought(0.00916)	flavor(0.00800)	blue(0.00745)	remov(0.00739)	wait-staff(0.00720)	fair(0.00712)	expect(0.00669)	star-review(0.00663)	salt(0.00630)	favorit-thing(0.00585)	exact(0.00526)	squid(0.00524)	
+Topic 29(0.02285):	drink(0.13146)	coffe(0.06401)	crepe(0.03217)	shop(0.02349)	boba(0.02315)	cute(0.01846)	snack(0.01583)	honey(0.01573)	tast(0.01566)	sweet(0.01489)	smoothi(0.01098)	brew(0.01060)	flavor(0.00979)	coffe-shop(0.00924)	wall(0.00760)	blend(0.00746)	cool(0.00742)	taro(0.00731)	perfect(0.00710)	book(0.00688)	stamp(0.00667)	card(0.00664)	cent(0.00661)	challeng(0.00613)	mango(0.00594)	NUM-cent(0.00586)	coconut(0.00569)	strawberri(0.00549)	lyche(0.00476)	color(0.00471)	
+Topic 30(0.02045):	time(0.06017)	pretti(0.05896)	friend(0.03687)	wait(0.02787)	star(0.02353)	pretti-good(0.02097)	price(0.01900)	definit(0.01885)	slow(0.01839)	busi(0.01551)	review(0.01403)	super(0.01346)	best(0.01286)	favorit(0.01157)	peopl(0.01066)	small(0.01029)	staff(0.00960)	locat(0.00958)	restaur(0.00941)	special(0.00923)	expect(0.00840)	feel(0.00800)	vega(0.00799)	hungri(0.00788)	amaz(0.00769)	tabl(0.00745)	reason(0.00726)	delici(0.00702)	spot(0.00700)	recommend(0.00699)	
+Topic 31(0.01888):	time(0.05321)	friend(0.03424)	wait(0.02619)	pretti(0.02570)	price(0.01997)	best(0.01623)	definit(0.01611)	vega(0.01434)	review(0.01424)	staff(0.01385)	restaur(0.01384)	peopl(0.01343)	star(0.01219)	tabl(0.01211)	feel(0.01127)	favorit(0.01098)	locat(0.01086)	small(0.01059)	busi(0.01049)	expect(0.01037)	experi(0.01027)	amaz(0.00997)	seat(0.00966)	super(0.00927)	reason(0.00863)	recommend(0.00852)	spot(0.00852)	open(0.00842)	town(0.00810)	coupl(0.00749)	
+Topic 32(0.01890):	time(0.04300)	best(0.02826)	friend(0.02394)	vega(0.02115)	restaur(0.01993)	price(0.01629)	definit(0.01294)	tabl(0.01258)	review(0.01216)	pretti(0.01191)	famili(0.01179)	amaz(0.01044)	favorit(0.01029)	feel(0.01028)	detail(0.01005)	star(0.00953)	experi(0.00951)	small(0.00868)	year(0.00830)	offer(0.00810)	peopl(0.00794)	dine(0.00793)	locat(0.00766)	fantast(0.00764)	recommend(0.00763)	expect(0.00763)	surpris(0.00755)	thought(0.00719)	staff(0.00714)	wait(0.00675)	
+Topic 33(0.02331):	vega(0.04870)	las-vega(0.03992)	area(0.03857)	parti(0.03482)	downtown(0.03280)	cool(0.02709)	time(0.02493)	patio(0.01959)	tabl(0.01662)	outdoor(0.01542)	peopl(0.01526)	dine(0.01518)	seat(0.01416)	open(0.01257)	insid(0.01220)	friend(0.01108)	event(0.01096)	walk(0.01089)	locat(0.00979)	experi(0.00956)	privat(0.00921)	wait(0.00891)	restaur(0.00863)	spot(0.00830)	dine-area(0.00761)	find(0.00754)	feel(0.00729)	door(0.00683)	bring(0.00661)	weather(0.00593)	
+Topic 34(0.02215):	buffet(0.11469)	select(0.06389)	station(0.03177)	varieti(0.02730)	price(0.02511)	prime(0.02190)	offer(0.01930)	dinner(0.01782)	vega(0.01716)	prime-rib(0.01473)	includ(0.01360)	asian(0.01327)	spoon(0.01203)	pretti(0.01101)	champagn(0.00940)	best(0.00887)	deal(0.00872)	averag(0.00826)	choic(0.00747)	typic(0.00728)	wynn(0.00718)	gelato(0.00717)	wick(0.00707)	money(0.00636)	time(0.00625)	option(0.00606)	good-select(0.00591)	wick-spoon(0.00579)	desert(0.00568)	plate(0.00536)	
+Topic 35(0.02196):	street(0.03979)	year(0.03033)	work(0.02273)	close(0.02271)	NUM-hour(0.02162)	smell(0.01993)	open(0.01902)	sign(0.01693)	time(0.01587)	drive(0.01555)	fremont(0.01427)	pink(0.01402)	peopl(0.01382)	dozen(0.01300)	door(0.01244)	locat(0.01123)	confus(0.01048)	mistak(0.01030)	vega(0.01008)	plain(0.00989)	find(0.00960)	earli(0.00954)	experi(0.00931)	insid(0.00893)	face(0.00887)	point(0.00782)	doughnut(0.00781)	tonight(0.00773)	crazi(0.00772)	walk(0.00765)	
+Topic 36(0.02053):	time(0.06721)	wait(0.04493)	tabl(0.02258)	star(0.02208)	peopl(0.01952)	friend(0.01914)	experi(0.01758)	seat(0.01619)	pretti(0.01617)	afternoon(0.01480)	rate(0.01181)	busi(0.01165)	NUM-minut(0.01128)	price(0.01109)	review(0.01079)	total(0.01049)	vega(0.00939)	final(0.00805)	best(0.00775)	feel(0.00744)	staff(0.00730)	restaur(0.00690)	definit(0.00686)	readi(0.00684)	cold(0.00682)	reason(0.00661)	bring(0.00629)	coupl(0.00629)	rush(0.00612)	problem(0.00594)	
+Topic 37(0.02467):	roll(0.10842)	sushi(0.09947)	fish(0.06002)	salmon(0.04204)	tuna(0.03818)	sashimi(0.01713)	nigiri(0.01586)	chef(0.01578)	oyster(0.01512)	sauc(0.01404)	piec(0.01343)	rice(0.01326)	special(0.01246)	spici(0.01195)	sake(0.01179)	appet(0.00812)	mussel(0.00775)	favorit(0.00754)	shabu(0.00713)	scallop(0.00710)	raku(0.00681)	miso-soup(0.00638)	ayc-sushi(0.00599)	garlic(0.00556)	deep-fri(0.00551)	sushi-bar(0.00541)	tofu(0.00534)	toro(0.00511)	dinner(0.00500)	deep(0.00471)	
+Topic 38(0.01986):	flavor(0.07915)	treat(0.02618)	spring(0.02324)	find(0.01620)	time(0.01547)	small(0.01502)	locat(0.01404)	snow(0.01397)	black(0.01331)	truck(0.01259)	size(0.01246)	plaza(0.01235)	mountain(0.01233)	favorit(0.01200)	shave(0.01173)	spot(0.01017)	textur(0.00958)	sesam(0.00945)	combin(0.00903)	definit(0.00898)	henderson(0.00849)	spring-mountain(0.00720)	care(0.00700)	best(0.00672)	mango(0.00661)	fail(0.00637)	vega(0.00627)	week(0.00606)	road(0.00600)	walk(0.00600)	
+Topic 39(0.01905):	restaur(0.08012)	dish(0.02602)	tapa(0.01925)	plate(0.01509)	shot(0.01394)	small(0.01384)	stuf(0.00986)	tabl(0.00901)	amaz(0.00890)	time(0.00857)	tast(0.00854)	best(0.00812)	tradit(0.00789)	favorit(0.00754)	peopl(0.00714)	tough(0.00704)	small-plate(0.00696)	friend(0.00685)	pretti(0.00675)	vega(0.00666)	flavor(0.00656)	experi(0.00650)	share(0.00648)	locat(0.00640)	definit(0.00624)	style(0.00589)	recommend(0.00574)	space(0.00566)	mojito(0.00555)	famili(0.00548)	
+Topic 40(0.02357):	happi(0.14646)	beer(0.10445)	happi-hour(0.07952)	drink(0.04591)	price(0.02527)	NUM-pm(0.01697)	wing(0.01665)	special(0.01446)	appet(0.01412)	select(0.01213)	town(0.00981)	martini(0.00886)	patio(0.00866)	irish(0.00724)	craft(0.00688)	hour-menu(0.00666)	squar(0.00663)	yard(0.00607)	pretti(0.00606)	footbal(0.00595)	friend(0.00564)	draft(0.00554)	daili(0.00542)	bartend(0.00513)	english(0.00512)	offer(0.00491)	deal(0.00490)	lettuc-wrap(0.00472)	NUM-dollar(0.00454)	brio(0.00416)	
+Topic 41(0.03214):	seat(0.04476)	watch(0.03270)	theater(0.02354)	ticket(0.02332)	perform(0.01640)	music(0.01627)	cirqu(0.01590)	entertain(0.01562)	beauti(0.01444)	stage(0.01441)	stori(0.01410)	view(0.01331)	venu(0.01058)	concert(0.00866)	vega(0.00793)	sound(0.00758)	song(0.00735)	band(0.00725)	screen(0.00717)	laugh(0.00678)	play(0.00675)	theatr(0.00646)	tour(0.00644)	funni(0.00642)	water(0.00641)	acrobat(0.00559)	amaz(0.00520)	stand(0.00505)	discount(0.00497)	ride(0.00483)	
+Topic 42(0.01912):	lunch(0.17772)	veget(0.03312)	dinner(0.02953)	option(0.01820)	indian(0.01608)	groupon(0.01383)	offer(0.01333)	chicken(0.01318)	flavor(0.01130)	leftov(0.01079)	serv(0.01048)	price(0.01025)	tray(0.00939)	garlic(0.00932)	restaur(0.00868)	plate(0.00806)	dish(0.00748)	rice(0.00715)	fill(0.00637)	chunk(0.00613)	lunch-buffet(0.00611)	palac(0.00578)	time(0.00575)	satisfi(0.00570)	lunch-time(0.00554)	small(0.00526)	review(0.00518)	delici(0.00490)	masala(0.00461)	includ(0.00448)	
+Topic 43(0.02031):	sweet(0.07504)	donut(0.02803)	uniqu(0.02344)	appl(0.02086)	product(0.01907)	sweet-potato(0.01803)	fill(0.01644)	ring(0.01569)	vegan(0.01533)	tast(0.01361)	pick(0.01356)	continu(0.01321)	sell(0.01206)	potato-fri(0.01125)	open(0.01111)	creme(0.01082)	sugar(0.01015)	groceri(0.01007)	blue(0.00963)	glaze(0.00945)	produc(0.00855)	offer(0.00844)	stock(0.00836)	flavor(0.00806)	blue-chees(0.00728)	groceri-store(0.00616)	simpl(0.00615)	select(0.00610)	find(0.00603)	brule(0.00568)	
+Topic 44(0.01820):	truffl(0.03206)	cook(0.02829)	perfect(0.02725)	rare(0.02363)	roast(0.02233)	kitchen(0.02060)	medium(0.01968)	bone(0.01589)	clam(0.01189)	flavor(0.01125)	birthday(0.01074)	amaz(0.01013)	beef(0.00978)	experi(0.00847)	plate(0.00841)	serv(0.00828)	chowder(0.00799)	side(0.00796)	gordon(0.00790)	restaur(0.00783)	delici(0.00744)	aioli(0.00738)	jalapeno(0.00728)	share(0.00720)	appet(0.00707)	medium-rare(0.00696)	goat-chees(0.00693)	cook-perfect(0.00688)	marrow(0.00664)	batter(0.00660)	
+244 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+260 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+266 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+264 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+256 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 1: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 13268, test size = 2575....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 13268, item size: 732, user size: 782
+[Info]EM Starting multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational]...
+==============
+[Info]Likelihood -2540352.62924 at step 0 converge to 1.0000000000...
+==============
+[Info]Likelihood -2539043.64192 at step 1 converge to 0.0005152778...
+==============
+[Info]Likelihood -2537747.19007 at step 2 converge to 0.0005106064...
+==============
+[Info]Likelihood -2536461.02992 at step 3 converge to 0.0005068118...
+==============
+[Info]Likelihood -2535182.57073 at step 4 converge to 0.0005040327...
+==============
+[Info]Likelihood -2533902.03449 at step 5 converge to 0.0005051061...
+==============
+[Info]Likelihood -2532561.92750 at step 6 converge to 0.0005288709...
+==============
+[Info]Likelihood -2531137.03006 at step 7 converge to 0.0005626308...
+==============
+[Info]Likelihood -2529625.47296 at step 8 converge to 0.0005971850...
+==============
+[Info]Likelihood -2527761.58956 at step 9 converge to 0.0007368219...
+==============
+[Info]Likelihood -2524457.61416 at step 10 converge to 0.0013070756...
+==============
+[Info]Likelihood -2515470.65442 at step 11 converge to 0.0035599567...
+==============
+[Info]Likelihood -2492732.10179 at step 12 converge to 0.0090394824...
+==============
+[Info]Likelihood -2459541.56945 at step 13 converge to 0.0133149215...
+==============
+[Info]Likelihood -2424670.99439 at step 14 converge to 0.0141776726...
+==============
+[Info]Likelihood -2386623.83479 at step 15 converge to 0.0156916793...
+==============
+[Info]Likelihood -2346025.89725 at step 16 converge to 0.0170106143...
+==============
+[Info]Likelihood -2308525.58576 at step 17 converge to 0.0159846111...
+==============
+[Info]Likelihood -2275918.52252 at step 18 converge to 0.0141246272...
+==============
+[Info]Likelihood -2248220.51393 at step 19 converge to 0.0121700352...
+==============
+[Info]Likelihood -2224928.21723 at step 20 converge to 0.0103603257...
+==============
+[Info]Likelihood -2204903.55464 at step 21 converge to 0.0090001387...
+==============
+[Info]Likelihood -2187339.07903 at step 22 converge to 0.0079660970...
+==============
+[Info]Likelihood -2171757.68500 at step 23 converge to 0.0071234470...
+==============
+[Info]Likelihood -2157715.79090 at step 24 converge to 0.0064656818...
+==============
+[Info]Likelihood -2144788.26228 at step 25 converge to 0.0059913028...
+==============
+[Info]Likelihood -2132690.60352 at step 26 converge to 0.0056404909...
+==============
+[Info]Likelihood -2121384.31209 at step 27 converge to 0.0053014213...
+==============
+[Info]Likelihood -2110848.00105 at step 28 converge to 0.0049667149...
+==============
+[Info]Likelihood -2100931.33599 at step 29 converge to 0.0046979532...
+[Info]Likelihood -2100931.336 after step 30 converge to 0.004698 after 156 seconds...
+[Info]Analying bipartie graph: 
+-- test graph: review size: 2575, item size: 179, user size: 244
+[Info]Start evaluation in thread
+[Stat]Test evaluation finished: 2575 docs
+[Stat]0 part has 746.000000 docs: perplexity is 1030.078 and log-likelihood is -333.543
+[Stat]1 part has 193.000000 docs: perplexity is 1116.898 and log-likelihood is -327.606
+[Stat]2 part has 1220.000000 docs: perplexity is 1093.233 and log-likelihood is -322.643
+[Stat]3 part has 416.000000 docs: perplexity is 1067.577 and log-likelihood is -317.328
+[Stat]4 part has 2575.000000 docs: perplexity is 1071.678 and log-likelihood is -325.314
+[Info]multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational] Train/Test finished in 158.26 seconds...
+TopWord FilePath:/zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/1/LDA_User_topWords_45.txt
+Topic 0(0.02639):	year(0.05456)	play(0.04810)	sign(0.02748)	work(0.02671)	money(0.02630)	machin(0.02396)	vega(0.02128)	spend(0.02101)	NUM-year(0.02067)	time(0.01889)	peopl(0.01678)	las-vega(0.01432)	year-ago(0.01203)	spent(0.01146)	class(0.01110)	NUM-hour(0.01034)	local(0.00815)	tour(0.00756)	crap(0.00707)	month(0.00696)	walk(0.00680)	museum(0.00661)	open(0.00633)	famili(0.00582)	train(0.00549)	histori(0.00528)	build(0.00524)	cost(0.00490)	break(0.00483)	explor(0.00462)	
+Topic 1(0.02182):	breakfast(0.07872)	toast(0.04624)	pancak(0.03925)	brunch(0.03549)	waffl(0.03087)	french(0.02523)	banana(0.01852)	sausag(0.01628)	syrup(0.01413)	french-toast(0.01282)	brown(0.01244)	benedict(0.01188)	omelet(0.01014)	bread(0.00965)	omelett(0.00912)	velvet(0.00889)	mimosa(0.00847)	serv(0.00845)	stack(0.00821)	fluffi(0.00774)	countri(0.00767)	choic(0.00649)	short(0.00596)	slice(0.00594)	macaroni(0.00577)	crispi(0.00553)	crack(0.00543)	chicken-fri(0.00536)	hash-brown(0.00529)	season(0.00528)	
+Topic 2(0.03259):	park(0.08568)	shop(0.07418)	store(0.05845)	rock(0.02173)	find(0.02167)	walk(0.01824)	locat(0.01731)	area(0.01271)	town(0.01244)	market(0.01165)	valley(0.01130)	squar(0.01123)	month(0.01098)	red-rock(0.00972)	outdoor(0.00820)	groceri(0.00782)	court(0.00763)	drive(0.00761)	garag(0.00711)	shop-center(0.00691)	holiday(0.00687)	produc(0.00670)	product(0.00669)	sell(0.00643)	anim(0.00628)	sale(0.00618)	famili(0.00577)	easi(0.00576)	las-vega(0.00564)	brand(0.00556)	
+Topic 3(0.01952):	style(0.04127)	tast(0.03587)	flavor(0.02119)	perfect(0.02027)	cook(0.01838)	combin(0.01820)	side(0.01780)	specialti(0.01587)	plate(0.01252)	yelper(0.01218)	time(0.01153)	best(0.01084)	delici(0.01052)	size(0.01030)	sauc(0.01005)	chop(0.00973)	tough(0.00946)	excit(0.00941)	friend(0.00825)	small(0.00815)	start(0.00765)	definit(0.00744)	restaur(0.00743)	moist(0.00729)	amount(0.00709)	type(0.00682)	amaz(0.00674)	stick(0.00659)	local(0.00657)	chef(0.00654)	
+Topic 4(0.02046):	cream(0.14161)	flavor(0.07927)	ice-cream(0.07392)	sweet(0.04191)	crepe(0.02781)	tast(0.02381)	honey(0.02293)	vanilla(0.02015)	strawberri(0.01772)	whip(0.01625)	perfect(0.01584)	coconut(0.01482)	whip-cream(0.01131)	creami(0.01121)	black(0.00853)	mango(0.00802)	cooki(0.00768)	vanilla-ice(0.00732)	sesam(0.00668)	layer(0.00650)	yogurt(0.00613)	crunch(0.00608)	gelato(0.00594)	warm(0.00593)	delici(0.00584)	creme(0.00573)	cone(0.00532)	crave(0.00499)	banana(0.00483)	yummi(0.00476)	
+Topic 5(0.01875):	birthday(0.03792)	tabl(0.02616)	plate(0.02559)	reserv(0.02028)	time(0.02016)	hostess(0.01399)	brought(0.01302)	restaur(0.01227)	friend(0.01198)	dinner(0.01171)	delici(0.01169)	seat(0.01150)	hummus(0.00998)	pita(0.00956)	side(0.00954)	experi(0.00947)	dine(0.00865)	call(0.00843)	bread(0.00834)	mediterranean(0.00810)	cucumb(0.00772)	feta(0.00755)	feel(0.00727)	small(0.00699)	definit(0.00692)	blah(0.00690)	waiter(0.00688)	perfect(0.00640)	rememb(0.00632)	wait(0.00623)	
+Topic 6(0.01916):	definit(0.02922)	delici(0.02783)	time(0.02679)	truffl(0.02438)	friend(0.02400)	recommend(0.01675)	tast(0.01659)	restaur(0.01638)	kitchen(0.01611)	amaz(0.01476)	best(0.01418)	favorit(0.01403)	perfect(0.01263)	star(0.01242)	wait(0.01137)	pretti(0.01063)	side(0.01060)	flavor(0.00985)	expect(0.00974)	price(0.00961)	tabl(0.00954)	dinner(0.00943)	return(0.00908)	experi(0.00817)	thought(0.00772)	bite(0.00744)	jalapeno(0.00706)	cook(0.00692)	start(0.00668)	special(0.00627)	
+Topic 7(0.02152):	steak(0.10963)	crab(0.05092)	shrimp(0.03864)	cook(0.03816)	medium(0.02921)	rare(0.02832)	juici(0.02471)	season(0.02323)	side(0.02009)	tast(0.01269)	perfect(0.01225)	pound(0.01174)	delici(0.01172)	restaur(0.01122)	wife(0.01005)	medium-rare(0.00999)	sauc(0.00925)	corn(0.00863)	crab-cake(0.00811)	waiter(0.00793)	lobster(0.00791)	basket(0.00771)	boil(0.00721)	appet(0.00714)	blue(0.00702)	stone(0.00692)	ribey(0.00656)	clam(0.00648)	dinner(0.00632)	serv(0.00604)	
+Topic 8(0.01904):	time(0.03814)	friend(0.02596)	price(0.02141)	vega(0.01990)	pretti(0.01925)	restaur(0.01501)	best(0.01479)	definit(0.01302)	english(0.01232)	citi(0.01205)	strip(0.01179)	weird(0.01159)	review(0.01141)	feel(0.01133)	locat(0.01123)	peopl(0.01089)	star(0.01051)	fact(0.01045)	experi(0.01040)	tabl(0.01017)	amaz(0.00946)	offer(0.00896)	staff(0.00840)	favorit(0.00833)	night(0.00799)	spot(0.00784)	option(0.00783)	las-vega(0.00779)	expect(0.00735)	recommend(0.00715)	
+Topic 9(0.02266):	dish(0.08622)	thai(0.07673)	rice(0.05076)	curri(0.04242)	restaur(0.03631)	spici(0.02820)	lunch(0.02092)	fri-rice(0.02087)	duck(0.01893)	lunch-special(0.01349)	pad-thai(0.01241)	flavor(0.00980)	special(0.00959)	yellow(0.00914)	thai-restaur(0.00866)	authent(0.00832)	crispi(0.00816)	soup(0.00796)	shrimp(0.00781)	broccoli(0.00749)	archi(0.00728)	spice(0.00702)	egg-roll(0.00644)	lotus(0.00631)	favorit(0.00604)	panang(0.00603)	sweet(0.00597)	best(0.00550)	favorit-dish(0.00536)	asian(0.00500)	
+Topic 10(0.02053):	time(0.07358)	wait(0.03302)	friend(0.02967)	peopl(0.02225)	star(0.02003)	door(0.01796)	pretti(0.01630)	busi(0.01468)	review(0.01436)	walk(0.01356)	price(0.01340)	close(0.01325)	open(0.01229)	staff(0.01094)	suck(0.01046)	locat(0.01039)	tabl(0.01007)	feel(0.00900)	thought(0.00891)	experi(0.00875)	definit(0.00857)	restaur(0.00832)	night(0.00821)	best(0.00768)	reason(0.00761)	vega(0.00759)	work(0.00725)	coupl(0.00671)	find(0.00655)	NUM-min(0.00645)	
+Topic 11(0.02720):	music(0.05792)	seat(0.03136)	danc(0.02848)	beauti(0.02309)	watch(0.02185)	entertain(0.02011)	cirqu(0.01884)	perform(0.01871)	stage(0.01701)	stori(0.01572)	ticket(0.01502)	vega(0.01251)	amaz(0.01238)	funni(0.01232)	water(0.01017)	song(0.00956)	peopl(0.00934)	time(0.00903)	view(0.00812)	laugh(0.00797)	crowd(0.00649)	moment(0.00627)	interact(0.00615)	acrobat(0.00559)	intim(0.00543)	audienc(0.00538)	soleil(0.00518)	feet(0.00506)	beatl(0.00498)	live-music(0.00497)	
+Topic 12(0.02396):	pizza(0.11571)	sauc(0.03765)	pasta(0.03507)	crust(0.02635)	italian(0.02504)	slice(0.02394)	garlic(0.01985)	oliv(0.01786)	sausag(0.01779)	thin(0.01656)	meatbal(0.01438)	ingredi(0.01389)	mushroom(0.01277)	mozzarella(0.01019)	white(0.00835)	chicago(0.00834)	style(0.00828)	caesar(0.00787)	oven(0.00760)	deep(0.00760)	dress(0.00745)	oliv-oil(0.00712)	spaghetti(0.00686)	pepperoni(0.00661)	bread(0.00608)	dough(0.00592)	calamari(0.00576)	pesto(0.00573)	onion(0.00565)	spinach(0.00559)	
+Topic 13(0.02213):	card(0.04454)	downtown(0.03710)	area(0.03563)	night(0.02995)	patio(0.02544)	insid(0.01913)	peopl(0.01652)	NUM-pm(0.01588)	martini(0.01479)	giant(0.01377)	credit(0.01289)	time(0.01250)	outdoor(0.01105)	vibe(0.01098)	spot(0.01094)	event(0.01078)	crowd(0.01036)	price(0.01035)	purchas(0.01033)	friend(0.00985)	friday(0.00967)	blue(0.00932)	tire(0.00882)	bonus(0.00875)	find(0.00872)	cover(0.00845)	band(0.00843)	board(0.00685)	play(0.00638)	onlin(0.00636)	
+Topic 14(0.01905):	counter(0.03159)	soup(0.02046)	soda(0.02034)	bread(0.02031)	turkey(0.01768)	deli(0.01486)	york(0.01291)	factori(0.01123)	dine(0.01115)	coke(0.01115)	veggi(0.01105)	fountain(0.01046)	eggplant(0.01022)	time(0.01009)	shabu(0.01009)	chowder(0.00861)	clam(0.00838)	earl(0.00822)	diet(0.00777)	restaur(0.00751)	open-NUM(0.00732)	cheesecak-factori(0.00716)	brother(0.00703)	beef(0.00702)	root(0.00677)	ball(0.00671)	includ(0.00663)	planet(0.00658)	pastrami(0.00646)	side(0.00612)	
+Topic 15(0.02042):	pretti(0.04952)	vega(0.04539)	friend(0.02414)	wait(0.02040)	local(0.01968)	booth(0.01905)	best(0.01765)	deal(0.01744)	special(0.01717)	time(0.01522)	las-vega(0.01515)	consid(0.01344)	feel(0.01187)	review(0.01185)	night(0.01086)	price(0.01043)	call(0.00986)	updat(0.00869)	shame(0.00838)	darn(0.00834)	year(0.00800)	peopl(0.00794)	tabl(0.00724)	travel(0.00660)	dark(0.00613)	easi(0.00593)	sing(0.00577)	heard(0.00559)	busi(0.00558)	coupl(0.00556)	
+Topic 16(0.01931):	locat(0.02188)	spring(0.01936)	snow(0.01856)	flavor(0.01643)	truck(0.01565)	size(0.01551)	shave(0.01376)	time(0.01246)	vega(0.01118)	find(0.01118)	plaza(0.01117)	treat(0.01115)	confus(0.01109)	mountain(0.01071)	combo(0.01029)	textur(0.00985)	product(0.00944)	small(0.00943)	rainbow(0.00810)	henderson(0.00786)	smaller(0.00772)	care(0.00753)	spot(0.00734)	today(0.00724)	review(0.00689)	spring-mountain(0.00671)	familiar(0.00667)	road(0.00659)	shave-ice(0.00654)	favorit(0.00648)	
+Topic 17(0.02249):	drink(0.28648)	custom(0.05149)	boba(0.02533)	custom-servic(0.02481)	sweet(0.02001)	snack(0.01781)	tast(0.01415)	smoothi(0.01124)	consist(0.01059)	time(0.01016)	ball(0.00998)	cash(0.00814)	regist(0.00774)	watermelon(0.00770)	taro(0.00689)	cent(0.00687)	talk(0.00632)	smell(0.00618)	best(0.00586)	NUM-cent(0.00567)	pretti(0.00555)	brew(0.00535)	friend(0.00506)	black(0.00493)	favorit(0.00471)	find(0.00435)	bubbl(0.00414)	adjust(0.00373)	smoki(0.00369)	feel(0.00366)	
+Topic 18(0.01956):	time(0.05828)	friend(0.03273)	wait(0.03156)	pretti(0.03120)	price(0.02042)	definit(0.01719)	star(0.01548)	peopl(0.01465)	best(0.01389)	tabl(0.01339)	busi(0.01246)	restaur(0.01242)	night(0.01205)	staff(0.01194)	recommend(0.01139)	super(0.01104)	amaz(0.01030)	favorit(0.01023)	open(0.00956)	delici(0.00897)	locat(0.00895)	review(0.00891)	small(0.00858)	vega(0.00850)	expect(0.00841)	experi(0.00816)	pretti-good(0.00783)	spot(0.00760)	feel(0.00756)	reason(0.00753)	
+Topic 19(0.02126):	buffet(0.12667)	seafood(0.04838)	station(0.03591)	oyster(0.02925)	dinner(0.02778)	crab(0.02622)	shrimp(0.02583)	select(0.02576)	prime(0.02554)	crab-leg(0.01843)	prime-rib(0.01843)	asian(0.01438)	offer(0.01166)	varieti(0.01100)	price(0.01059)	best(0.00996)	gelato(0.00803)	includ(0.00778)	vega(0.00748)	plate(0.00705)	carv(0.00656)	crawfish(0.00625)	lunch(0.00599)	wynn(0.00489)	pretti(0.00471)	bacchan(0.00465)	desert(0.00456)	peel(0.00439)	skip(0.00435)	wait(0.00435)	
+Topic 20(0.01999):	star(0.03170)	restaur(0.02899)	time(0.02518)	friend(0.02153)	tabl(0.01877)	price(0.01868)	review(0.01690)	honest(0.01607)	bland(0.01540)	overpr(0.01182)	experi(0.01157)	vega(0.01100)	bother(0.01083)	wast(0.01052)	find(0.01014)	staff(0.01000)	expect(0.00996)	best(0.00938)	establish(0.00899)	numer(0.00893)	peopl(0.00851)	return(0.00843)	realiz(0.00827)	option(0.00792)	open(0.00775)	overlook(0.00772)	averag(0.00762)	dinner(0.00756)	base(0.00740)	strip(0.00734)	
+Topic 21(0.01953):	time(0.03733)	lunch(0.03646)	restaur(0.01695)	gotta(0.01506)	pretti(0.01465)	tabl(0.01439)	busi(0.01360)	price(0.01313)	locat(0.01083)	pass(0.01059)	compar(0.01043)	salad-bar(0.00970)	eater(0.00940)	wait(0.00917)	seat(0.00902)	offer(0.00885)	peopl(0.00878)	picki(0.00834)	staff(0.00782)	best(0.00771)	side(0.00766)	lunch-time(0.00762)	vega(0.00756)	term(0.00754)	reason(0.00750)	texa(0.00747)	definit(0.00735)	spot(0.00702)	friend(0.00686)	cart(0.00678)	
+Topic 22(0.01970):	bread(0.05075)	serv(0.04624)	special(0.02645)	french(0.02124)	restaur(0.01669)	smoke(0.01590)	chef(0.01590)	casual(0.01525)	delici(0.01463)	fall(0.01350)	occas(0.01210)	dinner(0.01070)	describ(0.00928)	apart(0.00909)	spread(0.00906)	small(0.00889)	soak(0.00867)	perfect(0.00819)	bouchon(0.00816)	french-fri(0.00793)	mussel(0.00690)	share(0.00653)	baguett(0.00652)	amaz(0.00634)	bistro(0.00615)	time(0.00589)	touch(0.00574)	side(0.00562)	pleasant(0.00555)	tast(0.00523)	
+Topic 23(0.01891):	time(0.03096)	best(0.02379)	vega(0.01938)	spoon(0.01872)	small(0.01693)	price(0.01678)	pretti(0.01678)	feel(0.01646)	impress(0.01379)	plate(0.01234)	friend(0.01042)	expect(0.01019)	offer(0.01004)	second(0.00982)	star(0.00918)	wick(0.00905)	prepar(0.00872)	grill-chees(0.00864)	bone(0.00850)	restaur(0.00825)	definit(0.00806)	review(0.00797)	peopl(0.00795)	amaz(0.00780)	wick-spoon(0.00767)	wait(0.00756)	tabl(0.00718)	trip(0.00699)	open(0.00699)	staff(0.00685)	
+Topic 24(0.02009):	happi(0.14991)	happi-hour(0.08801)	chip(0.06090)	nacho(0.02256)	sour(0.01953)	margarita(0.01650)	appet(0.01097)	definit(0.00881)	buffalo(0.00839)	delici(0.00834)	sweet(0.00743)	hour-menu(0.00742)	irish(0.00730)	serv(0.00703)	pretti(0.00677)	price(0.00654)	jalapeo(0.00626)	tast(0.00624)	flavor(0.00615)	special(0.00578)	friend(0.00562)	time(0.00550)	wedg(0.00540)	cevich(0.00536)	night(0.00523)	sauc(0.00484)	sour-cream(0.00462)	share(0.00461)	shrimp(0.00434)	super(0.00407)	
+Topic 25(0.01875):	time(0.03089)	friend(0.02571)	restaur(0.01884)	pretti(0.01849)	definit(0.01779)	best(0.01622)	star(0.01588)	delici(0.01518)	buck(0.01423)	recommend(0.01230)	tabl(0.01223)	price(0.01199)	favorit(0.01186)	amaz(0.01054)	good-food(0.01041)	locat(0.01003)	town(0.00944)	thought(0.00936)	review(0.00921)	appet(0.00910)	side(0.00864)	dinner(0.00856)	bang(0.00847)	experi(0.00838)	start(0.00826)	special(0.00819)	wednesday(0.00763)	small(0.00742)	staff(0.00733)	night(0.00732)	
+Topic 26(0.02667):	NUM-minut(0.05589)	wait(0.04507)	tabl(0.04342)	told(0.03486)	manag(0.03373)	parti(0.02190)	arriv(0.01770)	time(0.01698)	night(0.01619)	seat(0.01545)	waiter(0.01408)	bottl(0.01401)	bartend(0.01355)	water(0.01337)	final(0.01335)	reserv(0.01315)	call(0.01300)	experi(0.01222)	peopl(0.01207)	waitress(0.01177)	receiv(0.01060)	bill(0.01021)	hostess(0.00911)	horribl(0.00867)	rude(0.00840)	apolog(0.00781)	second(0.00633)	friend(0.00602)	slow(0.00585)	problem(0.00583)	
+Topic 27(0.01944):	wine(0.08503)	glass(0.04878)	restaur(0.02786)	tapa(0.02209)	dish(0.01711)	bottl(0.01524)	select(0.01490)	total(0.01205)	tast(0.01139)	small(0.01133)	price(0.00972)	amaz(0.00916)	night(0.00908)	wrap(0.00897)	experi(0.00866)	stuf(0.00847)	whiskey(0.00805)	small-plate(0.00805)	includ(0.00791)	knowledg(0.00783)	plate(0.00757)	dine(0.00712)	mojito(0.00641)	pair(0.00639)	liquor(0.00623)	favorit(0.00590)	spanish(0.00589)	firefli(0.00586)	bartend(0.00575)	recommend(0.00551)	
+Topic 28(0.02673):	cool(0.04573)	seat(0.03920)	theater(0.02643)	watch(0.02436)	crowd(0.02246)	peopl(0.01968)	stand(0.01673)	popcorn(0.01541)	sound(0.01487)	venu(0.01486)	screen(0.01455)	design(0.01415)	street(0.01387)	area(0.01376)	fremont(0.01311)	phone(0.01168)	concert(0.01097)	loung(0.01020)	walk(0.01020)	night(0.00990)	pictur(0.00963)	wall(0.00949)	ticket(0.00884)	event(0.00790)	theatr(0.00682)	space(0.00671)	system(0.00639)	movi-theater(0.00621)	vega(0.00620)	insid(0.00615)	
+Topic 29(0.04564):	room(0.10115)	casino(0.05653)	stay(0.05413)	hotel(0.05251)	strip(0.03538)	club(0.03235)	pool(0.02614)	vega(0.02107)	view(0.01875)	suit(0.01095)	tower(0.00982)	gambl(0.00931)	night(0.00904)	elev(0.00902)	properti(0.00885)	walk(0.00884)	resort(0.00847)	area(0.00725)	wynn(0.00714)	slot(0.00699)	venetian(0.00626)	desk(0.00606)	valet(0.00606)	book(0.00581)	shower(0.00557)	palazzo(0.00538)	poker(0.00489)	nightclub(0.00466)	access(0.00442)	mandalay-bay(0.00439)	
+Topic 30(0.02015):	taco(0.06639)	bean(0.04852)	mexican(0.03122)	corn(0.02526)	burrito(0.01960)	tortilla(0.01852)	sauc(0.01792)	flavor(0.01429)	black(0.01398)	cilantro(0.01273)	vegetarian(0.01183)	fusion(0.01164)	guacamol(0.01046)	chipotl(0.01032)	delici(0.01000)	arepa(0.00999)	side(0.00933)	pineappl(0.00931)	carn(0.00868)	asada(0.00860)	chip(0.00800)	street(0.00782)	mexican-food(0.00736)	tast(0.00706)	shred(0.00704)	carn-asada(0.00690)	enchilada(0.00686)	black-bean(0.00674)	fish-taco(0.00632)	ingredi(0.00584)	
+Topic 31(0.02578):	roll(0.09919)	sushi(0.08487)	fish(0.06240)	salmon(0.03739)	tuna(0.03621)	rice(0.02033)	poke(0.01707)	chef(0.01667)	hawaiian(0.01664)	sashimi(0.01660)	spici(0.01593)	sauc(0.01376)	piec(0.01239)	nigiri(0.01217)	sake(0.01102)	special(0.00984)	favorit(0.00817)	shrimp(0.00776)	teriyaki(0.00761)	oxtail(0.00723)	garlic(0.00646)	miso-soup(0.00645)	appet(0.00602)	deep-fri(0.00529)	sushi-bar(0.00512)	ayc-sushi(0.00460)	ahi-tuna(0.00441)	hamachi(0.00431)	toro(0.00431)	deep(0.00424)	
+Topic 32(0.01868):	time(0.04067)	frozen(0.02865)	window(0.02641)	friend(0.01866)	pretti(0.01801)	price(0.01699)	vega(0.01514)	wait(0.01315)	favorit(0.01265)	peopl(0.01258)	togo(0.01125)	coupl(0.01120)	definit(0.01097)	restaur(0.01080)	insid(0.01049)	tabl(0.01042)	trip(0.01015)	size(0.00979)	best(0.00976)	delici(0.00959)	amaz(0.00936)	open(0.00931)	locat(0.00866)	small(0.00791)	week(0.00721)	tast(0.00708)	thought(0.00667)	seat(0.00667)	strip(0.00652)	night(0.00651)	
+Topic 33(0.02231):	chicken(0.24861)	lunch(0.04842)	sauc(0.04479)	veget(0.02823)	spice(0.02583)	rice(0.02517)	dish(0.02306)	garlic(0.01818)	spici(0.01737)	flavor(0.01633)	indian(0.01231)	roast(0.01169)	curri(0.01002)	restaur(0.00987)	plate(0.00880)	veggi(0.00702)	tender(0.00687)	chunk(0.00573)	mango(0.00517)	chicken-breast(0.00502)	leftov(0.00500)	moist(0.00497)	lunch-buffet(0.00487)	pasti(0.00487)	delici(0.00475)	crispi(0.00472)	piec(0.00455)	pan-roast(0.00444)	dinner(0.00426)	roti(0.00389)	
+Topic 34(0.01918):	time(0.04250)	cold(0.03780)	friend(0.02417)	pretti(0.02408)	definit(0.02066)	price(0.01789)	star(0.01506)	restaur(0.01456)	best(0.01427)	small(0.01308)	delici(0.01300)	super(0.01235)	review(0.01160)	tabl(0.01158)	recommend(0.01113)	favorit(0.01037)	amaz(0.00997)	tast(0.00995)	wait(0.00980)	side(0.00967)	vega(0.00925)	clean(0.00906)	peopl(0.00900)	night(0.00875)	water(0.00828)	thought(0.00808)	locat(0.00808)	experi(0.00776)	busi(0.00737)	serv(0.00728)	
+Topic 35(0.02254):	fast(0.05738)	onion(0.04160)	shake(0.03212)	joint(0.03022)	doubl(0.01956)	patti(0.01639)	finger(0.01622)	ring(0.01545)	pickl(0.01440)	strip(0.01398)	fast-food(0.01309)	sweet-potato(0.01162)	east(0.01083)	locat(0.01078)	sauc(0.01055)	shack(0.01017)	white(0.00921)	hot-dog(0.00908)	coast(0.00905)	hamburg(0.00893)	potato-fri(0.00833)	rais(0.00764)	pretti(0.00738)	ketchup(0.00673)	mushroom(0.00672)	smash(0.00608)	innout(0.00601)	price(0.00596)	cheddar(0.00584)	slaw(0.00576)	
+Topic 36(0.02047):	beer(0.13518)	select(0.03429)	shot(0.01821)	time(0.01595)	sport(0.01561)	night(0.01422)	pretti(0.01399)	pretzel(0.01390)	price(0.01267)	vega(0.01264)	craft(0.01113)	friend(0.01056)	local(0.00902)	expect(0.00876)	brew(0.00751)	best(0.00699)	waitress(0.00634)	yard(0.00631)	german(0.00627)	find(0.00621)	great-select(0.00582)	town(0.00572)	restaur(0.00523)	amaz(0.00519)	feel(0.00496)	locat(0.00490)	star(0.00489)	experi(0.00485)	option(0.00477)	tabl(0.00456)	
+Topic 37(0.02630):	pork(0.08613)	beef(0.07390)	belli(0.02630)	korean(0.02537)	rice(0.02343)	sauc(0.02120)	chines(0.02077)	pork-belli(0.01940)	dish(0.01867)	steam(0.01491)	asian(0.01407)	spici(0.01311)	tender(0.01248)	tofu(0.01109)	short-rib(0.01103)	brisket(0.01084)	soup(0.01059)	combo(0.01041)	cook(0.00945)	crispi(0.00943)	marin(0.00905)	flavor(0.00899)	dumpl(0.00864)	veggi(0.00858)	vietnames(0.00798)	short(0.00779)	noodl-soup(0.00768)	side-dish(0.00727)	bulgogi(0.00689)	slice(0.00563)	
+Topic 38(0.02665):	chocol(0.08834)	cake(0.08104)	sweet(0.03810)	cooki(0.02283)	pastri(0.02125)	donut(0.01899)	appl(0.01881)	sugar(0.01792)	cupcak(0.01512)	bakeri(0.01420)	custard(0.01418)	peanut(0.01309)	macaron(0.01134)	tart(0.01088)	strawberri(0.01067)	fill(0.01055)	pink(0.01042)	vegan(0.01041)	raspberri(0.00947)	croissant(0.00919)	bake(0.00887)	peanut-butter(0.00840)	tast(0.00830)	velvet(0.00794)	chocol-cake(0.00772)	macaroon(0.00728)	treat(0.00721)	flavor(0.00695)	white(0.00694)	doughnut(0.00633)	
+Topic 39(0.02065):	ramen(0.07621)	bowl(0.07620)	soup(0.07053)	broth(0.04414)	extra(0.03814)	spici(0.02356)	flavor(0.01762)	small(0.01390)	monta(0.01321)	base(0.01230)	piec(0.01216)	waitress(0.00774)	cook(0.00719)	thin(0.00707)	tast(0.00691)	sora(0.00626)	gyoza(0.00604)	ginger(0.00598)	tofu(0.00598)	sprout(0.00586)	rich(0.00576)	crave(0.00555)	shoyu(0.00551)	tini(0.00501)	yummi(0.00498)	sick(0.00491)	tonkotsu(0.00490)	garlic(0.00490)	onion(0.00486)	udon(0.00480)	
+Topic 40(0.02635):	cours(0.03183)	dish(0.02812)	lobster(0.02269)	mushroom(0.01570)	dine(0.01434)	perfect(0.01415)	filet(0.01191)	bread(0.01180)	scallop(0.01159)	foie-gras(0.01062)	excel(0.01012)	sauc(0.00907)	mash-potato(0.00874)	flavor(0.00870)	tast(0.00861)	serv(0.00813)	chef(0.00812)	restaur(0.00796)	plate(0.00784)	truffl(0.00774)	pair(0.00758)	cook(0.00724)	salt(0.00705)	rich(0.00702)	creami(0.00653)	asparagus(0.00647)	dinner(0.00615)	tender(0.00588)	bite(0.00573)	restaur-week(0.00570)	
+Topic 41(0.01925):	time(0.03208)	definit(0.02069)	pretti(0.02039)	feel(0.01928)	friend(0.01923)	price(0.01824)	locat(0.01580)	best(0.01552)	vega(0.01527)	restaur(0.01416)	favorit(0.01273)	recommend(0.01272)	NUM-buck(0.01142)	super(0.01119)	star(0.01049)	buck(0.01044)	calori(0.00962)	side(0.00869)	peopl(0.00851)	staff(0.00828)	delici(0.00812)	individu(0.00782)	high-recommend(0.00778)	carb(0.00753)	open(0.00741)	amaz(0.00738)	spot(0.00736)	tabl(0.00716)	option(0.00701)	choic(0.00684)	
+Topic 42(0.02098):	coffe(0.07826)	wing(0.03879)	cafe(0.03285)	yelp(0.02153)	cute(0.01977)	wall(0.01551)	shop(0.01209)	beverag(0.01063)	friend(0.01052)	challeng(0.01039)	chicken-wing(0.00996)	aloha(0.00963)	book(0.00954)	coffe-shop(0.00918)	work(0.00913)	cool(0.00838)	color(0.00806)	west(0.00756)	interior(0.00722)	stamp(0.00715)	wifi(0.00692)	small(0.00692)	starbuck(0.00625)	read(0.00620)	bookmark(0.00620)	super-friend(0.00618)	spot(0.00614)	social(0.00580)	relax(0.00570)	drive(0.00567)	
+Topic 43(0.01809):	side(0.03541)	delici(0.02450)	time(0.02162)	friend(0.02085)	healthi(0.01972)	amaz(0.01579)	tabl(0.01509)	tast(0.01469)	sauc(0.01448)	definit(0.01357)	perfect(0.01324)	blue(0.01297)	start(0.01210)	thought(0.01171)	best(0.01104)	restaur(0.01088)	flavor(0.01016)	star(0.00995)	surpris(0.00928)	serv(0.00849)	favorit(0.00830)	yelp(0.00804)	angel(0.00786)	bite(0.00780)	tender(0.00773)	recommend(0.00715)	pretti(0.00699)	option(0.00681)	small(0.00673)	bread(0.00668)	
+Topic 44(0.01934):	time(0.05393)	friend(0.03022)	star(0.02073)	price(0.02065)	definit(0.01998)	pretti(0.01946)	restaur(0.01914)	best(0.01546)	staff(0.01503)	amaz(0.01280)	peopl(0.01232)	wait(0.01172)	review(0.01150)	favorit(0.01139)	locat(0.01079)	recommend(0.01039)	tabl(0.01028)	experi(0.01007)	expect(0.01005)	super(0.00976)	vega(0.00966)	busi(0.00914)	feel(0.00903)	delici(0.00897)	night(0.00844)	open(0.00819)	town(0.00764)	reason(0.00751)	offer(0.00748)	side(0.00730)	
+266 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+260 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+244 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+264 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+256 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 2: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 12778, test size = 3065....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 12778, item size: 702, user size: 773
+[Info]EM Starting multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational]...
+==============
+[Info]Likelihood -2311525.94111 at step 0 converge to 1.0000000000...
+==============
+[Info]Likelihood -2310282.27238 at step 1 converge to 0.0005380293...
+==============
+[Info]Likelihood -2309050.51369 at step 2 converge to 0.0005331637...
+==============
+[Info]Likelihood -2307828.58524 at step 3 converge to 0.0005291909...
+==============
+[Info]Likelihood -2306614.47576 at step 4 converge to 0.0005260830...
+==============
+[Info]Likelihood -2305404.49642 at step 5 converge to 0.0005245694...
+==============
+[Info]Likelihood -2304188.06468 at step 6 converge to 0.0005276435...
+==============
+[Info]Likelihood -2302917.77923 at step 7 converge to 0.0005512942...
+==============
+[Info]Likelihood -2301498.46090 at step 8 converge to 0.0006163131...
+==============
+[Info]Likelihood -2299844.72216 at step 9 converge to 0.0007185487...
+==============
+[Info]Likelihood -2297305.46644 at step 10 converge to 0.0011040988...
+==============
+[Info]Likelihood -2291014.15169 at step 11 converge to 0.0027385626...
+==============
+[Info]Likelihood -2270915.02239 at step 12 converge to 0.0087730271...
+==============
+[Info]Likelihood -2235563.06592 at step 13 converge to 0.0155672740...
+==============
+[Info]Likelihood -2193126.68739 at step 14 converge to 0.0189824117...
+==============
+[Info]Likelihood -2148210.66756 at step 15 converge to 0.0204803581...
+==============
+[Info]Likelihood -2107838.73911 at step 16 converge to 0.0187932818...
+==============
+[Info]Likelihood -2073866.03604 at step 17 converge to 0.0161173160...
+==============
+[Info]Likelihood -2045123.50815 at step 18 converge to 0.0138593947...
+==============
+[Info]Likelihood -2020426.81987 at step 19 converge to 0.0120758909...
+==============
+[Info]Likelihood -1999036.33032 at step 20 converge to 0.0105871142...
+==============
+[Info]Likelihood -1980336.18605 at step 21 converge to 0.0093545795...
+==============
+[Info]Likelihood -1963854.34496 at step 22 converge to 0.0083227490...
+==============
+[Info]Likelihood -1949155.69872 at step 23 converge to 0.0074845908...
+==============
+[Info]Likelihood -1935830.55056 at step 24 converge to 0.0068363693...
+==============
+[Info]Likelihood -1923557.62272 at step 25 converge to 0.0063398771...
+==============
+[Info]Likelihood -1912093.79805 at step 26 converge to 0.0059596991...
+==============
+[Info]Likelihood -1901260.48187 at step 27 converge to 0.0056656824...
+==============
+[Info]Likelihood -1890934.20740 at step 28 converge to 0.0054312781...
+==============
+[Info]Likelihood -1881044.06048 at step 29 converge to 0.0052302967...
+[Info]Likelihood -1881044.060 after step 30 converge to 0.005230 after 119 seconds...
+[Info]Analying bipartie graph: 
+-- test graph: review size: 3065, item size: 207, user size: 266
+[Info]Start evaluation in thread
+[Stat]Test evaluation finished: 3065 docs
+[Stat]0 part has 769.000000 docs: perplexity is 1061.415 and log-likelihood is -327.031
+[Stat]1 part has 178.000000 docs: perplexity is 1012.883 and log-likelihood is -342.218
+[Stat]2 part has 1718.000000 docs: perplexity is 1091.326 and log-likelihood is -342.339
+[Stat]3 part has 400.000000 docs: perplexity is 1053.980 and log-likelihood is -364.565
+[Stat]4 part has 3065.000000 docs: perplexity is 1074.073 and log-likelihood is -341.392
+[Info]multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational] Train/Test finished in 120.61 seconds...
+TopWord FilePath:/zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/2/LDA_User_topWords_45.txt
+Topic 0(0.01841):	pancak(0.04778)	cafe(0.03852)	time(0.02597)	locat(0.02206)	wait(0.02161)	friend(0.01795)	seat(0.01650)	tabl(0.01449)	spot(0.01286)	open(0.01041)	stack(0.01039)	best(0.00981)	area(0.00955)	peopl(0.00887)	feel(0.00883)	side(0.00875)	fluffi(0.00860)	town(0.00839)	sausag(0.00782)	counter(0.00751)	delici(0.00741)	pretti(0.00734)	closer(0.00714)	velvet(0.00705)	sound(0.00702)	favorit(0.00696)	walk(0.00681)	vega(0.00666)	omelett(0.00657)	price(0.00646)	
+Topic 1(0.03137):	drink(0.13649)	beer(0.08356)	happi(0.07260)	happi-hour(0.05038)	play(0.03565)	cool(0.02247)	night(0.02145)	music(0.01595)	patio(0.01585)	bartend(0.01547)	loung(0.01475)	martini(0.01224)	vibe(0.01201)	area(0.01194)	band(0.01106)	factori(0.00854)	peopl-watch(0.00779)	insid(0.00729)	watch(0.00673)	irish(0.00633)	outdoor(0.00566)	crowd(0.00548)	friend(0.00542)	craft(0.00522)	live-music(0.00500)	alcohol(0.00481)	price(0.00473)	hipster(0.00454)	cheesecak-factori(0.00439)	draft(0.00424)	
+Topic 2(0.02638):	NUM-minut(0.05308)	tabl(0.04583)	wait(0.04346)	manag(0.03445)	waitress(0.03352)	told(0.02910)	custom(0.02028)	time(0.01869)	arriv(0.01721)	seat(0.01716)	hostess(0.01576)	bill(0.01440)	final(0.01373)	receiv(0.01164)	drink(0.00945)	experi(0.00907)	complain(0.00873)	terribl(0.00827)	friend(0.00819)	apolog(0.00818)	work(0.00810)	horribl(0.00787)	brought(0.00777)	refil(0.00770)	reserv(0.00767)	mistak(0.00764)	peopl(0.00715)	parti(0.00681)	walk(0.00679)	clear(0.00629)	
+Topic 3(0.02203):	fast(0.06054)	onion(0.03566)	shake(0.03337)	joint(0.02567)	doubl(0.01905)	frozen(0.01617)	patti(0.01546)	ring(0.01546)	truck(0.01530)	fast-food(0.01423)	custard(0.01409)	shack(0.01339)	west(0.01301)	east(0.01152)	sport(0.01145)	hot-dog(0.01083)	white(0.00983)	coast(0.00955)	pickl(0.00857)	hamburg(0.00840)	york(0.00833)	locat(0.00761)	pink(0.00707)	price(0.00685)	cheeseburg(0.00673)	ketchup(0.00664)	citi(0.00661)	innout(0.00591)	cheddar(0.00583)	smash(0.00565)	
+Topic 4(0.01862):	side(0.06248)	smoke(0.03561)	pull(0.02749)	sauc(0.02668)	sweet(0.01640)	famous(0.01587)	damn(0.01450)	brisket(0.01435)	babi(0.01255)	best(0.01086)	delici(0.01064)	burnt(0.01010)	bbq-sauc(0.00991)	flavor(0.00970)	pull-pork(0.00896)	time(0.00840)	southern(0.00828)	tast(0.00814)	corn(0.00775)	peach(0.00764)	cornbread(0.00754)	bread(0.00693)	soul(0.00638)	pretti(0.00593)	choic(0.00546)	perfect(0.00546)	piec(0.00531)	brought(0.00530)	bite(0.00526)	tender(0.00523)	
+Topic 5(0.02035):	chicken(0.04939)	waffl(0.03442)	wrap(0.03092)	healthi(0.02436)	delici(0.01892)	plate(0.01849)	veggi(0.01820)	side(0.01714)	protein(0.01330)	size(0.01322)	time(0.01188)	season(0.01156)	pita(0.01145)	white(0.01050)	hummus(0.01042)	calori(0.00996)	serv(0.00979)	option(0.00961)	friend(0.00926)	cucumb(0.00903)	bread(0.00865)	definit(0.00825)	feta(0.00809)	mediterranean(0.00772)	tast(0.00762)	chicken-fri(0.00740)	wheat(0.00737)	perfect(0.00721)	spinach(0.00717)	chicken-breast(0.00691)	
+Topic 6(0.01904):	shrimp(0.08620)	crab(0.08223)	seafood(0.04166)	waiter(0.04066)	blue(0.02697)	dinner(0.02514)	start(0.01548)	restaur(0.01355)	yummi(0.01326)	appet(0.01238)	delici(0.01076)	experi(0.00956)	stone(0.00911)	reserv(0.00903)	tabl(0.00882)	crab-cake(0.00808)	season(0.00788)	crab-leg(0.00783)	bass(0.00768)	time(0.00758)	tast(0.00707)	side(0.00705)	attent(0.00700)	sea-bass(0.00661)	dine(0.00636)	king-crab(0.00635)	parent(0.00630)	excel(0.00580)	sauc(0.00563)	best(0.00542)	
+Topic 7(0.02037):	time(0.03798)	friend(0.03473)	pretti(0.03108)	definit(0.02825)	hawaiian(0.02464)	favorit(0.02408)	local(0.02203)	spot(0.02122)	super(0.01908)	best(0.01891)	price(0.01773)	vega(0.01241)	small(0.01229)	restaur(0.01152)	style(0.01150)	amaz(0.01089)	recommend(0.01068)	hawaii(0.01032)	delici(0.00902)	busi(0.00824)	pretti-good(0.00798)	open(0.00766)	town(0.00751)	staff(0.00713)	coupl(0.00691)	feel(0.00681)	tabl(0.00676)	reason(0.00672)	wait(0.00668)	special(0.00657)	
+Topic 8(0.02102):	chicken(0.19295)	sauc(0.07724)	strip(0.05215)	wing(0.03720)	soda(0.01871)	finger(0.01515)	tender(0.01248)	side(0.01130)	bread(0.01065)	rais(0.01049)	coke(0.01028)	piec(0.01000)	bake(0.00859)	time(0.00789)	diet(0.00772)	buffalo(0.00757)	crispi(0.00743)	cent(0.00675)	perfect(0.00648)	garlic(0.00618)	chicken-wing(0.00618)	friend(0.00613)	NUM-cent(0.00575)	rave(0.00549)	cane(0.00516)	pretti(0.00507)	small(0.00505)	carb(0.00481)	chicken-strip(0.00475)	solid(0.00463)	
+Topic 9(0.02241):	rice(0.08519)	thai(0.07434)	dish(0.04742)	spici(0.03681)	chines(0.02806)	restaur(0.02716)	fri-rice(0.02171)	duck(0.02074)	soup(0.01835)	flavor(0.01583)	beef(0.01576)	asian(0.01561)	chicken(0.01433)	pad-thai(0.01278)	sauc(0.01231)	crispi(0.01195)	authent(0.00853)	style(0.00845)	noodl-soup(0.00833)	garlic(0.00812)	broccoli(0.00801)	curri(0.00785)	thai-restaur(0.00759)	dumpl(0.00689)	egg-roll(0.00676)	sweet(0.00579)	ginger(0.00551)	panang(0.00533)	chow(0.00530)	lotus(0.00518)	
+Topic 10(0.01946):	bread(0.05768)	beef(0.04103)	corn(0.03616)	roast(0.02636)	ball(0.02147)	turkey(0.02144)	dress(0.01926)	deli(0.01642)	side(0.01475)	split(0.01447)	stuf(0.01228)	pickl(0.01080)	corn-beef(0.01065)	delici(0.01004)	time(0.00998)	earl(0.00963)	togo(0.00841)	serv(0.00725)	tast(0.00707)	soup(0.00697)	pastrami(0.00695)	perfect(0.00635)	generous(0.00626)	mustard(0.00615)	black(0.00595)	share(0.00577)	stale(0.00575)	soft(0.00568)	chicken-salad(0.00534)	lunch(0.00505)	
+Topic 11(0.02011):	time(0.05164)	price(0.03037)	vega(0.02996)	friend(0.02847)	pretti(0.02622)	peopl(0.02457)	feel(0.02022)	best(0.01670)	staff(0.01576)	area(0.01303)	open(0.01291)	night(0.01284)	star(0.01171)	wait(0.01108)	reason(0.01057)	experi(0.01052)	amaz(0.01001)	definit(0.00982)	tabl(0.00976)	work(0.00893)	favorit(0.00874)	recommend(0.00873)	restaur(0.00846)	busi(0.00799)	town(0.00798)	spot(0.00784)	small(0.00763)	expect(0.00736)	seat(0.00736)	close(0.00722)	
+Topic 12(0.02379):	cream(0.11578)	flavor(0.06842)	ice-cream(0.06636)	sweet(0.03859)	crepe(0.02326)	boba(0.02271)	tast(0.01791)	coconut(0.01667)	gelato(0.01648)	honey(0.01641)	mango(0.01561)	strawberri(0.01426)	drink(0.01423)	coffe(0.01367)	vegan(0.01165)	creme(0.01031)	vanilla(0.01028)	smoothi(0.00997)	black(0.00945)	perfect(0.00884)	creami(0.00876)	brule(0.00810)	creme-brule(0.00778)	snow(0.00764)	nutella(0.00750)	brew(0.00749)	shave(0.00721)	whip(0.00681)	blend(0.00635)	taro(0.00624)	
+Topic 13(0.01946):	friend(0.04237)	time(0.03219)	definit(0.02986)	pretti(0.02204)	sweet-potato(0.02097)	side(0.01916)	delici(0.01732)	price(0.01576)	sweet(0.01561)	option(0.01422)	potato-fri(0.01421)	favorit(0.01345)	amaz(0.01314)	super(0.01227)	tast(0.01098)	best(0.01086)	wait(0.01041)	reason(0.01028)	recommend(0.00929)	surpris(0.00897)	thought(0.00876)	concept(0.00873)	tabl(0.00815)	staff(0.00790)	work(0.00718)	expect(0.00710)	peopl(0.00709)	happi(0.00700)	pricey(0.00679)	busi(0.00657)	
+Topic 14(0.02082):	cake(0.04578)	cooki(0.04123)	sweet(0.02879)	sugar(0.02595)	treat(0.02448)	peanut(0.02122)	cupcak(0.02096)	bakeri(0.01945)	flavor(0.01806)	birthday(0.01748)	chocol(0.01511)	display(0.01441)	macaron(0.01432)	delici(0.01388)	peanut-butter(0.01233)	delight(0.01202)	case(0.01161)	pick(0.01154)	sister(0.01098)	bake(0.01090)	velvet(0.00972)	color(0.00958)	macaroon(0.00937)	daughter(0.00900)	browni(0.00836)	bite(0.00833)	favorit(0.00822)	cute(0.00808)	heaven(0.00754)	tast(0.00741)	
+Topic 15(0.02531):	find(0.04375)	price(0.01795)	custom(0.01742)	walk(0.01714)	vega(0.01540)	time(0.01449)	product(0.01409)	peopl(0.01330)	select(0.01249)	sign(0.01219)	spend(0.01118)	stuff(0.01095)	custom-servic(0.01085)	sell(0.01027)	total(0.01005)	onlin(0.00975)	work(0.00962)	photo(0.00952)	stock(0.00903)	trip(0.00902)	local(0.00875)	afternoon(0.00854)	purchas(0.00844)	reason(0.00828)	pictur(0.00820)	sale(0.00788)	money(0.00736)	staff(0.00735)	las-vega(0.00688)	area(0.00677)	
+Topic 16(0.02232):	pizza(0.12597)	slice(0.04264)	pasta(0.03760)	italian(0.02829)	crust(0.02634)	sausag(0.02409)	sauc(0.02023)	thin(0.01936)	garlic(0.01886)	oliv(0.01571)	meatbal(0.01563)	secret(0.01443)	style(0.01377)	white(0.01147)	deep(0.01071)	chicago(0.00979)	mozzarella(0.00854)	ingredi(0.00849)	pepperoni(0.00725)	oven(0.00716)	mushroom(0.00668)	ricotta(0.00630)	parmesan(0.00623)	oliv-oil(0.00608)	spaghetti(0.00597)	pesto(0.00591)	dough(0.00519)	tiramisu(0.00512)	york(0.00484)	perfect(0.00473)	
+Topic 17(0.04352):	room(0.10426)	casino(0.05629)	stay(0.05491)	hotel(0.05357)	strip(0.03168)	pool(0.02545)	vega(0.01559)	walk(0.01239)	suit(0.01164)	properti(0.01084)	view(0.00979)	tower(0.00970)	gambl(0.00898)	elev(0.00888)	valet(0.00877)	resort(0.00874)	slot(0.00791)	area(0.00716)	aria(0.00713)	desk(0.00696)	wynn(0.00672)	shower(0.00636)	venetian(0.00587)	book(0.00578)	machin(0.00565)	clean(0.00552)	spacious(0.00518)	modern(0.00515)	access(0.00509)	palazzo(0.00498)	
+Topic 18(0.01911):	time(0.04096)	friend(0.02598)	pretti(0.02035)	price(0.01652)	impress(0.01616)	best(0.01529)	definit(0.01462)	vega(0.01398)	feel(0.01367)	tabl(0.01304)	star(0.01278)	staff(0.01203)	clean(0.00974)	favorit(0.00922)	restaur(0.00922)	delici(0.00920)	reason(0.00906)	open(0.00904)	spot(0.00885)	amaz(0.00884)	small(0.00880)	work(0.00834)	offer(0.00809)	experi(0.00807)	busi(0.00794)	area(0.00793)	peopl(0.00779)	seat(0.00726)	water(0.00700)	expect(0.00681)	
+Topic 19(0.01966):	breakfast(0.08873)	toast(0.04628)	french(0.04449)	brunch(0.04191)	coffe(0.02162)	french-toast(0.01633)	benedict(0.01525)	serv(0.01287)	omelet(0.01240)	brown(0.00980)	patio(0.00963)	tabl(0.00941)	mimosa(0.00918)	friend(0.00831)	whiskey(0.00778)	champagn(0.00775)	restaur(0.00758)	choic(0.00707)	plate(0.00659)	egg-benedict(0.00624)	hash-brown(0.00620)	dine(0.00597)	numer(0.00583)	press(0.00556)	bloodi-mari(0.00554)	offer(0.00551)	fine(0.00547)	time(0.00528)	delici(0.00523)	bread(0.00523)	
+Topic 20(0.02019):	taco(0.09411)	chip(0.05396)	bean(0.03533)	mexican(0.03508)	burrito(0.02558)	tortilla(0.02003)	nacho(0.02002)	margarita(0.01653)	sour(0.01416)	fusion(0.01385)	asada(0.01374)	chipotl(0.01293)	carn(0.01258)	pineappl(0.01251)	guacamol(0.01192)	cilantro(0.01139)	delici(0.01091)	carn-asada(0.01068)	mexican-food(0.01010)	flavor(0.01002)	sauc(0.00851)	fish(0.00779)	fish-taco(0.00753)	authent(0.00750)	corn(0.00737)	pastor(0.00704)	enchilada(0.00653)	sour-cream(0.00645)	onion(0.00596)	ingredi(0.00592)	
+Topic 21(0.01928):	ramen(0.09122)	bowl(0.07719)	broth(0.04629)	extra(0.04302)	spring(0.01986)	monta(0.01933)	small(0.01565)	anim(0.01474)	spici(0.01316)	flavor(0.01156)	mountain(0.01077)	base(0.00851)	perfect(0.00784)	wait(0.00715)	miso-ramen(0.00713)	sora(0.00704)	tast(0.00684)	soup(0.00673)	shoyu(0.00670)	spring-mountain(0.00658)	piec(0.00630)	cook(0.00627)	appet(0.00624)	gyoza(0.00620)	time(0.00615)	thin(0.00612)	tonkotsu(0.00575)	seat(0.00527)	restaur(0.00524)	size(0.00522)	
+Topic 22(0.02172):	review(0.09301)	star(0.07335)	yelp(0.04743)	rate(0.04231)	restaur(0.02716)	time(0.01912)	yelper(0.01898)	tast(0.01263)	friend(0.01182)	read(0.01058)	best(0.01003)	consid(0.00953)	expect(0.00915)	offer(0.00813)	price(0.00808)	spectacular(0.00807)	experi(0.00779)	opinion(0.00736)	star-rate(0.00731)	type(0.00705)	deserv(0.00667)	pretti(0.00666)	peopl(0.00652)	choic(0.00645)	remov(0.00637)	averag(0.00622)	push(0.00622)	busi(0.00601)	star-review(0.00600)	feel(0.00593)	
+Topic 23(0.01967):	time(0.06023)	pretti(0.02819)	price(0.02731)	friend(0.02602)	experi(0.01966)	best(0.01904)	tabl(0.01715)	star(0.01664)	restaur(0.01622)	definit(0.01588)	wait(0.01546)	dinner(0.01304)	vega(0.01289)	recommend(0.01185)	amaz(0.01142)	expect(0.01114)	favorit(0.01104)	night(0.01101)	rememb(0.00985)	peopl(0.00972)	impress(0.00941)	small(0.00913)	reason(0.00909)	feel(0.00909)	staff(0.00906)	special(0.00823)	seat(0.00785)	love-love(0.00765)	thought(0.00764)	pretti-good(0.00737)	
+Topic 24(0.01899):	wine(0.07119)	glass(0.04634)	restaur(0.04490)	serv(0.03869)	plate(0.01681)	special(0.01545)	dinner(0.01425)	share(0.01247)	chef(0.01247)	casual(0.01243)	pair(0.01218)	fall(0.01151)	pour(0.01063)	dine(0.00993)	apart(0.00964)	touch(0.00949)	bottl(0.00936)	small(0.00884)	delici(0.00847)	small-plate(0.00735)	vega(0.00727)	bistro(0.00682)	night(0.00663)	occas(0.00660)	bouchon(0.00649)	white(0.00649)	soak(0.00620)	experi(0.00600)	tast(0.00560)	nice-touch(0.00550)	
+Topic 25(0.02300):	buffet(0.13265)	station(0.04071)	select(0.03502)	theater(0.03128)	prime(0.02644)	prime-rib(0.01874)	seat(0.01616)	varieti(0.01549)	price(0.01313)	offer(0.01311)	crab-leg(0.01200)	vega(0.01105)	best(0.00964)	seafood(0.00894)	dinner(0.00888)	salad-bar(0.00868)	asian(0.00846)	popcorn(0.00837)	theatr(0.00820)	reward(0.00737)	discount(0.00709)	includ(0.00700)	pass(0.00685)	stand(0.00650)	movi-theater(0.00645)	skip(0.00632)	carv(0.00622)	wynn(0.00608)	screen(0.00577)	spoon(0.00554)	
+Topic 26(0.02495):	roll(0.10987)	sushi(0.10311)	fish(0.06405)	salmon(0.03662)	tuna(0.03574)	chef(0.01744)	rice(0.01697)	sashimi(0.01637)	spici(0.01608)	nigiri(0.01605)	poke(0.01482)	sauc(0.01310)	special(0.01240)	piec(0.01224)	favorit(0.01008)	appet(0.00898)	sake(0.00801)	miso-soup(0.00787)	teriyaki(0.00743)	dinner(0.00680)	garlic(0.00621)	ayc-sushi(0.00567)	mussel(0.00555)	sushi-bar(0.00548)	vietnames(0.00524)	banh(0.00502)	shrimp(0.00463)	edamam(0.00461)	toro(0.00460)	hamachi(0.00445)	
+Topic 27(0.01952):	time(0.04036)	friend(0.04032)	pretti(0.03129)	price(0.02610)	amaz(0.02558)	definit(0.02496)	best(0.02045)	recommend(0.01736)	delici(0.01413)	tabl(0.01410)	favorit(0.01407)	restaur(0.01313)	experi(0.01312)	night(0.01161)	feel(0.01129)	small(0.01126)	super(0.01041)	vega(0.00942)	seat(0.00932)	expect(0.00898)	special(0.00885)	peopl(0.00885)	thought(0.00874)	star(0.00859)	wait(0.00818)	staff(0.00796)	tast(0.00742)	dinner(0.00732)	pretti-good(0.00723)	drink(0.00680)	
+Topic 28(0.01987):	soup(0.09176)	card(0.04306)	choos(0.03960)	option(0.02924)	deal(0.02738)	credit(0.01361)	oxtail(0.01328)	challeng(0.01305)	cash(0.01249)	choic(0.01128)	time(0.01062)	yelp(0.01002)	vegetarian(0.00997)	counter(0.00995)	aloha(0.00965)	NUM-pm(0.00881)	good-deal(0.00880)	base(0.00875)	eateri(0.00756)	veggi(0.00744)	work(0.00697)	pretti(0.00669)	bonus(0.00663)	chose(0.00651)	yelp-NUM(0.00632)	udon(0.00606)	machin(0.00605)	process(0.00559)	pinbal(0.00552)	liquid(0.00551)	
+Topic 29(0.02333):	lunch(0.13541)	locat(0.10399)	special(0.02841)	time(0.02252)	busi(0.02001)	restaur(0.01813)	vega(0.01676)	lunch-special(0.01363)	door(0.01306)	count(0.01020)	las-vega(0.00943)	star(0.00883)	dine(0.00874)	size(0.00857)	today(0.00856)	rainbow(0.00717)	slow(0.00715)	clean(0.00682)	pretti(0.00664)	area(0.00657)	lunch-time(0.00626)	fare(0.00595)	review(0.00586)	blow(0.00585)	penn(0.00582)	coupl(0.00522)	compar(0.00519)	price(0.00510)	handl(0.00505)	ignor(0.00496)	
+Topic 30(0.01824):	oyster(0.03815)	tast(0.03435)	chop(0.02571)	small(0.02069)	night(0.01516)	price(0.01415)	delici(0.01240)	pretti(0.01238)	time(0.01215)	dozen(0.01203)	best(0.01164)	special(0.01159)	serv(0.01012)	flavor(0.01009)	friend(0.00975)	stomach(0.00887)	perfect(0.00858)	plate(0.00857)	definit(0.00850)	bite(0.00823)	expect(0.00767)	start(0.00749)	highlight(0.00730)	point(0.00720)	sauc(0.00699)	stick(0.00693)	cold(0.00649)	includ(0.00634)	recommend(0.00623)	philli(0.00622)	
+Topic 31(0.02029):	time(0.09848)	call(0.06269)	mention(0.02186)	wait(0.01820)	second(0.01816)	friend(0.01655)	peopl(0.01526)	ahead(0.01518)	price(0.01267)	close(0.01211)	answer(0.01180)	vega(0.01161)	pretti(0.01078)	phone(0.01065)	open(0.01057)	experi(0.01019)	staff(0.00959)	point(0.00955)	work(0.00907)	happi(0.00886)	area(0.00851)	tonight(0.00818)	talk(0.00783)	walk(0.00768)	night(0.00705)	town(0.00676)	star(0.00676)	feel(0.00659)	tabl(0.00655)	best(0.00654)	
+Topic 32(0.02345):	steak(0.09143)	cook(0.03781)	perfect(0.02646)	rare(0.02336)	medium(0.02241)	truffl(0.02024)	mushroom(0.01668)	filet(0.01584)	bread(0.01455)	mash-potato(0.01417)	dine(0.01282)	side(0.01274)	excel(0.01210)	steakhous(0.01125)	sauc(0.01016)	bone(0.01002)	ribey(0.00988)	cook-perfect(0.00946)	tender(0.00905)	medium-rare(0.00878)	dinner(0.00846)	garlic(0.00782)	season(0.00771)	plate(0.00654)	mignon(0.00637)	flavor(0.00627)	rib-eye(0.00618)	appet(0.00609)	filet-mignon(0.00585)	tabl(0.00582)	
+Topic 33(0.02039):	pork(0.11073)	beef(0.05537)	short(0.04004)	korean(0.03724)	belli(0.03521)	cook(0.03027)	pork-belli(0.02695)	combo(0.02601)	spici(0.02429)	short-rib(0.01586)	steam(0.01584)	marin(0.01302)	side(0.01241)	tender(0.01190)	side-dish(0.01123)	rice(0.01119)	dish(0.01059)	bulgogi(0.00999)	tongu(0.00908)	bean(0.00892)	style(0.00882)	round(0.00694)	definit(0.00666)	plate(0.00630)	sauc(0.00589)	fatti(0.00557)	pork-chop(0.00537)	brisket(0.00521)	flavor(0.00503)	tofu(0.00500)	
+Topic 34(0.01999):	friend(0.04437)	time(0.03944)	definit(0.03807)	amaz(0.02863)	pretti(0.02745)	super(0.02396)	recommend(0.02275)	best(0.02225)	delici(0.01677)	favorit(0.01572)	price(0.01564)	feel(0.01331)	small(0.01231)	restaur(0.01092)	expect(0.01043)	tabl(0.01022)	experi(0.00987)	vega(0.00972)	wait(0.00959)	tast(0.00946)	thought(0.00943)	star(0.00929)	staff(0.00866)	peopl(0.00831)	seat(0.00812)	open(0.00657)	night(0.00649)	spot(0.00612)	high-recommend(0.00607)	pretti-good(0.00592)	
+Topic 35(0.02101):	wait(0.04196)	hungri(0.03528)	night(0.03360)	smell(0.03057)	time(0.02899)	juici(0.02652)	friday(0.02125)	break(0.01870)	NUM-hour(0.01798)	pretti(0.01783)	NUM-min(0.01762)	open(0.01696)	pound(0.01539)	problem(0.01413)	peopl(0.01359)	friend(0.01351)	crawfish(0.01075)	friday-night(0.01064)	paper(0.00857)	suck(0.00852)	busi(0.00801)	price(0.00789)	tabl(0.00767)	best(0.00748)	open-NUM(0.00730)	readi(0.00700)	seat(0.00660)	food-qualiti(0.00641)	pack(0.00640)	wear(0.00618)	
+Topic 36(0.02981):	park(0.08754)	shop(0.08685)	store(0.05738)	coffe(0.03326)	rock(0.02433)	valley(0.01485)	drive(0.01438)	month(0.01411)	squar(0.01308)	area(0.01296)	town(0.01261)	walk(0.01040)	find(0.01018)	market(0.00986)	outdoor(0.00941)	locat(0.00922)	red-rock(0.00867)	groceri(0.00832)	coffe-shop(0.00816)	offer(0.00770)	shop-center(0.00762)	garag(0.00751)	court(0.00737)	produc(0.00720)	fashion(0.00688)	henderson(0.00682)	ranch(0.00664)	brand(0.00656)	las-vega(0.00599)	space(0.00541)	
+Topic 37(0.02255):	year(0.07859)	vega(0.02848)	NUM-year(0.02538)	year-ago(0.01755)	las-vega(0.01539)	understand(0.01534)	peopl(0.01278)	updat(0.01194)	pretti(0.01135)	groupon(0.01069)	time(0.00976)	cashier(0.00957)	discount(0.00849)	situat(0.00844)	money(0.00842)	rude(0.00817)	turn(0.00766)	wait(0.00737)	sing(0.00697)	sign(0.00675)	work(0.00640)	save(0.00639)	talk(0.00625)	replac(0.00619)	review(0.00611)	shame(0.00610)	best(0.00588)	local(0.00578)	histori(0.00574)	angri(0.00554)	
+Topic 38(0.03582):	club(0.04887)	music(0.03438)	view(0.02788)	crowd(0.02645)	danc(0.02504)	ticket(0.01803)	vega(0.01589)	night(0.01537)	peopl(0.01536)	cirqu(0.01389)	stage(0.01260)	perform(0.01178)	play(0.01050)	airport(0.01035)	machin(0.00977)	seat(0.00921)	venu(0.00899)	ride(0.00870)	entertain(0.00867)	beauti(0.00845)	concert(0.00827)	fountain(0.00824)	class(0.00795)	song(0.00778)	nightclub(0.00756)	watch(0.00706)	area(0.00615)	space(0.00612)	marque(0.00568)	museum(0.00548)	
+Topic 39(0.01769):	curri(0.06087)	spice(0.04012)	chicken(0.03879)	veget(0.03422)	rice(0.01950)	plate(0.01778)	indian(0.01695)	lunch(0.01555)	flavor(0.01544)	sauc(0.01444)	restaur(0.01415)	dish(0.01361)	garlic(0.01093)	leftov(0.01079)	spici(0.01033)	option(0.01013)	spinach(0.00858)	veggi(0.00795)	serv(0.00762)	ground(0.00744)	tray(0.00740)	tast(0.00667)	lunch-buffet(0.00643)	dinner(0.00574)	ginger(0.00568)	chicken-katsu(0.00550)	carrot(0.00539)	offer(0.00535)	fill(0.00532)	addit(0.00528)	
+Topic 40(0.02044):	time(0.04981)	peopl(0.04162)	tabl(0.03188)	friend(0.02352)	night(0.02108)	pretti(0.02043)	wait(0.01796)	experi(0.01558)	walk(0.01557)	price(0.01363)	feel(0.01332)	seat(0.01304)	parti(0.01291)	open(0.01112)	vega(0.01071)	work(0.01062)	staff(0.00936)	drink(0.00930)	expect(0.00885)	star(0.00834)	small(0.00827)	busi(0.00813)	area(0.00791)	best(0.00757)	thought(0.00739)	awkward(0.00712)	bring(0.00700)	saturday(0.00690)	amaz(0.00659)	close(0.00656)	
+Topic 41(0.02047):	chocol(0.07550)	cake(0.05012)	sweet(0.02240)	banana(0.02051)	pastri(0.02006)	bread(0.01545)	appl(0.01506)	strawberri(0.01370)	donut(0.01128)	tart(0.01109)	fill(0.01052)	savori(0.00971)	rich(0.00954)	white(0.00872)	raspberri(0.00846)	almond(0.00798)	syrup(0.00771)	croissant(0.00765)	warm(0.00750)	layer(0.00739)	chef(0.00734)	cream(0.00733)	whip(0.00718)	chocol-cake(0.00670)	bread-pud(0.00651)	vanilla(0.00647)	blueberri(0.00607)	pecan(0.00572)	french(0.00571)	cream-chees(0.00564)	
+Topic 42(0.01961):	cours(0.05491)	lobster(0.04889)	restaur(0.04718)	week(0.03664)	tast(0.02829)	dinner(0.02155)	calamari(0.01887)	clam(0.01490)	dine(0.01368)	perfect(0.00965)	appet(0.00947)	restaur-week(0.00897)	bread(0.00873)	includ(0.00771)	brought(0.00727)	chowder(0.00725)	bisqu(0.00689)	excel(0.00682)	dish(0.00669)	amaz(0.00658)	start(0.00637)	special(0.00635)	scallop(0.00626)	fine(0.00623)	delici(0.00597)	mojito(0.00590)	serv(0.00590)	goat-chees(0.00577)	birthday(0.00552)	flavor(0.00536)	
+Topic 43(0.02108):	dish(0.09417)	flavor(0.03893)	tast(0.02483)	salt(0.02123)	sauc(0.01900)	textur(0.01886)	tapa(0.01664)	crispi(0.01485)	tofu(0.01411)	serv(0.01207)	mushroom(0.01043)	perfect(0.01037)	combin(0.00985)	bite(0.00982)	sweet(0.00844)	piec(0.00834)	foie-gras(0.00826)	cours(0.00807)	raku(0.00784)	skin(0.00781)	reserv(0.00766)	creami(0.00747)	sear(0.00732)	mouth(0.00640)	tender(0.00595)	crunchi(0.00585)	scallop(0.00576)	dress(0.00533)	squid(0.00505)	soft(0.00503)	
+Topic 44(0.02506):	street(0.03975)	vega(0.03363)	watch(0.03167)	downtown(0.03120)	drink(0.02632)	cool(0.02482)	las-vega(0.02430)	event(0.01947)	fremont(0.01628)	shot(0.01333)	seat(0.01310)	garden(0.01296)	pictur(0.01250)	funni(0.01237)	bartend(0.01043)	laugh(0.01014)	adult(0.00990)	interest(0.00892)	time(0.00867)	experi(0.00866)	chandeli(0.00799)	walk(0.00736)	night(0.00720)	insid(0.00688)	interact(0.00681)	prop(0.00665)	magic(0.00659)	tuesday(0.00647)	stori(0.00603)	sexi(0.00581)	
+264 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+260 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+244 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+266 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+256 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+====================
+[Info]Fold No. 3: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 12591, test size = 3252....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 12591, item size: 717, user size: 770
+[Info]EM Starting multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational]...
+==============
+[Info]Likelihood -2328733.36834 at step 0 converge to 1.0000000000...
+==============
+[Info]Likelihood -2327488.66760 at step 1 converge to 0.0005344969...
+==============
+[Info]Likelihood -2326255.64827 at step 2 converge to 0.0005297638...
+==============
+[Info]Likelihood -2325031.80747 at step 3 converge to 0.0005260990...
+==============
+[Info]Likelihood -2323812.53352 at step 4 converge to 0.0005244117...
+==============
+[Info]Likelihood -2322574.24197 at step 5 converge to 0.0005328707...
+==============
+[Info]Likelihood -2321265.08331 at step 6 converge to 0.0005636671...
+==============
+[Info]Likelihood -2319912.51188 at step 7 converge to 0.0005826872...
+==============
+[Info]Likelihood -2318417.07191 at step 8 converge to 0.0006446105...
+==============
+[Info]Likelihood -2316472.27809 at step 9 converge to 0.0008388455...
+==============
+[Info]Likelihood -2313564.34590 at step 10 converge to 0.0012553279...
+==============
+[Info]Likelihood -2307401.93719 at step 11 converge to 0.0026635994...
+==============
+[Info]Likelihood -2291657.36088 at step 12 converge to 0.0068235083...
+==============
+[Info]Likelihood -2258486.70800 at step 13 converge to 0.0144745255...
+==============
+[Info]Likelihood -2213121.52450 at step 14 converge to 0.0200865400...
+==============
+[Info]Likelihood -2167100.01268 at step 15 converge to 0.0207948417...
+==============
+[Info]Likelihood -2127021.11151 at step 16 converge to 0.0184942554...
+==============
+[Info]Likelihood -2093581.21242 at step 17 converge to 0.0157214702...
+==============
+[Info]Likelihood -2065120.44689 at step 18 converge to 0.0135942973...
+==============
+[Info]Likelihood -2040211.87999 at step 19 converge to 0.0120615565...
+==============
+[Info]Likelihood -2018134.29458 at step 20 converge to 0.0108212219...
+==============
+[Info]Likelihood -1998573.19301 at step 21 converge to 0.0096926660...
+==============
+[Info]Likelihood -1981234.65776 at step 22 converge to 0.0086754567...
+==============
+[Info]Likelihood -1965569.34809 at step 23 converge to 0.0079068421...
+==============
+[Info]Likelihood -1951161.58648 at step 24 converge to 0.0073300704...
+==============
+[Info]Likelihood -1937968.43882 at step 25 converge to 0.0067616889...
+==============
+[Info]Likelihood -1925910.39287 at step 26 converge to 0.0062220033...
+==============
+[Info]Likelihood -1914759.51232 at step 27 converge to 0.0057899270...
+==============
+[Info]Likelihood -1904262.17722 at step 28 converge to 0.0054823256...
+==============
+[Info]Likelihood -1894233.94856 at step 29 converge to 0.0052662017...
+[Info]Likelihood -1894233.949 after step 30 converge to 0.005266 after 93 seconds...
+[Info]Analying bipartie graph: 
+-- test graph: review size: 3252, item size: 206, user size: 264
+[Info]Start evaluation in thread
+[Stat]Test evaluation finished: 3252 docs
+[Stat]0 part has 912.000000 docs: perplexity is 1126.650 and log-likelihood is -322.703
+[Stat]1 part has 285.000000 docs: perplexity is 1070.269 and log-likelihood is -308.912
+[Stat]2 part has 1562.000000 docs: perplexity is 1065.463 and log-likelihood is -315.970
+[Stat]3 part has 493.000000 docs: perplexity is 967.035 and log-likelihood is -312.338
+[Stat]4 part has 3252.000000 docs: perplexity is 1067.082 and log-likelihood is -316.689
+[Info]multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational] Train/Test finished in 94.84 seconds...
+TopWord FilePath:/zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/3/LDA_User_topWords_45.txt
+Topic 0(0.02028):	sweet(0.07717)	onion(0.05560)	tast(0.02627)	perfect(0.02323)	sweet-potato(0.01841)	sauc(0.01501)	turkey(0.01433)	truffl(0.01356)	ring(0.01233)	bread(0.01232)	patti(0.01207)	side(0.01120)	potato-fri(0.01109)	dress(0.01089)	flavor(0.01069)	juici(0.01011)	cheddar(0.01002)	cook(0.00969)	delici(0.00933)	bite(0.00879)	blue-chees(0.00859)	share(0.00816)	batter(0.00806)	small(0.00797)	soggi(0.00772)	jalapeno(0.00749)	friend(0.00740)	blue(0.00730)	glaze(0.00686)	plate(0.00677)	
+Topic 1(0.01996):	strip(0.08839)	fast(0.05469)	chicken(0.03309)	sauc(0.02957)	bread(0.02354)	combo(0.02119)	finger(0.01889)	bake(0.01820)	soda(0.01627)	side(0.01386)	rais(0.01375)	fast-food(0.01253)	time(0.01159)	calori(0.01069)	buffalo(0.01062)	ranch(0.00956)	best(0.00916)	toast(0.00873)	lunch(0.00872)	diet(0.00869)	friend(0.00826)	carb(0.00793)	definit(0.00763)	pretti(0.00747)	grill-chicken(0.00667)	chicken-strip(0.00656)	cane(0.00656)	perfect(0.00635)	locat(0.00633)	slaw(0.00625)	
+Topic 2(0.02049):	time(0.05341)	friend(0.02627)	soup(0.01761)	crave(0.01749)	best(0.01742)	market(0.01574)	favorit(0.01544)	definit(0.01490)	oxtail(0.01443)	pretti(0.01411)	super(0.01408)	famili(0.01404)	locat(0.01362)	price(0.01300)	open(0.01198)	NUM-hour(0.01157)	town(0.01139)	vega(0.01110)	hawaii(0.01101)	satisfi(0.01049)	gonna(0.01003)	spot(0.00950)	feel(0.00852)	reason(0.00807)	restaur(0.00800)	hungri(0.00732)	delici(0.00719)	hawaiian(0.00681)	open-NUM(0.00665)	amaz(0.00661)	
+Topic 3(0.01957):	brunch(0.04030)	time(0.03824)	pretti(0.03004)	best(0.02471)	wait(0.02191)	price(0.01862)	spoon(0.01685)	plate(0.01397)	vega(0.01329)	small(0.01155)	friend(0.01092)	mimosa(0.01064)	champagn(0.01010)	saturday(0.01007)	impress(0.01004)	definit(0.00896)	wick(0.00874)	second(0.00854)	pretti-good(0.00847)	tabl(0.00806)	feel(0.00795)	ridicul(0.00789)	trip(0.00755)	peopl(0.00743)	super(0.00728)	wick-spoon(0.00705)	clear(0.00698)	offer(0.00689)	dinner(0.00678)	save(0.00678)	
+Topic 4(0.02245):	star(0.09906)	review(0.06132)	rate(0.03655)	pretti(0.03378)	time(0.02681)	restaur(0.02149)	yelp(0.01896)	friend(0.01565)	price(0.01456)	tabl(0.01216)	expect(0.01196)	experi(0.01184)	definit(0.01120)	spectacular(0.00933)	thought(0.00930)	busi(0.00922)	feel(0.00882)	cold(0.00871)	explain(0.00866)	peopl(0.00860)	pretti-good(0.00813)	lower(0.00783)	star-rate(0.00748)	seat(0.00689)	sens(0.00649)	water(0.00640)	final(0.00621)	staff(0.00611)	reason(0.00609)	kinda(0.00590)	
+Topic 5(0.02141):	cours(0.03608)	chef(0.02557)	dine(0.01677)	truffl(0.01547)	pair(0.01395)	rich(0.01365)	restaur(0.01166)	serv(0.01150)	plate(0.01097)	bread(0.01068)	foie-gras(0.01063)	dish(0.01032)	experi(0.01031)	pure(0.00787)	creami(0.00743)	perfect(0.00715)	accompani(0.00667)	scallop(0.00661)	duck(0.00632)	beauti(0.00613)	warm(0.00586)	textur(0.00585)	prepar(0.00570)	salt(0.00556)	excel(0.00548)	tast(0.00536)	bite(0.00526)	arriv(0.00500)	mushroom(0.00491)	dine-experi(0.00485)	
+Topic 6(0.02585):	night(0.09950)	beer(0.09934)	club(0.05512)	crowd(0.03378)	vega(0.02179)	sport(0.01509)	pretti(0.01478)	cool(0.01375)	booth(0.01348)	bottl(0.01276)	local(0.01157)	drunk(0.01087)	friend(0.01040)	tabl(0.00959)	outdoor(0.00923)	danc(0.00920)	peopl(0.00920)	parti(0.00903)	cover(0.00758)	nightclub(0.00744)	pack(0.00743)	play(0.00723)	feel(0.00719)	saturday-night(0.00702)	beach(0.00657)	area(0.00647)	insid(0.00646)	footbal(0.00554)	time(0.00534)	promot(0.00527)	
+Topic 7(0.01915):	ramen(0.08832)	bowl(0.07974)	broth(0.04781)	extra(0.04411)	monta(0.01891)	base(0.01376)	small(0.01233)	spici(0.01161)	flavor(0.01068)	soup(0.01003)	mountain(0.00998)	cook(0.00958)	perfect(0.00800)	sora(0.00742)	tast(0.00741)	spring(0.00700)	thin(0.00677)	miso-ramen(0.00673)	shoyu(0.00673)	gyoza(0.00657)	piec(0.00633)	tonkotsu(0.00622)	boil(0.00594)	time(0.00591)	wait(0.00577)	spring-mountain(0.00557)	restaur(0.00546)	prefer(0.00497)	size(0.00481)	rich(0.00477)	
+Topic 8(0.02843):	music(0.05553)	seat(0.04863)	theater(0.02493)	ticket(0.02290)	watch(0.02059)	danc(0.01936)	entertain(0.01846)	cirqu(0.01461)	perform(0.01406)	venu(0.01272)	stage(0.01264)	stori(0.01147)	band(0.01110)	sound(0.01077)	view(0.01071)	play(0.01069)	peopl(0.01011)	beauti(0.00989)	screen(0.00914)	funni(0.00899)	laugh(0.00875)	concert(0.00758)	song(0.00752)	crowd(0.00714)	water(0.00692)	elvi(0.00646)	interact(0.00627)	audienc(0.00602)	theatr(0.00601)	live-music(0.00574)	
+Topic 9(0.02018):	waiter(0.05810)	tabl(0.05284)	reserv(0.04470)	restaur(0.02797)	dinner(0.02643)	start(0.02445)	buck(0.02111)	parti(0.02020)	seat(0.01905)	dine(0.01826)	friend(0.01616)	time(0.01455)	NUM-buck(0.01440)	giant(0.01408)	vegetarian(0.01317)	brought(0.01195)	recommend(0.01115)	star(0.00804)	romant(0.00774)	appet(0.00749)	night(0.00707)	wait-staff(0.00692)	staff(0.00679)	share(0.00672)	bill(0.00655)	wait(0.00631)	bite(0.00616)	amaz(0.00566)	fault(0.00537)	experi(0.00513)	
+Topic 10(0.01967):	coffe(0.08857)	cute(0.02826)	honey(0.01656)	flavor(0.01642)	creme(0.01622)	card(0.01442)	brew(0.01402)	shop(0.01238)	brule(0.01105)	west(0.01081)	challeng(0.01044)	tast(0.00946)	wall(0.00934)	perfect(0.00923)	small(0.00908)	creme-brule(0.00900)	time(0.00882)	friend(0.00847)	coffe-shop(0.00843)	stamp(0.00798)	best(0.00720)	beverag(0.00714)	touch(0.00697)	starbuck(0.00687)	definit(0.00680)	work(0.00673)	wifi(0.00665)	sweet(0.00608)	super-friend(0.00602)	read(0.00590)	
+Topic 11(0.02060):	pick(0.04763)	time(0.04213)	price(0.02434)	pretti(0.02352)	afternoon(0.02104)	peopl(0.02041)	open(0.01768)	friday(0.01754)	friend(0.01621)	vega(0.01615)	appl(0.01562)	year(0.01345)	locat(0.01257)	reason(0.01197)	night(0.01144)	busi(0.01132)	area(0.01125)	pumpkin(0.01031)	experi(0.00998)	wait(0.00948)	parti(0.00941)	best(0.00930)	beat(0.00874)	find(0.00874)	town(0.00822)	staff(0.00798)	favorit(0.00791)	tabl(0.00786)	definit(0.00776)	spot(0.00772)	
+Topic 12(0.01884):	sauc(0.06128)	black(0.04102)	flavor(0.03744)	white(0.02737)	tast(0.01851)	fill(0.01704)	fire(0.01493)	serv(0.01375)	ground(0.01241)	counter(0.01184)	bean(0.01161)	small(0.01137)	side(0.01119)	arepa(0.01116)	delici(0.01053)	hidden(0.01005)	definit(0.00901)	wood(0.00834)	shred(0.00771)	feta(0.00740)	plate(0.00737)	beef(0.00715)	soft(0.00700)	perfect(0.00665)	chunk(0.00661)	pita(0.00650)	shack(0.00638)	hot-sauc(0.00632)	bookmark(0.00631)	black-bean(0.00623)	
+Topic 13(0.01915):	tast(0.05938)	time(0.02965)	frozen(0.02576)	custard(0.02256)	week(0.01847)	friend(0.01633)	shake(0.01613)	flavor(0.01293)	price(0.01274)	best(0.01226)	definit(0.01149)	treat(0.01100)	favorit(0.01091)	sister(0.01086)	sunda(0.01086)	delici(0.01059)	pretti(0.00969)	special(0.00856)	offer(0.00790)	vega(0.00771)	super(0.00722)	includ(0.00708)	recommend(0.00698)	salt(0.00691)	window(0.00674)	weird(0.00662)	amaz(0.00641)	friend-servic(0.00605)	cherri(0.00598)	compar(0.00587)	
+Topic 14(0.02252):	drive(0.03758)	boba(0.02620)	time(0.02010)	easi(0.01794)	peopl(0.01726)	snack(0.01710)	airport(0.01585)	find(0.01558)	locat(0.01554)	conveni(0.01310)	ride(0.01310)	class(0.01164)	cash(0.01072)	smoothi(0.01058)	board(0.01000)	area(0.00892)	park(0.00833)	door(0.00823)	travel(0.00817)	confus(0.00803)	regist(0.00763)	stand(0.00707)	cart(0.00673)	stuck(0.00667)	southwest(0.00663)	road(0.00654)	vega(0.00642)	drop(0.00610)	yeah(0.00601)	counter(0.00568)	
+Topic 15(0.02006):	time(0.03671)	price(0.03237)	joint(0.02687)	pretti(0.01843)	locat(0.01816)	citi(0.01769)	groupon(0.01605)	american(0.01501)	vega(0.01336)	feel(0.01259)	friend(0.01231)	deal(0.01064)	restaur(0.00954)	offer(0.00859)	find(0.00859)	doubl(0.00823)	creat(0.00818)	expens(0.00808)	reason(0.00797)	option(0.00795)	experi(0.00775)	peopl(0.00743)	best(0.00736)	star(0.00724)	definit(0.00712)	town(0.00684)	grill-chees(0.00682)	unlv(0.00681)	smashburg(0.00680)	frequent(0.00676)	
+Topic 16(0.01941):	korean(0.04277)	short(0.04123)	style(0.03061)	rice(0.02823)	cook(0.02736)	side(0.01963)	tofu(0.01904)	hawaiian(0.01852)	short-rib(0.01851)	soup(0.01730)	plate(0.01478)	side-dish(0.01335)	piec(0.01258)	spici(0.01241)	marin(0.01179)	yelper(0.01071)	dish(0.00898)	favorit(0.00868)	bulgogi(0.00830)	serv(0.00736)	restaur(0.00705)	protein(0.00701)	smell(0.00689)	cart(0.00663)	combo(0.00657)	tongu(0.00638)	cabbag(0.00606)	sprout(0.00593)	kabuto(0.00576)	banchan(0.00573)	
+Topic 17(0.02206):	drink(0.29604)	bartend(0.03774)	loung(0.01893)	alcohol(0.01308)	martini(0.01231)	specialti(0.01226)	dark(0.01193)	pour(0.00961)	cool(0.00957)	craft(0.00953)	ginger(0.00874)	whiskey(0.00871)	chandeli(0.00777)	night(0.00735)	irish(0.00685)	insid(0.00679)	friend(0.00669)	tast(0.00562)	favorit(0.00561)	cosmopolitan(0.00556)	trader(0.00528)	time(0.00497)	trader-joe(0.00486)	tiki(0.00451)	town(0.00441)	drank(0.00397)	round(0.00395)	NUM-drink(0.00393)	uniqu(0.00380)	consist(0.00379)	
+Topic 18(0.02073):	wait(0.06485)	time(0.04779)	peopl(0.03956)	yelp(0.01649)	friend(0.01621)	pretti(0.01280)	garden(0.01254)	price(0.01103)	crap(0.01088)	tabl(0.01075)	open(0.01066)	factori(0.01022)	close(0.00979)	expect(0.00965)	separ(0.00950)	feel(0.00918)	walk(0.00903)	vega(0.00880)	star(0.00873)	busi(0.00840)	patron(0.00836)	fine(0.00823)	review(0.00819)	work(0.00761)	restaur(0.00741)	thought(0.00729)	deal(0.00690)	earli(0.00675)	area(0.00658)	readi(0.00653)	
+Topic 19(0.02122):	delici(0.05903)	definit(0.03126)	healthi(0.02579)	side(0.02141)	recommend(0.02138)	amaz(0.01859)	time(0.01824)	friend(0.01663)	tast(0.01603)	lunch(0.01540)	option(0.01524)	size(0.01464)	shrimp(0.01206)	favorit(0.01093)	perfect(0.01021)	hummus(0.00977)	mediterranean(0.00942)	restaur(0.00938)	juici(0.00905)	portion-size(0.00880)	best(0.00854)	clam(0.00835)	serv(0.00787)	pound(0.00782)	definit-recommend(0.00736)	bread(0.00726)	season(0.00697)	chowder(0.00686)	start(0.00683)	pretti(0.00645)	
+Topic 20(0.01968):	time(0.04504)	tabl(0.03621)	friend(0.03537)	restaur(0.03410)	experi(0.01926)	best(0.01688)	definit(0.01559)	pretti(0.01299)	feel(0.01266)	seat(0.01218)	vega(0.01177)	price(0.01143)	dine(0.01063)	locat(0.00983)	staff(0.00976)	amaz(0.00960)	small(0.00946)	water(0.00944)	wait(0.00938)	peopl(0.00931)	attent(0.00914)	expect(0.00904)	recommend(0.00870)	open(0.00827)	special(0.00825)	thought(0.00733)	star(0.00724)	return(0.00711)	favorit(0.00643)	impress(0.00636)	
+Topic 21(0.01914):	side(0.06503)	corn(0.04101)	smoke(0.03482)	pull(0.02715)	sauc(0.01993)	brisket(0.01928)	famous(0.01616)	bread(0.01560)	best(0.01202)	damn(0.01177)	babi(0.01086)	countri(0.00940)	pull-pork(0.00935)	peach(0.00912)	bbq-sauc(0.00874)	tender(0.00858)	burnt(0.00853)	southern(0.00813)	cornbread(0.00789)	fall(0.00746)	time(0.00687)	bean(0.00686)	tast(0.00676)	delici(0.00589)	green-bean(0.00587)	soul(0.00583)	choic(0.00581)	burn(0.00572)	lucill(0.00566)	pretti(0.00565)	
+Topic 22(0.01932):	cafe(0.03770)	time(0.02743)	amaz(0.02172)	friend(0.01993)	shot(0.01939)	serv(0.01681)	restaur(0.01531)	pretzel(0.01362)	warm(0.01223)	tabl(0.01198)	expect(0.01165)	pretti(0.00953)	eater(0.00944)	experi(0.00874)	price(0.00856)	remind(0.00839)	felt(0.00838)	best(0.00820)	small(0.00807)	definit(0.00777)	delici(0.00754)	rememb(0.00751)	mustard(0.00727)	special(0.00726)	birthday(0.00691)	german(0.00672)	dinner(0.00658)	option(0.00651)	return(0.00615)	bread(0.00613)	
+Topic 23(0.02448):	peopl(0.03260)	event(0.03056)	watch(0.02747)	area(0.02108)	cool(0.01954)	photo(0.01607)	local(0.01570)	year(0.01494)	discount(0.01357)	vega(0.01298)	pictur(0.01100)	peopl-watch(0.01072)	truck(0.01013)	pass(0.00956)	holiday(0.00871)	time(0.00867)	stand(0.00826)	find(0.00821)	anim(0.00814)	beauti(0.00792)	children(0.00680)	outdoor(0.00656)	crowd(0.00635)	price(0.00632)	money(0.00611)	famili(0.00593)	train(0.00576)	walk(0.00566)	villag(0.00566)	match(0.00560)	
+Topic 24(0.01912):	time(0.04442)	friend(0.03452)	pretti(0.02917)	tabl(0.01887)	price(0.01869)	definit(0.01793)	best(0.01634)	restaur(0.01634)	locat(0.01416)	wait(0.01331)	night(0.01328)	seat(0.01158)	peopl(0.01137)	vega(0.01108)	experi(0.01070)	amaz(0.01056)	busi(0.01002)	crawfish(0.00960)	feel(0.00945)	expect(0.00940)	delici(0.00898)	recommend(0.00843)	favorit(0.00829)	dinner(0.00827)	special(0.00782)	spot(0.00775)	staff(0.00769)	small(0.00766)	pack(0.00746)	star(0.00695)	
+Topic 25(0.02137):	buffet(0.13274)	crab(0.05350)	seafood(0.04413)	station(0.04041)	lunch(0.03051)	dinner(0.02733)	veget(0.02527)	select(0.02193)	prime(0.02173)	varieti(0.01861)	crab-leg(0.01793)	prime-rib(0.01533)	asian(0.01424)	plate(0.01373)	indian(0.01368)	offer(0.01363)	shrimp(0.01142)	choic(0.00857)	includ(0.00785)	salad-bar(0.00773)	price(0.00738)	option(0.00736)	carv(0.00667)	wynn(0.00641)	spice(0.00622)	serv(0.00565)	lunch-buffet(0.00558)	best(0.00527)	feast(0.00510)	bacchan(0.00491)	
+Topic 26(0.02046):	chicken(0.24801)	wing(0.04258)	crispi(0.03532)	sauc(0.03158)	kitchen(0.02755)	tender(0.01380)	popcorn(0.01338)	flavor(0.01308)	chicken-wing(0.01231)	skin(0.01135)	piec(0.01064)	season(0.00921)	serv(0.00890)	salt(0.00799)	pickl(0.00519)	chicken-breast(0.00510)	small(0.00507)	honey(0.00505)	moist(0.00505)	chicken-salad(0.00470)	tast(0.00469)	garlic(0.00462)	chef(0.00460)	hospit(0.00454)	bite(0.00452)	rice(0.00425)	pot-pie(0.00420)	perfect(0.00405)	amount(0.00403)	prior(0.00383)	
+Topic 27(0.03254):	park(0.07480)	vega(0.07368)	shop(0.06429)	las-vega(0.06372)	store(0.03823)	walk(0.03753)	downtown(0.02767)	street(0.01793)	fountain(0.01339)	locat(0.01335)	sign(0.01198)	insid(0.00908)	court(0.00895)	strip(0.00856)	build(0.00831)	fremont(0.00795)	citi(0.00740)	fashion(0.00732)	planet(0.00716)	garag(0.00707)	hollywood(0.00702)	earl(0.00635)	doughnut(0.00635)	local(0.00619)	tour(0.00610)	planet-hollywood(0.00582)	pink(0.00565)	find(0.00533)	museum(0.00517)	area(0.00501)	
+Topic 28(0.02031):	time(0.05577)	pretti(0.03709)	friend(0.03307)	price(0.02882)	locat(0.02817)	definit(0.02019)	best(0.01766)	restaur(0.01682)	wait(0.01446)	feel(0.01424)	spot(0.01407)	busi(0.01388)	vega(0.01245)	favorit(0.01222)	small(0.01124)	star(0.01121)	staff(0.01088)	peopl(0.01049)	reason(0.00995)	tabl(0.00982)	super(0.00918)	expect(0.00905)	amaz(0.00872)	pretti-good(0.00862)	experi(0.00850)	town(0.00806)	review(0.00755)	open(0.00752)	recommend(0.00726)	special(0.00720)	
+Topic 29(0.02032):	happi(0.16377)	happi-hour(0.08579)	price(0.03913)	patio(0.03820)	time(0.02367)	area(0.01692)	friend(0.01648)	pretti(0.01544)	special(0.01342)	NUM-pm(0.01059)	night(0.01004)	definit(0.00890)	spot(0.00854)	locat(0.00782)	seat(0.00766)	best(0.00755)	hour-menu(0.00679)	recommend(0.00636)	favorit(0.00634)	restaur(0.00622)	super(0.00621)	deal(0.00619)	tabl(0.00613)	peopl(0.00602)	work(0.00580)	busi(0.00569)	reason(0.00563)	open(0.00562)	monday(0.00559)	vega(0.00541)	
+Topic 30(0.02032):	wine(0.08104)	select(0.06631)	total(0.05528)	glass(0.03185)	bottl(0.02046)	blue(0.01899)	amaz(0.01717)	time(0.01430)	friend(0.01387)	tast(0.01158)	best(0.01091)	restaur(0.01025)	price(0.01020)	experi(0.00941)	solid(0.00846)	impress(0.00830)	heard(0.00790)	dinner(0.00786)	star(0.00780)	perfect(0.00718)	thought(0.00634)	definit(0.00622)	recommend(0.00608)	start(0.00606)	special(0.00592)	point(0.00560)	tabl(0.00560)	liquor(0.00558)	knowledg(0.00522)	rave(0.00520)	
+Topic 31(0.02167):	flavor(0.11666)	sweet(0.04186)	coconut(0.02348)	mango(0.02218)	cupcak(0.02124)	peanut(0.01958)	gelato(0.01765)	strawberri(0.01579)	tast(0.01548)	sugar(0.01453)	textur(0.01349)	snow(0.01261)	treat(0.01227)	bite(0.01208)	peanut-butter(0.01049)	favorit(0.01023)	shave(0.00915)	cream(0.00877)	choos(0.00850)	cake(0.00802)	combin(0.00794)	display(0.00699)	small(0.00692)	sesam(0.00641)	delight(0.00634)	size(0.00628)	red-bean(0.00611)	best(0.00589)	color(0.00585)	creami(0.00552)	
+Topic 32(0.01944):	taco(0.08688)	chip(0.06047)	mexican(0.03565)	burrito(0.02491)	nacho(0.02457)	bean(0.02427)	tortilla(0.01962)	margarita(0.01744)	sour(0.01693)	asada(0.01266)	chipotl(0.01265)	carn(0.01241)	guacamol(0.01199)	fish(0.01124)	cilantro(0.01090)	carn-asada(0.01040)	mexican-food(0.00948)	flavor(0.00792)	enchilada(0.00758)	fajita(0.00738)	corn(0.00735)	sour-cream(0.00731)	fish-taco(0.00721)	sauc(0.00713)	pineappl(0.00693)	authent(0.00689)	ingredi(0.00651)	shrimp(0.00648)	street(0.00646)	fusion(0.00645)	
+Topic 33(0.02302):	thai(0.07604)	rice(0.07527)	curri(0.05791)	lunch(0.05087)	spici(0.04729)	restaur(0.03346)	dish(0.02712)	spice(0.02637)	fri-rice(0.02133)	pad-thai(0.01457)	lunch-special(0.01375)	special(0.01364)	duck(0.01206)	soup(0.01199)	thai-restaur(0.00824)	yellow(0.00824)	flavor(0.00740)	archi(0.00736)	lotus(0.00640)	authent(0.00576)	favorit(0.00521)	panang(0.00508)	pasti(0.00508)	broccoli(0.00501)	brown(0.00500)	definit(0.00482)	bang(0.00468)	shrimp(0.00454)	prawn(0.00452)	roti(0.00449)	
+Topic 34(0.03279):	cream(0.08211)	chocol(0.06395)	cake(0.05403)	ice-cream(0.04652)	breakfast(0.04431)	waffl(0.02367)	toast(0.02071)	cooki(0.02029)	pastri(0.01906)	crepe(0.01866)	french(0.01828)	pancak(0.01781)	banana(0.01780)	strawberri(0.01233)	vanilla(0.01190)	whip(0.01170)	syrup(0.00996)	macaron(0.00917)	croissant(0.00830)	velvet(0.00806)	benedict(0.00797)	whip-cream(0.00788)	french-toast(0.00784)	bakeri(0.00761)	sweet(0.00714)	omelet(0.00680)	raspberri(0.00575)	chocol-cake(0.00566)	omelett(0.00538)	cream-chees(0.00529)	
+Topic 35(0.02062):	dish(0.15028)	shrimp(0.03765)	restaur(0.02680)	wrap(0.02555)	delici(0.02444)	roast(0.02148)	spinach(0.01652)	calamari(0.01571)	plate(0.01436)	appet(0.01385)	serv(0.01325)	share(0.01277)	perfect(0.01244)	crispi(0.01034)	sauc(0.01023)	flavor(0.01003)	mussel(0.00986)	cook(0.00868)	tast(0.00772)	recommend(0.00765)	soft(0.00752)	season(0.00747)	bistro(0.00703)	amaz(0.00633)	special(0.00624)	sweet(0.00590)	high-recommend(0.00583)	definit(0.00578)	flatbread(0.00559)	ahi-tuna(0.00537)	
+Topic 36(0.02207):	pork(0.10128)	beef(0.09732)	veggi(0.03716)	soup(0.03096)	belli(0.02995)	chines(0.02533)	pork-belli(0.02186)	asian(0.01954)	steam(0.01739)	dumpl(0.01160)	rice(0.01123)	spici(0.01040)	chop(0.00999)	noodl-soup(0.00985)	sauc(0.00931)	hot-dog(0.00930)	tender(0.00857)	pickl(0.00857)	flavor(0.00753)	english(0.00722)	vietnames(0.00705)	dish(0.00662)	ball(0.00605)	fill(0.00605)	soft(0.00563)	tast(0.00547)	chow(0.00527)	cook(0.00512)	veget(0.00502)	deli(0.00493)	
+Topic 37(0.01876):	soup(0.03248)	mushroom(0.02652)	rare(0.02642)	medium(0.02533)	garlic(0.02281)	tapa(0.02005)	excel(0.01726)	french(0.01576)	bread(0.01575)	brought(0.01464)	stuf(0.01346)	sauc(0.01341)	restaur(0.01311)	cook(0.01200)	wife(0.01142)	dinner(0.01011)	dine(0.00984)	small(0.00981)	serv(0.00964)	occas(0.00895)	arriv(0.00862)	wild(0.00808)	dine-room(0.00753)	tabl(0.00751)	medium-rare(0.00743)	firefli(0.00714)	finish(0.00707)	time(0.00687)	chop(0.00674)	onion(0.00665)	
+Topic 38(0.02410):	roll(0.10555)	sushi(0.10039)	fish(0.06260)	salmon(0.04224)	tuna(0.03414)	oyster(0.02449)	chef(0.01838)	poke(0.01480)	nigiri(0.01413)	rice(0.01410)	sashimi(0.01407)	spici(0.01393)	sauc(0.01322)	shrimp(0.01303)	sake(0.01071)	special(0.00967)	piec(0.00924)	favorit(0.00856)	dinner(0.00768)	appet(0.00699)	teriyaki(0.00646)	miso-soup(0.00629)	sushi-bar(0.00607)	shabu(0.00587)	garlic(0.00526)	lunch(0.00451)	scallop(0.00447)	pan-roast(0.00426)	hamachi(0.00419)	tast(0.00418)	
+Topic 39(0.02330):	play(0.05008)	donut(0.02747)	machin(0.02550)	find(0.02229)	store(0.02108)	sell(0.01551)	vegan(0.01531)	open(0.01385)	product(0.01298)	groceri(0.01087)	ball(0.01087)	area(0.01000)	spring(0.00955)	produc(0.00923)	stock(0.00918)	bought(0.00872)	time(0.00837)	work(0.00836)	walk(0.00835)	rang(0.00740)	cent(0.00732)	cool(0.00697)	desert(0.00689)	spent(0.00672)	blow(0.00670)	vega(0.00647)	NUM-cent(0.00612)	deal(0.00606)	groceri-store(0.00605)	good-deal(0.00591)	
+Topic 40(0.02817):	NUM-minut(0.06017)	custom(0.04791)	wait(0.04599)	told(0.04113)	manag(0.03623)	call(0.03093)	month(0.02705)	custom-servic(0.01919)	year(0.01699)	time(0.01665)	card(0.01485)	work(0.01174)	final(0.01116)	receiv(0.00981)	rude(0.00867)	NUM-year(0.00858)	suck(0.00835)	offer(0.00800)	arriv(0.00793)	phone(0.00791)	NUM-min(0.00737)	walk(0.00708)	situat(0.00682)	accept(0.00659)	horribl(0.00659)	updat(0.00656)	send(0.00624)	tabl(0.00624)	onlin(0.00620)	cashier(0.00536)	
+Topic 41(0.04012):	room(0.11122)	casino(0.06039)	stay(0.06000)	hotel(0.05410)	strip(0.02657)	pool(0.02579)	view(0.02319)	suit(0.01125)	properti(0.01124)	tower(0.01099)	elev(0.01043)	resort(0.00960)	vega(0.00956)	gambl(0.00932)	walk(0.00846)	rock(0.00813)	clean(0.00812)	wynn(0.00800)	desk(0.00751)	valet(0.00741)	shower(0.00669)	red-rock(0.00654)	area(0.00622)	book(0.00617)	slot(0.00616)	venetian(0.00592)	aria(0.00579)	access(0.00576)	door(0.00570)	spacious(0.00557)	
+Topic 42(0.02333):	pizza(0.12074)	slice(0.04058)	pasta(0.03265)	crust(0.02797)	sausag(0.02774)	italian(0.02382)	sauc(0.02053)	garlic(0.02015)	thin(0.01931)	oliv(0.01735)	meatbal(0.01472)	style(0.01311)	mozzarella(0.01204)	ingredi(0.01188)	secret(0.01018)	white(0.01005)	chicago(0.00981)	pepperoni(0.00924)	deep(0.00857)	oven(0.00833)	oliv-oil(0.00749)	ricotta(0.00698)	mushroom(0.00577)	spaghetti(0.00569)	rock(0.00544)	bread(0.00543)	york(0.00488)	dough(0.00480)	tiramisu(0.00467)	serv(0.00460)	
+Topic 43(0.02007):	time(0.04850)	waitress(0.04074)	friend(0.02967)	restaur(0.02284)	tabl(0.02145)	experi(0.01768)	work(0.01659)	expect(0.01444)	staff(0.01350)	pretti(0.01346)	tonight(0.01329)	peopl(0.01256)	mistak(0.01130)	problem(0.01105)	price(0.01016)	feel(0.00972)	seat(0.00945)	wait(0.00924)	locat(0.00872)	busi(0.00791)	star(0.00767)	vega(0.00754)	year(0.00744)	felt(0.00740)	best(0.00739)	open(0.00714)	point(0.00709)	definit(0.00696)	review(0.00681)	dine(0.00645)	
+Topic 44(0.02347):	steak(0.10681)	lobster(0.03895)	cook(0.02312)	perfect(0.02131)	side(0.01989)	filet(0.01855)	mash-potato(0.01706)	bread(0.01701)	dinner(0.01612)	steakhous(0.01324)	ribey(0.01283)	tast(0.01256)	excel(0.01099)	appet(0.01033)	crab(0.00961)	start(0.00875)	bone(0.00815)	mignon(0.00787)	cook-perfect(0.00774)	rib-eye(0.00744)	cours(0.00743)	tender(0.00739)	asparagus(0.00728)	filet-mignon(0.00725)	best(0.00722)	cake(0.00712)	mushroom(0.00659)	caesar(0.00658)	crab-cake(0.00638)	amaz(0.00637)	
+256 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/4/...
+260 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/0/...
+244 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/1/...
+266 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/2/...
+264 users are loaded from /zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/5foldsCVColdstart/3/...
+====================
+[Info]Fold No. 4: 
+[Info]Analzying corpus: 
+...........-- Global corpus: vocabulary size: 6134, review size: 15843, item size: 861, user size: 861
+train size = 12424, test size = 3419....
+[Info]Analying bipartie graph: 
+-- train graph: review size: 12424, item size: 726, user size: 778
+[Info]EM Starting multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational]...
+==============
+[Info]Likelihood -2265633.48179 at step 0 converge to 1.0000000000...
+==============
+[Info]Likelihood -2264406.01210 at step 1 converge to 0.0005417777...
+==============
+[Info]Likelihood -2263189.98070 at step 2 converge to 0.0005370200...
+==============
+[Info]Likelihood -2261982.48016 at step 3 converge to 0.0005335392...
+==============
+[Info]Likelihood -2260771.11854 at step 4 converge to 0.0005355309...
+==============
+[Info]Likelihood -2259500.23720 at step 5 converge to 0.0005621451...
+==============
+[Info]Likelihood -2258203.41811 at step 6 converge to 0.0005739407...
+==============
+[Info]Likelihood -2256883.91527 at step 7 converge to 0.0005843153...
+==============
+[Info]Likelihood -2255372.46729 at step 8 converge to 0.0006697057...
+==============
+[Info]Likelihood -2253208.23628 at step 9 converge to 0.0009595892...
+==============
+[Info]Likelihood -2248675.50719 at step 10 converge to 0.0020116778...
+==============
+[Info]Likelihood -2234557.09611 at step 11 converge to 0.0062785453...
+==============
+[Info]Likelihood -2205549.64249 at step 12 converge to 0.0129812989...
+==============
+[Info]Likelihood -2169470.43418 at step 13 converge to 0.0163583751...
+==============
+[Info]Likelihood -2129320.03274 at step 14 converge to 0.0185070056...
+==============
+[Info]Likelihood -2087521.86370 at step 15 converge to 0.0196298200...
+==============
+[Info]Likelihood -2048970.42621 at step 16 converge to 0.0184675611...
+==============
+[Info]Likelihood -2017492.21395 at step 17 converge to 0.0153629412...
+==============
+[Info]Likelihood -1992390.76605 at step 18 converge to 0.0124419057...
+==============
+[Info]Likelihood -1971715.27646 at step 19 converge to 0.0103772262...
+==============
+[Info]Likelihood -1953783.57253 at step 20 converge to 0.0090944692...
+==============
+[Info]Likelihood -1937382.89955 at step 21 converge to 0.0083943141...
+==============
+[Info]Likelihood -1922112.65344 at step 22 converge to 0.0078818937...
+==============
+[Info]Likelihood -1908143.43145 at step 23 converge to 0.0072676396...
+==============
+[Info]Likelihood -1895455.18287 at step 24 converge to 0.0066495256...
+==============
+[Info]Likelihood -1883730.38294 at step 25 converge to 0.0061857437...
+==============
+[Info]Likelihood -1872620.01471 at step 26 converge to 0.0058980671...
+==============
+[Info]Likelihood -1861853.08068 at step 27 converge to 0.0057496630...
+==============
+[Info]Likelihood -1851196.19170 at step 28 converge to 0.0057238077...
+==============
+[Info]Likelihood -1840478.55960 at step 29 converge to 0.0057895712...
+[Info]Likelihood -1840478.560 after step 30 converge to 0.005790 after 55 seconds...
+[Info]Analying bipartie graph: 
+-- test graph: review size: 3419, item size: 213, user size: 256
+[Info]Start evaluation in thread
+[Stat]Test evaluation finished: 3419 docs
+[Stat]0 part has 701.000000 docs: perplexity is 1196.205 and log-likelihood is -311.349
+[Stat]1 part has 339.000000 docs: perplexity is 1135.372 and log-likelihood is -324.448
+[Stat]2 part has 1635.000000 docs: perplexity is 1109.168 and log-likelihood is -317.621
+[Stat]3 part has 744.000000 docs: perplexity is 1038.186 and log-likelihood is -325.390
+[Stat]4 part has 3419.000000 docs: perplexity is 1111.930 and log-likelihood is -318.703
+[Info]multithread LDA_Focus[k:45, alpha:1.01, beta:1.00, Variational] Train/Test finished in 56.46 seconds...
+TopWord FilePath:/zf18/ll5fy/lab/dataset/yelp/byUser_70k_review/output/5foldsCVColdstart/4/LDA_User_topWords_45.txt
+Topic 0(0.01919):	boba(0.02790)	crave(0.02364)	poke(0.02276)	hawaiian(0.02157)	locat(0.02087)	sweet(0.01982)	snow(0.01867)	flavor(0.01864)	mango(0.01674)	rice(0.01360)	local(0.01229)	shave(0.01190)	choos(0.01167)	counter(0.01158)	oxtail(0.01146)	coconut(0.01138)	chicken(0.01089)	teriyaki(0.01062)	time(0.01027)	hawaii(0.01018)	base(0.00974)	combo(0.00913)	side(0.00882)	express(0.00853)	style(0.00827)	tast(0.00785)	smoothi(0.00766)	taro(0.00738)	asian(0.00715)	size(0.00681)	
+Topic 1(0.01882):	time(0.04366)	friend(0.02858)	definit(0.02710)	pretti(0.02624)	feel(0.02305)	restaur(0.02219)	best(0.01951)	recommend(0.01745)	price(0.01652)	star(0.01351)	amaz(0.01323)	delici(0.01301)	favorit(0.01213)	super(0.01076)	wait(0.01040)	expect(0.01036)	tabl(0.01022)	side(0.00995)	touch(0.00954)	vega(0.00940)	tast(0.00918)	peopl(0.00893)	start(0.00873)	experi(0.00867)	special(0.00824)	staff(0.00762)	review(0.00753)	small(0.00730)	thought(0.00718)	coupl(0.00714)	
+Topic 2(0.02010):	lunch(0.08808)	time(0.02298)	refil(0.02043)	side(0.01928)	pretti(0.01632)	gotta(0.01575)	damn(0.01491)	tabl(0.01191)	busi(0.00968)	salad-bar(0.00928)	heart(0.00920)	water(0.00911)	restaur(0.00898)	bring(0.00818)	slow(0.00798)	texa(0.00767)	food-qualiti(0.00750)	definit(0.00714)	wors(0.00714)	friend(0.00711)	lunch-time(0.00680)	season(0.00670)	staff(0.00629)	wait(0.00627)	price(0.00627)	claim(0.00617)	excel(0.00578)	peopl(0.00575)	special(0.00553)	start(0.00521)	
+Topic 3(0.02016):	option(0.04959)	choic(0.04016)	ingredi(0.03677)	wrap(0.02961)	choos(0.02852)	healthi(0.02391)	sauc(0.01718)	chose(0.01632)	combin(0.01466)	concept(0.01427)	paper(0.01338)	creat(0.01258)	crunch(0.01206)	definit(0.01186)	chipotl(0.01130)	protein(0.01126)	calori(0.00961)	flavor(0.00907)	time(0.00889)	delici(0.00854)	locat(0.00825)	custom(0.00793)	tast(0.00739)	side(0.00727)	friend(0.00667)	combo(0.00661)	packag(0.00651)	apart(0.00651)	feel(0.00650)	price(0.00648)	
+Topic 4(0.01907):	roll(0.14539)	sushi(0.12844)	tuna(0.02632)	spici(0.02232)	nigiri(0.02015)	special(0.01706)	rice(0.01522)	favorit(0.01230)	fish(0.01197)	sauc(0.01073)	mussel(0.01045)	chef(0.00965)	piec(0.00875)	appet(0.00838)	toro(0.00734)	ayc-sushi(0.00699)	sushi-bar(0.00655)	varieti(0.00644)	dinner(0.00558)	joint(0.00523)	tast(0.00505)	ratio(0.00503)	bake(0.00499)	time(0.00499)	NUM-order(0.00499)	sushi-chef(0.00498)	shrimp(0.00484)	dream(0.00463)	pretti(0.00456)	sushi-restaur(0.00455)	
+Topic 5(0.01930):	strip(0.11938)	perfect(0.04351)	delici(0.02601)	time(0.02355)	best(0.01993)	friend(0.01979)	side(0.01935)	bake(0.01786)	definit(0.01601)	amaz(0.01455)	restaur(0.01202)	sauc(0.01187)	bread(0.01174)	serv(0.00904)	tast(0.00852)	recommend(0.00807)	chicken(0.00775)	tabl(0.00764)	wife(0.00757)	review(0.00752)	pretti(0.00736)	super(0.00735)	small(0.00727)	flavor(0.00685)	chicken-strip(0.00674)	yelper(0.00665)	favorit(0.00653)	heaven(0.00630)	veggi(0.00608)	feel(0.00583)	
+Topic 6(0.02862):	NUM-minut(0.05239)	wait(0.04609)	told(0.03648)	manag(0.03386)	custom(0.02891)	tabl(0.02361)	call(0.02271)	hostess(0.01741)	time(0.01740)	final(0.01543)	seat(0.01505)	peopl(0.01392)	card(0.01193)	custom-servic(0.01128)	arriv(0.01091)	water(0.01070)	bill(0.01023)	walk(0.01021)	horribl(0.00927)	rude(0.00903)	review(0.00899)	parti(0.00804)	receiv(0.00772)	waitress(0.00714)	apolog(0.00711)	work(0.00710)	clear(0.00692)	terribl(0.00667)	reserv(0.00665)	experi(0.00651)	
+Topic 7(0.01815):	friend(0.03107)	time(0.03044)	pretti(0.02693)	finger(0.01896)	wait(0.01472)	best(0.01435)	rais(0.01400)	price(0.01282)	definit(0.01277)	slaw(0.01041)	special(0.01039)	restaur(0.01007)	delici(0.00988)	diet(0.00964)	favorit(0.00962)	peopl(0.00958)	feel(0.00901)	tabl(0.00886)	staff(0.00884)	locat(0.00858)	sauc(0.00843)	side(0.00814)	clean(0.00771)	vega(0.00752)	chicken(0.00744)	bring(0.00730)	small(0.00727)	star(0.00696)	thought(0.00695)	coke(0.00674)	
+Topic 8(0.02075):	amaz(0.04590)	delici(0.04004)	definit(0.03204)	recommend(0.02677)	friend(0.02596)	restaur(0.02169)	tast(0.02132)	best(0.01992)	perfect(0.01904)	time(0.01842)	small(0.01708)	excel(0.01321)	favorit(0.01305)	super(0.01198)	flavor(0.01096)	afternoon(0.01069)	pretti(0.01051)	high-recommend(0.01020)	serv(0.00931)	bite(0.00925)	price(0.00911)	tabl(0.00861)	experi(0.00800)	thought(0.00780)	dinner(0.00749)	side(0.00746)	glass(0.00727)	expect(0.00712)	start(0.00649)	special(0.00627)	
+Topic 9(0.01911):	yelp(0.07138)	sugar(0.02301)	turkey(0.01978)	deli(0.01616)	review(0.01499)	soda(0.01463)	factori(0.01417)	frozen(0.01411)	time(0.01275)	challeng(0.01253)	split(0.00959)	dine(0.00938)	dine-room(0.00936)	togo(0.00881)	bread(0.00864)	cheesecak-factori(0.00794)	stale(0.00668)	smell(0.00662)	pastrami(0.00652)	chicken-salad(0.00649)	restaur(0.00645)	french-fri(0.00626)	cafe(0.00611)	bite(0.00604)	search(0.00594)	bottom(0.00588)	aloha(0.00576)	yelp-NUM(0.00576)	uuu-uuu(0.00558)	everytim(0.00532)	
+Topic 10(0.02015):	onion(0.04447)	side(0.03797)	smoke(0.02799)	sweet(0.02699)	pull(0.01979)	sauc(0.01805)	short(0.01765)	sweet-potato(0.01651)	brisket(0.01120)	blue(0.01044)	citi(0.01043)	potato-fri(0.01030)	babi(0.00973)	american(0.00961)	southern(0.00947)	moist(0.00944)	blue-chees(0.00898)	chicken(0.00896)	flavor(0.00858)	bbq-sauc(0.00844)	grill-chees(0.00785)	peach(0.00779)	watermelon(0.00770)	pull-pork(0.00738)	serv(0.00723)	delici(0.00676)	tender(0.00669)	tast(0.00636)	juici(0.00636)	crispi(0.00622)	
+Topic 11(0.02121):	time(0.08127)	wait(0.06994)	tabl(0.03816)	pretti(0.02287)	busi(0.02265)	friend(0.02235)	peopl(0.01976)	star(0.01594)	restaur(0.01390)	staff(0.01323)	seat(0.01122)	walk(0.01118)	review(0.01068)	locat(0.01027)	price(0.01011)	waitress(0.00993)	vega(0.00897)	experi(0.00860)	second(0.00838)	expect(0.00816)	feel(0.00803)	open(0.00793)	find(0.00747)	definit(0.00667)	problem(0.00656)	best(0.00655)	bring(0.00645)	slow(0.00639)	work(0.00612)	annoy(0.00589)	
+Topic 12(0.01983):	dinner(0.05849)	restaur(0.03502)	time(0.03433)	friend(0.02676)	birthday(0.02539)	star(0.02367)	special(0.02052)	tabl(0.01943)	experi(0.01367)	waiter(0.01243)	pretti(0.01239)	delici(0.01224)	definit(0.01129)	appet(0.01086)	best(0.01049)	tast(0.01019)	review(0.00986)	amaz(0.00902)	price(0.00896)	thought(0.00890)	expect(0.00848)	reserv(0.00845)	feel(0.00815)	brought(0.00793)	felt(0.00779)	boyfriend(0.00761)	start(0.00720)	seat(0.00641)	recommend(0.00631)	wait(0.00600)	
+Topic 13(0.02152):	buffet(0.13600)	station(0.04130)	prime(0.02648)	select(0.02511)	seafood(0.02158)	crab(0.01908)	dinner(0.01833)	prime-rib(0.01814)	crab-leg(0.01705)	offer(0.01489)	asian(0.01372)	spoon(0.01232)	varieti(0.01195)	best(0.01042)	vega(0.00950)	includ(0.00925)	creme(0.00887)	price(0.00853)	plate(0.00784)	gelato(0.00767)	champagn(0.00736)	wick(0.00732)	wynn(0.00729)	card(0.00728)	creme-brule(0.00718)	brule(0.00692)	carv(0.00686)	lunch(0.00641)	wick-spoon(0.00617)	reward(0.00585)	
+Topic 14(0.02011):	steak(0.07122)	plate(0.05581)	dish(0.05310)	bread(0.03920)	stuf(0.02187)	tast(0.02025)	chop(0.01977)	tapa(0.01955)	corn(0.01866)	restaur(0.01332)	serv(0.01249)	small(0.01246)	cook(0.01154)	tabl(0.01118)	flavor(0.01114)	calamari(0.00878)	parti(0.00837)	dinner(0.00793)	small-plate(0.00789)	delici(0.00787)	side(0.00703)	firefli(0.00683)	mojito(0.00682)	share(0.00653)	dine(0.00652)	reserv(0.00615)	brought(0.00608)	perfect(0.00601)	friend(0.00596)	favorit(0.00587)	
+Topic 15(0.02442):	thai(0.07836)	rice(0.06343)	dish(0.05587)	curri(0.05333)	spici(0.04515)	spice(0.03246)	lunch(0.02408)	veget(0.02397)	chicken(0.02325)	restaur(0.01927)	fri-rice(0.01628)	pad-thai(0.01480)	flavor(0.01449)	lunch-special(0.01205)	indian(0.01166)	thai-restaur(0.00859)	garlic(0.00848)	yellow(0.00788)	sauc(0.00788)	sweet(0.00698)	duck(0.00687)	soup(0.00675)	archi(0.00648)	crispi(0.00550)	lotus(0.00545)	roti(0.00511)	mango(0.00503)	authent(0.00489)	pasti(0.00483)	panang(0.00464)	
+Topic 16(0.02249):	drink(0.21411)	beer(0.11286)	bartend(0.01714)	favorit(0.01319)	specialti(0.01205)	dark(0.01147)	serv(0.01107)	select(0.01105)	tast(0.01035)	craft(0.01027)	ginger(0.00999)	pour(0.00974)	friend(0.00936)	time(0.00692)	best(0.00622)	price(0.00594)	restaur(0.00580)	consist(0.00570)	sweet(0.00505)	delici(0.00468)	recip(0.00440)	shot(0.00427)	bitter(0.00418)	whiskey(0.00417)	root(0.00401)	craft-beer(0.00396)	share(0.00385)	alcohol(0.00380)	NUM-drink(0.00376)	drink-menu(0.00358)	
+Topic 17(0.02213):	shrimp(0.06673)	crab(0.05275)	lobster(0.04269)	medium(0.02665)	seafood(0.02540)	oyster(0.02413)	cook(0.01999)	rare(0.01895)	juici(0.01843)	season(0.01823)	clam(0.01573)	steak(0.01513)	roast(0.01458)	sauc(0.01316)	basket(0.01173)	bone(0.01166)	perfect(0.01098)	pound(0.00904)	appet(0.00875)	medium-rare(0.00875)	bread(0.00844)	side(0.00803)	crawfish(0.00768)	boil(0.00729)	ribey(0.00723)	serv(0.00722)	bisqu(0.00705)	stone(0.00685)	bass(0.00684)	calamari(0.00683)	
+Topic 18(0.02050):	open(0.02881)	uniqu(0.02325)	donut(0.02257)	NUM-hour(0.01787)	continu(0.01787)	pink(0.01724)	fill(0.01708)	vegan(0.01554)	treat(0.01541)	dozen(0.01330)	work(0.01309)	smell(0.01048)	sign(0.01043)	doughnut(0.00954)	time(0.00895)	door(0.00872)	stock(0.00872)	glaze(0.00849)	face(0.00817)	blow(0.00804)	product(0.00793)	blue(0.00781)	step(0.00772)	onlin(0.00761)	earli(0.00757)	peopl(0.00746)	tast(0.00737)	vega(0.00733)	conveni(0.00714)	everyday(0.00704)	
+Topic 19(0.01847):	ball(0.02450)	time(0.02292)	best(0.02180)	cart(0.02165)	garden(0.01562)	admit(0.01448)	small(0.01366)	restaur(0.01330)	vega(0.01307)	spot(0.01190)	serv(0.01111)	price(0.01029)	shrimp(0.01027)	market(0.00980)	despit(0.00956)	pretti(0.00953)	impress(0.00894)	offer(0.00848)	speak(0.00794)	feet(0.00779)	averag(0.00775)	standard(0.00745)	favorit(0.00742)	find(0.00669)	push(0.00664)	blah(0.00664)	expens(0.00628)	friend(0.00604)	month(0.00601)	compar(0.00594)	
+Topic 20(0.02586):	park(0.10255)	rock(0.03977)	street(0.03524)	walk(0.03054)	area(0.03028)	downtown(0.02988)	drive(0.02471)	las-vega(0.02048)	vega(0.01997)	photo(0.01453)	fremont(0.01341)	find(0.01172)	squar(0.01158)	red-rock(0.01150)	pictur(0.00947)	cool(0.00939)	peopl(0.00903)	garag(0.00891)	town(0.00877)	door(0.00813)	outdoor(0.00761)	easi(0.00757)	play(0.00750)	local(0.00700)	famili(0.00669)	court(0.00641)	spent(0.00636)	open(0.00632)	spot(0.00612)	children(0.00589)	
+Topic 21(0.04256):	room(0.10692)	hotel(0.05607)	casino(0.05578)	stay(0.05542)	pool(0.02635)	strip(0.02026)	view(0.01350)	walk(0.01287)	vega(0.01252)	suit(0.01188)	machin(0.01025)	properti(0.00982)	gambl(0.00966)	elev(0.00921)	valet(0.00872)	resort(0.00845)	slot(0.00840)	tower(0.00834)	aria(0.00784)	area(0.00759)	venetian(0.00716)	wynn(0.00714)	shower(0.00689)	desk(0.00656)	fountain(0.00651)	clean(0.00634)	modern(0.00581)	access(0.00569)	spacious(0.00547)	palazzo(0.00521)	
+Topic 22(0.02347):	pizza(0.11309)	slice(0.04044)	pasta(0.03344)	sauc(0.03285)	garlic(0.03160)	crust(0.02427)	italian(0.02275)	thin(0.01578)	meatbal(0.01465)	white(0.01460)	sausag(0.01238)	valley(0.01173)	ranch(0.01143)	oliv(0.01113)	mozzarella(0.01111)	style(0.01063)	secret(0.00936)	parmesan(0.00858)	bread(0.00830)	ricotta(0.00736)	spaghetti(0.00734)	pepperoni(0.00723)	oven(0.00642)	shabu(0.00575)	mushroom(0.00553)	eggplant(0.00551)	oliv-oil(0.00549)	pesto(0.00532)	caesar(0.00529)	district(0.00520)	
+Topic 23(0.02864):	seat(0.06607)	watch(0.03272)	ticket(0.02483)	theater(0.02372)	entertain(0.01871)	cirqu(0.01854)	perform(0.01686)	stage(0.01539)	stori(0.01424)	airport(0.01319)	venu(0.01242)	ride(0.01034)	view(0.00940)	laugh(0.00937)	vega(0.00917)	song(0.00901)	concert(0.00857)	music(0.00796)	screen(0.00767)	sound(0.00747)	audienc(0.00720)	peopl(0.00694)	elvi(0.00673)	theatr(0.00594)	acrobat(0.00581)	beauti(0.00580)	magic(0.00549)	adult(0.00547)	beatl(0.00525)	uncomfort(0.00523)	
+Topic 24(0.02281):	vega(0.02705)	local(0.02277)	cool(0.01822)	pick(0.01661)	peopl(0.01457)	time(0.01289)	year(0.01154)	funni(0.01118)	class(0.00956)	watch(0.00953)	anim(0.00930)	NUM-year(0.00880)	sign(0.00878)	las-vega(0.00870)	crazi(0.00805)	brand(0.00796)	sing(0.00773)	find(0.00773)	bodi(0.00769)	great-time(0.00741)	wear(0.00707)	cloth(0.00664)	best(0.00652)	replac(0.00648)	prop(0.00639)	face(0.00639)	holiday(0.00629)	rang(0.00616)	play(0.00612)	attract(0.00597)	
+Topic 25(0.02579):	shop(0.09761)	coffe(0.07359)	store(0.06032)	cafe(0.02536)	cute(0.01588)	cool(0.01366)	wall(0.01261)	find(0.01164)	card(0.01134)	color(0.01076)	purchas(0.00988)	coffe-shop(0.00959)	book(0.00958)	work(0.00820)	beat(0.00820)	board(0.00815)	fashion(0.00794)	beverag(0.00790)	local(0.00780)	shop-center(0.00755)	offic(0.00722)	window(0.00687)	wifi(0.00669)	starbuck(0.00643)	relax(0.00633)	stamp(0.00614)	product(0.00590)	snack(0.00541)	counter(0.00534)	sell(0.00529)	
+Topic 26(0.02059):	happi(0.17096)	happi-hour(0.09012)	price(0.04613)	deal(0.01761)	NUM-pm(0.01636)	time(0.01541)	groupon(0.01508)	drink(0.01389)	pretti(0.01332)	patio(0.01283)	special(0.01163)	friend(0.00932)	beer(0.00918)	english(0.00907)	town(0.00887)	knock(0.00830)	hour-menu(0.00765)	appet(0.00756)	vega(0.00706)	offer(0.00601)	area(0.00584)	cool(0.00488)	lettuc-wrap(0.00478)	locat(0.00452)	bartend(0.00451)	fact(0.00440)	select(0.00437)	footbal(0.00434)	pint(0.00419)	las-vega(0.00414)	
+Topic 27(0.02175):	vega(0.08263)	time(0.04412)	locat(0.03510)	las-vega(0.03143)	price(0.02408)	pretti(0.02395)	peopl(0.01833)	friend(0.01825)	best(0.01652)	reason(0.01598)	find(0.01590)	restaur(0.01366)	review(0.01284)	spot(0.01266)	feel(0.01213)	trip(0.01193)	area(0.01165)	open(0.01062)	town(0.01010)	star(0.01003)	close(0.00938)	staff(0.00893)	favorit(0.00808)	definit(0.00804)	work(0.00783)	wait(0.00766)	clean(0.00752)	offer(0.00729)	expect(0.00725)	walk(0.00709)	
+Topic 28(0.02427):	cours(0.03949)	dish(0.02589)	steak(0.02239)	truffl(0.01996)	mushroom(0.01949)	dine(0.01540)	perfect(0.01325)	tast(0.01288)	foie-gras(0.01236)	bread(0.01208)	pair(0.01184)	filet(0.01160)	scallop(0.01125)	restaur(0.01066)	rich(0.01059)	excel(0.00798)	creami(0.00761)	flavor(0.00711)	serv(0.00708)	chef(0.00687)	cook(0.00669)	duck(0.00667)	tartar(0.00631)	warm(0.00594)	tender(0.00588)	mash-potato(0.00587)	experi(0.00579)	fine(0.00577)	mignon(0.00572)	beauti(0.00568)	
+Topic 29(0.01974):	wine(0.09118)	total(0.06329)	select(0.04309)	time(0.02753)	glass(0.02600)	price(0.02282)	bottl(0.02194)	friend(0.02025)	pretti(0.01589)	star(0.01374)	restaur(0.01133)	find(0.01074)	best(0.00997)	locat(0.00973)	tast(0.00953)	definit(0.00904)	staff(0.00881)	amaz(0.00868)	feel(0.00859)	review(0.00820)	vega(0.00817)	peopl(0.00780)	experi(0.00668)	type(0.00662)	town(0.00651)	super(0.00637)	recommend(0.00617)	expect(0.00592)	reason(0.00562)	open(0.00551)	
+Topic 30(0.03032):	night(0.11137)	club(0.04627)	music(0.04562)	crowd(0.04502)	play(0.03459)	peopl(0.02602)	danc(0.02295)	drink(0.02255)	saturday(0.02120)	loung(0.01855)	view(0.01529)	friday(0.01521)	area(0.01270)	parti(0.01141)	saturday-night(0.01115)	tabl(0.01096)	patio(0.01044)	vega(0.01029)	drunk(0.00997)	vibe(0.00992)	martini(0.00955)	outdoor(0.00915)	bartend(0.00810)	pack(0.00791)	band(0.00776)	cover(0.00748)	cool(0.00723)	bottl(0.00721)	nightclub(0.00710)	peopl-watch(0.00709)	
+Topic 31(0.01825):	fish(0.07716)	salmon(0.05175)	chef(0.04540)	piec(0.02303)	tuna(0.02228)	sashimi(0.01666)	dish(0.01500)	special(0.01466)	mouth(0.01439)	tast(0.01356)	start(0.01272)	bite(0.01256)	sake(0.01226)	includ(0.01149)	serv(0.01076)	experi(0.00989)	sauc(0.00973)	reserv(0.00834)	rememb(0.00686)	sweet(0.00673)	restaur(0.00671)	dinner(0.00644)	prepar(0.00617)	scallop(0.00617)	kabuto(0.00608)	flavor(0.00587)	amaz(0.00576)	miso-soup(0.00556)	smoke-salmon(0.00550)	ahi-tuna(0.00550)	
+Topic 32(0.01932):	bowl(0.06219)	soup(0.05562)	ramen(0.03599)	broth(0.03204)	tofu(0.02004)	spring(0.01948)	flavor(0.01829)	piec(0.01519)	small(0.01316)	waitress(0.01252)	deep(0.01239)	cold(0.01179)	tast(0.01093)	deep-fri(0.00956)	raku(0.00920)	textur(0.00909)	mountain(0.00888)	restaur(0.00887)	sauc(0.00827)	cook(0.00776)	monta(0.00743)	perfect(0.00738)	rice(0.00718)	thin(0.00641)	udon(0.00617)	serv(0.00599)	appet(0.00587)	spring-mountain(0.00579)	extra(0.00573)	tini(0.00539)	
+Topic 33(0.01912):	time(0.03446)	friend(0.03274)	definit(0.02688)	favorit(0.02341)	delici(0.02332)	best(0.02170)	restaur(0.01942)	pretti(0.01882)	tast(0.01810)	amaz(0.01800)	recommend(0.01563)	price(0.01517)	small(0.01200)	super(0.01114)	yummi(0.01106)	star(0.01071)	experi(0.00922)	side(0.00888)	locat(0.00887)	excel(0.00884)	tabl(0.00864)	love-love(0.00863)	special(0.00847)	expect(0.00837)	peopl(0.00837)	vega(0.00833)	feel(0.00821)	perfect(0.00807)	thought(0.00791)	start(0.00731)	
+Topic 34(0.02377):	breakfast(0.07599)	pancak(0.04469)	toast(0.04040)	waffl(0.03478)	french(0.03439)	brunch(0.02516)	crepe(0.01873)	sausag(0.01669)	banana(0.01631)	syrup(0.01476)	french-toast(0.01225)	benedict(0.01197)	brown(0.01180)	serv(0.01049)	velvet(0.01045)	fluffi(0.00995)	omelet(0.00970)	omelett(0.00899)	honey(0.00757)	stack(0.00734)	cream-chees(0.00704)	whip(0.00689)	mimosa(0.00678)	wait(0.00670)	savori(0.00662)	coffe(0.00611)	countri(0.00609)	crispi(0.00606)	chicken-fri(0.00589)	fill(0.00585)	
+Topic 35(0.02619):	pork(0.09197)	beef(0.08523)	korean(0.03155)	soup(0.02769)	belli(0.02758)	rice(0.02687)	chines(0.02399)	dish(0.02316)	pork-belli(0.01998)	spici(0.01877)	cook(0.01678)	veggi(0.01634)	steam(0.01440)	asian(0.01276)	sauc(0.01196)	short-rib(0.00971)	marin(0.00968)	bulgogi(0.00887)	vietnames(0.00856)	noodl-soup(0.00855)	tender(0.00830)	duck(0.00794)	side-dish(0.00780)	crispi(0.00752)	short(0.00695)	bean(0.00677)	flavor(0.00672)	dumpl(0.00650)	combo(0.00582)	banh(0.00571)	
+Topic 36(0.02087):	chicken(0.24000)	sauc(0.05711)	wing(0.04480)	flavor(0.01838)	tender(0.01676)	tast(0.01606)	time(0.01431)	chicken-wing(0.01369)	perfect(0.01192)	definit(0.01169)	piec(0.01110)	delici(0.01107)	side(0.01020)	crispi(0.00967)	serv(0.00895)	season(0.00885)	best(0.00884)	pretti(0.00795)	friend(0.00790)	cook(0.00742)	restaur(0.00694)	hot-sauc(0.00643)	favorit(0.00626)	solid(0.00590)	bland(0.00585)	thought(0.00583)	share(0.00564)	sweet(0.00494)	insid(0.00485)	price(0.00480)	
+Topic 37(0.02066):	taco(0.09231)	chip(0.05549)	bean(0.04017)	mexican(0.03543)	nacho(0.02161)	tortilla(0.02004)	burrito(0.01838)	margarita(0.01682)	sour(0.01553)	fusion(0.01451)	flavor(0.01404)	corn(0.01230)	guacamol(0.01221)	asada(0.01204)	vegetarian(0.01167)	cilantro(0.01142)	carn(0.01105)	arepa(0.01081)	authent(0.01056)	mexican-food(0.01006)	carn-asada(0.00932)	enchilada(0.00792)	fajita(0.00775)	sauc(0.00758)	pastor(0.00709)	sour-cream(0.00698)	delici(0.00696)	black(0.00668)	black-bean(0.00652)	fish-taco(0.00610)	
+Topic 38(0.01948):	flavor(0.05938)	dress(0.02274)	salt(0.02274)	bread(0.02075)	serv(0.01850)	pickl(0.01814)	popcorn(0.01756)	side(0.01519)	tast(0.01507)	warm(0.01247)	pretzel(0.01228)	tradit(0.01023)	hummus(0.01002)	spinach(0.00992)	soft(0.00941)	pita(0.00933)	delici(0.00921)	mediterranean(0.00915)	plate(0.00880)	white(0.00875)	cucumb(0.00765)	remind(0.00744)	definit(0.00731)	small(0.00723)	famili(0.00721)	feta(0.00717)	time(0.00710)	oliv(0.00629)	german(0.00596)	onion(0.00586)	
+Topic 39(0.02046):	restaur(0.04133)	tabl(0.04106)	dine(0.03226)	time(0.03213)	experi(0.02958)	star(0.02305)	friend(0.02209)	waiter(0.02165)	seat(0.01552)	expect(0.01138)	dinner(0.01129)	price(0.01097)	wait(0.01061)	wife(0.01048)	reserv(0.01002)	peopl(0.00997)	pretti(0.00971)	water(0.00971)	area(0.00921)	review(0.00899)	extrem(0.00886)	vega(0.00879)	staff(0.00848)	best(0.00822)	felt(0.00775)	feel(0.00767)	definit(0.00717)	reason(0.00654)	coupl(0.00649)	dine-area(0.00581)	
+Topic 40(0.01874):	time(0.03888)	friend(0.02398)	star(0.01896)	pretti(0.01888)	definit(0.01695)	review(0.01694)	price(0.01413)	best(0.01410)	favorit(0.01240)	read(0.01177)	feel(0.01159)	tast(0.01026)	expect(0.00962)	restaur(0.00944)	wait(0.00872)	sooo(0.00812)	real(0.00778)	start(0.00777)	work(0.00775)	small(0.00770)	side(0.00754)	clean(0.00747)	experi(0.00736)	find(0.00714)	cozi(0.00710)	number(0.00697)	amaz(0.00689)	peopl(0.00687)	type(0.00671)	attent(0.00659)	
+Topic 41(0.02050):	year(0.08302)	event(0.03520)	buck(0.02719)	time(0.02223)	stand(0.01902)	NUM-buck(0.01804)	year-ago(0.01697)	peopl(0.01418)	truck(0.01295)	NUM-year(0.01219)	pineappl(0.01130)	deal(0.01122)	price(0.01092)	kinda(0.01083)	close(0.01002)	earlier(0.00956)	alot(0.00948)	lemonad(0.00855)	bought(0.00846)	discount(0.00809)	NUM-day(0.00727)	open(0.00696)	wait(0.00692)	attend(0.00663)	area(0.00648)	luckili(0.00641)	lucki(0.00596)	pretti(0.00553)	vega(0.00542)	south(0.00521)	
+Topic 42(0.02063):	time(0.06022)	pretti(0.05032)	star(0.03498)	friend(0.03090)	price(0.02680)	definit(0.02008)	locat(0.01725)	restaur(0.01566)	pretti-good(0.01506)	review(0.01360)	wait(0.01271)	best(0.01259)	solid(0.01242)	peopl(0.01236)	lunch(0.01151)	favorit(0.01141)	reason(0.01110)	feel(0.01101)	spot(0.00963)	busi(0.00958)	vega(0.00937)	expect(0.00905)	super(0.00904)	special(0.00824)	thought(0.00809)	staff(0.00799)	town(0.00772)	small(0.00768)	clean(0.00718)	amaz(0.00699)	
+Topic 43(0.03143):	cream(0.08569)	chocol(0.06989)	cake(0.05557)	ice-cream(0.04466)	sweet(0.03167)	flavor(0.02523)	cooki(0.02427)	strawberri(0.01987)	pastri(0.01538)	vanilla(0.01336)	cupcak(0.01321)	appl(0.01081)	gelato(0.00979)	peanut(0.00927)	bakeri(0.00836)	banana(0.00814)	macaron(0.00738)	peanut-butter(0.00718)	raspberri(0.00657)	creami(0.00603)	whip(0.00598)	chocol-cake(0.00576)	tart(0.00569)	prove(0.00552)	rich(0.00546)	croissant(0.00538)	whip-cream(0.00525)	velvet(0.00520)	sugar(0.00520)	coconut(0.00504)	
+Topic 44(0.02069):	fast(0.06526)	shake(0.03545)	joint(0.03227)	doubl(0.02205)	patti(0.01775)	locat(0.01555)	fast-food(0.01538)	size(0.01346)	ring(0.01332)	shack(0.01314)	west(0.01308)	sport(0.01224)	white(0.01119)	hot-dog(0.01086)	east(0.00998)	price(0.00985)	super(0.00953)	hamburg(0.00945)	pretti(0.00926)	coast(0.00896)	groceri(0.00882)	insid(0.00879)	custard(0.00802)	cheeseburg(0.00787)	vega(0.00757)	frozen(0.00751)	onion(0.00669)	york(0.00665)	standard(0.00614)	cashier(0.00606)	
+
+Part 0 -----------------Valid folds: 5
+[Stat]Loglikelihood -323.318+/-7.264
+[Stat]Perplexity 1107.449+/-57.602
+Part 1 -----------------Valid folds: 5
+[Stat]Loglikelihood -325.989+/-10.589
+[Stat]Perplexity 1095.117+/-47.966
+Part 2 -----------------Valid folds: 5
+[Stat]Loglikelihood -321.503+/-11.304
+[Stat]Perplexity 1081.341+/-21.963
+Part 3 -----------------Valid folds: 5
+[Stat]Loglikelihood -324.141+/-21.693
+[Stat]Perplexity 1030.841+/-34.704
+Part 4 -----------------Valid folds: 5
+[Stat]Loglikelihood -322.797+/-10.249
+[Stat]Perplexity 1078.733+/-16.768
